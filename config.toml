@@ -1,6 +1,6 @@
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Archives Unleashed"
+title = "The Archives Unleashed Project"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
@@ -9,8 +9,7 @@ googleAnalytics = ""
 
 [params]
 	# General information
-	author = "Digitalcraftsman"
-	description = "A material design theme for documentations."
+	author = "The Archives Unleashed Project"
 	copyright = "Released under the MIT license"
 
 	# Repository
