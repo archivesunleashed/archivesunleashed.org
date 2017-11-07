@@ -55,6 +55,11 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
+	name   = "Archives Unleashed Cloud"
+	url    = "cloud/"
+	weight = 15
+
+[[menu.main]]
 	name   = "Archives Unleashed Toolkit"
 	url    = "aut/"
 	weight = 20
@@ -71,7 +76,7 @@ googleAnalytics = ""
 
 [[menu.main]]
 	name   = "News"
-	url    = "news/"
+	url    = "https://news.archivesunleashed.org"
 	weight = 50
 
 [blackfriday]
