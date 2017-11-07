@@ -4,6 +4,10 @@ title: Get Involved
 weight: 30
 ---
 
+{{< note title="We'd love to have you!" >}}
+Please let us know how we can work with you!
+{{< /note >}}
+
 There are many ways you can participate in the archives Unleashed Project.
 
 ## Developers

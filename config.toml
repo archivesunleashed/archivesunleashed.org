@@ -32,7 +32,7 @@ googleAnalytics = ""
 
 	[params.palette]
     	primary = "blue"
-    	accent  = "teal"
+    	accent  = "red"
 
     [params.font]
     	text = "Ubuntu"
@@ -40,9 +40,9 @@ googleAnalytics = ""
 
 
 [social]
-	twitter = "ianmilligan1"
+	# twitter = "ianmilligan1"
 	github  = "archivesunleashed"
-	email   = "i2millig@uwaterloo.ca"
+	email   = "archivesunleashed@gmail.com"
 
 [[menu.main]]
 	name   = "Home"
