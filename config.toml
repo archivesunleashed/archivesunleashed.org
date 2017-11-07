@@ -1,0 +1,81 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Archives Unleashed"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+[params]
+	# General information
+	author = "Digitalcraftsman"
+	description = "A material design theme for documentations."
+	copyright = "Released under the MIT license"
+
+	# Repository
+	provider = "GitHub"
+	#repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
+
+	#version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "blue"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "ianmilligan1"
+	github  = "archivesunleashed"
+	email   = "i2millig@uwaterloo.ca"
+
+[[menu.main]]
+	name   = "Home"
+	url    = "/"
+	weight = 1
+
+[[menu.main]]
+	name   = "About the Project"
+	url    = "about-project/"
+	weight = 10
+
+[[menu.main]]
+	name   = "AUT"
+	url    = "aut/"
+	weight = 20
+
+[[menu.main]]
+	name   = "Get Involved"
+	url    = "get-involved/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Events"
+	url    = "events/"
+	weight = 40
+
+[[menu.main]]
+	name   = "News"
+	url    = "news/"
+	weight = 50
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
