@@ -55,7 +55,7 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
-	name   = "AUT"
+	name   = "Archives Unleashed Toolkit"
 	url    = "aut/"
 	weight = 20
 

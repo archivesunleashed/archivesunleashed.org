@@ -66,12 +66,13 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
     </item>
     
     <item>
-      <title>Archives Unleashed Project</title>
+      <title>Welcome to the Archives Unleashed Project</title>
       <link>https://example.org/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>https://example.org/</guid>
-      <description>Archives Unleashed Project    Date Content     13 January 2018 CFP Released   20 February 2018 CFP Second Call   20 March 2018 Rich and Famous    Material is a theme for Hugo, a fast and flexible static site generator. It is built using Google&amp;rsquo;s material design guidelines, fully responsive, optimized for touch and pointer devices as well as all sorts of screen sizes.</description>
+      <description>Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the Andrew W. Mellon Foundation, we will be developing web archive search and data analysis tools to enable scholars and librarians to access, share, and investigate recent history since the early days of the World Wide Web.
+Contact Us Questions? Comments? Please contact us, either by leaving an issue on one of our GitHub projects or by sending us an e-mail.</description>
     </item>
     
   </channel>
