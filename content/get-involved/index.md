@@ -3,9 +3,9 @@ date: 2016-03-09T20:08:11+01:00
 title: Get Involved
 weight: 30
 ---
+![Network diagram](/images/silhouettes.jpg)
 
-{{< note title="We'd love to have you!" >}}
-Please let us know how we can work with you!
+{{< note title="There are many ways you can participate in the Archives Unleashed Project!" >}}
 {{< /note >}}
 
 There are many ways you can participate in the archives Unleashed Project.
