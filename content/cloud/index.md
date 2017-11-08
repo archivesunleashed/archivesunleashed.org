@@ -4,6 +4,9 @@ title: The Archives Unleashed Cloud
 weight: 20
 ---
 
+![Rare books](/images/library.jpg)
+*Thomas Fisher Rare Books Library, Toronto, photo by Ian Milligan.*
+
 {{< warning title="Under construction!" >}}
 You'll be unleashing your archives before you know it.
 {{< /warning >}}

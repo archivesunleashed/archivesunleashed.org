@@ -1,19 +1,16 @@
 ---
 date: 2016-03-09T00:11:02+01:00
-title: About the Project
+title: About the Archives Unleashed Project
 weight: 10
 ---
 
-## The Archives Unleashed Project
-
-![Is this the alt text](/images/banner.png)
+![Is this the alt text](/images/label-hairball.png)
 
 Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the [Andrew W. Mellon Foundation](https://mellon.org/), we will be developing web archive search and data analysis tools to enable scholars and librarians to access, share, and investigate recent history since the early days of the World Wide Web.
 
 Growing out of a series of datathons held at the <a href="http://archivesunleashed.ca/">University of Toronto</a>, <a href="http://archivesunleashed.com/">Library of Congress</a>, <a href="http://archivesunleashed.com/">Internet Archive</a>, and the <a href="http://archivesunleashed.com/">British Library</a>, our team recognized the need for better analytics tools, community infrastructure, and accessible web archival interfaces.
 
-The three-year Archives Unleashed project has three major thrusts: First, the project will build a [software toolkit](/aut) that applies modern big data analytics infrastructure to scholarly analysis of web archives. Second, the toolkit will be deployed in a [cloud-based environment](/cloud) that will provide a one-stop portal for scholars to ingest their collections and execute a number of analyses with the click of a mouse. Finally, [datathons](/events) — will build a cohesive and sustainable user community by bringing the core project team members together with librarians, archivists, and other interested researchers.</p>
-                <p>Stay tuned for more information!</p>
+The three-year Archives Unleashed project has three major thrusts: First, the project will build a [software toolkit](/aut) that applies modern big data analytics infrastructure to scholarly analysis of web archives. Second, the toolkit will be deployed in a [cloud-based environment](/cloud) that will provide a one-stop portal for scholars to ingest their collections and execute a number of analyses with the click of a mouse. Finally, [datathons](/events) — will build a cohesive and sustainable user community by bringing the core project team members together with librarians, archivists, and other interested researchers.
 
 ## Project Team
 |                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |

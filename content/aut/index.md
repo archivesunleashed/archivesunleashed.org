@@ -6,6 +6,9 @@ weight: 20
 
 ## Introduction
 
+![Internet Archive server rack](/images/server.jpg)
+*Internet Archive servers in San Francisco, photo by Ian Milligan.*
+
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on [Hadoop](https://hadoop.apache.org/). The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via [Spark](http://spark.apache.org/).
 
 ## Getting Started
