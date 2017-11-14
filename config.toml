@@ -18,7 +18,7 @@ googleAnalytics = ""
 
 	#version = "1.0.0"
 	logo = "images/ArchivesUnleashedLogo.png"
-	favicon = ""
+	favicon = "images/favicon.ico"
 
 	permalink = "#"
 
