@@ -8,9 +8,5 @@ weight: 20
 *Thomas Fisher Rare Books Library, Toronto, photo by Ian Milligan.*
 
 {{< warning title="Under construction!" >}}
-You'll be unleashing your archives before you know it.
-{{< /warning >}}
-
-## Archives Unleashed Cloud
-
 The Archives Unleashed Cloud is under construction. We'll have more information here soon.
+{{< /warning >}}
