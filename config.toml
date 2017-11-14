@@ -1,4 +1,4 @@
-baseurl = "https://example.org/"
+baseurl = "http://archivesunleashed.org/"
 languageCode = "en-us"
 title = "The Archives Unleashed Project"
 theme = "hugo-material-docs"
