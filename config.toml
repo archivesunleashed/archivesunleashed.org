@@ -17,7 +17,7 @@ googleAnalytics = ""
 	#repo_url = "https://github.com/digitalcraftsman/hugo-material-docs"
 
 	#version = "1.0.0"
-	logo = "images/logo2.png"
+	logo = "images/ArchivesUnleashedLogo.png"
 	favicon = ""
 
 	permalink = "#"
