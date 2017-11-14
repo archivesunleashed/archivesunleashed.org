@@ -4,7 +4,7 @@ title: Welcome to the Archives Unleashed Project
 type: index
 weight: 0
 ---
-![Material Screenshot](/images/hairball.png)
+![Material Screenshot](/images/hairball-roboto.png)
 
 ## Welcome
 
