@@ -56,19 +56,19 @@ googleAnalytics = ""
 	weight = 10
 
 [[menu.main]]
+	name   = "Archives Unleashed Toolkit"
+	url    = "aut/"
+	weight = 15
+
+[[menu.main]]
 	name   = "Archives Unleashed Cloud"
 	url    = "cloud/"
-	weight = 15
+	weight = 16
 
 [[menu.main]]
 	name   = "Warclight"
 	url    = "warclight/"
 	weight = 18
-
-[[menu.main]]
-	name   = "Archives Unleashed Toolkit"
-	url    = "aut/"
-	weight = 20
 
 [[menu.main]]
 	name   = "Get Involved"
