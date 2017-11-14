@@ -29,8 +29,10 @@ googleAnalytics = ""
 	# Syntax highlighting theme
 	highlight_css  = ""
 
+#colour choices: red, pink, purple, deep purple, indigo, blue, light-blue, cyan, teal, green, light-green, lime, yellow, amber, orange, deep-orange, brown, grey and blue-grey
+
 	[params.palette]
-    	primary = "blue"
+    	primary = "indigo"
     	accent  = "red"
 
     [params.font]
@@ -39,7 +41,7 @@ googleAnalytics = ""
 
 
 [social]
-	# twitter = "ianmilligan1"
+	twitter = "unleasharchives"
 	github  = "archivesunleashed"
 	email   = "archivesunleashed@gmail.com"
 
@@ -57,6 +59,11 @@ googleAnalytics = ""
 	name   = "Archives Unleashed Cloud"
 	url    = "cloud/"
 	weight = 15
+
+[[menu.main]]
+	name   = "Warclight"
+	url    = "warclight/"
+	weight = 18
 
 [[menu.main]]
 	name   = "Archives Unleashed Toolkit"
