@@ -1,2 +1,2 @@
-node_modules
-bower_components
+# Ignore Mac DS_Store files
+.DS_Store
