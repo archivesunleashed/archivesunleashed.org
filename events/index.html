@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>Events - The Archives Unleashed Project</title>
-    <meta name="generator" content="Hugo 0.24.1" />
+    <meta name="generator" content="Hugo 0.28" />
 
     
     <link rel="canonical" href="http://archivesunleashed.org/events/">
@@ -73,6 +73,9 @@
 
 
 
+	
+	
+
 
 <div class="backdrop">
 	<div class="backdrop-paper"></div>
@@ -129,7 +132,7 @@
 <main class="main">
 	<div class="drawer">
 		<nav aria-label="Navigation">
-  <a href="http://archivesunleashed.org/" class="project">
+  <a href="https://github.com/archivesunleashed/archivesunleashed.org" class="project">
     <div class="banner">
       
         <div class="logo">
@@ -139,12 +142,30 @@
       <div class="name">
         <strong>The Archives Unleashed Project </strong>
         
+          <br>
+          archivesunleashed/archivesunleashed.org
+        
       </div>
     </div>
   </a>
 
   <div class="scrollable">
     <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/archivesunleashed/archivesunleashed.org/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/archivesunleashed/archivesunleashed.org/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
       
 
       <div class="toc">
@@ -433,8 +454,8 @@
 
     <script>
     
-      var base_url = '';
-      var repo_id  = '';
+      var base_url = 'http:\/\/archivesunleashed.org\/';
+      var repo_id  = 'archivesunleashed\/archivesunleashed.org';
     
     </script>
 
@@ -479,6 +500,38 @@
       }
     </script>
 
+    
+      <script>
+        (function(i,s,o,g,r,a,m){
+          i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||
+          []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;
+          m.parentNode.insertBefore(a,m)
+        })(window, document,
+          'script', '//www.google-analytics.com/analytics.js', 'ga');
+         
+        ga('create', 'UA-2879197-28', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview');
+         
+        var buttons = document.querySelectorAll('a');
+        Array.prototype.map.call(buttons, function(item) {
+          if (item.host != document.location.host) {
+            item.addEventListener('click', function() {
+              var action = item.getAttribute('data-action') || 'follow';
+              ga('send', 'event', 'outbound', action, item.href);
+            });
+          }
+        });
+         
+        var query = document.querySelector('.query');
+        query.addEventListener('blur', function() {
+          if (this.value) {
+            var path = document.location.pathname;
+            ga('send', 'pageview', path + '?q=' + this.value);
+          }
+        });
+      </script>
     
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
