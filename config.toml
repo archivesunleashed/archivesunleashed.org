@@ -14,7 +14,6 @@ googleAnalytics = "UA-2879197-28"
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/archivesunleashed/archivesunleashed.org"
 
 	#version = "1.0.0"
 	logo = "images/ArchivesUnleashedLogo.png"
