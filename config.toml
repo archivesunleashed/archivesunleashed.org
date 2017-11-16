@@ -10,7 +10,7 @@ googleAnalytics = "UA-2879197-28"
 [params]
 	# General information
 	author = "The Archives Unleashed Project"
-	copyright = "Released under the MIT license"
+	copyright = "CC-BY"
 
 	# Repository
 	provider = "GitHub"
