@@ -6,7 +6,7 @@
     <description>Recent content on The Archives Unleashed Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Released under the MIT license</copyright>
+    <copyright>CC-BY</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
 	<atom:link href="http://archivesunleashed.org/index.xml" rel="self" type="application/rss+xml" />
@@ -51,8 +51,8 @@ Getting Started Downloading AUT The Archives Unleashed Toolkit can be downloaded
       <pubDate>Tue, 14 Nov 2017 09:21:11 -0500</pubDate>
       
       <guid>http://archivesunleashed.org/warclight/</guid>
-      <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options.
-Want to know more? You can visit our example engine here, or our GitHub repository here.</description>
+      <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data that is indexed via the UK Web Archive&amp;rsquo;s webarchive-discovery project.
+Want to know more? You can visit our demo site here, or check out the code on GitHub along with documetation to get you started on your own Warclight application.</description>
     </item>
     
     <item>
