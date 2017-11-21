@@ -94,7 +94,7 @@ You should now be able to try out the toolkit's many tutorials.
 
 ## Collection Analytics
 
-You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? You can do this in Shell or generate beautiful in-browser visualizations in the Notebook interface.
+You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? 
 
 ### List of URLs 
 
@@ -121,11 +121,10 @@ val r = RecordLoader.loadArchives("/directory/to/arc/file.arc.gz", sc)
 .map(r => r.getUrl)
 .saveAsTextFile("/path/to/export/directory/")
 ```
-### Using Spark Notebook to See Top-Level Domains
 
-In the Spark Notebook, the following command will generate an interactive visualization. 
+### List of Top-Level Domains
 
-You'll be ready to run this then.
+You may just want to see the domains within an item. The script below shows the top ten domains within a given file or set of files.
 
 ```scala
 import io.archivesunleashed.spark.matchbox._ 
@@ -140,10 +139,6 @@ RecordLoader.loadArchives("/directory/to/arc/file.arc.gz", sc)
 ```
 
 If you want to see more than ten results, change the variable in the last line. 
-
-Here is a sample output from a 5GB collection of Canadian political party ARCs:
-
-![Spark notebook showing pie chart output](https://raw.githubusercontent.com/ianmilligan1/WAHR/master/images/Spark-Notebook.png)
 
 ### List of Different Subdomains
 
@@ -179,19 +174,6 @@ RecordLoader.loadArchives("src/test/resources/arc/example.arc.gz", sc)
 If you wanted to use it on your own collection, you would change "src/test/resources/arc/example.arc.gz" to the directory with your own ARC or WARC files, and change "out/" on the last line to where you want to save your output data.
 
 Note that this will create a new directory to store the output, which cannot already exist.
-
-If you want to run it in your Spark Notebook, the following script will show in-notebook plain text:
-
-```scala
-val r = RecordLoader.loadArchives("/path/to/warcs", sc) 
-.keepValidPages()
-.map(r => { 
-val t = RemoveHTML(r.getContentString) 
-val len = 1000 
-(r.getCrawlDate, r.getUrl, if ( t.length > len ) t.substring(0, 
-len) else t)}) 
-.collect() 
-```
 
 ### Plain text by domain
 
