@@ -44,10 +44,10 @@ tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 cd spark-2.1.1-bin-hadoop2.6
 ./bin/pyspark --jars ../aut-0.10.1-fatjar.jar --driver-class-path ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip
 ```
-> If for some reason you get `Failed to initialize compiler:
-> object scala.runtime in compiler mirror not found.` error,
-> this probably means the .jar file did not download properly.
-> Try downloading it directly from our [releases page](https://github.com/archivesunleashed/aut/releases/)
+
+{{< warning title="Did it crash?" >}}
+If for some reason you get the "Failed to initialize compiler: object scala.runtime in compiler mirror not found" error, this probably means the .jar file did not download properly. Try downloading it directly from our [releases page](https://github.com/archivesunleashed/aut/releases/).
+{{< /warning >}}
 
 If your result looks like this:
 
@@ -79,7 +79,9 @@ There are two ways around this.  The easiest way is to create a new python file 
 .bin/spark-submit --jars ../aut-0.10.1-fatjar.jar --driver-class-path ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip /path/to/custom/python/file.py
 ```
 
-An easier method is the second method: using the interactive, browser-based Jupyter notebooks to work with AUT. 
+An easier method is the second method: using the interactive, browser-based Jupyter notebooks to work with AUT. You can see it in action below.
+
+![AUT in action](/images/notebook-header.png)
 
 To get Jupyter running, you will need to install the following. First, you will require a version of Python 3 installed. [You can download it from the Python website](https://www.python.org/downloads/).
 
