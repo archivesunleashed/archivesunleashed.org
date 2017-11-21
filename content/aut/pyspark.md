@@ -27,7 +27,7 @@ curl -L "https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/a
 #python files in a .zip
 curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/main/python/pyaut.zip" > pyaut.zip
 # example arc file for testing
-curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz" > example.arc.gz
+curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/warc/example.warc.gz" > example.warc.gz
 ```
 
 ### Installing the Spark shell
@@ -123,7 +123,7 @@ Jupyter will start loading at <http://localhost:8888>.  You may be asked for a t
 
 Near the top right of the Jupyter homepage, you will see "New".
 
-![Notebook screenshot](/images/notebook.png)
+![Notebook screenshot](/images/notebook1.png)
 
 Select a new Python 3 Notebook.  In the top box enter
 
