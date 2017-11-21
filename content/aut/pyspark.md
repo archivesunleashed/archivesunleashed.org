@@ -12,14 +12,11 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ## Getting Started
 
-### Downloading AUT
+### Downloading and Installing AUT
 
-PySpark support of aut requires:
-* The Archives Unleashed Toolkit release >= 0.10.1
+The Archives Unleashed Toolkit, or AUT, can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar). 
 
-The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar).
-
-### Installing PySpark
+The use of AUT requires the command line. [This guide](https://programminghistorian.org/lessons/intro-to-bash) provides an introduction to the Bash command line. 
 
 The following bash commands will download the jar and an example ARC file. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
@@ -33,15 +30,19 @@ curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/main
 curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz" > example.arc.gz
 ```
 
-### Installing Spark shell
+### Installing the Spark shell
 
 Download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
+
+In the following example, we download Spark Shell and then launch it. Note that we use `pyspark`, which allows you to use the Python programming language to work with Spark. 
+
+It assumes that you are beginning in the `aut` directory that you created above.
 
 ```bash
 curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 cd spark-2.1.1-bin-hadoop2.6
-./bin/pyspark --jars ../aut-0.10.1-fatjar.jar --driver-class ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip
+./bin/pyspark --jars ../aut-0.10.1-fatjar.jar --driver-class-path ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip
 ```
 > If for some reason you get `Failed to initialize compiler:
 > object scala.runtime in compiler mirror not found.` error,
@@ -51,6 +52,16 @@ cd spark-2.1.1-bin-hadoop2.6
 If your result looks like this:
 
 ```
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 2.2.0
+      /_/
+
+Using Python version 3.5.2 (default, Jul  2 2016 17:52:12)
+SparkSession available as 'spark'.
+>>>
 ```
 
 You should have the spark shell ready and running.
@@ -58,42 +69,51 @@ You should have the spark shell ready and running.
 
 ## Testing PySpark
 
-PySpark is slightly different from other Python programs in that it relies on Apache Spark's underlying Scala and Java code to manipulate datasets. You can read more about this in the Spark documentation (http://spark.apache.org/docs/2.1.0/api/python/pyspark.html).  
+PySpark is slightly different from other Python programs in that it relies on Apache Spark's underlying Scala and Java code to manipulate datasets. You can read more about this in the [Spark documentation](http://spark.apache.org/docs/2.1.0/api/python/pyspark.html).
 
-The other difference between PySpark and the Scala spark-shell is the lack of a :paste feature in the shell. There are two ways around this.  The easiest way is to create a new python file with your script, and use `spark-submit`.
+The other difference between PySpark and the Scala spark-shell is the lack of a way to easily paste code to execute in the shell. 
+
+There are two ways around this.  The easiest way is to create a new python file with your script, and use `spark-submit`. For example, you might create a script with your text editor, save it as `file.py`, and then run it using the following.
 
 ```bash
-.bin/spark-submit --jars ../aut-0.10.1-fatjar.jar --driver-class ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip /path/to/custom/python/file.py
+.bin/spark-submit --jars ../aut-0.10.1-fatjar.jar --driver-class-path ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip /path/to/custom/python/file.py
 ```
 
-This tutorial will apply the second method -- using Jupyter notebooks / IPython.
-To get Jupyter running, you will need to install the following in Python3:
+An easier method is the second method: using the interactive, browser-based Jupyter notebooks to work with AUT. 
 
-First it is a good idea to start a virtual environment
+To get Jupyter running, you will need to install the following. First, you will require a version of Python 3 installed. [You can download it from the Python website](https://www.python.org/downloads/).
+
+For ease of use, you may want to consider using a virtual environment:
 
 ```bash
 virtualenv python3 ~/.venv_path
 . ~/.venv_path/bin/activate
 ```
-This will ensure that you are using Python 3 instead of 2.  Then install the dependencies:
+
+This will ensure that you are using Python 3 instead of 2.
+
+You will then need to install the various dependencies that both AUT and Jupyter require. One of the easiest ways to install dependencies for Python is to use pip, a package manager. Luckily, pip is included in the basic installation of Python. If for some reason you do not have it, [this guide] explains how to install it.
+
+Run the following commands:
 
 ```bash
 pip install Jupyter
 pip install numpy
 pip install langdetect
 pip install bs4
-```
-Then finally setup ipykernel and launch jupyter.
-
-```bash
 python -m pip install ipykernel
 python -m ipykernel install --user
-PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS=notebook ./bin/pyspark --jars ../aut-0.10.1-fatjar.jar --driver-class ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip
 ```
 
-Jupyter will start loading at http://localhost:8888.  You may be asked for a token upon first launch.  The token is available in the load screen and will look something like this:
+With the dependencies downloaded, you are ready to launch your Jupyter notebook. Use the following command, again from your aut directory:
 
 ```bash
+PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS=notebook ./bin/pyspark --jars ../aut-0.10.1-fatjar.jar --driver-class-path ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip
+```
+
+Jupyter will start loading at <http://localhost:8888>.  You may be asked for a token upon first launch, which just offers a bit of security. The token is available in the load screen and will look something like this:
+
+```
 [C 14:12:08.483 NotebookApp]
 
   Copy/paste this URL into your browser when you connect for the first time,
@@ -103,42 +123,22 @@ Jupyter will start loading at http://localhost:8888.  You may be asked for a tok
 
 Near the top right of the Jupyter homepage, you will see "New".
 
-(image here)
+![Notebook screenshot](/images/notebook.png)
 
 Select a new Python 3 Notebook.  In the top box enter
 
 ```python
 import RecordLoader
 ```
-and hit Shift-Enter.
+and hit Shift-Enter, or press the play button.
 
-If you receive no errors, you are ready to start the tutorial!
+If you receive no errors, you are ready to begin working with your web archives!
 
-## Collection Analytics
+## Dataframes: Collection Analytics
 
-Similar to the Scala script, you can get a basic overview of what is in your Warc or Arc files.  The following script will give you the most frequent links between one website and an other, count them and show the top 10.
+Pyspark also supports DataFrames, which enable more effective filtering. In this section, we use it to get an overview of what is in a collection. 
 
-```python
-import RecordLoader
-from DFTransformations import *
-from ExtractDomain import ExtractDomain
-from ExtractLinks import ExtractLinks
-from pyspark.sql import SparkSession
-
-path = "../example.arc.gz"
-spark = SparkSession.builder.appName("extractLinks").getOrCreate()
-sc = spark.sparkContext
-rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
-      .flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
-      .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
-      .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
-
-print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
-```
-
-### Dataframe support
-
-Pyspark also supports dataframes, which enable more effective filtering.
+### Setting up the Dataframe
 
 ```python
 import RecordLoader
@@ -146,13 +146,81 @@ from DFTransformations import *
 from ExtractDomain import ExtractDomain
 from ExtractLinks import ExtractLinks
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import desc
 
 path = "../example.arc.gz"
 spark = SparkSession.builder.appName("extractLinks").getOrCreate()
 sc = spark.sparkContext
 
 df = RecordLoader.loadArchivesAsDF (path, sc, spark)
-df.select(df['url'], df['contentString'])
+```
+
+### Using DataFrames to Count Domains
+
+Now you can run the following to see the top two domains.
+
+```python
+df.groupBy("domain").count().sort(desc("count")).show(n=2)
+```
+
+And you'll see:
+
+```
++---------------+-----+
+|         domain|count|
++---------------+-----+
+|www.archive.org|  132|
+|  deadlists.com|    2|
++---------------+-----+
+only showing top 2 rows
+
+
+```
+
+### Using DataFrames to Count Crawl Dates
+
+You can do this for a few other commands as well. For example, by crawl date:
+
+```python
+df.groupBy("crawlDate").count().show()
+```
+
+And we get:
+
+```
++---------+-----+
+|crawlDate|count|
++---------+-----+
+| 20080430|  135|
++---------+-----+
+```
+
+### Using DataFrames to List URLs
+
+Finally, you can also get a list of the URLs in a collection with the following command:
+
+```
+df.select("url").rdd.flatMap(lambda x: x).take(10)
+```
+
+You can see a list of the supported Data Frame elements with:
+
+```python
+df.printSchema()
+```
+
+Which are:
+
+```
+root
+ |-- contentBytes: binary (nullable = true)
+ |-- contentString: string (nullable = true)
+ |-- crawlDate: string (nullable = true)
+ |-- crawlMonth: string (nullable = true)
+ |-- domain: string (nullable = true)
+ |-- imageBytes: binary (nullable = true)
+ |-- mimeType: string (nullable = true)
+ |-- url: string (nullable = true)
 ```
 
 ### Turn Your WARCs into Temporary Database Table
@@ -173,35 +241,6 @@ df = RecordLoader.loadArchivesAsDF (path, sc, spark)
 df.createOrReplaceTempView("warc") # create a table called "warc"
 dfSQL = spark.sql('SELECT * FROM warc WHERE domain="www.archive.org" GROUP BY crawlMonth')
 dfSQL.show()
-```
-
-
-### List of URLs
-
-If you just want a list of URLs in the collection.  The following script will give a list of tuples with a url name and the count for each occurrence.
-
-```python
-import RecordLoader
-from DFTransformations import *
-from ExtractDomain import ExtractDomain
-from ExtractLinks import ExtractLinks
-from pyspark.sql import SparkSession
-from RemoveHTML import RemoveHTML
-
-rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
-        .flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
-        .flatMap(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
-        .filter(lambda r: r is not None and r != "")
-print(countItems(rdd).take(100))
-
-```
-
-### List of Different Subdomains
-
-If you want a list of domains in the collection.
-
-```python
-SCRIPT HERE
 ```
 
 ## Plain Text Extraction
@@ -293,10 +332,24 @@ Site link structures can be very useful, allowing you to learn such things as:
 
 ### Extraction of Simple Site Link Structure
 
-If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure. In this case, it is loading all WARCs stored in an example collection of GeoCities files.
+If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure.
 
 ```python
-SCRIPT here
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+sc = spark.sparkContext
+rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
+      .flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
+      .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
+      .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
+
+print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 ```
 
 Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple." Filters can go immediately after `.keepValidPages()`.
