@@ -91,31 +91,109 @@ python -m ipykernel install --user
 PYSPARK_DRIVER_PYTHON=jupyter PYSPARK_DRIVER_PYTHON_OPTS=notebook ./bin/pyspark --jars ../aut-0.10.1-fatjar.jar --driver-class ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip
 ```
 
-Jupyter will start loading at http://localhost:8888.  You may be asked for a token upon first launch.  The token is available in the loadscreen.
+Jupyter will start loading at http://localhost:8888.  You may be asked for a token upon first launch.  The token is available in the load screen and will look something like this:
 
 ```bash
 [C 14:12:08.483 NotebookApp]
 
   Copy/paste this URL into your browser when you connect for the first time,
   to login with a token:
-  http://localhost:8888/?token=cbb021656863dd82a94fe66681b3886fce7af4d230b64abb[C 14:12:08.483 NotebookApp] 
+  http://localhost:8888/?token=cbb021656863dd82a94fe66681b3886fce7af4d230b64abb
 ```
 
+Near the top right of the Jupyter homepage, you will see "New".
+
+(image here)
+
+Select a new Python 3 Notebook.  In the top box enter
+
+```python
+import RecordLoader
+```
+and hit Shift-Enter.
+
+If you receive no errors, you are ready to start the tutorial!
 
 ## Collection Analytics
 
-You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? You can do this in Shell or generate beautiful in-browser visualizations in the Notebook interface.
+Similar to the Scala script, you can get a basic overview of what is in your Warc or Arc files.  The following script will give you the most frequent links between one website and an other, count them and show the top 10.
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+sc = spark.sparkContext
+rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
+      .flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
+      .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
+      .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
+
+print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 ```
+
+### Dataframe support
+
+Pyspark also supports dataframes, which enable more effective filtering.
+
+```python
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+sc = spark.sparkContext
+
+df = RecordLoader.loadArchivesAsDF (path, sc, spark)
+df.select(df['url'], df['contentString'])
+```
+
+### Turn Your WARCs into Temporary Database Table
+
+```python
+
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+sc = spark.sparkContext
+df = RecordLoader.loadArchivesAsDF (path, sc, spark)
+
+df.createOrReplaceTempView("warc") # create a table called "warc"
+dfSQL = spark.sql('SELECT * FROM warc WHERE domain="www.archive.org" GROUP BY crawlMonth')
+dfSQL.show()
+```
+
 
 ### List of URLs
 
-If you just want a list of URLs in the collection.
+If you just want a list of URLs in the collection.  The following script will give a list of tuples with a url name and the count for each occurrence.
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+from RemoveHTML import RemoveHTML
+
+rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
+        .flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
+        .flatMap(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
+        .filter(lambda r: r is not None and r != "")
+print(countItems(rdd).take(100))
+
 ```
 
 ### List of Different Subdomains
@@ -264,3 +342,9 @@ The following script will extract the top ten URLs of images found within a coll
 ```python
 SCRIPT HERE
 ```
+
+## Troubleshooting
+
+### Import error: RecordLoader not found
+
+If you attempted to compress the pyaut folder on your own,
