@@ -138,6 +138,8 @@ If you receive no errors, you are ready to begin working with your web archives!
 
 Pyspark also supports DataFrames, which enable more effective filtering. In this section, we use it to get an overview of what is in a collection. 
 
+For these examples, we are going to use the `example.warc.gz` file that you downloaded above. We assume it is in the `aut` directory, but you can always change the path to it below.
+
 ### Setting up the Dataframe
 
 ```python
@@ -247,26 +249,80 @@ dfSQL.show()
 
 ### All plain text
 
-This script extracts the crawl date, domain, URL, and plain text from HTML files in the sample ARC data (and saves the output to out/).
+This script extracts the crawl date, domain, URL, and plain text from HTML files in the sample WARC data (and saves the output to a folder called `output-text`).
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from ExtractDate import DateComponent
+from RemoveHTML import RemoveHTML
+from pyspark.sql import SparkSession
+
+if __name__ == "__main__":
+    # replace with your own path to archive file
+    path = "../example.arc.gz"
+    
+    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+    sc = spark.sparkContext
+
+    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+    rdd = df.rdd
+    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+    .saveAsTextFile("../output-text")
 ```
 
 ### Plain text by domain
 
-The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the "greenparty.ca" domain.
+The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the "deadlists.com" domain (which can be found in the example WARC file).
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from ExtractDate import DateComponent
+from RemoveHTML import RemoveHTML
+from pyspark.sql import SparkSession
+
+if __name__ == "__main__":
+    # replace with your own path to archive file
+    path = "../example.arc.gz"
+    
+    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+    sc = spark.sparkContext
+
+    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+    rdd = df.filter(df["domain"].like("%deadlist%")).rdd
+    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+    .saveAsTextFile("../output-text-deadlist")
 ```
 
 ### Plain text by URL pattern
 
-The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through the collection and find all of the URLs beginning with `http://geocities.com/EnchantedForest/`. The `(?i)` makes this query case insensitive.
+The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through the collection and find all of the URLs containing "http://www.archive.org/iathreads". 
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from ExtractDate import DateComponent
+from RemoveHTML import RemoveHTML
+from pyspark.sql import SparkSession
+
+if __name__ == "__main__":
+    # replace with your own path to archive file
+    path = "../example.arc.gz"
+    
+    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+    sc = spark.sparkContext
+
+    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+    rdd = df.filter(df["url"].like("%http://www.archive.org/iathreads%")).rdd
+    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+    .saveAsTextFile("../output-text-threads")
 ```
 
 ### Plain text minus boilerplate
@@ -286,7 +342,26 @@ day (`DD`), year and month (`YYYYMM`), or a particular year-month-day (`YYYYMMDD
 The following script extracts plain text for a given collection by date (in this case, 4 October 2008).
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from ExtractDate import DateComponent
+from RemoveHTML import RemoveHTML
+from pyspark.sql import SparkSession
+
+if __name__ == "__main__":
+    # replace with your own path to archive file
+    path = "../example.arc.gz"
+    
+    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+    sc = spark.sparkContext
+
+    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+    filtered_df = keepDate(df, "2008", DateComponent.YYYY)
+    rdd = filtered_df.rdd
+    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+    .saveAsTextFile("../output-text")
 ```
 
 ### Plain text filtered by language
