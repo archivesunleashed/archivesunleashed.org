@@ -15,14 +15,14 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ### Downloading AUT
 
-The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar). 
+The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar). 
 
 The following bash commands will download the jar and an example ARC file. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
 ```bash
 mkdir aut
 cd aut
-curl -L "https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar" > aut-0.10.0-fatjar.jar
+curl -L "https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar" > aut-0.11.0-fatjar.jar
 # example arc file for testing
 curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz" > example.arc.gz
 ```
@@ -35,7 +35,7 @@ Download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/s
 curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 cd spark-2.1.1-bin-hadoop2.6
-./bin/spark-shell --jars ../aut-0.10.0-fatjar.jar
+./bin/spark-shell --jars ../aut-0.11.0-fatjar.jar
 ```
 > If for some reason you get `Failed to initialize compiler: 
 > object scala.runtime in compiler mirror not found.` error, 
