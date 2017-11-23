@@ -372,7 +372,7 @@ sc = spark.sparkContext
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
 filtered_df = keepLanguages(df, ["en", "fr"])
 rdd = filtered_df.rdd
-rdd.map(lambda r: ((r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
+rdd.map(lambda r: ((r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))))\
 .saveAsTextFile("../output-text")
 ```
 
