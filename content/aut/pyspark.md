@@ -262,17 +262,15 @@ from ExtractDate import DateComponent
 from RemoveHTML import RemoveHTML
 from pyspark.sql import SparkSession
 
-if __name__ == "__main__":
-    # replace with your own path to archive file
-    path = "../example.arc.gz"
+path = "../example.arc.gz"
     
-    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
-    sc = spark.sparkContext
+spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+sc = spark.sparkContext
 
-    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-    rdd = df.rdd
-    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
-    .saveAsTextFile("../output-text")
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+rdd = df.rdd
+rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+.saveAsTextFile("../output-text")
 ```
 
 ### Plain text by domain
@@ -288,17 +286,16 @@ from ExtractDate import DateComponent
 from RemoveHTML import RemoveHTML
 from pyspark.sql import SparkSession
 
-if __name__ == "__main__":
-    # replace with your own path to archive file
-    path = "../example.arc.gz"
+# replace with your own path to archive file
+path = "../example.arc.gz"
     
-    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
-    sc = spark.sparkContext
+spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+sc = spark.sparkContext
 
-    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-    rdd = df.filter(df["domain"].like("%deadlist%")).rdd
-    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
-    .saveAsTextFile("../output-text-deadlist")
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+rdd = df.filter(df["domain"].like("%deadlist%")).rdd
+rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+.saveAsTextFile("../output-text-deadlist")
 ```
 
 ### Plain text by URL pattern
@@ -314,17 +311,16 @@ from ExtractDate import DateComponent
 from RemoveHTML import RemoveHTML
 from pyspark.sql import SparkSession
 
-if __name__ == "__main__":
     # replace with your own path to archive file
-    path = "../example.arc.gz"
+path = "../example.arc.gz"
     
-    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
-    sc = spark.sparkContext
+spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+sc = spark.sparkContext
 
-    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-    rdd = df.filter(df["url"].like("%http://www.archive.org/iathreads%")).rdd
-    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
-    .saveAsTextFile("../output-text-threads")
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+rdd = df.filter(df["url"].like("%http://www.archive.org/iathreads%")).rdd
+rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+.saveAsTextFile("../output-text-threads")
 ```
 
 ### Plain text minus boilerplate
@@ -352,18 +348,17 @@ from ExtractDate import DateComponent
 from RemoveHTML import RemoveHTML
 from pyspark.sql import SparkSession
 
-if __name__ == "__main__":
-    # replace with your own path to archive file
-    path = "../example.arc.gz"
+# replace with your own path to archive file
+path = "../example.arc.gz"
     
-    spark = SparkSession.builder.appName("filterByDate").getOrCreate()
-    sc = spark.sparkContext
+spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+sc = spark.sparkContext
 
-    df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-    filtered_df = keepDate(df, "2008", DateComponent.YYYY)
-    rdd = filtered_df.rdd
-    rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
-    .saveAsTextFile("../output-text")
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+filtered_df = keepDate(df, "2008", DateComponent.YYYY)
+rdd = filtered_df.rdd
+rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
+.saveAsTextFile("../output-text")
 ```
 
 ### Plain text filtered by language
