@@ -323,19 +323,6 @@ rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
 .saveAsTextFile("../output-text-threads")
 ```
 
-
-<!-- <<-- THIS SHOULD CREATE A COMMENT.
-
-  RemoveBoilerplate is not yet available for Python.
-### Plain text minus boilerplate
-
-The following Spark script generates plain text renderings for all the web pages in a collection, minus "boilerplate" content: advertisements, navigational elements, and elements of the website template. For more on the boilerplate removal library we are using, [please see this website and paper](http://www.l3s.de/~kohlschuetter/boilerplate/).
-
-```python
-SCRIPT HERE
-```
--->
-
 ### Plain text filtered by date
 
 AUT permits you to filter records by a full or partial date string. It conceives
@@ -368,7 +355,7 @@ rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
 
 ### Plain text filtered by language
 
-The following Spark script keeps only French language pages from a certain top-level domain. It uses the [ISO 639.2 language codes](https://www.loc.gov/standards/iso639-2/php/code_list.php).
+The following Spark script keeps only French and English language pages from a certain top-level domain. It uses the [ISO 639.2 language codes](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 ```python
 import RecordLoader
@@ -408,23 +395,7 @@ rdd.map(lambda r : (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
 
-<!--
-
-NER is not yet available for py-aut
-
-## Named Entity Recognition
-
-The following Spark scripts use the [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.shtml) to extract names of entities – persons, organizations, and locations – from collections of ARC/WARC files or extracted texts. You can find a version of Stanford NER in [our aut-Resources repo located here](https://github.com/archivesunleashed/aut-resources).
-
-The scripts require a NER classifier model. There is one provided in the Stanford NER package (in the `classifiers` folder) called `english.all.3class.distsim.crf.ser.gz`, but you can also use your own.
-
-```python
-SCRIPT HERE
-```
-
-### Extract entities from ARC/WARC files
-
-## Analysis of Site Link Structure
+## Extraction of Simple Site Link Structure
 
 Site link structures can be very useful, allowing you to learn such things as:
 
@@ -432,10 +403,6 @@ Site link structures can be very useful, allowing you to learn such things as:
 - what websites had the most outbound links;  
 - what paths could be taken through the network to connect pages;  
 - what communities existed within the link structure?  
-
-END COMMENT ==> -->
-
-### Extraction of Simple Site Link Structure
 
 If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure.
 
@@ -479,6 +446,7 @@ SCRIPT HERE
 ```
 
 ### Filtering by URL
+
 In this case, you would only receive links coming from websites in matching the URL pattern listed under `keepUrlPatterns`.
 
 ```python
@@ -505,13 +473,16 @@ SCRIPT HERE
 
 ### Import error: RecordLoader not found
 
-If you built pyaut yourself, it is important that you zip them while the files are in the current directory.  Otherwise the files will be zipped with their path names attached, making them inaccessible to PySpark.
+If you built AUT yourself, it is important that you zip them without their path names attached. 
 
 So, instead of :
+
 ```bash
 zip -r src/main/python pyaut.zip
 ```
+
 use
+
 ```bash
 (cd src/main/python && zip -r - .) > pyaut.zip
 ```
