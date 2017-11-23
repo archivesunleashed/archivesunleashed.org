@@ -324,7 +324,7 @@ rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
 ```
 
 
-[//]: # ( <<-- THIS SHOULD CREATE A COMMENT.
+<!-- <<-- THIS SHOULD CREATE A COMMENT.
 
   RemoveBoilerplate is not yet available for Python.
 ### Plain text minus boilerplate
@@ -334,7 +334,7 @@ The following Spark script generates plain text renderings for all the web pages
 ```python
 SCRIPT HERE
 ```
- THIS SHOULD END THE COMMENT ->>  )
+-->
 
 ### Plain text filtered by date
 
@@ -371,6 +371,12 @@ rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
 The following Spark script keeps only French language pages from a certain top-level domain. It uses the [ISO 639.2 language codes](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 ```python
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from RemoveHTML import RemoveHTML
+from pyspark.sql import SparkSession
 
 path = "../example.arc.gz"
 spark = SparkSession.builder.appName("filterByLanguages").getOrCreate()
@@ -402,7 +408,7 @@ rdd.map(lambda r : (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
 
-[//]: # ( <<-- THIS SHOULD CREATE A COMMENT.
+<!--
 
 NER is not yet available for py-aut
 
@@ -427,7 +433,7 @@ Site link structures can be very useful, allowing you to learn such things as:
 - what paths could be taken through the network to connect pages;  
 - what communities existed within the link structure?  
 
-END COMMENT ==> )
+END COMMENT ==> -->
 
 ### Extraction of Simple Site Link Structure
 
@@ -451,7 +457,7 @@ rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
 print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 ```
 
-Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple." Filters can go immediately after `.keepValidPages()`.
+Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple."
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
@@ -499,4 +505,13 @@ SCRIPT HERE
 
 ### Import error: RecordLoader not found
 
-If you attempted to compress the pyaut folder on your own,
+If you built pyaut yourself, it is important that you zip them while the files are in the current directory.  Otherwise the files will be zipped with their path names attached, making them inaccessible to PySpark.
+
+So, instead of :
+```bash
+zip -r src/main/python pyaut.zip
+```
+use
+```bash
+(cd src/main/python && zip -r - .) > pyaut.zip
+```
