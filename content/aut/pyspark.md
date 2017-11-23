@@ -14,9 +14,9 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ### Downloading and Installing AUT
 
-The Archives Unleashed Toolkit, or AUT, can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar). 
+The Archives Unleashed Toolkit, or AUT, can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar).
 
-The use of AUT requires the command line. [This guide](https://programminghistorian.org/lessons/intro-to-bash) provides an introduction to the Bash command line. 
+The use of AUT requires the command line. [This guide](https://programminghistorian.org/lessons/intro-to-bash) provides an introduction to the Bash command line.
 
 The following bash commands will download the jar and an example ARC file. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
@@ -34,7 +34,7 @@ curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test
 
 Download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
-In the following example, we download Spark Shell and then launch it. Note that we use `pyspark`, which allows you to use the Python programming language to work with Spark. 
+In the following example, we download Spark Shell and then launch it. Note that we use `pyspark`, which allows you to use the Python programming language to work with Spark.
 
 It assumes that you are beginning in the `aut` directory that you created above.
 
@@ -71,7 +71,7 @@ You should have the spark shell ready and running.
 
 PySpark is slightly different from other Python programs in that it relies on Apache Spark's underlying Scala and Java code to manipulate datasets. You can read more about this in the [Spark documentation](http://spark.apache.org/docs/2.1.0/api/python/pyspark.html).
 
-The other difference between PySpark and the Scala spark-shell is the lack of a way to easily paste code to execute in the shell. 
+The other difference between PySpark and the Scala spark-shell is the lack of a way to easily paste code to execute in the shell.
 
 There are two ways around this.  The easiest way is to create a new python file with your script, and use `spark-submit`. For example, you might create a script with your text editor, save it as `file.py`, and then run it using the following.
 
@@ -138,7 +138,7 @@ If you receive no errors, you are ready to begin working with your web archives!
 
 ## Dataframes: Collection Analytics
 
-Pyspark also supports DataFrames, which enable more effective filtering. In this section, we use it to get an overview of what is in a collection. 
+Pyspark also supports DataFrames, which enable more effective filtering. In this section, we use it to get an overview of what is in a collection.
 
 For these examples, we are going to use the `example.warc.gz` file that you downloaded above. We assume it is in the `aut` directory, but you can always change the path to it below.
 
@@ -263,7 +263,7 @@ from RemoveHTML import RemoveHTML
 from pyspark.sql import SparkSession
 
 path = "../example.arc.gz"
-    
+
 spark = SparkSession.builder.appName("filterByDate").getOrCreate()
 sc = spark.sparkContext
 
@@ -288,7 +288,7 @@ from pyspark.sql import SparkSession
 
 # replace with your own path to archive file
 path = "../example.arc.gz"
-    
+
 spark = SparkSession.builder.appName("filterByDate").getOrCreate()
 sc = spark.sparkContext
 
@@ -300,7 +300,7 @@ rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
 
 ### Plain text by URL pattern
 
-The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through the collection and find all of the URLs containing "http://www.archive.org/iathreads". 
+The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through the collection and find all of the URLs containing "http://www.archive.org/iathreads".
 
 ```python
 import RecordLoader
@@ -313,7 +313,7 @@ from pyspark.sql import SparkSession
 
     # replace with your own path to archive file
 path = "../example.arc.gz"
-    
+
 spark = SparkSession.builder.appName("filterByDate").getOrCreate()
 sc = spark.sparkContext
 
@@ -323,6 +323,10 @@ rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
 .saveAsTextFile("../output-text-threads")
 ```
 
+
+[//]: # ( <<-- THIS SHOULD CREATE A COMMENT.
+
+  RemoveBoilerplate is not yet available for Python.
 ### Plain text minus boilerplate
 
 The following Spark script generates plain text renderings for all the web pages in a collection, minus "boilerplate" content: advertisements, navigational elements, and elements of the website template. For more on the boilerplate removal library we are using, [please see this website and paper](http://www.l3s.de/~kohlschuetter/boilerplate/).
@@ -330,6 +334,7 @@ The following Spark script generates plain text renderings for all the web pages
 ```python
 SCRIPT HERE
 ```
+ THIS SHOULD END THE COMMENT ->>  )
 
 ### Plain text filtered by date
 
@@ -350,7 +355,7 @@ from pyspark.sql import SparkSession
 
 # replace with your own path to archive file
 path = "../example.arc.gz"
-    
+
 spark = SparkSession.builder.appName("filterByDate").getOrCreate()
 sc = spark.sparkContext
 
@@ -366,7 +371,16 @@ rdd.map(lambda r: (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString))) \
 The following Spark script keeps only French language pages from a certain top-level domain. It uses the [ISO 639.2 language codes](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 ```python
-SCRIPT HERE
+
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("filterByLanguages").getOrCreate()
+
+sc = spark.sparkContext
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+filtered_df = keepLanguages(df, ["en", "fr"])
+rdd = filtered_df.rdd
+rdd.map(lambda r: ((r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
+.saveAsTextFile("../output-text")
 ```
 
 ### Plain text filtered by keyword
@@ -376,10 +390,21 @@ The following Spark script keeps only pages containing a certain keyword, which 
 For example, the following script takes all pages containing the keyword "guestbooks" in a collection.
 
 ```python
-SCRIPT HERE
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("filterByKeyword").getOrCreate()
+
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+filteredDf = keepContent(df, ["guestbooks"])
+rdd = filtered_df.rdd
+rdd.map(lambda r : (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
+.saveAsTextFile("../output-text")
 ```
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
+
+[//]: # ( <<-- THIS SHOULD CREATE A COMMENT.
+
+NER is not yet available for py-aut
 
 ## Named Entity Recognition
 
@@ -401,6 +426,8 @@ Site link structures can be very useful, allowing you to learn such things as:
 - what websites had the most outbound links;  
 - what paths could be taken through the network to connect pages;  
 - what communities existed within the link structure?  
+
+END COMMENT ==> )
 
 ### Extraction of Simple Site Link Structure
 
