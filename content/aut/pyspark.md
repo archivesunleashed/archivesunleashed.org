@@ -67,7 +67,7 @@ SparkSession available as 'spark'.
 You should have the spark shell ready and running.
 
 
-## Testing PySpark
+## Using PySpark
 
 PySpark is slightly different from other Python programs in that it relies on Apache Spark's underlying Scala and Java code to manipulate datasets. You can read more about this in the [Spark documentation](http://spark.apache.org/docs/2.1.0/api/python/pyspark.html).
 
@@ -80,6 +80,10 @@ There are two ways around this.  The easiest way is to create a new python file 
 ```
 
 An easier method is the second method: using the interactive, browser-based Jupyter notebooks to work with AUT. You can see it in action below.
+
+{{< note title="Jupyer Notebook versus Spark Submit" >}}
+Jupyer Notebook is a great tool and we use it for all of our script prototyping. Once we want to use it on more than one WARC file, though, we find it's best to shift over to spark-submit. Our advice is that once it is working on one file in the Notebook, and you want to start crunching your big data, move back to Spark Submit. We'll discuss this a bit more after the tutorials.
+{{< /note >}}
 
 ![AUT in action](/images/notebook-header.png)
 
@@ -424,8 +428,6 @@ rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
 print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 ```
 
-Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple."
-
 ### Extraction of a Site Link Structure, organized by URL pattern
 
 <<<<<<< 4ececc88bcea4f502ee5fca68492f25cd6db772c
@@ -455,6 +457,7 @@ rddx = rdd.flatMap(lambda r: (ExtractLinks(r.url, r.contentString)))\
     .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")\
     .countByValue()
 
+<<<<<<< dea2e06cb75db370e6966f25b68d25e9879d03ec
 print ([((x[0], x[1]), y) for x, y in rddx.items()]) #convert from defaultdict
 =======
 filtered_df = keepUrlPatterns(df, ["deadlists.com"])
@@ -464,6 +467,9 @@ rdd.flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
     .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")\
 .saveAsTextFile('../contentFile')
 >>>>>>> some script changes
+=======
+print ([((x[0], x[1]), y) for x, y in rddx.items()])
+>>>>>>> Language around Jupyter Notebook vs Spark-Submit
 ```
 
 ### Grouping by Crawl Date
@@ -556,6 +562,8 @@ fdf = df.select(df['url'], df['contentString'])
 rdd = fdf.rdd
 rddx = rdd.flatMap (lambda r: (ExtractImageLinks(r.url, r.contentString)))\
     .take(10)
+
+print(rddx)
 ```
 
 ### Most frequent image URLs in a collection
@@ -585,6 +593,25 @@ rddx = rdd.flatMap (lambda r: (ExtractImageLinks(r.url, r.contentString)))\
 listOfTuples = [ (y, x) for x, y in rddx.items()]
 print(sorted(listOfTuples, reverse=True)[0:10])
 ```
+
+## Implementing at Scale
+
+Now that you've seen what's possible, try using your own files. We recommend the following:
+
+1. Write your scripts in Jupyter notebook based on one WARC or ARC file, and see if the results are what you might want to do.
+2. Once you're ready to run it at scale, copy the notebook out of the Notebook and into a text editor.
+3. You may want to swap the `path` variable to include an entire directly - i.e. `path = "/path/to/warcs/*.gz"` rather than just pointing to one file.
+4. Use the Spark-Submit command to execute the script. 
+
+Spark-Submit has more fine-tuned commands around the amount of memory you are devoting to the process. Please read the documentation [here](https://spark.apache.org/docs/latest/submitting-applications.html).
+
+As a reminder, Spark-Submit syntax looks like:
+
+```bash
+.bin/spark-submit --jars ../aut-0.10.1-fatjar.jar --driver-class-path ../aut-0.10.1-fatjar.jar --py-files ../pyaut.zip /path/to/custom/python/file.py
+```
+
+Where `file.py` is the Python script that you've written.
 
 ## Troubleshooting
 
