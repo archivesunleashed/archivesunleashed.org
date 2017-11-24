@@ -153,7 +153,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import desc
 
 path = "../example.arc.gz"
-spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+spark = SparkSession.builder.appName("setUpDataFrame").getOrCreate()
 sc = spark.sparkContext
 
 df = RecordLoader.loadArchivesAsDF (path, sc, spark)
@@ -264,7 +264,7 @@ from pyspark.sql import SparkSession
 
 path = "../example.arc.gz"
 
-spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+spark = SparkSession.builder.appName("filterTextByDate").getOrCreate()
 sc = spark.sparkContext
 
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
@@ -289,7 +289,7 @@ from pyspark.sql import SparkSession
 # replace with your own path to archive file
 path = "../example.arc.gz"
 
-spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+spark = SparkSession.builder.appName("plainTextByDomain").getOrCreate()
 sc = spark.sparkContext
 
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
@@ -314,7 +314,7 @@ from pyspark.sql import SparkSession
     # replace with your own path to archive file
 path = "../example.arc.gz"
 
-spark = SparkSession.builder.appName("filterByDate").getOrCreate()
+spark = SparkSession.builder.appName("plainTextByUrl").getOrCreate()
 sc = spark.sparkContext
 
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
@@ -414,7 +414,7 @@ from ExtractLinks import ExtractLinks
 from pyspark.sql import SparkSession
 
 path = "../example.arc.gz"
-spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+spark = SparkSession.builder.appName("linkStructure").getOrCreate()
 sc = spark.sparkContext
 rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
       .flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
@@ -424,10 +424,11 @@ rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
 print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 ```
 
+Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple."
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
-In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
+In this following example, we run the same script but only extract links coming from URLs matching the pattern `dead.*`. We do so by using the `keepUrlPatterns` command.
 
 ```python
 import RecordLoader
@@ -437,24 +438,27 @@ from ExtractLinks import ExtractLinks
 from pyspark.sql import SparkSession
 
 path = "../example.arc.gz"
-spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+spark = SparkSession.builder.appName("siteLinkStructureByUrl").getOrCreate()
 sc = spark.sparkContext
 
+
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-filteredDf = keepUrlPatterns(df, ["http://geocities.com/EnchantedForest/.*"])
-rdd = filtered_df.rdd
-rdd.flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
+fdf = keepUrlPatterns(df.select(df['url'], df['contentString']), ["dead*"])
+rdd = fdf.rdd
+rddx = rdd.flatMap(lambda r: (ExtractLinks(r.url, r.contentString)))\
     .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
-    .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
-.saveAsTextFile('../contentFile')
+    .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")\
+    .countByValue()
+
+print ([((x[0], x[1]), y) for x, y in rddx.items()]) #convert from defaultdict
 ```
 
 ### Grouping by Crawl Date
 
 The following Spark script generates the aggregated site-level link structure, grouped by crawl date (YYYYMMDD). It
-makes use of the `ExtractLinks` and `ExtractTopLevelDomain` functions.
+makes use of the `ExtractLinks` and `ExtractToLevelDomain` functions.
 
-If you prefer to group by crawl month (YYYMM), replace `crawlDate` with `crawlMonth` below. If you prefer to group by simply crawl year (YYYY), replace `crawlDate` with `crawlYear` below.
+If you prefer to group by crawl month (YYYMM), replace `getCrawlDate` with `getCrawlMonth` below. If you prefer to group by simply crawl year (YYYY), replace `getCrawlDate` with `getCrawlYear` below.
 
 ```python
 import RecordLoader
@@ -464,17 +468,21 @@ from ExtractLinks import ExtractLinks
 from pyspark.sql import SparkSession
 import re
 
-
-###  TO DO..
-path = "../example.arc.gz"
-spark = SparkSession.builder.appName("groupByDate").getOrCreate()
+path = "src/test/resources/arc/example.arc.gz"
+spark = SparkSession.builder.appName("siteLinkStructureByDate").getOrCreate()
 sc = spark.sparkContext
-rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
-      .map(lambda r: (r.crawlDate, ExtractLinks(r.url, r.contentString))\
-      .flatMap(lambda r: r[2].map(lambda s: r[1], re.sub(r"^\\s*www\\.", "", ExtractDomain(s[1]))\
-      .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
 
-print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
+
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+fdf = df.select(df['crawlDate'], df['url'], df['contentString'])
+rdd = fdf.rdd
+rddx = rdd.map (lambda r: (r.crawlDate, ExtractLinks(r.url, r.contentString)))\
+ .flatMap(lambda r: map(lambda f: (r[0], ExtractDomain(f[0]), ExtractDomain(f[1])), r[1]))\
+ .filter(lambda r: r[-1] != None)\
+ .map(lambda r: (r[0], re.sub(r'^.*www.', '', r[1]), re.sub(r'^.*www.', '', r[2])))\
+ .countByValue()
+
+print([((x[0], x[1], x[2]), y) for x, y in rddx.items()]) #convert from defaultdict
 ```
 
 ### Filtering by URL
@@ -488,23 +496,45 @@ from ExtractDomain import ExtractDomain
 from ExtractLinks import ExtractLinks
 from pyspark.sql import SparkSession
 
-path = "../example.arc.gz"
-spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+path = "src/test/resources/arc/example.arc.gz"
+spark = SparkSession.builder.appName("filterByURL").getOrCreate()
 sc = spark.sparkContext
 
+
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-filteredDf = keepUrlPatterns(df, ["http://www.gyford.com/.*"])
-rdd = filtered_df.rdd
-rdd.map(lambda r : (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
-.saveAsTextFile('../contentFile')
+fdf = keepUrlPatterns(df.select(df['url'], df['contentString']), ["dead*"])
+rdd = fdf.rdd
+rddx = rdd.flatMap(lambda r: (ExtractLinks(r.url, r.contentString)))\
+    .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
+    .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")\
+    .countByValue()
+
+print ([((x[0], x[1]), y) for x, y in rddx.items()]) #convert from defaultdict
 ```
 
 ## Image Analysis
 
-Aut supports image analysis, a growing area of interest within web archives.  
+AUT supports image analysis, a growing area of interest within web archives.  
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+from ExtractImageLinks import ExtractImageLinks
+import re
+
+path = "src/test/resources/arc/example.arc.gz"
+spark = SparkSession.builder.appName("collectImages").getOrCreate()
+sc = spark.sparkContext
+
+
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+fdf = df.select(df['url'], df['contentString'])
+rdd = fdf.rdd
+rddx = rdd.flatMap (lambda r: (ExtractImageLinks(r.url, r.contentString)))\
+    .take(10)
 ```
 
 ### Most frequent image URLs in a collection
@@ -512,14 +542,34 @@ SCRIPT HERE
 The following script will extract the top ten URLs of images found within a collection.
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+from ExtractImageLinks import ExtractImageLinks
+import re
+
+path = "src/test/resources/arc/example.arc.gz"
+spark = SparkSession.builder.appName("collectImages").getOrCreate()
+sc = spark.sparkContext
+
+
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+fdf = df.select(df['url'], df['contentString'])
+rdd = fdf.rdd
+rddx = rdd.flatMap (lambda r: (ExtractImageLinks(r.url, r.contentString)))\
+    .countByValue()\
+
+listOfTuples = [ (y, x) for x, y in rddx.items()]
+print(sorted(listOfTuples, reverse=True)[0:10])
 ```
 
 ## Troubleshooting
 
 ### Import error: RecordLoader not found
 
-If you built AUT yourself, it is important that you zip them without their path names attached. 
+If you built AUT yourself, it is important that you zip them without their path names attached.
 
 So, instead of :
 
