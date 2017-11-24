@@ -427,7 +427,7 @@ print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
-In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
+In this following example, we run the same script but only extract links coming from the "deadlists.com" domain. We do so by using the `keepUrlPatterns` command.
 
 ```python
 import RecordLoader
@@ -441,11 +441,11 @@ spark = SparkSession.builder.appName("extractLinks").getOrCreate()
 sc = spark.sparkContext
 
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-filteredDf = keepUrlPatterns(df, ["http://geocities.com/EnchantedForest/.*"])
+filtered_df = keepUrlPatterns(df, ["deadlists.com"])
 rdd = filtered_df.rdd
 rdd.flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
     .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
-    .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
+    .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")\
 .saveAsTextFile('../contentFile')
 ```
 
@@ -464,8 +464,6 @@ from ExtractLinks import ExtractLinks
 from pyspark.sql import SparkSession
 import re
 
-
-###  TO DO..
 path = "../example.arc.gz"
 spark = SparkSession.builder.appName("groupByDate").getOrCreate()
 sc = spark.sparkContext
@@ -475,28 +473,6 @@ rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
       .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
 
 print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
-```
-
-### Filtering by URL
-
-In this case, you would only receive links coming from websites in matching the URL pattern listed under `keepUrlPatterns`.
-
-```python
-import RecordLoader
-from DFTransformations import *
-from ExtractDomain import ExtractDomain
-from ExtractLinks import ExtractLinks
-from pyspark.sql import SparkSession
-
-path = "../example.arc.gz"
-spark = SparkSession.builder.appName("extractLinks").getOrCreate()
-sc = spark.sparkContext
-
-df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-filteredDf = keepUrlPatterns(df, ["http://www.gyford.com/.*"])
-rdd = filtered_df.rdd
-rdd.map(lambda r : (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
-.saveAsTextFile('../contentFile')
 ```
 
 ## Image Analysis
