@@ -424,25 +424,57 @@ rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
 print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 ```
 
-Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple."
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
 In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+sc = spark.sparkContext
+
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+filteredDf = keepUrlPatterns(df, ["http://geocities.com/EnchantedForest/.*"])
+rdd = filtered_df.rdd
+rdd.flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
+    .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
+    .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
+.saveAsTextFile('../contentFile')
 ```
 
 ### Grouping by Crawl Date
 
 The following Spark script generates the aggregated site-level link structure, grouped by crawl date (YYYYMMDD). It
-makes use of the `ExtractLinks` and `ExtractToLevelDomain` functions.
+makes use of the `ExtractLinks` and `ExtractTopLevelDomain` functions.
 
-If you prefer to group by crawl month (YYYMM), replace `getCrawlDate` with `getCrawlMonth` below. If you prefer to group by simply crawl year (YYYY), replace `getCrawlDate` with `getCrawlYear` below.
+If you prefer to group by crawl month (YYYMM), replace `crawlDate` with `crawlMonth` below. If you prefer to group by simply crawl year (YYYY), replace `crawlDate` with `crawlYear` below.
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+import re
+
+
+###  TO DO..
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("groupByDate").getOrCreate()
+sc = spark.sparkContext
+rdd = RecordLoader.loadArchivesAsRDD(path, sc, spark)\
+      .map(lambda r: (r.crawlDate, ExtractLinks(r.url, r.contentString))\
+      .flatMap(lambda r: r[2].map(lambda s: r[1], re.sub(r"^\\s*www\\.", "", ExtractDomain(s[1]))\
+      .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")
+
+print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 ```
 
 ### Filtering by URL
@@ -450,12 +482,26 @@ SCRIPT HERE
 In this case, you would only receive links coming from websites in matching the URL pattern listed under `keepUrlPatterns`.
 
 ```python
-SCRIPT HERE
+import RecordLoader
+from DFTransformations import *
+from ExtractDomain import ExtractDomain
+from ExtractLinks import ExtractLinks
+from pyspark.sql import SparkSession
+
+path = "../example.arc.gz"
+spark = SparkSession.builder.appName("extractLinks").getOrCreate()
+sc = spark.sparkContext
+
+df = RecordLoader.loadArchivesAsDF(path, sc, spark)
+filteredDf = keepUrlPatterns(df, ["http://www.gyford.com/.*"])
+rdd = filtered_df.rdd
+rdd.map(lambda r : (r.crawlDate, r.domain, r.url, RemoveHTML(r.contentString)))\
+.saveAsTextFile('../contentFile')
 ```
 
 ## Image Analysis
 
-Warcbase supports image analysis, a growing area of interest within web archives.  
+Aut supports image analysis, a growing area of interest within web archives.  
 
 ```python
 SCRIPT HERE
