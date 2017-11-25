@@ -15,14 +15,14 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ### Downloading AUT
 
-The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar).
+The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar). 
 
 The following bash commands will download the jar and an example ARC file. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
 ```bash
 mkdir aut
 cd aut
-curl -L "https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar" > aut-0.10.0-fatjar.jar
+curl -L "https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar" > aut-0.11.0-fatjar.jar
 # example arc file for testing
 curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz" > example.arc.gz
 ```
@@ -35,7 +35,7 @@ Download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/s
 curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 cd spark-2.1.1-bin-hadoop2.6
-./bin/spark-shell --jars ../aut-0.10.0-fatjar.jar
+./bin/spark-shell --jars ../aut-0.11.0-fatjar.jar
 ```
 > If for some reason you get `Failed to initialize compiler:
 > object scala.runtime in compiler mirror not found.` error,
@@ -94,7 +94,7 @@ You should now be able to try out the toolkit's many tutorials.
 
 ## Collection Analytics
 
-You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? You can do this in Shell or generate beautiful in-browser visualizations in the Notebook interface.
+You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? 
 
 ### List of URLs
 
@@ -121,11 +121,11 @@ val r = RecordLoader.loadArchives("/directory/to/arc/file.arc.gz", sc)
 .map(r => r.getUrl)
 .saveAsTextFile("/path/to/export/directory/")
 ```
-### Using Spark Notebook to See Top-Level Domains
 
-In the Spark Notebook, the following command will generate an interactive visualization.
 
-You'll be ready to run this then.
+### List of Top-Level Domains
+
+You may just want to see the domains within an item. The script below shows the top ten domains within a given file or set of files.
 
 ```scala
 import io.archivesunleashed.spark.matchbox._
@@ -140,10 +140,6 @@ RecordLoader.loadArchives("/directory/to/arc/file.arc.gz", sc)
 ```
 
 If you want to see more than ten results, change the variable in the last line.
-
-Here is a sample output from a 5GB collection of Canadian political party ARCs:
-
-![Spark notebook showing pie chart output](https://raw.githubusercontent.com/ianmilligan1/WAHR/master/images/Spark-Notebook.png)
 
 ### List of Different Subdomains
 
@@ -179,6 +175,7 @@ RecordLoader.loadArchives("src/test/resources/arc/example.arc.gz", sc)
 If you wanted to use it on your own collection, you would change "src/test/resources/arc/example.arc.gz" to the directory with your own ARC or WARC files, and change "out/" on the last line to where you want to save your output data.
 
 Note that this will create a new directory to store the output, which cannot already exist.
+
 
 If you want to run it in your Spark Notebook, the following script will show in-notebook plain text:
 
