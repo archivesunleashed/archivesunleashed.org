@@ -358,13 +358,13 @@
 
 <h3 id="downloading-aut">Downloading AUT</h3>
 
-<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
+<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
 
 <p>The following bash commands will download the jar and an example ARC file. You can also <a href="https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz">download the example ARC file here</a>.</p>
 
 <pre><code class="language-bash">mkdir aut
 cd aut
-curl -L &quot;https://github.com/archivesunleashed/aut/releases/download/aut-0.10.0/aut-0.10.0-fatjar.jar&quot; &gt; aut-0.10.0-fatjar.jar
+curl -L &quot;https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar&quot; &gt; aut-0.11.0-fatjar.jar
 # example arc file for testing
 curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz&quot; &gt; example.arc.gz
 </code></pre>
@@ -376,7 +376,7 @@ curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src
 <pre><code class="language-bash">curl -L &quot;http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz&quot; &gt; spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 cd spark-2.1.1-bin-hadoop2.6
-./bin/spark-shell --jars ../aut-0.10.0-fatjar.jar
+./bin/spark-shell --jars ../aut-0.11.0-fatjar.jar
 </code></pre>
 
 <blockquote>
@@ -437,7 +437,7 @@ val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 
 <h2 id="collection-analytics">Collection Analytics</h2>
 
-<p>You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? You can do this in Shell or generate beautiful in-browser visualizations in the Notebook interface.</p>
+<p>You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled?</p>
 
 <h3 id="list-of-urls">List of URLs</h3>
 
@@ -463,11 +463,9 @@ val r = RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc)
 .saveAsTextFile(&quot;/path/to/export/directory/&quot;)
 </code></pre>
 
-<h3 id="using-spark-notebook-to-see-top-level-domains">Using Spark Notebook to See Top-Level Domains</h3>
+<h3 id="list-of-top-level-domains">List of Top-Level Domains</h3>
 
-<p>In the Spark Notebook, the following command will generate an interactive visualization.</p>
-
-<p>You&rsquo;ll be ready to run this then.</p>
+<p>You may just want to see the domains within an item. The script below shows the top ten domains within a given file or set of files.</p>
 
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._ 
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
@@ -481,10 +479,6 @@ RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc)
 </code></pre>
 
 <p>If you want to see more than ten results, change the variable in the last line.</p>
-
-<p>Here is a sample output from a 5GB collection of Canadian political party ARCs:</p>
-
-<p><img src="https://raw.githubusercontent.com/ianmilligan1/WAHR/master/images/Spark-Notebook.png" alt="Spark notebook showing pie chart output" /></p>
 
 <h3 id="list-of-different-subdomains">List of Different Subdomains</h3>
 
@@ -518,18 +512,6 @@ RecordLoader.loadArchives(&quot;src/test/resources/arc/example.arc.gz&quot;, sc)
 <p>If you wanted to use it on your own collection, you would change &ldquo;src/test/resources/arc/example.arc.gz&rdquo; to the directory with your own ARC or WARC files, and change &ldquo;out/&rdquo; on the last line to where you want to save your output data.</p>
 
 <p>Note that this will create a new directory to store the output, which cannot already exist.</p>
-
-<p>If you want to run it in your Spark Notebook, the following script will show in-notebook plain text:</p>
-
-<pre><code class="language-scala">val r = RecordLoader.loadArchives(&quot;/path/to/warcs&quot;, sc) 
-.keepValidPages()
-.map(r =&gt; { 
-val t = RemoveHTML(r.getContentString) 
-val len = 1000 
-(r.getCrawlDate, r.getUrl, if ( t.length &gt; len ) t.substring(0, 
-len) else t)}) 
-.collect() 
-</code></pre>
 
 <h3 id="plain-text-by-domain">Plain text by domain</h3>
 
