@@ -1,6 +1,7 @@
 ---
-title: Archives Unleashed Toolkit (PySpark)
-date: 2017-11-21T09:22:47-05:00
+title: The Archives Unleashed Toolkit (Python)
+date: 2017-11-26T21:36:10-05:00
+weight: 25
 ---
 
 ## Introduction
@@ -438,11 +439,7 @@ print(countItems(rdd).filter(lambda r: r[1] > 5).take(10))
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
-<<<<<<< 4ececc88bcea4f502ee5fca68492f25cd6db772c
 In this following example, we run the same script but only extract links coming from URLs matching the pattern `dead.*`. We do so by using the `keepUrlPatterns` command.
-=======
-In this following example, we run the same script but only extract links coming from the "deadlists.com" domain. We do so by using the `keepUrlPatterns` command.
->>>>>>> some script changes
 
 ```python
 import RecordLoader
@@ -457,7 +454,6 @@ sc = spark.sparkContext
 
 
 df = RecordLoader.loadArchivesAsDF(path, sc, spark)
-<<<<<<< 4ececc88bcea4f502ee5fca68492f25cd6db772c
 fdf = keepUrlPatterns(df.select(df['url'], df['contentString']), ["dead*"])
 rdd = fdf.rdd
 rddx = rdd.flatMap(lambda r: (ExtractLinks(r.url, r.contentString)))\
@@ -465,19 +461,7 @@ rddx = rdd.flatMap(lambda r: (ExtractLinks(r.url, r.contentString)))\
     .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")\
     .countByValue()
 
-<<<<<<< dea2e06cb75db370e6966f25b68d25e9879d03ec
-print ([((x[0], x[1]), y) for x, y in rddx.items()]) #convert from defaultdict
-=======
-filtered_df = keepUrlPatterns(df, ["deadlists.com"])
-rdd = filtered_df.rdd
-rdd.flatMap(lambda r: ExtractLinks(r.url, r.contentString))\
-    .map(lambda r: (ExtractDomain(r[0]), ExtractDomain(r[1])))\
-    .filter(lambda r: r[0] is not None and r[0]!= "" and r[1] is not None and r[1] != "")\
-.saveAsTextFile('../contentFile')
->>>>>>> some script changes
-=======
 print ([((x[0], x[1]), y) for x, y in rddx.items()])
->>>>>>> Language around Jupyter Notebook vs Spark-Submit
 ```
 
 ### Grouping by Crawl Date
@@ -495,13 +479,8 @@ from ExtractLinks import ExtractLinks
 from pyspark.sql import SparkSession
 import re
 
-<<<<<<< 4ececc88bcea4f502ee5fca68492f25cd6db772c
 path = "src/test/resources/arc/example.arc.gz"
 spark = SparkSession.builder.appName("siteLinkStructureByDate").getOrCreate()
-=======
-path = "../example.arc.gz"
-spark = SparkSession.builder.appName("groupByDate").getOrCreate()
->>>>>>> some script changes
 sc = spark.sparkContext
 
 
@@ -514,10 +493,9 @@ rddx = rdd.map (lambda r: (r.crawlDate, ExtractLinks(r.url, r.contentString)))\
  .map(lambda r: (r[0], re.sub(r'^.*www.', '', r[1]), re.sub(r'^.*www.', '', r[2])))\
  .countByValue()
 
-print([((x[0], x[1], x[2]), y) for x, y in rddx.items()]) #convert from defaultdict
+print([((x[0], x[1], x[2]), y) for x, y in rddx.items()]) 
 ```
 
-<<<<<<< 4ececc88bcea4f502ee5fca68492f25cd6db772c
 ### Filtering by URL
 
 In this case, you would only receive links coming from websites in matching the URL pattern listed under `keepUrlPatterns`.
@@ -545,8 +523,6 @@ rddx = rdd.flatMap(lambda r: (ExtractLinks(r.url, r.contentString)))\
 print ([((x[0], x[1]), y) for x, y in rddx.items()]) #convert from defaultdict
 ```
 
-=======
->>>>>>> some script changes
 ## Image Analysis
 
 AUT supports image analysis, a growing area of interest within web archives.  
