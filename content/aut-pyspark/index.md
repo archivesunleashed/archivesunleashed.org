@@ -90,8 +90,8 @@ There are two ways around this.  The easiest way is to create a new python file 
 
 An easier method is the second method: using the interactive, browser-based Jupyter notebooks to work with AUT. You can see it in action below.
 
-{{< note title="Jupyer Notebook versus Spark Submit" >}}
-Jupyer Notebook is a great tool and we use it for all of our script prototyping. Once we want to use it on more than one WARC file, though, we find it's best to shift over to spark-submit. Our advice is that once it is working on one file in the Notebook, and you want to start crunching your big data, move back to Spark Submit. We'll discuss this a bit more after the tutorials.
+{{< note title="Jupyter Notebook versus Spark Submit" >}}
+Jupyter Notebook is a great tool and we use it for all of our script prototyping. Once we want to use it on more than one WARC file, though, we find it's best to shift over to spark-submit. Our advice is that once it is working on one file in the Notebook, and you want to start crunching your big data, move back to Spark Submit. We'll discuss this a bit more after the tutorials.
 {{< /note >}}
 
 ![AUT in action](/images/notebook-header.png)
