@@ -30,7 +30,7 @@ googleAnalytics = "UA-2879197-28"
 
 	[params.palette]
     	primary = "grey"
-    	accent  = "red"
+    	accent  = "black"
 
     [params.font]
     	text = "Ubuntu"
@@ -53,14 +53,19 @@ googleAnalytics = "UA-2879197-28"
 	weight = 10
 
 [[menu.main]]
-	name   = "Archives Unleashed Toolkit"
+	name   = "AU Toolkit Docs (Scala)"
 	url    = "aut/"
 	weight = 15
 
 [[menu.main]]
+	name   = "AU Toolkit Docs (Python)"
+	url    = "aut-pyspark/"
+	weight = 16
+
+[[menu.main]]
 	name   = "Archives Unleashed Cloud"
 	url    = "cloud/"
-	weight = 16
+	weight = 17
 
 [[menu.main]]
 	name   = "Warclight"

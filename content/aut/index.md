@@ -1,6 +1,6 @@
 ---
 date: 2016-03-09T19:56:50+01:00
-title: The Archives Unleashed Toolkit
+title: The Archives Unleashed Toolkit (Scala)
 weight: 20
 ---
 
@@ -10,6 +10,14 @@ weight: 20
 *Internet Archive servers in San Francisco, photo by Ian Milligan.*
 
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on [Hadoop](https://hadoop.apache.org/). The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via [Spark](http://spark.apache.org/).
+
+{{< note title="Scala or Python?" >}}
+We are currently reworking the Archives Unleashed Toolkit so that users can access it via Scala or Python. 
+
+**Which one should you use?** It's up to you! For many users, the familiarity of Python and close integration with Jupyter Notebooks may make that an easier environment to prototype and deploy scripts. However, the Scala components are slightly more mature and have additional features such as Named Entity Recognition.
+
+[View the Python docs here](/aut-pyspark)!
+{{< /note >}}
 
 ## Getting Started
 
