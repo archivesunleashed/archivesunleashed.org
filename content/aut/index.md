@@ -495,18 +495,18 @@ val links = RecordLoader.loadArchives("/collections/webarchives/CanadianPolitica
   .filter(r => r._2 != "" && r._3 != "")
   .countItems()
   .filter(r => r._2 > 5)
-
-WriteGDF(links, "all-links-EnchantedForest.gdf")
+  .saveAsTextFile("cpp.sitelinks-liberal")
 ```
 
 ### Exporting to Gephi Directly
-You may want to export your data directly to the [Gephi software suite](http://gephi.github.io/), an open-soure network analysis project. The following code writes to a GDF format:
+
+You may want to export your data directly to the [Gephi software suite](http://gephi.github.io/), an open-soure network analysis project. The following code writes to the [GEXF format](https://gephi.org/gexf/format/):
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
+import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives("/collections/webarchives/CanadianPoliticalParties/arc/", sc)
+val links = RecordLoader.loadArchives("/path/to/arc/file.arc.gz", sc)
   .keepValidPages()
   .map(r => (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r => r._2.map(f => (r._1, ExtractDomain(f._1).replaceAll("^\\s*www\\.", ""), ExtractDomain(f._2).replaceAll("^\\s*www\\.", ""))))
@@ -514,10 +514,12 @@ val links = RecordLoader.loadArchives("/collections/webarchives/CanadianPolitica
   .countItems()
   .filter(r => r._2 > 5)
 
-WriteGDF(links, "all-links.gdf")
+WriteGEXF(links, "links-for-gephi.gexf")
 ```
 
 This file can then be directly opened by Gephi.
+
+We also support exporting to the GDF file format. You can replace `WriteGEXF` with `WriteGDF` in the script above.
 
 ## Image Analysis
 
