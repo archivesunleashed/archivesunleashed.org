@@ -104,7 +104,7 @@ If you just want a list of URLs in the collection, you can type :p into Spark Sh
 import io.archivesunleashed.spark.matchbox._ 
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
-val r = RecordLoader.loadArchives("/directory/to/arc/file.arc.gz", sc) 
+val r = RecordLoader.loadArchives("../example.arc.gz", sc) 
 .keepValidPages()
 .map(r => r.getUrl)
 .take(10)
@@ -116,7 +116,7 @@ This will give you a list of the top ten URLs. If you want all the URLs, exporte
 import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val r = RecordLoader.loadArchives("/directory/to/arc/file.arc.gz", sc) 
+val r = RecordLoader.loadArchives("../example.arc.gz", sc) 
 .keepValidPages()
 .map(r => r.getUrl)
 .saveAsTextFile("/path/to/export/directory/")
@@ -131,7 +131,7 @@ import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
 val r = 
-RecordLoader.loadArchives("/directory/to/arc/file.arc.gz", sc) 
+RecordLoader.loadArchives("../example.arc.gz", sc) 
 .keepValidPages() 
 .map(r => ExtractDomain(r.getUrl)) 
 .countItems() 
@@ -148,7 +148,7 @@ Finally, you can use regular expressions to extract more fine-tuned information.
 import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val r = RecordLoader.loadArchives("/path/to/warcs", sc)
+val r = RecordLoader.loadArchives("../example.arc.gz", sc)
  .keepValidPages()
  .flatMap(r => """http://[^/]+/[^/]+/""".r.findAllIn(r.getUrl).toList)
 ```
@@ -165,7 +165,7 @@ This script extracts the crawl date, domain, URL, and plain text from HTML files
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 
-RecordLoader.loadArchives("src/test/resources/arc/example.arc.gz", sc)
+RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out/")
@@ -177,15 +177,15 @@ Note that this will create a new directory to store the output, which cannot alr
 
 ### Plain text by domain
 
-The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the "greenparty.ca" domain.
+The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the "archive.org" domain.
 
 ```scala
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives("src/test/resources/arc/example.arc.gz", sc)
+RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("greenparty.ca"))
+  .keepDomains(Set("archive.org"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out/")
 ```
@@ -198,7 +198,7 @@ The following Spark script generates plain text renderings for all the web pages
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives("geocitities-example.warc.gz", sc)
+RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .keepValidPages()
   .keepUrlPatterns(Set("(?i)http://geocities.com/EnchantedForest/.*".r))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -213,9 +213,9 @@ The following Spark script generates plain text renderings for all the web pages
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader, ExtractBoilerpipeText}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives("src/test/resources/arc/example.arc.gz", sc)
+RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("greenparty.ca"))
+  .keepDomains(Set("archive.org"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(r.getContentString)))
   .saveAsTextFile("out/")
 ```
@@ -234,7 +234,7 @@ import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
-RecordLoader.loadArchives("path/to/example.arc.gz", sc)
+RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .keepDate("20081004", YYYYMM)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -249,7 +249,7 @@ import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
-RecordLoader.loadArchives("path/to/example.warc.gz", sc)
+RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .keepDate("2015", YYYY)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -272,9 +272,9 @@ The following Spark script keeps only French language pages from a certain top-l
 import io.archivesunleashed.spark.matchbox.{RecordLoader, RemoveHTML}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives("/path/to/warc", sc)
+RecordLoader.loadArchives("../example.arc.gz", sc)
 .keepValidPages()
-.keepDomains(Set("greenparty.ca"))
+.keepDomains(Set("archive.org"))
 .keepLanguages(Set("fr"))
 .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
 .saveAsTextFile("out-fr/")
@@ -284,17 +284,17 @@ RecordLoader.loadArchives("/path/to/warc", sc)
 
 The following Spark script keeps only pages containing a certain keyword, which also stacks on the other scripts. 
 
-For example, the following script takes all pages containing the keyword "guestbooks" in a collection.
+For example, the following script takes all pages containing the keyword "archive" in a collection.
 
 ```scala
 import io.archivesunleashed.spark.matchbox._ 
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
-val r = RecordLoader.loadArchives("/path/to/warc",sc)
+val r = RecordLoader.loadArchives("../example.arc.gz",sc)
 .keepValidPages()
-.keepContent(Set("guestbooks".r))
+.keepContent(Set("archive".r))
 .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-.saveAsTextFile("out-guestbooks/")
+.saveAsTextFile("out-archive/")
 ```
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
@@ -351,7 +351,7 @@ import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives("/collections/webarchives/geocities/warcs/", sc)
+val links = RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
   .map(r => (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))
@@ -359,7 +359,7 @@ val links = RecordLoader.loadArchives("/collections/webarchives/geocities/warcs/
   .countItems()
   .filter(r => r._2 > 5)
 
-links.saveAsTextFile("geocities-links-all/")
+links.saveAsTextFile("links-all/")
 ```
 
 Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple." Filters can go immediately after `.keepValidPages()`.
@@ -369,7 +369,7 @@ import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives("/collections/webarchives/geocities/warcs/", sc)
+val links = RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .keepContent(Set("apple".r))
   .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
@@ -378,7 +378,7 @@ val links = RecordLoader.loadArchives("/collections/webarchives/geocities/warcs/
   .countItems()
   .filter(r => r._2 > 5)
 
-links.saveAsTextFile("geocities-links-all/")
+links.saveAsTextFile("links-all/")
 ```
 
 ### Extraction of a Site Link Structure, organized by URL pattern
@@ -390,7 +390,7 @@ import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives("/collections/webarchives/geocities/warcs/", sc)
+val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .keepValidPages()
   .keepUrlPatterns(Set("http://geocities.com/EnchantedForest/.*".r))
   .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
@@ -413,14 +413,14 @@ If you prefer to group by crawl month (YYYMM), replace `getCrawlDate` with `getC
 import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives("/path/to/arc", sc)
+RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .map(r => (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r => r._2.map(f => (r._1, ExtractDomain(f._1).replaceAll("^\\s*www\\.", ""), ExtractDomain(f._2).replaceAll("^\\s*www\\.", ""))))
   .filter(r => r._2 != "" && r._3 != "")
   .countItems()
   .filter(r => r._2 > 5)
-  .saveAsTextFile("cpp.sitelinks")
+  .saveAsTextFile("sitelinks")
 ```
 
 The format of this output is:
@@ -487,7 +487,7 @@ In this case, you would only receive links coming from websites in matching the 
 import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives("/collections/webarchives/CanadianPoliticalParties/arc/", sc)
+val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .keepValidPages()
   .keepUrlPatterns(Set("http://liberal.ca/Canada/.*".r))
   .map(r => (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
@@ -506,7 +506,7 @@ You may want to export your data directly to the [Gephi software suite](http://g
 import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives("/path/to/arc/file.arc.gz", sc)
+val links = RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .map(r => (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r => r._2.map(f => (r._1, ExtractDomain(f._1).replaceAll("^\\s*www\\.", ""), ExtractDomain(f._2).replaceAll("^\\s*www\\.", ""))))
@@ -533,7 +533,7 @@ The following script:
 import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives("/home/i2millig/warcbase/src/test/resources/warc/example.warc.gz", sc)
+val links = RecordLoader.loadArchives("../example.arc.gz", sc)
   .keepValidPages()
   .flatMap(r => ExtractImageLinks(r.getUrl, r.getContentString))
   .countItems()
@@ -562,11 +562,11 @@ import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.RecordLoader
 
-val r = RecordLoader.loadArchives("/collections/webarchives/geocities/warcs/*.warc.gz",sc).persist()
-ExtractPopularImages(r, 2000, sc).saveAsTextFile("2000-Popular-Images-Geocities14")
+val r = RecordLoader.loadArchives("../example.arc.gz",sc).persist()
+ExtractPopularImages(r, 500, sc).saveAsTextFile("500-Popular-Images")
 ```
 
-Will save the 2000 most popular URLs to an output directory.
+Will save the 500 most popular URLs to an output directory.
 
 ## Twitter Analysis
 
