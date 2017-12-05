@@ -8,6 +8,4 @@ weight: 45
 
 The World Wide Web has a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
 
-testing 123
-
-
+With the latest release of the Archives Unleashed Toolkit (AUT), the project team will be hosting a series of four datathons for archivists, researchers, librarians, computer scientists, and others to collaboratively work with web collections and explore cutting-edge research tools through hands on experience.
