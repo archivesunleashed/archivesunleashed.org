@@ -818,18 +818,17 @@ val links = RecordLoader.loadArchives(&quot;/collections/webarchives/CanadianPol
   .filter(r =&gt; r._2 != &quot;&quot; &amp;&amp; r._3 != &quot;&quot;)
   .countItems()
   .filter(r =&gt; r._2 &gt; 5)
-
-WriteGDF(links, &quot;all-links-EnchantedForest.gdf&quot;)
+  .saveAsTextFile(&quot;cpp.sitelinks-liberal&quot;)
 </code></pre>
 
 <h3 id="exporting-to-gephi-directly">Exporting to Gephi Directly</h3>
 
-<p>You may want to export your data directly to the <a href="http://gephi.github.io/">Gephi software suite</a>, an open-soure network analysis project. The following code writes to a GDF format:</p>
+<p>You may want to export your data directly to the <a href="http://gephi.github.io/">Gephi software suite</a>, an open-soure network analysis project. The following code writes to the <a href="https://gephi.org/gexf/format/">GEXF format</a>:</p>
 
-<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
+<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives(&quot;/collections/webarchives/CanadianPoliticalParties/arc/&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;/path/to/arc/file.arc.gz&quot;, sc)
   .keepValidPages()
   .map(r =&gt; (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r =&gt; r._2.map(f =&gt; (r._1, ExtractDomain(f._1).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;), ExtractDomain(f._2).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;))))
@@ -837,10 +836,12 @@ val links = RecordLoader.loadArchives(&quot;/collections/webarchives/CanadianPol
   .countItems()
   .filter(r =&gt; r._2 &gt; 5)
 
-WriteGDF(links, &quot;all-links.gdf&quot;)
+WriteGEXF(links, &quot;links-for-gephi.gexf&quot;)
 </code></pre>
 
 <p>This file can then be directly opened by Gephi.</p>
+
+<p>We also support exporting to the GDF file format. You can replace <code>WriteGEXF</code> with <code>WriteGDF</code> in the script above.</p>
 
 <h2 id="image-analysis">Image Analysis</h2>
 
