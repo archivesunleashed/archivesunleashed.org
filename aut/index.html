@@ -446,7 +446,7 @@ val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._ 
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
-val r = RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc) 
+val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc) 
 .keepValidPages()
 .map(r =&gt; r.getUrl)
 .take(10)
@@ -457,7 +457,7 @@ val r = RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val r = RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc) 
+val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc) 
 .keepValidPages()
 .map(r =&gt; r.getUrl)
 .saveAsTextFile(&quot;/path/to/export/directory/&quot;)
@@ -471,7 +471,7 @@ val r = RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc)
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
 val r = 
-RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc) 
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc) 
 .keepValidPages() 
 .map(r =&gt; ExtractDomain(r.getUrl)) 
 .countItems() 
@@ -487,7 +487,7 @@ RecordLoader.loadArchives(&quot;/directory/to/arc/file.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val r = RecordLoader.loadArchives(&quot;/path/to/warcs&quot;, sc)
+val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
  .keepValidPages()
  .flatMap(r =&gt; &quot;&quot;&quot;http://[^/]+/[^/]+/&quot;&quot;&quot;.r.findAllIn(r.getUrl).toList)
 </code></pre>
@@ -503,7 +503,7 @@ val r = RecordLoader.loadArchives(&quot;/path/to/warcs&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 
-RecordLoader.loadArchives(&quot;src/test/resources/arc/example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out/&quot;)
@@ -515,14 +515,14 @@ RecordLoader.loadArchives(&quot;src/test/resources/arc/example.arc.gz&quot;, sc)
 
 <h3 id="plain-text-by-domain">Plain text by domain</h3>
 
-<p>The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the &ldquo;greenparty.ca&rdquo; domain.</p>
+<p>The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the &ldquo;archive.org&rdquo; domain.</p>
 
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;src/test/resources/arc/example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDomains(Set(&quot;greenparty.ca&quot;))
+  .keepDomains(Set(&quot;archive.org&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out/&quot;)
 </code></pre>
@@ -534,7 +534,7 @@ RecordLoader.loadArchives(&quot;src/test/resources/arc/example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;geocitities-example.warc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
   .keepValidPages()
   .keepUrlPatterns(Set(&quot;(?i)http://geocities.com/EnchantedForest/.*&quot;.r))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -548,9 +548,9 @@ RecordLoader.loadArchives(&quot;geocitities-example.warc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader, ExtractBoilerpipeText}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;src/test/resources/arc/example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDomains(Set(&quot;greenparty.ca&quot;))
+  .keepDomains(Set(&quot;archive.org&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(r.getContentString)))
   .saveAsTextFile(&quot;out/&quot;)
 </code></pre>
@@ -568,7 +568,7 @@ import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
-RecordLoader.loadArchives(&quot;path/to/example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepDate(&quot;20081004&quot;, YYYYMM)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -582,7 +582,7 @@ import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
-RecordLoader.loadArchives(&quot;path/to/example.warc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepDate(&quot;2015&quot;, YYYY)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -603,9 +603,9 @@ RecordLoader.loadArchives(&quot;path/to/example.warc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{RecordLoader, RemoveHTML}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;/path/to/warc&quot;, sc)
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 .keepValidPages()
-.keepDomains(Set(&quot;greenparty.ca&quot;))
+.keepDomains(Set(&quot;archive.org&quot;))
 .keepLanguages(Set(&quot;fr&quot;))
 .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
 .saveAsTextFile(&quot;out-fr/&quot;)
@@ -615,16 +615,16 @@ RecordLoader.loadArchives(&quot;/path/to/warc&quot;, sc)
 
 <p>The following Spark script keeps only pages containing a certain keyword, which also stacks on the other scripts.</p>
 
-<p>For example, the following script takes all pages containing the keyword &ldquo;guestbooks&rdquo; in a collection.</p>
+<p>For example, the following script takes all pages containing the keyword &ldquo;archive&rdquo; in a collection.</p>
 
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._ 
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
-val r = RecordLoader.loadArchives(&quot;/path/to/warc&quot;,sc)
+val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;,sc)
 .keepValidPages()
-.keepContent(Set(&quot;guestbooks&quot;.r))
+.keepContent(Set(&quot;archive&quot;.r))
 .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-.saveAsTextFile(&quot;out-guestbooks/&quot;)
+.saveAsTextFile(&quot;out-archive/&quot;)
 </code></pre>
 
 <p>There is also <code>discardContent</code> which does the opposite, if you have a frequent keyword you are not interested in.</p>
@@ -679,7 +679,7 @@ ExtractEntities.extractFromScrapeText(&quot;english.all.3class.distsim.crf.ser.g
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives(&quot;/collections/webarchives/geocities/warcs/&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .flatMap(r =&gt; ExtractLinks(r.getUrl, r.getContentString))
   .map(r =&gt; (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))
@@ -687,7 +687,7 @@ val links = RecordLoader.loadArchives(&quot;/collections/webarchives/geocities/w
   .countItems()
   .filter(r =&gt; r._2 &gt; 5)
 
-links.saveAsTextFile(&quot;geocities-links-all/&quot;)
+links.saveAsTextFile(&quot;links-all/&quot;)
 </code></pre>
 
 <p>Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase &ldquo;apple.&rdquo; Filters can go immediately after <code>.keepValidPages()</code>.</p>
@@ -696,7 +696,7 @@ links.saveAsTextFile(&quot;geocities-links-all/&quot;)
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives(&quot;/collections/webarchives/geocities/warcs/&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepContent(Set(&quot;apple&quot;.r))
   .flatMap(r =&gt; ExtractLinks(r.getUrl, r.getContentString))
@@ -705,7 +705,7 @@ val links = RecordLoader.loadArchives(&quot;/collections/webarchives/geocities/w
   .countItems()
   .filter(r =&gt; r._2 &gt; 5)
 
-links.saveAsTextFile(&quot;geocities-links-all/&quot;)
+links.saveAsTextFile(&quot;links-all/&quot;)
 </code></pre>
 
 <h3 id="extraction-of-a-site-link-structure-organized-by-url-pattern">Extraction of a Site Link Structure, organized by URL pattern</h3>
@@ -716,7 +716,7 @@ links.saveAsTextFile(&quot;geocities-links-all/&quot;)
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives(&quot;/collections/webarchives/geocities/warcs/&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
   .keepValidPages()
   .keepUrlPatterns(Set(&quot;http://geocities.com/EnchantedForest/.*&quot;.r))
   .flatMap(r =&gt; ExtractLinks(r.getUrl, r.getContentString))
@@ -738,14 +738,14 @@ makes use of the <code>ExtractLinks</code> and <code>ExtractToLevelDomain</code>
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;/path/to/arc&quot;, sc)
+RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .map(r =&gt; (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r =&gt; r._2.map(f =&gt; (r._1, ExtractDomain(f._1).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;), ExtractDomain(f._2).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;))))
   .filter(r =&gt; r._2 != &quot;&quot; &amp;&amp; r._3 != &quot;&quot;)
   .countItems()
   .filter(r =&gt; r._2 &gt; 5)
-  .saveAsTextFile(&quot;cpp.sitelinks&quot;)
+  .saveAsTextFile(&quot;sitelinks&quot;)
 </code></pre>
 
 <p>The format of this output is:
@@ -810,7 +810,7 @@ RecordLoader.loadArchives(&quot;/path/to/arc&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives(&quot;/collections/webarchives/CanadianPoliticalParties/arc/&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
   .keepValidPages()
   .keepUrlPatterns(Set(&quot;http://liberal.ca/Canada/.*&quot;.r))
   .map(r =&gt; (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
@@ -828,7 +828,7 @@ val links = RecordLoader.loadArchives(&quot;/collections/webarchives/CanadianPol
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives(&quot;/path/to/arc/file.arc.gz&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .map(r =&gt; (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r =&gt; r._2.map(f =&gt; (r._1, ExtractDomain(f._1).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;), ExtractDomain(f._2).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;))))
@@ -854,7 +854,7 @@ WriteGEXF(links, &quot;links-for-gephi.gexf&quot;)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives(&quot;/home/i2millig/warcbase/src/test/resources/warc/example.warc.gz&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .keepValidPages()
   .flatMap(r =&gt; ExtractImageLinks(r.getUrl, r.getContentString))
   .countItems()
@@ -885,11 +885,11 @@ val links = RecordLoader.loadArchives(&quot;/home/i2millig/warcbase/src/test/res
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.RecordLoader
 
-val r = RecordLoader.loadArchives(&quot;/collections/webarchives/geocities/warcs/*.warc.gz&quot;,sc).persist()
-ExtractPopularImages(r, 2000, sc).saveAsTextFile(&quot;2000-Popular-Images-Geocities14&quot;)
+val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;,sc).persist()
+ExtractPopularImages(r, 500, sc).saveAsTextFile(&quot;500-Popular-Images&quot;)
 </code></pre>
 
-<p>Will save the 2000 most popular URLs to an output directory.</p>
+<p>Will save the 500 most popular URLs to an output directory.</p>
 
 <h2 id="twitter-analysis">Twitter Analysis</h2>
 
