@@ -12,7 +12,7 @@ The World Wide Web has a profound impact on how we research and understand the p
 
 With the latest release of the Archives Unleashed Toolkit (AUT), the project team will be hosting a series of four datathons for archivists, researchers, librarians, computer scientists, and others to collaboratively work with web collections and explore cutting-edge research tools through hands on experience.
 
-The Archives Unleashed Project is pleased to announce the first datathon will take place at the **University of Toronto Robarts Library, April 26-27 2018.**
+The Archives Unleashed Project is pleased to announce the first datathon will take place at the **University of Toronto Robarts Library, 26-27 April 2018.**
 
 This event will bring together a small group of approximately 15 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. For more information on AUT and the Cloud, please visit http://archivesunleashed.org/. 
 
@@ -27,7 +27,7 @@ Check to see when Archives Unleashed will be near you…
 
 ## Travel Grants
 
-This event is possible thanks to the generous support of the Andrew W. Mellon Foundation, the University of Toronto Libraries, and the University of Waterloo’s Faculty of Arts. The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover up to $1,000 CAD in travel expenses. If you require financial assistance to attend the event, please indicate in your statement of interest that you would like to be considered for the travel grant.
+ This event is possible thanks to the generous support of the <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about">the University of Toronto Libraries </a>, and the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>. The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD in travel expenses**. If you require financial assistance to attend the event, please indicate in your statement of interest that you would like to be considered for the travel grant.
 
 ## Organizers
 
@@ -38,13 +38,15 @@ This event is possible thanks to the generous support of the Andrew W. Mellon Fo
 
 
 ## Sponsors
-|                                      |                                    |                                             |
-|:------------------------------------:|:----------------------------------:|---------------------------------------------|
-| ![alt text](/images/mellon-logo.png) | ![alt text](/images/uoft-logo.png) | ![alt text](/images/waterloo-arts-logo.png) |
+
+|                                              |                                    |                                             |
+|----------------------------------------------|------------------------------------|---------------------------------------------|
+| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 
 ## Submit
 
-Those interested in participating should submit the following  to the Archives Unleashed Team (archivesunleashed@gmail.com) by midnight on **5 February 2018**
+Those interested in participating should submit the following to the Archives Unleashed Team [archivesunleashed@gmail.com](mailto:archivesunleashed@gmail.com) by midnight (EST) on **5 February 2018**
+
 - a 250-word expression of interest;
 - a short one-page CV; and
 - indication of need for financial assistance to travel to event (if applicable)
@@ -62,5 +64,16 @@ This expression of interest should address your background and interests in web 
 
 
 ## Venue
+
+University of Toronto,
+<br>Robarts Library,
+<br>Blackburn Room (4036)</br>
+
+![Blackburn Room](/images/blackburn-room.png)<a href="robarts-library-floorplan.png">
+<div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Robarts Library, 130 St George St, Toronto, ON M5S 1A5&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></div><style>.mapouter{overflow:hidden;height:600px;width:700px;}.gmap_canvas {background:none!important;height:600px;width:700px;}</style></div>
+
+
+
+
 
 
