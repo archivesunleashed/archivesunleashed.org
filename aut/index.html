@@ -823,9 +823,9 @@ val links = RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
 
 <h3 id="exporting-to-gephi-directly">Exporting to Gephi Directly</h3>
 
-<p>You may want to export your data directly to the <a href="http://gephi.github.io/">Gephi software suite</a>, an open-soure network analysis project. The following code writes to the <a href="https://gephi.org/gexf/format/">GEXF format</a>:</p>
+<p>You may want to export your data directly to the <a href="http://gephi.github.io/">Gephi software suite</a>, an open-soure network analysis project. The following code writes to the GDF format:</p>
 
-<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
+<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
 val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
@@ -836,12 +836,12 @@ val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .countItems()
   .filter(r =&gt; r._2 &gt; 5)
 
-WriteGEXF(links, &quot;links-for-gephi.gexf&quot;)
+WriteGDF(links, &quot;links-for-gephi.gdf&quot;)
 </code></pre>
 
 <p>This file can then be directly opened by Gephi.</p>
 
-<p>We also support exporting to the GDF file format. You can replace <code>WriteGEXF</code> with <code>WriteGDF</code> in the script above.</p>
+<p>We also support exporting to the GEXF file format, which will be available in the next release (or you can build the project yourself to access it, or just e-mail <a href="Ian Milligan">mailto:i2millig@uwaterloo.ca</a> for help).</p>
 
 <h2 id="image-analysis">Image Analysis</h2>
 
