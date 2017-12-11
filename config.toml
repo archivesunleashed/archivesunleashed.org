@@ -78,6 +78,11 @@ googleAnalytics = "UA-2879197-28"
 	weight = 40
 
 [[menu.main]]
+	name   = "Toronto Datathon"
+	url    = "toronto/"
+	weight = 45
+
+[[menu.main]]
 	name   = "News (on Medium.com)"
 	url    = "https://news.archivesunleashed.org"
 	weight = 50
