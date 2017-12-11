@@ -10,6 +10,8 @@ weight: 45
 
 The World Wide Web has a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
 
+Web archives often contain hundreds of billions of web pages, ranging from individual homepages and social media posts, to institutional websites. These archives offer tremendous potential for social scientists and humanists, and the questions research may pose stretch across a multitude of fields. Scholars broaching topics dating back to the mid-1990s will find their projects enhanced by web data. Moreover, scholars hoping to study the evolution of cultural and societal phenomena will find a treasure trove of data in web archives. In short, web archives offer the ability to reconstruct large-scale traces of the relatively recent past.
+
 With the latest release of the Archives Unleashed Toolkit (AUT), the project team will be hosting a series of four datathons for archivists, researchers, librarians, computer scientists, and others to collaboratively work with web collections and explore cutting-edge research tools through hands on experience.
 
 The Archives Unleashed Project is pleased to announce the first datathon will take place at the **University of Toronto Robarts Library, 26-27 April 2018.**
