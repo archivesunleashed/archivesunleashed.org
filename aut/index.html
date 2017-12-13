@@ -376,13 +376,13 @@
 
 <h3 id="downloading-aut">Downloading AUT</h3>
 
-<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
+<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.12.0/aut-0.12.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
 
 <p>The following bash commands will download the jar and an example ARC file. You can also <a href="https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz">download the example ARC file here</a>.</p>
 
 <pre><code class="language-bash">mkdir aut
 cd aut
-curl -L &quot;https://github.com/archivesunleashed/aut/releases/download/aut-0.11.0/aut-0.11.0-fatjar.jar&quot; &gt; aut-0.11.0-fatjar.jar
+curl -L &quot;https://github.com/archivesunleashed/aut/releases/download/aut-0.12.0/aut-0.12.0-fatjar.jar&quot; &gt; aut-0.12.0-fatjar.jar
 # example arc file for testing
 curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz&quot; &gt; example.arc.gz
 </code></pre>
@@ -394,7 +394,7 @@ curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src
 <pre><code class="language-bash">curl -L &quot;http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz&quot; &gt; spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 cd spark-2.1.1-bin-hadoop2.6
-./bin/spark-shell --jars ../aut-0.11.0-fatjar.jar
+./bin/spark-shell --jars ../aut-0.12.0-fatjar.jar
 </code></pre>
 
 <blockquote>
@@ -841,9 +841,9 @@ val links = RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
 
 <h3 id="exporting-to-gephi-directly">Exporting to Gephi Directly</h3>
 
-<p>You may want to export your data directly to the <a href="http://gephi.github.io/">Gephi software suite</a>, an open-soure network analysis project. The following code writes to the GDF format:</p>
+<p>You may want to export your data directly to the <a href="http://gephi.github.io/">Gephi software suite</a>, an open-soure network analysis project. The following code writes to the GEXF format:</p>
 
-<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
+<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
 val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
@@ -854,12 +854,12 @@ val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
   .countItems()
   .filter(r =&gt; r._2 &gt; 5)
 
-WriteGDF(links, &quot;links-for-gephi.gdf&quot;)
+WriteGEXF(links, &quot;links-for-gephi.gdf&quot;)
 </code></pre>
 
 <p>This file can then be directly opened by Gephi.</p>
 
-<p>We also support exporting to the GEXF file format, which will be available in the next release (or you can build the project yourself to access it, or just e-mail <a href="Ian Milligan">mailto:i2millig@uwaterloo.ca</a> for help).</p>
+<p>We also support exporting to the GraphML format. To do so, swap <code>WriteGEXF</code> in the command above with <code>WriteGraphML</code>.</p>
 
 <h2 id="image-analysis">Image Analysis</h2>
 
