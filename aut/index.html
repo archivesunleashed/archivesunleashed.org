@@ -376,13 +376,13 @@
 
 <h3 id="downloading-aut">Downloading AUT</h3>
 
-<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.12.0/aut-0.12.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
+<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
 
 <p>The following bash commands will download the jar and an example ARC file. You can also <a href="https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz">download the example ARC file here</a>.</p>
 
 <pre><code class="language-bash">mkdir aut
 cd aut
-curl -L &quot;https://github.com/archivesunleashed/aut/releases/download/aut-0.12.0/aut-0.12.0-fatjar.jar&quot; &gt; aut-0.12.0-fatjar.jar
+curl -L &quot;https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar&quot; &gt; aut-0.12.1-fatjar.jar
 # example arc file for testing
 curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz&quot; &gt; example.arc.gz
 </code></pre>
@@ -393,8 +393,7 @@ curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src
 
 <pre><code class="language-bash">curl -L &quot;http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz&quot; &gt; spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
-cd spark-2.1.1-bin-hadoop2.6
-./bin/spark-shell --jars ../aut-0.12.0-fatjar.jar
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.12.1&quot;
 </code></pre>
 
 <blockquote>
@@ -434,7 +433,7 @@ have to <a href="https://stackoverflow.com/questions/21964709/how-to-set-or-chan
 <pre><code>import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 .keepValidPages()
 .map(r =&gt; ExtractDomain(r.getUrl))
 .countItems()
@@ -464,7 +463,7 @@ val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._ 
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
-val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc) 
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc) 
 .keepValidPages()
 .map(r =&gt; r.getUrl)
 .take(10)
@@ -475,7 +474,7 @@ val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc) 
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc) 
 .keepValidPages()
 .map(r =&gt; r.getUrl)
 .saveAsTextFile(&quot;/path/to/export/directory/&quot;)
@@ -489,7 +488,7 @@ val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
 val r = 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc) 
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc) 
 .keepValidPages() 
 .map(r =&gt; ExtractDomain(r.getUrl)) 
 .countItems() 
@@ -505,7 +504,7 @@ RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
  .keepValidPages()
  .flatMap(r =&gt; &quot;&quot;&quot;http://[^/]+/[^/]+/&quot;&quot;&quot;.r.findAllIn(r.getUrl).toList)
 </code></pre>
@@ -521,7 +520,7 @@ val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out/&quot;)
@@ -538,7 +537,7 @@ RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepDomains(Set(&quot;archive.org&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -566,7 +565,7 @@ RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader, ExtractBoilerpipeText}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepDomains(Set(&quot;archive.org&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(r.getContentString)))
@@ -586,7 +585,7 @@ import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepDate(&quot;20081004&quot;, YYYYMM)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -600,7 +599,7 @@ import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
 import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepDate(&quot;2015&quot;, YYYY)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -621,7 +620,7 @@ RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{RecordLoader, RemoveHTML}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 .keepValidPages()
 .keepDomains(Set(&quot;archive.org&quot;))
 .keepLanguages(Set(&quot;fr&quot;))
@@ -638,7 +637,7 @@ RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._ 
 import io.archivesunleashed.spark.rdd.RecordRDD._ 
 
-val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;,sc)
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;,sc)
 .keepValidPages()
 .keepContent(Set(&quot;archive&quot;.r))
 .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
@@ -697,7 +696,7 @@ ExtractEntities.extractFromScrapeText(&quot;english.all.3class.distsim.crf.ser.g
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .flatMap(r =&gt; ExtractLinks(r.getUrl, r.getContentString))
   .map(r =&gt; (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))
@@ -714,7 +713,7 @@ links.saveAsTextFile(&quot;links-all/&quot;)
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import StringUtils._
 
-val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .keepContent(Set(&quot;apple&quot;.r))
   .flatMap(r =&gt; ExtractLinks(r.getUrl, r.getContentString))
@@ -756,7 +755,7 @@ makes use of the <code>ExtractLinks</code> and <code>ExtractToLevelDomain</code>
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .map(r =&gt; (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r =&gt; r._2.map(f =&gt; (r._1, ExtractDomain(f._1).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;), ExtractDomain(f._2).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;))))
@@ -846,7 +845,7 @@ val links = RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .map(r =&gt; (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r =&gt; r._2.map(f =&gt; (r._1, ExtractDomain(f._1).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;), ExtractDomain(f._2).replaceAll(&quot;^\\s*www\\.&quot;, &quot;&quot;))))
@@ -872,7 +871,7 @@ WriteGEXF(links, &quot;links-for-gephi.gdf&quot;)
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
-val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
+val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .flatMap(r =&gt; ExtractImageLinks(r.getUrl, r.getContentString))
   .countItems()
@@ -903,7 +902,7 @@ val links = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;, sc)
 import io.archivesunleashed.spark.rdd.RecordRDD._
 import io.archivesunleashed.spark.matchbox.RecordLoader
 
-val r = RecordLoader.loadArchives(&quot;../example.arc.gz&quot;,sc).persist()
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;,sc).persist()
 ExtractPopularImages(r, 500, sc).saveAsTextFile(&quot;500-Popular-Images&quot;)
 </code></pre>
 
