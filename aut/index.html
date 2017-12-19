@@ -378,18 +378,17 @@
 
 <p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
 
-<p>The following bash commands will download the jar and an example ARC file. You can also <a href="https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz">download the example ARC file here</a>.</p>
+<p>The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also <a href="https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz">download the example ARC file here</a>.</p>
 
 <pre><code class="language-bash">mkdir aut
 cd aut
-curl -L &quot;https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar&quot; &gt; aut-0.12.1-fatjar.jar
 # example arc file for testing
 curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz&quot; &gt; example.arc.gz
 </code></pre>
 
 <h3 id="installing-spark-shell">Installing Spark shell</h3>
 
-<p>Download and unzip <a href="wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz">The Spark Shell</a> from the <a href="http://spark.apache.org/downloads.html">Apache Spark Website</a>.</p>
+<p>Remaining in the aut directory you created above, download and unzip <a href="wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz">The Spark Shell</a> from the <a href="http://spark.apache.org/downloads.html">Apache Spark Website</a>.</p>
 
 <pre><code class="language-bash">curl -L &quot;http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz&quot; &gt; spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
