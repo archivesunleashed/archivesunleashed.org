@@ -17,25 +17,25 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar). 
 
-The following bash commands will download the jar and an example ARC file. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
+The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
 ```bash
 mkdir aut
 cd aut
-curl -L "https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar" > aut-0.12.1-fatjar.jar
 # example arc file for testing
 curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz" > example.arc.gz
 ```
 
 ### Installing Spark shell
 
-Download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
+Remaining in the aut directory you created above, download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
 ```bash
 curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 ./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages "io.archivesunleashed:aut:0.12.1"
 ```
+
 > If for some reason you get `Failed to initialize compiler: 
 > object scala.runtime in compiler mirror not found.` error, 
 > this probably means the .jar file did not download properly.
