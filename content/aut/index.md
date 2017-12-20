@@ -513,7 +513,7 @@ val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .countItems()
   .filter(r => r._2 > 5)
 
-WriteGEXF(links, "links-for-gephi.gdf")
+WriteGEXF(links, "links-for-gephi.gexf")
 ```
 
 This file can then be directly opened by Gephi.
