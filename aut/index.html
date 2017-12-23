@@ -823,7 +823,7 @@ RecordLoader.loadArchives(&quot;/path/to/arc&quot;, sc)
 
 <p>In this case, you would only receive links coming from websites in matching the URL pattern listed under <code>keepUrlPatterns</code>.</p>
 
-<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
+<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
 val links = RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
