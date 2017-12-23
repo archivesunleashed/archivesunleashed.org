@@ -483,7 +483,7 @@ Its output looks like:
 In this case, you would only receive links coming from websites in matching the URL pattern listed under `keepUrlPatterns`.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGDF}
+import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
 import io.archivesunleashed.spark.rdd.RecordRDD._
 
 val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
