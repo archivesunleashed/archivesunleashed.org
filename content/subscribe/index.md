@@ -1,7 +1,6 @@
 ---
 title: "Subscribe"
 date: 2018-01-02T13:37:38-05:00
-draft: true
 weight: 55
 ---
 
