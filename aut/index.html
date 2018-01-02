@@ -319,6 +319,24 @@
 </li>
 
 
+
+<li>
+  
+    
+
+
+
+<a  title="Subscribe" href="http://archivesunleashed.org/subscribe/">
+	
+	Subscribe
+</a>
+
+
+
+  
+</li>
+
+
         </ul>
         
 
@@ -373,6 +391,22 @@
 <p>The Archives Unleashed Toolkit is an open-source platform for managing web archives built on <a href="https://hadoop.apache.org/">Hadoop</a>. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via <a href="http://spark.apache.org/">Spark</a>.</p>
 
 <h2 id="getting-started">Getting Started</h2>
+
+<h3 id="dependencies">Dependencies</h3>
+
+<p>The Archives Unleashed Toolkit requires Java.</p>
+
+<p>For Mac OS: You can find information on Java <a href="https://java.com/en/download/help/mac_install.xml">here</a>, or install with <a href="brew.sh">homebrew</a> and then:</p>
+
+<pre><code>brew cask install java8
+</code></pre>
+
+<p>For Linux: You can install Java using apt:</p>
+
+<pre><code>apt install openjdk-8-jdk
+</code></pre>
+
+<p>Before Spark Shell can launch, JAVA_HOME must be set. If you recieve an error that JAVA_HOME is not set, you need to point it to where Java is installed. On Linux, this might be <code>export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64</code> or on Mac OS it might be <code>export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home</code>.</p>
 
 <h3 id="downloading-aut">Downloading AUT</h3>
 
@@ -1058,7 +1092,7 @@ val json = parse(sampleTweet)
 
       <aside class="copyright" role="note">
         
-        CC-BY 2017 &vert;
+        CC-BY 2018 &vert;
         
         <a href="https://github.com/archivesunleashed/archivesunleashed.org" target="_blank">Site</a> built with
         <a href="https://www.gohugo.io" target="_blank">Hugo</a>

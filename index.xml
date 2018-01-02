@@ -42,7 +42,7 @@ The Archives Unleashed Cloud is under construction. We&amp;rsquo;ll have more in
       <guid>http://archivesunleashed.org/aut/</guid>
       <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on Hadoop. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
-Getting Started Downloading AUT The Archives Unleashed Toolkit can be downloaded as a JAR file for easy use.</description>
+Getting Started Dependencies The Archives Unleashed Toolkit requires Java.</description>
     </item>
     
     <item>
@@ -90,13 +90,23 @@ Web archives often contain hundreds of billions of web pages, ranging from indiv
     </item>
     
     <item>
+      <title>Subscribe</title>
+      <link>http://archivesunleashed.org/subscribe/</link>
+      <pubDate>Tue, 02 Jan 2018 13:37:38 -0500</pubDate>
+      
+      <guid>http://archivesunleashed.org/subscribe/</guid>
+      <description>Interested in hearing about the latest Archives Unleashed Project updates? Subscribe to our quarterly newsletter!
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } /* Add your own MailChimp form style overrides in your site stylesheet or in this style block. We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. /  Subscribe to the Archives Unleashed Newsletter &amp;amp; Mailing List  indicates required Email Address *   First Name   Last Name           (function($) {window.</description>
+    </item>
+    
+    <item>
       <title>Welcome to the Archives Unleashed Project</title>
       <link>http://archivesunleashed.org/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
       <guid>http://archivesunleashed.org/</guid>
       <description>Welcome Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the Andrew W. Mellon Foundation, we will be developing web archive search and data analysis tools to enable scholars and librarians to access, share, and investigate recent history since the early days of the World Wide Web.
-Interested in the project? Follow the links at left, for information about the project, the Archives Unleashed Cloud, Archives Unleashed Toolkit, or our events.</description>
+Interested in the project? Subscribe to our mailing list!</description>
     </item>
     
   </channel>
