@@ -13,6 +13,24 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ## Getting Started
 
+### Dependencies
+
+The Archives Unleashed Toolkit requires Java. 
+
+For Mac OS: You can find information on Java [here](https://java.com/en/download/help/mac_install.xml), or install with [homebrew](brew.sh) and then:
+
+```
+brew cask install java8
+```
+
+For Linux: You can install Java using apt:
+
+```
+apt install openjdk-8-jdk
+```
+
+Before Spark Shell can launch, JAVA_HOME must be set. If you recieve an error that JAVA_HOME is not set, you need to point it to where Java is installed. On Linux, this might be `export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64` or on Mac OS it might be `export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_74.jdk/Contents/Home`.
+
 ### Downloading AUT
 
 The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar). 
