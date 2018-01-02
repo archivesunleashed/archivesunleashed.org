@@ -87,6 +87,11 @@ googleAnalytics = "UA-2879197-28"
 	url    = "https://news.archivesunleashed.org"
 	weight = 50
 
+[[menu.main]]
+	name   = "Subscribe"
+	url    = "subscribe/"
+	weight = 55
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
