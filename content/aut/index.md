@@ -13,6 +13,10 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ## Getting Started
 
+### Quick Start
+
+If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.12.0 with `docker run --rm -it archivesunleashed/docker-aut:0.12.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
+
 ### Dependencies
 
 The Archives Unleashed Toolkit requires Java. 
