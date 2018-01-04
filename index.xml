@@ -42,7 +42,7 @@ The Archives Unleashed Cloud is under construction. We&amp;rsquo;ll have more in
       <guid>http://archivesunleashed.org/aut/</guid>
       <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on Hadoop. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
-Getting Started Dependencies The Archives Unleashed Toolkit requires Java.</description>
+Getting Started Quick Start If you don&amp;rsquo;t want to install all the dependencies locally, you can use docker-aut.</description>
     </item>
     
     <item>
