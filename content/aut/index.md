@@ -107,7 +107,9 @@ That means you're up and running!
 
 ### A Note on Memory
 
-As your datasets grow, you may need to provide more memory to Spark shell. If you're running locally, you can pass it in your startup command like this:
+As your datasets grow, you may need to provide more memory to Spark shell. You'll know this if you get an error saying that you have run out of "Java Heap Space." 
+
+If you're running locally, you can pass it in your startup command like this:
 
 ```
 ./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.1"
