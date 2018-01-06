@@ -48,7 +48,7 @@ cd aut
 curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz" > example.arc.gz
 ```
 
-### Installing Spark shell
+### Installing and Running Spark shell
 
 Remaining in the aut directory you created above, download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
@@ -57,11 +57,6 @@ curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > s
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 ./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages "io.archivesunleashed:aut:0.12.1"
 ```
-
-> If for some reason you get `Failed to initialize compiler: 
-> object scala.runtime in compiler mirror not found.` error, 
-> this probably means the .jar file did not download properly.
-> Try downloading it directly from our [releases page](https://github.com/archivesunleashed/aut/releases/)
 
 You should have the spark shell ready and running.
 
@@ -80,7 +75,7 @@ Type :help for more information.
 scala>
 ```
 
-> If you recently upgraded your Mac OS X, your java version may not be correct in terminal.  You will 
+> If you recently upgraded your MacOS, your java version may not be correct in terminal.  You will 
 > have to [change the path to the latest version in your ./bash_profile file.](https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x).
 
 ### Test the Archives Unleashed Toolkit
@@ -106,12 +101,19 @@ If you see:
 
 ```
 r: Array[(String, Int)] = Array((www.archive.org,132), (deadlists.com,2), (www.hideout.com.br,1))
-
 ```
 
 That means you're up and running!
 
-You should now be able to try out the toolkit's many tutorials. 
+### A Note on Memory
+
+As your datasets grow, you may need to provide more memory to Spark shell. If you're running locally, you can pass it in your startup command like this:
+
+```
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.1"
+```
+
+In the above case, you give Spark 4GB of memory to execute the program.
 
 ## Collection Analytics
 
