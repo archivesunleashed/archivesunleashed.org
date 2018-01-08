@@ -621,7 +621,7 @@ RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 
 <h3 id="plain-text-filtered-by-date">Plain text filtered by date</h3>
 
-<p>AUT permits you to filter records by a full or partial date string. It conceives
+<p>AUT permits you to filter records by a list of full or partial date strings. It conceives
 of the date string as a <code>DateComponent</code>. Use <code>keepDate</code> to specify the year (<code>YYYY</code>), month (<code>MM</code>),
 day (<code>DD</code>), year and month (<code>YYYYMM</code>), or a particular year-month-day (<code>YYYYMMDD</code>).</p>
 
@@ -634,7 +634,7 @@ import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
 RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDate(&quot;20081004&quot;, YYYYMM)
+  .keepDate(List(&quot;20081004&quot;), YYYYMM)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out/&quot;)
 </code></pre>
@@ -648,7 +648,21 @@ import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
 RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDate(&quot;2015&quot;, YYYY)
+  .keepDate(List(&quot;2015&quot;), YYYY)
+  .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .saveAsTextFile(&quot;out2/&quot;)
+</code></pre>
+
+<p>Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2013 and 2015.</p>
+
+<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.RecordLoader
+import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
+import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
+
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
+  .keepValidPages()
+  .keepDate(List(&quot;2013&quot;,&quot;2015&quot;), YYYY)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out2/&quot;)
 </code></pre>
