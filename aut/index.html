@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>The Archives Unleashed Toolkit - The Archives Unleashed Project</title>
-    <meta name="generator" content="Hugo 0.30.2" />
+    <meta name="generator" content="Hugo 0.28" />
 
     
     <link rel="canonical" href="http://archivesunleashed.org/aut/">
@@ -424,7 +424,7 @@ cd aut
 curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz&quot; &gt; example.arc.gz
 </code></pre>
 
-<h3 id="installing-spark-shell">Installing Spark shell</h3>
+<h3 id="installing-and-running-spark-shell">Installing and Running Spark shell</h3>
 
 <p>Remaining in the aut directory you created above, download and unzip <a href="wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz">The Spark Shell</a> from the <a href="http://spark.apache.org/downloads.html">Apache Spark Website</a>.</p>
 
@@ -432,13 +432,6 @@ curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
 ./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.12.1&quot;
 </code></pre>
-
-<blockquote>
-<p>If for some reason you get <code>Failed to initialize compiler: 
-object scala.runtime in compiler mirror not found.</code> error,
-this probably means the .jar file did not download properly.
-Try downloading it directly from our <a href="https://github.com/archivesunleashed/aut/releases/">releases page</a></p>
-</blockquote>
 
 <p>You should have the spark shell ready and running.</p>
 
@@ -457,7 +450,7 @@ scala&gt;
 </code></pre>
 
 <blockquote>
-<p>If you recently upgraded your Mac OS X, your java version may not be correct in terminal.  You will
+<p>If you recently upgraded your MacOS, your java version may not be correct in terminal.  You will
 have to <a href="https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x">change the path to the latest version in your ./bash_profile file.</a>.</p>
 </blockquote>
 
@@ -482,12 +475,29 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 <p>If you see:</p>
 
 <pre><code>r: Array[(String, Int)] = Array((www.archive.org,132), (deadlists.com,2), (www.hideout.com.br,1))
-
 </code></pre>
 
 <p>That means you&rsquo;re up and running!</p>
 
-<p>You should now be able to try out the toolkit&rsquo;s many tutorials.</p>
+<h3 id="a-note-on-memory">A Note on Memory</h3>
+
+<p>As your datasets grow, you may need to provide more memory to Spark shell. You&rsquo;ll know this if you get an error saying that you have run out of &ldquo;Java Heap Space.&rdquo;</p>
+
+<p>If you&rsquo;re running locally, you can pass it in your startup command like this:</p>
+
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.12.1&quot;
+</code></pre>
+
+<p>In the above case, you give Spark 4GB of memory to execute the program.</p>
+
+<p>In some other cases, despite giving AUT sufficient memory, you may still encounter Java Heap Space issues. In those cases, it is worth trying to lower the number of worker threads. When running locally (i.e. on a single laptop, desktop, or server), by default AUT runs a number of threads equivalent to the number of cores in your machine.</p>
+
+<p>On a 16-core machine, you may want to drop to 12 cores if you are having memory issues. This will increase stability but decrease performance a bit.</p>
+
+<p>You can do so like this (example is using 12 threads on a 16-core machine):</p>
+
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.12.1&quot;
+</code></pre>
 
 <h2 id="collection-analytics">Collection Analytics</h2>
 
