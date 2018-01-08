@@ -117,6 +117,16 @@ If you're running locally, you can pass it in your startup command like this:
 
 In the above case, you give Spark 4GB of memory to execute the program.
 
+In some other cases, despite giving AUT sufficient memory, you may still encounter Java Heap Space issues. In those cases, it is worth trying to lower the number of worker threads. When running locally (i.e. on a single laptop, desktop, or server), by default AUT runs a number of threads equivalent to the number of cores in your machine.
+
+On a 16-core machine, you may want to drop to 12 cores if you are having memory issues. This will increase stability but decrease performance a bit.
+
+You can do so like this (example is using 12 threads on a 16-core machine):
+
+```
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.1"
+```
+
 ## Collection Analytics
 
 You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? 
