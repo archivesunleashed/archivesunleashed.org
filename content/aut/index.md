@@ -257,7 +257,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 
 ### Plain text filtered by date
 
-AUT permits you to filter records by a full or partial date string. It conceives
+AUT permits you to filter records by a list of full or partial date strings. It conceives
 of the date string as a `DateComponent`. Use `keepDate` to specify the year (`YYYY`), month (`MM`),
 day (`DD`), year and month (`YYYYMM`), or a particular year-month-day (`YYYYMMDD`).
 
@@ -271,7 +271,7 @@ import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDate("20081004", YYYYMM)
+  .keepDate(List("20081004"), YYYYMM)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out/")
 ```
@@ -286,7 +286,22 @@ import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDate("2015", YYYY)
+  .keepDate(List("2015"), YYYY)
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .saveAsTextFile("out2/")
+```
+
+Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2013 and 2015.
+
+```scala
+import io.archivesunleashed.spark.matchbox.RecordLoader
+import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
+import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
+
+RecordLoader.loadArchives("example.arc.gz", sc)
+  .keepValidPages()
+  .keepDate(List("2013","2015"), YYYY)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out2/")
 ```
