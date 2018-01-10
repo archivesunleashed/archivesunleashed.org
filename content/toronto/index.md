@@ -60,7 +60,7 @@ This expression of interest should address your background and interests in web 
 |                   |                               |
 |:-----------------:|:-----------------------------:|
 | December 11, 2017 | Call for Participation        |
-| January 5, 2018   | Second Call for Participation |
+| January 15, 2018   | Second Call for Participation |
 | February 5, 2018  | Submissions Due               |
 | February 19       | Participants Notified         | 
 
