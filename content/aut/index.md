@@ -392,6 +392,10 @@ Site link structures can be very useful, allowing you to learn such things as:
 - what paths could be taken through the network to connect pages;  
 - what communities existed within the link structure?  
 
+Most of the following examples show the **domain** to **domain** links. For example, you discover how many times that `liberal.ca` linked to `twitter.com`, rather than learning that `http://liberal.ca/contact` linked to `http://twitter.com/liberal_party`. The reason we do that is that in general, if you are working with any data at scale, the sheer number of raw URLs can become overwhlming. 
+
+We do provide one example below that provides raw data, however.
+
 ### Extraction of Simple Site Link Structure
 
 If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure. In this case, it is loading all WARCs stored in an example collection of GeoCities files.
@@ -430,6 +434,26 @@ val links = RecordLoader.loadArchives("example.arc.gz", sc)
 
 links.saveAsTextFile("links-all/")
 ```
+
+### Extraction of a Link Structure, using Raw URLs (not domains)
+
+This following script extracts all of the hyperlink relationships between sites, using the full URL pattern.
+
+```scala
+import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RemoveHTML, RecordLoader, WriteGEXF}
+import io.archivesunleashed.spark.rdd.RecordRDD._
+
+val links = RecordLoader.loadArchives("example.arc.gz", sc)
+  .keepValidPages()
+  .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
+  .filter(r => r._1 != "" && r._2 != "")
+  .countItems()
+  .filter(r => r._2 > 5)
+
+links.saveAsTextFile("full-links-all/")
+```
+
+You can see that the above was achieved by removing the `.map(r => (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))` line.
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
