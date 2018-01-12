@@ -392,13 +392,13 @@ Site link structures can be very useful, allowing you to learn such things as:
 - what paths could be taken through the network to connect pages;  
 - what communities existed within the link structure?  
 
-Most of the following examples show the **domain** to **domain** links. For example, you discover how many times that `liberal.ca` linked to `twitter.com`, rather than learning that `http://liberal.ca/contact` linked to `http://twitter.com/liberal_party`. The reason we do that is that in general, if you are working with any data at scale, the sheer number of raw URLs can become overwhlming. 
+Most of the following examples show the **domain** to **domain** links. For example, you discover how many times that `liberal.ca` linked to `twitter.com`, rather than learning that `http://liberal.ca/contact` linked to `http://twitter.com/liberal_party`. The reason we do that is that in general, if you are working with any data at scale, the sheer number of raw URLs can become overwhelming. 
 
 We do provide one example below that provides raw data, however.
 
 ### Extraction of Simple Site Link Structure
 
-If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure. In this case, it is loading all WARCs stored in an example collection of GeoCities files.
+If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure. 
 
 ```scala
 import io.archivesunleashed.spark.matchbox._
