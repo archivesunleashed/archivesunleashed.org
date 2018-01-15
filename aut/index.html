@@ -749,9 +749,13 @@ ExtractEntities.extractFromScrapeText(&quot;english.all.3class.distsim.crf.ser.g
 <li>what communities existed within the link structure?<br /></li>
 </ul>
 
+<p>Most of the following examples show the <strong>domain</strong> to <strong>domain</strong> links. For example, you discover how many times that <code>liberal.ca</code> linked to <code>twitter.com</code>, rather than learning that <code>http://liberal.ca/contact</code> linked to <code>http://twitter.com/liberal_party</code>. The reason we do that is that in general, if you are working with any data at scale, the sheer number of raw URLs can become overwhelming.</p>
+
+<p>We do provide one example below that provides raw data, however.</p>
+
 <h3 id="extraction-of-simple-site-link-structure">Extraction of Simple Site Link Structure</h3>
 
-<p>If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure. In this case, it is loading all WARCs stored in an example collection of GeoCities files.</p>
+<p>If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure.</p>
 
 <pre><code class="language-scala">import io.archivesunleashed.spark.matchbox._
 import io.archivesunleashed.spark.rdd.RecordRDD._
@@ -785,6 +789,25 @@ val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 
 links.saveAsTextFile(&quot;links-all/&quot;)
 </code></pre>
+
+<h3 id="extraction-of-a-link-structure-using-raw-urls-not-domains">Extraction of a Link Structure, using Raw URLs (not domains)</h3>
+
+<p>This following script extracts all of the hyperlink relationships between sites, using the full URL pattern.</p>
+
+<pre><code class="language-scala">import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RemoveHTML, RecordLoader, WriteGEXF}
+import io.archivesunleashed.spark.rdd.RecordRDD._
+
+val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
+  .keepValidPages()
+  .flatMap(r =&gt; ExtractLinks(r.getUrl, r.getContentString))
+  .filter(r =&gt; r._1 != &quot;&quot; &amp;&amp; r._2 != &quot;&quot;)
+  .countItems()
+  .filter(r =&gt; r._2 &gt; 5)
+
+links.saveAsTextFile(&quot;full-links-all/&quot;)
+</code></pre>
+
+<p>You can see that the above was achieved by removing the <code>.map(r =&gt; (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))</code> line.</p>
 
 <h3 id="extraction-of-a-site-link-structure-organized-by-url-pattern">Extraction of a Site Link Structure, organized by URL pattern</h3>
 
