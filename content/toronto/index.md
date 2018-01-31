@@ -47,7 +47,7 @@ Check to see when Archives Unleashed will be near you…
 
 ## Submit
 
-Those interested in participating should submit the following to the Archives Unleashed Team [archivesunleashed@gmail.com](mailto:archivesunleashed@gmail.com) by midnight (EST) on **5 February 2018**
+Those interested in participating should submit the following to the Archives Unleashed Team [archivesunleashed@gmail.com](mailto:archivesunleashed@gmail.com) by midnight (EST) on **9 February 2018** (deadline extension).
 
 - a 250-word expression of interest;
 - a short one-page CV; and
@@ -60,9 +60,10 @@ This expression of interest should address your background and interests in web 
 |                   |                               |
 |:-----------------:|:-----------------------------:|
 | December 11, 2017 | Call for Participation        |
-| January 15, 2018   | Second Call for Participation |
-| February 5, 2018  | Submissions Due               |
-| February 19       | Participants Notified         | 
+| January 5, 2018   | Second Call for Participation |
+| <s>February 5, 2018</s>  | <s>Submissions Due</s>               |
+| February 9, 2018       | Submissions Due (Extension)               |
+| February 19, 2018       | Participants Notified         |
 
 
 ## Venue
