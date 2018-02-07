@@ -4,9 +4,13 @@ title: The Archives Unleashed Cloud
 weight: 20
 ---
 
-![Rare books](/images/library.jpg)
-*Thomas Fisher Rare Books Library, Toronto, photo by Ian Milligan.*
-
 {{< warning title="Under construction!" >}}
-The Archives Unleashed Cloud is under construction. We'll have more information here soon.
+The Archives Unleashed Cloud is under construction --- but here's a sneak peak! We'll have more information here soon.
 {{< /warning >}}
+
+The Archives Unleashed Cloud makes the [Archives Unleashed Toolkit](/aut) more accessible. It is a web-based front end that allows users to access their web archival collections and analyze them with AUT using a web-based interface. 
+
+Interested in the Archives Unleashed Cloud? [Check out our repository](https://github.com/archivesunleashed/auk) or you can see some screenshots below. 
+
+![Cloud portal](/images/portal.png)
+![Cloud collections](/images/collections.png)
