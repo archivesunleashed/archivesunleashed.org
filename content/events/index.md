@@ -8,9 +8,9 @@ weight: 40
 
 ![Material Screenshot](/images/Toronto-SAVEDATE1.png)
 
-**The Archives Unleashed team is pleased to announce our first datathon will be hosted in partnership with the University of Toronto Libraries this spring! Save the date for 26-27 April 2018.**
+**The Archives Unleashed team is pleased to announce our first datathon will be hosted in partnership with the University of Toronto Libraries this spring! It will be held 26-27 April 2018.**
 
-Watch this space for the call for participation to follow in early December.
+Please visit the [Toronto event page](/toronto) for more information.
 
 ## About our Datathons
 
