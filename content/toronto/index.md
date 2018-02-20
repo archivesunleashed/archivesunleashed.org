@@ -18,6 +18,10 @@ The Archives Unleashed Project is pleased to announce the first datathon will ta
 
 This event will bring together a small group of approximately 15 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. For more information on AUT and the Cloud, please visit http://archivesunleashed.org/. 
 
+
+## Submissions
+
+Submissions for the April 26-27 Toronto Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation. 
 Check to see when Archives Unleashed will be near you… 
 
 |        Date       |         Location         |
@@ -26,10 +30,6 @@ Check to see when Archives Unleashed will be near you…
 | Late October 2018 | Canada West Coast        |
 | May 2019          | United States East Coast |
 | November 2019     | United States West Coast |
-
-## Travel Grants
-
- This event is possible thanks to the generous support of the <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about">the University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>, [York University Libraries](https://www.library.yorku.ca/web/), [Compute Canada](https://www.computecanada.ca), and [Start Smart Labs](http://www.startsmartlabs.com). The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD in travel expenses**. If you require financial assistance to attend the event, please indicate in your statement of interest that you would like to be considered for the travel grant.
 
 ## Organizers
 
@@ -41,42 +41,74 @@ Check to see when Archives Unleashed will be near you…
 
 ## Sponsors
 
+This event is possible thanks to the generous support of <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about"> the University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>, <a href="https://www.library.yorku.ca/web/York" University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada </a> , and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
+
 |                                              |                                    |                                             |
 |----------------------------------------------|------------------------------------|---------------------------------------------|
-| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
-
-## Submit
-
-Those interested in participating should submit the following to the Archives Unleashed Team [archivesunleashed@gmail.com](mailto:archivesunleashed@gmail.com) by midnight (EST) on **9 February 2018** (deadline extension).
-
-- a 250-word expression of interest;
-- a short one-page CV; and
-- indication of need for financial assistance to travel to event (if applicable)
-
-This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
-
-**Important Dates**
-
-|                   |                               |
-|:-----------------:|:-----------------------------:|
-| December 11, 2017 | Call for Participation        |
-| January 5, 2018   | Second Call for Participation |
-| <s>February 5, 2018</s>  | <s>Submissions Due</s>               |
-| February 9, 2018       | Submissions Due (Extension)               |
-| February 19, 2018       | Participants Notified         |
+| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo) | ![alt text](images/yorku-logo.png) |
 
 
-## Venue
+## Venue 
 
-University of Toronto,
-<br>Robarts Library,
-<br>Blackburn Room (4036)</br>
+University of Toronto, John P. Robarts Research Library, Blackburn Room (4036)
+![Blackburn Room](/images/blackburn-room.png)
 
-![Blackburn Room](/images/blackburn-room.png)<a href="robarts-library-floorplan.png">
-<div class="mapouter"><div class="gmap_canvas"><iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Robarts Library, 130 St George St, Toronto, ON M5S 1A5&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></div><style>.mapouter{overflow:hidden;height:600px;width:700px;}.gmap_canvas {background:none!important;height:600px;width:700px;}</style></div>
+## Travel to Toronto
 
+The AUT team has put together some helpful information and resources to help with your travel plans.
 
+![Accommodations](/images/accommodations.png)
 
+While there is no designated hotel the datathon will be using, we have highlighted some options close to the University of Toronto. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
 
+Staying to Toronto doesn’t have to be expensive, which is why we like to use some of the following aggregators to compare hotel rates:
 
+* [Airbnb](http://airbnb.com/) (great option to find reasonably priced accommodations)
+* [Kayak](https://www.ca.kayak.com/)
+* [Expedia](https://www.expedia.ca/)
+* [Trivago](https://www.trivago.ca/)
+* [Travelocity](https://www.travelocity.ca/)
 
+There are also a few hotel options listed here:
+
+| Accommodation Option                                                                                          | Average Cost    | Distance to Robarts Library |
+|---------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------|
+| [Downtown Home Inn](http://www.downtownhomeinn.com/index.html)                                                | Avg. $85-145 CND     | Approx. 1.7km               |
+| [Holiday Inn Toronto Downtown Centre](https://www.ihg.com/holidayinn/hotels/us/en/toronto/yyzct/hoteldetail ) | Starts $190 CND | Approx. 2km                 |
+| [Chelsea Hotel](http://www.chelseatoronto.com/en/)                                                            | Avg. $270 CND   | Approx. 2km                 |
+
+![Airports](/images/airports.png)
+
+For guests that are flying into Toronto there are two main airports, one located downtown and one located outside of the city centre. 
+
+[**Toronto Pearson International Airport | YYZ**](http://www.torontopearson.com/) - located approximately 30 km away from downtown, there are a few options for getting to the downtown core:
+
+* [Union Pearson Express Train](https://www.upexpress.com/) – Probably the easiest and most cost efficient way of getting to downtown. The train takes approximately 25 minutes and leaves every 15 minutes, with an adult return ticket of $25CND. You will take the UPExpress to Union Station (downtown). 
+
+* [Taxis](http://www.torontopearson.com/en/toandfrom/taxilimo/#) to downtown Toronto are available outside both airport terminals. A taxi will run about $60 CND+, but be sure to confirm fare with driver before you leave.
+
+* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) To make things a little simpler, we've provided a link to the TTC trip planner. There are a variety of options for transit including the subway, buses and streetcars. A cash single fare purchase will run $3.25CND; additional information about [TTC fares](https://www.ttc.ca/Fares_and_passes/Prices/Prices.jsp)
+
+[**Billy Bishop Toronto City Airport | YTZ**](http://www.torontoport.com/Airport/Getting-To.aspx) via [Porter Airline](https://www.flyporter.com/) - located downtown Toronto. It’s called the island airport, because the tarmac is quite literally on an island. Once you arrive just follow the signs to reach the airport exit. A complimentary shuttle is available from Billy Bishop to downtown with stops located along major subway routes. 
+
+* You can also book with [Aeroport Taxi](http://www.aeroporttaxi.com/billy-bishop-airport-taxi/) 
+ 
+![Downtown Transit](/images/transit.png)
+While you are in Toronto there are a few ways to get around, but ultimately it will depend on how close you are to campus. The Robarts Library is part of the University of Toronto's St. George Campus. 
+
+* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) If you are taking subway Line 1, St. George Station is the closest stop to the Robarts Library. 
+* Parking (Green P) - You can check out [Toronto’s Parking Authority Website](parking.green.com) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
+
+![Attractions](/images/attractions.png)
+For those adventurers who’d like to check out Toronto attractions, you may want to check out the [City of Toronto Tourism Website](http://www.seetorontonow.com). Some of our favourite spots to visit include: 
+
+* [Royal Ontario Museum](https://www.rom.on.ca/en)
+* [Queen’s Park](http://www.ontla.on.ca/lao/en/coming-to-queens-park/)
+* [CN Tower](http://www.cntower.ca/intro.html)
+* [Kensington Market](http://www.kensington-market.ca/Default.asp?id=home&l=1)
+* [Art Gallery of Ontario](https://ago.ca)
+* [TIFF Bell Lightbox](https://www.tiff.net/visit/)
+
+For those new to the city, we've created this datathon specific map to help you find your way around, including some nearby amenities. We will be updating the map over the next few weeks.
+
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="640" height="480"></iframe>
