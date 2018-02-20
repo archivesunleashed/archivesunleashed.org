@@ -31,10 +31,6 @@ Check to see when Archives Unleashed will be near you…
 | May 2019          | United States East Coast |
 | November 2019     | United States West Coast |
 
-## Travel Grants
-
- This event is possible thanks to the generous support of the <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about">the University of Toronto Libraries </a>, and the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>. The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD in travel expenses**. If you require financial assistance to attend the event, please indicate in your statement of interest that you would like to be considered for the travel grant.
-
 ## Organizers
 
 * Ian Milligan (University of Waterloo)
@@ -45,6 +41,7 @@ Check to see when Archives Unleashed will be near you…
 
 ## Sponsors
 
+This event is possible thanks to the generous support of <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about"> the University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>, < a href="https://www.library.yorku.ca/web/York" University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada </a> , and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
 |                                              |                                    |                                             |
 |----------------------------------------------|------------------------------------|---------------------------------------------|
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo) | ![alt text](images/yorku-logo.png) |
