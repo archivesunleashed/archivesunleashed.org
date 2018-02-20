@@ -41,7 +41,7 @@ Check to see when Archives Unleashed will be near you…
 
 ## Sponsors
 
-This event is possible thanks to the generous support of <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about"> the University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>, < a href="https://www.library.yorku.ca/web/York" University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada </a> , and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
+This event is possible thanks to the generous support of <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about"> the University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>, <a href="https://www.library.yorku.ca/web/York" University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada </a> , and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
 
 |                                              |                                    |                                             |
 |----------------------------------------------|------------------------------------|---------------------------------------------|
