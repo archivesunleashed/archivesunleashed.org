@@ -65,13 +65,13 @@ While there is no designated hotel the datathon will be using, we have highlight
 
 Staying to Toronto doesn’t have to be expensive, which is why we like to use some of the following aggregators to compare hotel rates:
 
-* Airbnb (great option to find reasonably priced accommodations)
-* Kayak
-* Expedia
-* Trivago
-* Travelocity
+* [Airbnb](http://airbnb.com/) (great option to find reasonably priced accommodations)
+* [Kayak](https://www.ca.kayak.com/)
+* [Expedia](https://www.expedia.ca/)
+* [Trivago](https://www.trivago.ca/)
+* [Travelocity](https://www.travelocity.ca/)
 
-
+There are also a few hotel options listed here:
 
 | Accommodation Option                                                                                          | Average Cost    | Distance to Robarts Library |
 |---------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------|
