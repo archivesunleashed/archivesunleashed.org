@@ -130,7 +130,7 @@ You can do so like this (example is using 12 threads on a 16-core machine):
 If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
 
 ```
-/home/ubuntu/aut/spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.12.1"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.12.1"
 ```
 
 ## Collection Analytics
