@@ -127,6 +127,12 @@ You can do so like this (example is using 12 threads on a 16-core machine):
 ./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.1"
 ```
 
+If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
+
+```
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.12.1"
+```
+
 ## Collection Analytics
 
 You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? 
