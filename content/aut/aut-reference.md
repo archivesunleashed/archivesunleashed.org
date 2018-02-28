@@ -1,14 +1,8 @@
----
-title: "Aut Reference"
-date: 2018-02-28T14:57:14-05:00
-draft: false
----
-
 # Archives Unleashed Library
 
-The Archives Unleashed Toolkit (AUT) is a collection of tools for filtering, aggregating, analyzing and
-visualizing web archive data. The primary structure is contained in three
-folders: the Archive Record Class, Matchbox, RDD Tools, and Utilities.
+AUT is a collection of tools for filtering, aggregating, analyzing and
+visualizing web archive data. The primary structure is contained in four
+folders -- The Archive Record Class, Matchbox, RDD Tools, and Utilities.
 
 ## The Archive Record Class
 
@@ -20,7 +14,7 @@ folders: the Archive Record Class, Matchbox, RDD Tools, and Utilities.
 
 The `ArchiveRecord` class is used by `RecordLoader` to manage the ingestion of
 WARC and ARC files.  It represents one record from a collection found in an .arc
-or .warc file. It uses the ARCRecord & WARCRecord apis to extract data from
+or .warc file. It uses the Internet Archive's ARCRecord & WARCRecord apis to extract data from
 webcrawls such as the crawl date, content strings, urls and so on.
 
 `ArchiveRecord` is a generic record that covers data from both ARCRecord and
@@ -70,7 +64,7 @@ from a full url (www.example.com/additional/file/path/info).  If desired, an add
 can be passed to the function as a default for the case the url input returns `null`.
 - `ExtractEntities
     * (iNerClassifierFile: String, inputRecordFile: String, outputFile: String, sc: SparkContext)` : Conduct [Named Entity Recogition](https://nlp.stanford.edu/software/CRF-NER.html) classification on a WARC or ARC record using the path to a [NER classifier](https://stanfordnlp.github.io/CoreNLP/), an ARC or WARC file path, an output file and a spark context.  
-- `ExtractGraph(records: RDD[ArchiveRecord], dynamic: Boolean = false, tolerance : Double = 0.005, numIter: Int = 20): Graph[VertexData, EdgeData]` : Extract a social network graph based on the Crawled collections and any links found in the html. Optionally, can calculate page ranks if `dynamic` is set to `true`. In this case, the tolerance and number of iterations for the page rank calculation can be controlled using `tolerance` and `numIter`. Calculating page rank is not recommended for a very large number of ArchiveRecords as it can take a long time to calculate.
+- `ExtractGraph(records: RDD[ArchiveRecord], dynamic: Boolean = false, tolerance : Double = 0.005, numIter: Int = 20): Graph[VertexData, EdgeData]` : Extract a social network graph based on the crawled collections and any links found in the html. Optionally, can calculate page ranks if `dynamic` is set to `true`. In this case, the tolerance and number of iterations for the page rank calculation can be controlled using `tolerance` and `numIter`. Calculating page rank is not recommended for a very large number of ArchiveRecords as it can take a long time to calculate.
     * `.writeAsJson(verticesPath: String, edgesPath: String)` : Takes an extracted graph and saves it into two files, one for vertices and another for edges.
 - `ExtractHashtags(src: String): List[String]` : Extract all `#hashtags` from a Twitter status update or other content string, returning a list of hashtags.
 - `ExtractLinks(src: String): List[String]` : Extract all urls from a content string, returning a list of detected urls.
@@ -94,7 +88,7 @@ can be passed to the function as a default for the case the url input returns `n
 ### Image-Based Utilities
 
 - `ComputerImageSize(bytes : Array[Byte]): (Int, Int)` : Used by `ExtractPopularImages` to calculate the size of the image as a tuple of integers (width, height).
-- `ComputerMD5(bytes : Array[Byte])` : Computers the MD5 checksum of a byte array (eg. an image).  For string data, it is better to use `.computerHash()`.
+- `ComputerMD5(bytes : Array[Byte])` : Computes the MD5 checksum of a byte array (eg. an image).  For string data, it is better to use `.computeHash()`.
 - `ExtractImageLinks(src : String, html: String): Seq[String]` : Extracts image hrefs from html content and returns the full url by concatenating them with the source url.
 - `ExtractPopularImages( records: RDD[ArchiveRecord], limit: Int, sc: SparkContent, minWidth: Int = 30, minHeight: Int = 30)` : Extract the n most popular images where n is equal to `limit` if the images have a width bigger than `minWidth` and a height bigger than `minHeight`.
 
