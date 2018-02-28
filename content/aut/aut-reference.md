@@ -6,9 +6,9 @@ draft: false
 
 # Archives Unleashed Library
 
-AUT is a collection of tools for filtering, aggregating, analyzing and
+The Archives Unleashed Toolkit (AUT) is a collection of tools for filtering, aggregating, analyzing and
 visualizing web archive data. The primary structure is contained in three
-folders -- The Archive Record Class, Matchbox, RDD Tools, and Utilities.
+folders: the Archive Record Class, Matchbox, RDD Tools, and Utilities.
 
 ## The Archive Record Class
 
