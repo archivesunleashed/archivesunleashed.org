@@ -37,7 +37,7 @@ Before Spark Shell can launch, JAVA_HOME must be set. If you recieve an error th
 
 ### Downloading AUT
 
-The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.12.1/aut-0.12.1-fatjar.jar). 
+The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.12.2/aut-0.12.2-fatjar.jar). 
 
 The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
@@ -55,7 +55,7 @@ Remaining in the aut directory you created above, download and unzip [The Spark 
 ```bash
 curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages "io.archivesunleashed:aut:0.12.1"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages "io.archivesunleashed:aut:0.12.2"
 ```
 
 You should have the spark shell ready and running.
@@ -112,7 +112,7 @@ As your datasets grow, you may need to provide more memory to Spark shell. You'l
 If you're running locally, you can pass it in your startup command like this:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.1"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.2"
 ```
 
 In the above case, you give Spark 4GB of memory to execute the program.
@@ -124,13 +124,13 @@ On a 16-core machine, you may want to drop to 12 cores if you are having memory 
 You can do so like this (example is using 12 threads on a 16-core machine):
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.1"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.12.2"
 ```
 
 If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.12.1"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.12.2"
 ```
 
 ## Collection Analytics
