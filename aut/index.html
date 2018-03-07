@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>The Archives Unleashed Toolkit - The Archives Unleashed Project</title>
-    <meta name="generator" content="Hugo 0.30.2" />
+    <meta name="generator" content="Hugo 0.28" />
 
     
     <link rel="canonical" href="http://archivesunleashed.org/aut/">
@@ -414,7 +414,7 @@
 
 <h3 id="downloading-aut">Downloading AUT</h3>
 
-<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.12.2/aut-0.12.2-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
+<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.13.0/aut-0.13.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
 
 <p>The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also <a href="https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz">download the example ARC file here</a>.</p>
 
@@ -430,7 +430,7 @@ curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src
 
 <pre><code class="language-bash">curl -L &quot;http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz&quot; &gt; spark-2.1.1-bin-hadoop2.6.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.12.2&quot;
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.13.0&quot;
 </code></pre>
 
 <p>You should have the spark shell ready and running.</p>
@@ -485,7 +485,7 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 
 <p>If you&rsquo;re running locally, you can pass it in your startup command like this:</p>
 
-<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.12.2&quot;
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.13.0&quot;
 </code></pre>
 
 <p>In the above case, you give Spark 4GB of memory to execute the program.</p>
@@ -496,12 +496,12 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 
 <p>You can do so like this (example is using 12 threads on a 16-core machine):</p>
 
-<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.12.2&quot;
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.13.0&quot;
 </code></pre>
 
 <p>If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The <code>--conf spark.network.timeout=10000000</code> will ensure that AUT continues to work on material, although it may take a while to process. This command then works:</p>
 
-<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages &quot;io.archivesunleashed:aut:0.12.2&quot;
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages &quot;io.archivesunleashed:aut:0.13.0&quot;
 </code></pre>
 
 <h2 id="collection-analytics">Collection Analytics</h2>
