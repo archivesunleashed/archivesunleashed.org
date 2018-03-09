@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>The Archives Unleashed Toolkit - The Archives Unleashed Project</title>
-    <meta name="generator" content="Hugo 0.28" />
+    <meta name="generator" content="Hugo 0.30.2" />
 
     
     <link rel="canonical" href="http://archivesunleashed.org/aut/">
@@ -951,7 +951,7 @@ WriteGEXF(links, &quot;links-for-gephi.gexf&quot;)
 
 <h2 id="image-analysis">Image Analysis</h2>
 
-<p>Warcbase supports image analysis, a growing area of interest within web archives.</p>
+<p>AUT supports image analysis, a growing area of interest within web archives.</p>
 
 <h3 id="most-frequent-image-urls-in-a-collection">Most frequent image URLs in a collection</h3>
 
@@ -969,9 +969,8 @@ val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 
 <p>Will extract the top ten URLs of images found within a collection, in an array like so:</p>
 
-<blockquote>
-<p>links: Array[(String, Int)] = Array((<a href="http://www.archive.org/images/star.png,408">http://www.archive.org/images/star.png,408</a>), (<a href="http://www.archive.org/images/no_star.png,122">http://www.archive.org/images/no_star.png,122</a>), (<a href="http://www.archive.org/images/logo.jpg,118">http://www.archive.org/images/logo.jpg,118</a>), (<a href="http://www.archive.org/images/main-header.jpg,84">http://www.archive.org/images/main-header.jpg,84</a>), (<a href="http://www.archive.org/images/rss.png,20">http://www.archive.org/images/rss.png,20</a>), (<a href="http://www.archive.org/images/mail.gif,13">http://www.archive.org/images/mail.gif,13</a>), (<a href="http://www.archive.org/images/half_star.png,10">http://www.archive.org/images/half_star.png,10</a>), (<a href="http://www.archive.org/images/arrow.gif,7">http://www.archive.org/images/arrow.gif,7</a>), (<a href="http://ia300142.us.archive.org/3/items/americana/am_libraries.gif?cnt=0,3">http://ia300142.us.archive.org/3/items/americana/am_libraries.gif?cnt=0,3</a>), (<a href="http://ia310121.us.archive.org/2/items/GratefulDead/gratefuldead.gif?cnt=0,3">http://ia310121.us.archive.org/2/items/GratefulDead/gratefuldead.gif?cnt=0,3</a>), (<a href="http://www.archive.org/images/wayback.gif,2">http://www.archive.org/images/wayback.gif,2</a>), (<a href="http://www.archive.org/images/wayback-election2000.gif,2">http://www.archive.org/images/wayback-election2000.gif,2</a>), (<a href="http://www.archive.org/images/wayback-wt..">http://www.archive.org/images/wayback-wt..</a>.</p>
-</blockquote>
+<pre><code>links: Array[(String, Int)] = Array((http://www.archive.org/images/star.png,408), (http://www.archive.org/images/no_star.png,122), (http://www.archive.org/images/logo.jpg,118), (http://www.archive.org/images/main-header.jpg,84), (http://www.archive.org/images/rss.png,20), (http://www.archive.org/images/mail.gif,13), (http://www.archive.org/images/half_star.png,10), (http://www.archive.org/images/arrow.gif,7), (http://ia300142.us.archive.org/3/items/americana/am_libraries.gif?cnt=0,3), (http://ia310121.us.archive.org/2/items/GratefulDead/gratefuldead.gif?cnt=0,3), (http://www.archive.org/images/wayback.gif,2), (http://www.archive.org/images/wayback-election2000.gif,2), (http://www.archive.org/images/wayback-wt...
+</code></pre>
 
 <p>If you wanted to work with the images, you could download them from the Internet Archive.</p>
 
