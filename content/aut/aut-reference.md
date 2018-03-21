@@ -47,7 +47,7 @@ file or files in a path and returns a RDD of `ArchiveRecord`.
 
 ### Loading ArchiveRecords
 
-- `RecordLoader` : The RecordLoader is usually the first call when using AUT. It loads a WARC or ARC file and puts it into a spark RDD for quick iterating and derivative creation.
+- `RecordLoader` : The RecordLoader is usually the first call when using AUT. It loads a WARC or ARC file and puts it into a Spark RDD for quick iterating and derivative creation.
     * `loadArchives(path: String, sc: SparkContext, keepValidPages: Boolean = true): RDD[ArchiveRecord]` : Load a WARC or ARC into Spark. By default, it will remove any invalid pages from the analysis, unless keepValidPages is false.
     * `loadTweets(path: String, sc: SparkContext): RDD[JValue]` : Load JSON from a file that contains Twitter API data and store it in an RDD.  Uses `json4s` and `json4s.jackson.JsonMethods`.
 
@@ -63,7 +63,7 @@ from website content using [Boilerpipe](https://boilerpipe-web.appspot.com/).
 from a full URL (`www.example.com/additional/file/path/info`).  If desired, an additional string
 can be passed to the function as a default for the case the URL input returns `null`.
 - `ExtractEntities
-    * (iNerClassifierFile: String, inputRecordFile: String, outputFile: String, sc: SparkContext)` : Conduct [Named Entity Recogition](https://nlp.stanford.edu/software/CRF-NER.html) classification on a WARC or ARC record using the path to a [NER classifier](https://stanfordnlp.github.io/CoreNLP/), an ARC or WARC file path, an output file and a spark context.  
+    * (iNerClassifierFile: String, inputRecordFile: String, outputFile: String, sc: SparkContext)` : Conduct [Named Entity Recogition](https://nlp.stanford.edu/software/CRF-NER.html) classification on a WARC or ARC record using the path to a [NER classifier](https://stanfordnlp.github.io/CoreNLP/), an ARC or WARC file path, an output file and a Spark context.  
 - `ExtractHashtags(src: String): List[String]` : Extract all `#hashtags` from a Twitter status update or other content string, returning a list of hashtags.
 - `ExtractLinks(src: String): List[String]` : Extract all URLs from a content string, returning a list of detected URLs.
 - `RemoveHTML (content : String)` : Removes HTML tags from content data.
