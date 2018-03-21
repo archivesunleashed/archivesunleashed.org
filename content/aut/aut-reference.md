@@ -53,7 +53,7 @@ file or files in a path and returns a RDD of `ArchiveRecord`.
 
 ### Text Utilities
 
-- `DetectLanguage(input:String): String` : Detects the language of a text input. Returns the two-character language code for the detected language ('en' for English, 'fr' for French etc.).
+- `DetectLanguage(input:String): String` : Detects the language of a text input. Returns the [ISO639-2 language code] (https://www.loc.gov/standards/iso639-2/php/code_list.php) for the detected language ('en' for English, 'fr' for French etc.).
 - `DetectMimeTypeTika(content: String): String` : Detects the Mime Type (e.g. `text/HTML`) using Tika.
 - `ExtractBoilerpipeText(String)` : Extracts & removes boilerplate text (e.g. a generic copyright statement)
 from website content using [Boilerpipe](https://boilerpipe-web.appspot.com/).
