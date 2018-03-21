@@ -11,7 +11,7 @@ weight: 20
 
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on [Hadoop](https://hadoop.apache.org/). The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via [Spark](http://spark.apache.org/).
 
-An [Archives Unleashed Library Reference page](/aut/aut-reference) has a comprehensive list of the tools shown in this tutorial.
+An [Archives Unleashed Library Reference page](/aut/aut-reference) has a comprehensive list of the tools shown in this documentation.
 
 ## Getting Started
 
