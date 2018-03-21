@@ -658,7 +658,7 @@ AUT also supports parsing and analysis of large volumes of Twitter JSON. This al
 
 ### Gathering Twitter JSON Data
 
-To gather Twitter JSON, you will need to use the Twitter API to gather information. We recommend [twarc](https://github.com/edsu/twarc), a "command line tool (and Python library) for archiving Twitter JSON." Nick Ruest and Ian Milligan wrote an open-access article on using twarc to archive an ongoing event, which [you can read here](https://github.com/web-archive-group/ELXN42-Article/blob/master/elxn42.md).
+To gather Twitter JSON, you will need to use the Twitter API to gather information. We recommend [twarc](https://github.com/docnow/twarc), a "command line tool (and Python library) for archiving Twitter JSON." Nick Ruest and Ian Milligan wrote an open-access article on using `twarc` to archive an ongoing event, which [you can read here](https://github.com/web-archive-group/ELXN42-Article/blob/master/elxn42.md).
 
 For example, with twarc, you could begin using the searching API (stretching back somewhere between six and nine days) on the #elxn42 hashtag with:
 
