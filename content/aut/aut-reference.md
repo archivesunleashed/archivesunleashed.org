@@ -54,7 +54,7 @@ file or files in a path and returns a RDD of `ArchiveRecord`.
 ### Text Utilities
 
 - `DetectLanguage(input:String): String` : Detects the language of a text input. Returns the two-character language code for the detected language ('en' for English, 'fr' for French etc.).
-- `DetectMimeTypeTika(content: String): String` : Detects the Mime Type (e.g. "text / HTML") using Tika.
+- `DetectMimeTypeTika(content: String): String` : Detects the Mime Type (e.g. `text/HTML`) using Tika.
 - `ExtractBoilerpipeText(String)` : Extracts & removes boilerplate text (e.g. a generic copyright statement)
 from website content using [Boilerpipe](https://boilerpipe-web.appspot.com/).
 - `ExtractAtMentions(String): List[String]` : Extracts all `@username` from a Twitter status update or other content string, returning a list of users.
