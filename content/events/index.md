@@ -20,7 +20,7 @@ One of our key priorities is sustainability: crucial to the project’s success 
 
 The datathon model brings together researchers, programmers, visualization experts, graphical designers, and others into one room in order to facilitate their intensive collaboration on a shared project. In our case, programmers, academics, memory institution professionals, and other librarians will gather to work on accessing web archives with our cloud interface.
 
-Check to see when Archives Unleashed will be near you… 
+Check to see when Archives Unleashed will be near you…
 
 |        Date       |         Location         |
 |:-----------------:|:------------------------:|
