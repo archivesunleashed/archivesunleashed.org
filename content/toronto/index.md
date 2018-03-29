@@ -3,9 +3,7 @@ title: Toronto Datathon
 date: 2017-12-05T15:20:57-05:00
 weight: 45
 ---
-
 ![Toronto Skyline](/images/toronto-skyline.png)
-
 ## About
 
 The World Wide Web has a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
@@ -41,11 +39,12 @@ Check to see when Archives Unleashed will be near you…
 
 ## Sponsors
 
-This event is possible thanks to the generous support of <a href="https://mellon.org/"> Andrew W. Mellon </a>Foundation, <a href="https://onesearch.library.utoronto.ca/about"> the University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/">University of Waterloo’s Faculty of Arts</a>, <a href="https://www.library.yorku.ca/web/York" University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada </a> , and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
+This event is possible thanks to the generous support of <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, the <a href="https://onesearch.library.utoronto.ca/about"> University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts, <a href=""> York University </a>, <a href="https://www.computecanada.ca"> Compute Canada </a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
 
-|                                              |                                    |                                             |
-|----------------------------------------------|------------------------------------|---------------------------------------------|
-| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo) | ![alt text](images/yorku-logo.png) |
+|                                              |                                            |                                                     |
+|----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
+| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
+| ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
 
 
 ## Venue 
@@ -63,11 +62,11 @@ While there is no designated hotel the datathon will be using, we have highlight
 
 Staying to Toronto doesn’t have to be expensive, which is why we like to use some of the following aggregators to compare hotel rates:
 
-* [Airbnb](http://airbnb.com/) (great option to find reasonably priced accommodations)
-* [Kayak](https://www.ca.kayak.com/)
-* [Expedia](https://www.expedia.ca/)
-* [Trivago](https://www.trivago.ca/)
-* [Travelocity](https://www.travelocity.ca/)
+* Airbnb (great option to find reasonably priced accommodations)
+* Kayak
+* Expedia
+* Trivago
+* Travelocity
 
 There are also a few hotel options listed here:
 
@@ -79,7 +78,7 @@ There are also a few hotel options listed here:
 
 ![Airports](/images/airports.png)
 
-For guests that are flying into Toronto there are two main airports, one located downtown and one located outside of the city centre. 
+For guests flying into Toronto there are two main airports, one located downtown and one located outside of the city centre. 
 
 [**Toronto Pearson International Airport | YYZ**](http://www.torontopearson.com/) - located approximately 30 km away from downtown, there are a few options for getting to the downtown core:
 
@@ -111,4 +110,14 @@ For those adventurers who’d like to check out Toronto attractions, you may wan
 
 For those new to the city, we've created this datathon specific map to help you find your way around, including some nearby amenities. We will be updating the map over the next few weeks.
 
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="640" height="480"></iframe>
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="100%" height="350"></iframe>
+
+## Schedule
+
+<p>Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.</p>
+
+<p>Please click the image below to check out the <a href="/images/toronto-schedule.pdf">full Toronto Datathon schedule!</a></p>
+
+|               |                  |
+|:-----------------:|:------------------------:|
+| <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
