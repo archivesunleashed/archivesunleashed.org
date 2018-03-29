@@ -44,7 +44,7 @@ This event is possible thanks to the generous support of <a href="https://mellon
 |                                              |                                            |                                                     |
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
-| ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo)      | ![alt text](images/yorku-logo.png)                  |
+| ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
 
 
 ## Venue 
@@ -114,10 +114,10 @@ For those new to the city, we've created this datathon specific map to help you 
 
 ## Schedule
 
-Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days. 
+<p>Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.</p>
 
-Please click the image below to check out the full Toronto Datathon schedule!
+<p>Please click the image below to check out the <a href="/images/toronto-schedule.pdf">full Toronto Datathon schedule!</a></p>
 
-<a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;border-radius:10px;border: 2px solid grey;" ></a>
-<a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;border-radius: 10px;
-    border: 2px solid grey;" ></a>
+|               |                  |
+|:-----------------:|:------------------------:|
+| <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
