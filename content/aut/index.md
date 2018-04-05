@@ -359,6 +359,7 @@ The scripts require a NER classifier model. There is one provided in the Stanfor
 
 ```scala
 import io.archivesunleashed._
+import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
 
 sc.addFile("/path/to/classifier")
@@ -378,6 +379,7 @@ The output of this script and the one below will consist of lines that look like
 
 ```scala
 import io.archivesunleashed._
+import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
 
 sc.addFile("/path/to/classifier")
@@ -579,6 +581,7 @@ You may want to export your data directly to the [Gephi software suite](http://g
 
 ```scala
 import io.archivesunleashed._
+import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
@@ -636,6 +639,7 @@ Some images may be the same, but have different URLs. This UDF finds the popular
 
 ```scala
 import io.archivesunleashed._
+import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz",sc).persist()
@@ -675,6 +679,7 @@ With the ensuing JSON file (or directory of JSON files), you can use the followi
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util._
 
 // Load tweets from HDFS
 val tweets = RecordLoader.loadTweets("/path/to/tweets", sc)
@@ -719,6 +724,7 @@ For example, a user may want to parse a specific field. Here we explore the `cre
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
@@ -741,7 +747,7 @@ The next example takes the parsed `created_at` field with some of the earlier el
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util.StringUtils._
+import io.archivesunleashed.util._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
