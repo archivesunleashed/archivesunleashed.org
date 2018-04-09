@@ -50,12 +50,12 @@ curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test
 
 ### Installing and Running Spark shell
 
-Remaining in the aut directory you created above, download and unzip [The Spark Shell](wget https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
+Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
 ```bash
-curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > spark-2.1.1-bin-hadoop2.6.tgz
-tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages "io.archivesunleashed:aut:0.15.0"
+curl -L "https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz" > spark-2.1.1-bin-hadoop2.7.tgz
+tar -xvf spark-2.1.1-bin-hadoop2.7.tgz
+./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.15.0"
 ```
 
 You should have the spark shell ready and running.
