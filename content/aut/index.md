@@ -15,7 +15,7 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ### Quick Start
 
-If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.14.0 with `docker run --rm -it archivesunleashed/docker-aut:0.14.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
+If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.15.0 with `docker run --rm -it archivesunleashed/docker-aut:0.15.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
 
 ### Dependencies
 
@@ -37,7 +37,7 @@ Before Spark Shell can launch, JAVA_HOME must be set. If you recieve an error th
 
 ### Downloading AUT
 
-The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.14.0/aut-0.14.0-fatjar.jar). 
+The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.15.0/aut-0.15.0-fatjar.jar). 
 
 The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
@@ -50,12 +50,12 @@ curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test
 
 ### Installing and Running Spark shell
 
-Remaining in the aut directory you created above, download and unzip [The Spark Shell](wget http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
+Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
 ```bash
-curl -L "http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz" > spark-2.1.1-bin-hadoop2.6.tgz
-tar -xvf spark-2.1.1-bin-hadoop2.6.tgz
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --packages "io.archivesunleashed:aut:0.14.0"
+curl -L "https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz" > spark-2.1.1-bin-hadoop2.7.tgz
+tar -xvf spark-2.1.1-bin-hadoop2.7.tgz
+./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.15.0"
 ```
 
 You should have the spark shell ready and running.
@@ -85,8 +85,8 @@ Type `:paste` at the scala prompt and go into paste mode.
 Type or paste the following:
 
 ```
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz", sc)
 .keepValidPages()
@@ -112,7 +112,7 @@ As your datasets grow, you may need to provide more memory to Spark shell. You'l
 If you're running locally, you can pass it in your startup command like this:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.14.0"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.15.0"
 ```
 
 In the above case, you give Spark 4GB of memory to execute the program.
@@ -124,13 +124,13 @@ On a 16-core machine, you may want to drop to 12 cores if you are having memory 
 You can do so like this (example is using 12 threads on a 16-core machine):
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.14.0"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.15.0"
 ```
 
 If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.14.0"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.15.0"
 ```
 
 ## Collection Analytics
@@ -142,8 +142,8 @@ You may want to get a birds-eye view of your ARCs or WARCs: what top-level domai
 If you just want a list of URLs in the collection, you can type :p into Spark Shell, paste the script, and then run it with ctrl-d:
 
 ```scala
-import io.archivesunleashed.spark.matchbox._ 
-import io.archivesunleashed.spark.rdd.RecordRDD._ 
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz", sc) 
 .keepValidPages()
@@ -154,8 +154,8 @@ val r = RecordLoader.loadArchives("example.arc.gz", sc)
 This will give you a list of the top ten URLs. If you want all the URLs, exported to a file, you could run this instead. Note that your export directory cannot already exist.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz", sc) 
 .keepValidPages()
@@ -168,8 +168,8 @@ val r = RecordLoader.loadArchives("example.arc.gz", sc)
 You may just want to see the domains within an item. The script below shows the top ten domains within a given file or set of files.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._ 
-import io.archivesunleashed.spark.rdd.RecordRDD._ 
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = 
 RecordLoader.loadArchives("example.arc.gz", sc) 
@@ -186,8 +186,8 @@ If you want to see more than ten results, change the variable in the last line.
 Finally, you can use regular expressions to extract more fine-tuned information. For example, if you wanted to know all sitenames - i.e. the first-level directories of a given collection.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz", sc)
  .keepValidPages()
@@ -203,8 +203,8 @@ In the above example, `"""...."""` declares that we are working with a regular e
 This script extracts the crawl date, domain, URL, and plain text from HTML files in the sample ARC data (and saves the output to out/). 
 
 ```scala
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -221,8 +221,8 @@ Note that this will create a new directory to store the output, which cannot alr
 The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the "archive.org" domain.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -236,8 +236,8 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through the collection and find all of the URLs beginning with `http://geocities.com/EnchantedForest/`. The `(?i)` makes this query case insensitive.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .keepValidPages()
@@ -251,8 +251,8 @@ RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
 The following Spark script generates plain text renderings for all the web pages in a collection, minus "boilerplate" content: advertisements, navigational elements, and elements of the website template. For more on the boilerplate removal library we are using, [please see this website and paper](http://www.l3s.de/~kohlschuetter/boilerplate/).
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader, ExtractBoilerpipeText}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -270,10 +270,8 @@ day (`DD`), year and month (`YYYYMM`), or a particular year-month-day (`YYYYMMDD
 The following Spark script extracts plain text for a given collection by date (in this case, 4 October 2008). 
 
 ```scala
-import io.archivesunleashed.spark.matchbox.RecordLoader
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -285,10 +283,8 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 The following script extracts plain text for a given collection by year (in this case, 2016).
 
 ```scala
-import io.archivesunleashed.spark.matchbox.RecordLoader
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -300,10 +296,8 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2013 and 2015.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.RecordLoader
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.matchbox.ExtractDate.DateComponent._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -325,8 +319,8 @@ Would select just the lines beginning with `(201204`, or April 2012.
 The following Spark script keeps only French language pages from a certain top-level domain. It uses the [ISO 639.2 language codes](https://www.loc.gov/standards/iso639-2/php/code_list.php).
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{RecordLoader, RemoveHTML}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
 .keepValidPages()
@@ -343,8 +337,8 @@ The following Spark script keeps only pages containing a certain keyword, which 
 For example, the following script takes all pages containing the keyword "archive" in a collection.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._ 
-import io.archivesunleashed.spark.rdd.RecordRDD._ 
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz",sc)
 .keepValidPages()
@@ -364,7 +358,9 @@ The scripts require a NER classifier model. There is one provided in the Stanfor
 ## Extract entities from ARC/WARC files
 
 ```scala
-import io.archivesunleashed.spark.matchbox.ExtractEntities
+import io.archivesunleashed._
+import io.archivesunleashed.app._
+import io.archivesunleashed.matchbox._
 
 sc.addFile("/path/to/classifier")
 
@@ -382,7 +378,9 @@ The output of this script and the one below will consist of lines that look like
 ```
 
 ```scala
-import io.archivesunleashed.spark.matchbox.ExtractEntities
+import io.archivesunleashed._
+import io.archivesunleashed.app._
+import io.archivesunleashed.matchbox._
 
 sc.addFile("/path/to/classifier")
 
@@ -407,9 +405,9 @@ We do provide one example below that provides raw data, however.
 If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure. 
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import StringUtils._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util.StringUtils._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -425,9 +423,9 @@ links.saveAsTextFile("links-all/")
 Note how you can add filters. In this case, we add a filter so you are looking at a network graph of pages containing the phrase "apple." Filters can go immediately after `.keepValidPages()`.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import StringUtils._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util.StringUtils._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -446,8 +444,8 @@ links.saveAsTextFile("links-all/")
 This following script extracts all of the hyperlink relationships between sites, using the full URL pattern.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RemoveHTML, RecordLoader, WriteGEXF}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -466,9 +464,9 @@ You can see that the above was achieved by removing the `.map(r => (ExtractDomai
 In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import StringUtils._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util.StringUtils._
 
 val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .keepValidPages()
@@ -490,8 +488,8 @@ makes use of the `ExtractLinks` and `ExtractToLevelDomain` functions.
 If you prefer to group by crawl month (YYYMM), replace `getCrawlDate` with `getCrawlMonth` below. If you prefer to group by simply crawl year (YYYY), replace `getCrawlDate` with `getCrawlYear` below.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -536,9 +534,8 @@ nested tuples. (This is the same script as at the top of the page, with the addi
 third and the second-last lines.)
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import io.archivesunleashed.spark.matchbox.TupleFormatter._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/path/to/arc", sc)
   .keepValidPages()
@@ -564,8 +561,8 @@ Its output looks like:
 In this case, you would only receive links coming from websites in matching the URL pattern listed under `keepUrlPatterns`.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .keepValidPages()
@@ -583,8 +580,9 @@ val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
 You may want to export your data directly to the [Gephi software suite](http://gephi.github.io/), an open-soure network analysis project. The following code writes to the GEXF format:
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.app._
+import io.archivesunleashed.matchbox._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -610,8 +608,8 @@ AUT supports image analysis, a growing area of interest within web archives.
 The following script:
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -640,9 +638,9 @@ For more information on `wget`, please consult [this lesson available on the Pro
 Some images may be the same, but have different URLs. This UDF finds the popular images by calculating the MD5 hash of each and presenting the most frequent images based on that metric. This script:
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
-import io.archivesunleashed.spark.matchbox.RecordLoader
+import io.archivesunleashed._
+import io.archivesunleashed.app._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz",sc).persist()
 ExtractPopularImages(r, 500, sc).saveAsTextFile("500-Popular-Images")
@@ -679,9 +677,9 @@ With the ensuing JSON file (or directory of JSON files), you can use the followi
 ### An Example script, annotated
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.matchbox.TweetUtils._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util._
 
 // Load tweets from HDFS
 val tweets = RecordLoader.loadTweets("/path/to/tweets", sc)
@@ -724,9 +722,9 @@ The above script does the following:
 For example, a user may want to parse a specific field. Here we explore the `created_at` field. 
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.matchbox.TweetUtils._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
@@ -747,9 +745,9 @@ val counts = tweets.map(tweet => tweet.createdAt)
 The next example takes the parsed `created_at` field with some of the earlier elements to see how often the user @HillaryClinton (or any other user) was mentioned in a corpus.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.matchbox.TweetUtils._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
