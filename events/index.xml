@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on The Archives Unleashed Project</title>
+    <link>http://archivesunleashed.org/events/</link>
+    <description>Recent content in Events on The Archives Unleashed Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC-BY</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 20:10:46 +0100</lastBuildDate>
+    
+	<atom:link href="http://archivesunleashed.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Events</title>
+      <link>http://archivesunleashed.org/events/</link>
+      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      
+      <guid>http://archivesunleashed.org/events/</guid>
+      <description>Toronto, April 2018 The Archives Unleashed will host its first datathon in partnership with the University of Toronto Libraries 26-27 April 2018.
+Please visit the Toronto event page for more information.
+About our Datathons One of our key priorities is sustainability: crucial to the project’s success is leveraging an open-source ecosystem. Cognizant of funded projects that run into sustainability issues following a successful launch, we regard regional datathons staged under the Archives Unleashed banner as vital to ensuring broad community buy-in and continued involvement.</description>
+    </item>
+    
+  </channel>
+</rss>

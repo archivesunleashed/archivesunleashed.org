@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clouds on The Archives Unleashed Project</title>
+    <link>http://archivesunleashed.org/cloud/</link>
+    <description>Recent content in Clouds on The Archives Unleashed Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC-BY</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
+    
+	<atom:link href="http://archivesunleashed.org/cloud/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Archives Unleashed Cloud</title>
+      <link>http://archivesunleashed.org/cloud/</link>
+      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      
+      <guid>http://archivesunleashed.org/cloud/</guid>
+      <description>Under construction!
+The Archives Unleashed Cloud is under construction &amp;mdash; but here&amp;rsquo;s a sneak peak! We&amp;rsquo;ll have more information here soon.
+ The Archives Unleashed Cloud makes the Archives Unleashed Toolkit more accessible. It is a web-based front end that allows users to access their web archival collections and analyze them with AUT using a web-based interface.
+Interested in the Archives Unleashed Cloud? Check out our repository or you can see some screenshots below.</description>
+    </item>
+    
+  </channel>
+</rss>
