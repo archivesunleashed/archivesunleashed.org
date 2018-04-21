@@ -226,7 +226,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("archive.org"))
+  .keepDomains(Set("www.archive.org"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out/")
 ```
@@ -267,7 +267,7 @@ AUT permits you to filter records by a list of full or partial date strings. It 
 of the date string as a `DateComponent`. Use `keepDate` to specify the year (`YYYY`), month (`MM`),
 day (`DD`), year and month (`YYYYMM`), or a particular year-month-day (`YYYYMMDD`).
 
-The following Spark script extracts plain text for a given collection by date (in this case, 4 October 2008). 
+The following Spark script extracts plain text for a given collection by date (in this case, April 2008). 
 
 ```scala
 import io.archivesunleashed._
@@ -275,12 +275,12 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDate(List("20081004"), YYYYMM)
+  .keepDate(List("200804"), ExtractDate.DateComponent.YYYYMM)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out/")
 ```
 
-The following script extracts plain text for a given collection by year (in this case, 2016).
+The following script extracts plain text for a given collection by year (in this case, 2008).
 
 ```scala
 import io.archivesunleashed._
@@ -288,12 +288,12 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDate(List("2015"), YYYY)
+  .keepDate(List("2008"), ExtractDate.DateComponent.YYYY)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out2/")
 ```
 
-Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2013 and 2015.
+Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2008 and 2015.
 
 ```scala
 import io.archivesunleashed._
@@ -301,7 +301,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDate(List("2013","2015"), YYYY)
+  .keepDate(List("2008","2015"), ExtractDate.DateComponent.YYYY)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("out2/")
 ```
@@ -324,7 +324,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
 .keepValidPages()
-.keepDomains(Set("archive.org"))
+.keepDomains(Set("www.archive.org"))
 .keepLanguages(Set("fr"))
 .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
 .saveAsTextFile("out-fr/")
@@ -407,7 +407,7 @@ If your web archive does not have a temporal component, the following Spark scri
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util.StringUtils._
+import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -425,7 +425,7 @@ Note how you can add filters. In this case, we add a filter so you are looking a
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util.StringUtils._
+import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
@@ -439,26 +439,6 @@ val links = RecordLoader.loadArchives("example.arc.gz", sc)
 links.saveAsTextFile("links-all/")
 ```
 
-### Extraction of a Link Structure, using Raw URLs (not domains)
-
-This following script extracts all of the hyperlink relationships between sites, using the full URL pattern.
-
-```scala
-import io.archivesunleashed._
-import io.archivesunleashed.matchbox._
-
-val links = RecordLoader.loadArchives("example.arc.gz", sc)
-  .keepValidPages()
-  .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
-  .filter(r => r._1 != "" && r._2 != "")
-  .countItems()
-  .filter(r => r._2 > 5)
-
-links.saveAsTextFile("full-links-all/")
-```
-
-You can see that the above was achieved by removing the `.map(r => (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))` line.
-
 ### Extraction of a Site Link Structure, organized by URL pattern
 
 In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
@@ -466,7 +446,7 @@ In this following example, we run the same script but only extract links coming 
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util.StringUtils._
+import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .keepValidPages()
