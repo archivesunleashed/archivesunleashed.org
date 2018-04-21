@@ -439,6 +439,33 @@ val links = RecordLoader.loadArchives("example.arc.gz", sc)
 links.saveAsTextFile("links-all/")
 ```
 
+### Extraction of a Link Structure, using Raw URLs (not domains)
+
+This following script extracts all of the hyperlink relationships between sites, using the full URL pattern.
+
+```
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+val links = RecordLoader.loadArchives("example.arc.gz", sc)
+  .keepValidPages()
+  .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
+  .filter(r => r._1 != "" && r._2 != "")
+  .countItems()
+
+links.saveAsTextFile("full-links-all/")
+```
+
+You can see that the above was achieved by removing the .map(r => (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW())) line.
+
+In a larger collection, you might want to add the following line:
+
+```
+.filter(r => r._2 > 5)
+```
+
+Before `.countItems()` to find just the documents that are linked to more than five times. As you can imagine, raw URLs are very numerous!
+
 ### Extraction of a Site Link Structure, organized by URL pattern
 
 In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
