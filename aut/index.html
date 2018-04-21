@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>The Archives Unleashed Toolkit - The Archives Unleashed Project</title>
-    <meta name="generator" content="Hugo 0.28" />
+    <meta name="generator" content="Hugo 0.30.2" />
 
     
     <link rel="canonical" href="http://archivesunleashed.org/aut/">
@@ -591,7 +591,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDomains(Set(&quot;archive.org&quot;))
+  .keepDomains(Set(&quot;www.archive.org&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out/&quot;)
 </code></pre>
@@ -630,38 +630,38 @@ RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 of the date string as a <code>DateComponent</code>. Use <code>keepDate</code> to specify the year (<code>YYYY</code>), month (<code>MM</code>),
 day (<code>DD</code>), year and month (<code>YYYYMM</code>), or a particular year-month-day (<code>YYYYMMDD</code>).</p>
 
-<p>The following Spark script extracts plain text for a given collection by date (in this case, 4 October 2008).</p>
+<p>The following Spark script extracts plain text for a given collection by date (in this case, April 2008).</p>
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDate(List(&quot;20081004&quot;), YYYYMM)
+  .keepDate(List(&quot;200804&quot;), ExtractDate.DateComponent.YYYYMM)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out/&quot;)
 </code></pre>
 
-<p>The following script extracts plain text for a given collection by year (in this case, 2016).</p>
+<p>The following script extracts plain text for a given collection by year (in this case, 2008).</p>
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDate(List(&quot;2015&quot;), YYYY)
+  .keepDate(List(&quot;2008&quot;), ExtractDate.DateComponent.YYYY)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out2/&quot;)
 </code></pre>
 
-<p>Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2013 and 2015.</p>
+<p>Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2008 and 2015.</p>
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
-  .keepDate(List(&quot;2013&quot;,&quot;2015&quot;), YYYY)
+  .keepDate(List(&quot;2008&quot;,&quot;2015&quot;), ExtractDate.DateComponent.YYYY)
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;out2/&quot;)
 </code></pre>
@@ -682,7 +682,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 .keepValidPages()
-.keepDomains(Set(&quot;archive.org&quot;))
+.keepDomains(Set(&quot;www.archive.org&quot;))
 .keepLanguages(Set(&quot;fr&quot;))
 .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
 .saveAsTextFile(&quot;out-fr/&quot;)
@@ -762,7 +762,7 @@ ExtractEntities.extractFromScrapeText(&quot;english.all.3class.distsim.crf.ser.g
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util.StringUtils._
+import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
@@ -779,7 +779,7 @@ links.saveAsTextFile(&quot;links-all/&quot;)
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util.StringUtils._
+import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
@@ -797,7 +797,7 @@ links.saveAsTextFile(&quot;links-all/&quot;)
 
 <p>This following script extracts all of the hyperlink relationships between sites, using the full URL pattern.</p>
 
-<pre><code class="language-scala">import io.archivesunleashed._
+<pre><code>import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
 val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
@@ -805,12 +805,18 @@ val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .flatMap(r =&gt; ExtractLinks(r.getUrl, r.getContentString))
   .filter(r =&gt; r._1 != &quot;&quot; &amp;&amp; r._2 != &quot;&quot;)
   .countItems()
-  .filter(r =&gt; r._2 &gt; 5)
 
 links.saveAsTextFile(&quot;full-links-all/&quot;)
 </code></pre>
 
-<p>You can see that the above was achieved by removing the <code>.map(r =&gt; (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))</code> line.</p>
+<p>You can see that the above was achieved by removing the .map(r =&gt; (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW())) line.</p>
+
+<p>In a larger collection, you might want to add the following line:</p>
+
+<pre><code>.filter(r =&gt; r._2 &gt; 5)
+</code></pre>
+
+<p>Before <code>.countItems()</code> to find just the documents that are linked to more than five times. As you can imagine, raw URLs are very numerous!</p>
 
 <h3 id="extraction-of-a-site-link-structure-organized-by-url-pattern">Extraction of a Site Link Structure, organized by URL pattern</h3>
 
@@ -818,7 +824,7 @@ links.saveAsTextFile(&quot;full-links-all/&quot;)
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util.StringUtils._
+import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives(&quot;/path/to/many/warcs/*.gz&quot;, sc)
   .keepValidPages()
