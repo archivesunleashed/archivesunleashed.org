@@ -15,11 +15,11 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ### Quick Start
 
-If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.15.0 with `docker run --rm -it archivesunleashed/docker-aut:0.15.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
+If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.16.0 with `docker run --rm -it archivesunleashed/docker-aut:0.16.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
 
 ### Dependencies
 
-The Archives Unleashed Toolkit requires Java. 
+The Archives Unleashed Toolkit requires Java.
 
 For Mac OS: You can find information on Java [here](https://java.com/en/download/help/mac_install.xml), or install with [homebrew](brew.sh) and then:
 
@@ -37,7 +37,7 @@ Before Spark Shell can launch, JAVA_HOME must be set. If you recieve an error th
 
 ### Downloading AUT
 
-The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.15.0/aut-0.15.0-fatjar.jar). 
+The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.16.0/aut-0.16.0-fatjar.jar).
 
 The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
@@ -55,7 +55,7 @@ Remaining in the aut directory you created above, download and unzip [Spark](htt
 ```bash
 curl -L "https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz" > spark-2.1.1-bin-hadoop2.7.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.7.tgz
-./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.15.0"
+./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.16.0"
 ```
 
 You should have the spark shell ready and running.
@@ -75,7 +75,7 @@ Type :help for more information.
 scala>
 ```
 
-> If you recently upgraded your MacOS, your java version may not be correct in terminal.  You will 
+> If you recently upgraded your MacOS, your java version may not be correct in terminal.  You will
 > have to [change the path to the latest version in your ./bash_profile file.](https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x).
 
 ### Test the Archives Unleashed Toolkit
@@ -107,12 +107,12 @@ That means you're up and running!
 
 ### A Note on Memory
 
-As your datasets grow, you may need to provide more memory to Spark shell. You'll know this if you get an error saying that you have run out of "Java Heap Space." 
+As your datasets grow, you may need to provide more memory to Spark shell. You'll know this if you get an error saying that you have run out of "Java Heap Space."
 
 If you're running locally, you can pass it in your startup command like this:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.15.0"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.16.0"
 ```
 
 In the above case, you give Spark 4GB of memory to execute the program.
@@ -124,20 +124,20 @@ On a 16-core machine, you may want to drop to 12 cores if you are having memory 
 You can do so like this (example is using 12 threads on a 16-core machine):
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.15.0"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.16.0"
 ```
 
 If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.15.0"
+./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.16.0"
 ```
 
 ## Collection Analytics
 
-You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled? 
+You may want to get a birds-eye view of your ARCs or WARCs: what top-level domains are included, and at what times were they crawled?
 
-### List of URLs 
+### List of URLs
 
 If you just want a list of URLs in the collection, you can type :p into Spark Shell, paste the script, and then run it with ctrl-d:
 
@@ -145,7 +145,7 @@ If you just want a list of URLs in the collection, you can type :p into Spark Sh
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val r = RecordLoader.loadArchives("example.arc.gz", sc) 
+val r = RecordLoader.loadArchives("example.arc.gz", sc)
 .keepValidPages()
 .map(r => r.getUrl)
 .take(10)
@@ -157,7 +157,7 @@ This will give you a list of the top ten URLs. If you want all the URLs, exporte
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val r = RecordLoader.loadArchives("example.arc.gz", sc) 
+val r = RecordLoader.loadArchives("example.arc.gz", sc)
 .keepValidPages()
 .map(r => r.getUrl)
 .saveAsTextFile("/path/to/export/directory/")
@@ -171,15 +171,15 @@ You may just want to see the domains within an item. The script below shows the 
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val r = 
-RecordLoader.loadArchives("example.arc.gz", sc) 
-.keepValidPages() 
-.map(r => ExtractDomain(r.getUrl)) 
-.countItems() 
-.take(10) 
+val r =
+RecordLoader.loadArchives("example.arc.gz", sc)
+.keepValidPages()
+.map(r => ExtractDomain(r.getUrl))
+.countItems()
+.take(10)
 ```
 
-If you want to see more than ten results, change the variable in the last line. 
+If you want to see more than ten results, change the variable in the last line.
 
 ### List of Different Subdomains
 
@@ -200,7 +200,7 @@ In the above example, `"""...."""` declares that we are working with a regular e
 
 ### All plain text
 
-This script extracts the crawl date, domain, URL, and plain text from HTML files in the sample ARC data (and saves the output to out/). 
+This script extracts the crawl date, domain, URL, and plain text from HTML files in the sample ARC data (and saves the output to out/).
 
 ```scala
 import io.archivesunleashed._
@@ -267,7 +267,7 @@ AUT permits you to filter records by a list of full or partial date strings. It 
 of the date string as a `DateComponent`. Use `keepDate` to specify the year (`YYYY`), month (`MM`),
 day (`DD`), year and month (`YYYYMM`), or a particular year-month-day (`YYYYMMDD`).
 
-The following Spark script extracts plain text for a given collection by date (in this case, April 2008). 
+The following Spark script extracts plain text for a given collection by date (in this case, April 2008).
 
 ```scala
 import io.archivesunleashed._
@@ -332,7 +332,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 
 ### Plain text filtered by keyword
 
-The following Spark script keeps only pages containing a certain keyword, which also stacks on the other scripts. 
+The following Spark script keeps only pages containing a certain keyword, which also stacks on the other scripts.
 
 For example, the following script takes all pages containing the keyword "archive" in a collection.
 
@@ -391,18 +391,18 @@ ExtractEntities.extractFromScrapeText("english.all.3class.distsim.crf.ser.gz", "
 
 Site link structures can be very useful, allowing you to learn such things as:
 
-- what websites were the most linked to;  
-- what websites had the most outbound links;  
-- what paths could be taken through the network to connect pages;  
-- what communities existed within the link structure?  
+- what websites were the most linked to;
+- what websites had the most outbound links;
+- what paths could be taken through the network to connect pages;
+- what communities existed within the link structure?
 
-Most of the following examples show the **domain** to **domain** links. For example, you discover how many times that `liberal.ca` linked to `twitter.com`, rather than learning that `http://liberal.ca/contact` linked to `http://twitter.com/liberal_party`. The reason we do that is that in general, if you are working with any data at scale, the sheer number of raw URLs can become overwhelming. 
+Most of the following examples show the **domain** to **domain** links. For example, you discover how many times that `liberal.ca` linked to `twitter.com`, rather than learning that `http://liberal.ca/contact` linked to `http://twitter.com/liberal_party`. The reason we do that is that in general, if you are working with any data at scale, the sheer number of raw URLs can become overwhelming.
 
 We do provide one example below that provides raw data, however.
 
 ### Extraction of Simple Site Link Structure
 
-If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure. 
+If your web archive does not have a temporal component, the following Spark script will generate the site-level link structure.
 
 ```scala
 import io.archivesunleashed._
@@ -525,19 +525,19 @@ In the above example, you are seeing links within the same domain.
 
 Note also that `ExtractLinks` takes an optional third parameter of a base URL. If you set this – typically to the source URL –
 ExtractLinks will resolve a relative path to its absolute location. For example, if
-`val url = "http://mysite.com/some/dirs/here/index.html"` and `val html = "... <a href='../contact/'>Contact</a> ..."`, and we call `ExtractLinks(url, html, url)`, the list it returns will include the 
+`val url = "http://mysite.com/some/dirs/here/index.html"` and `val html = "... <a href='../contact/'>Contact</a> ..."`, and we call `ExtractLinks(url, html, url)`, the list it returns will include the
 item `(http://mysite.com/a/b/c/index.html, http://mysite.com/a/b/contact/, Contact)`. It may
 be useful to have this absolute URL if you intend to call `ExtractDomain` on the link
 and wish it to be counted.
 
 
 ### Exporting as TSV
-Archive records are represented in Spark as [tuples](https://en.wikipedia.org/wiki/Tuple), 
+Archive records are represented in Spark as [tuples](https://en.wikipedia.org/wiki/Tuple),
 and this is the standard format of results produced by most of the scripts presented here
 (e.g., see above). It may be useful, however, to have this data in TSV (tab-separated value)
 format, for further processing outside AUT. The following script uses `tabDelimit` (from
-`TupleFormatter`) to transform tuples to tab-delimited strings; it also flattens any 
-nested tuples. (This is the same script as at the top of the page, with the addition of the 
+`TupleFormatter`) to transform tuples to tab-delimited strings; it also flattens any
+nested tuples. (This is the same script as at the top of the page, with the addition of the
 third and the second-last lines.)
 
 ```scala
@@ -608,7 +608,7 @@ We also support exporting to the GraphML format. To do so, swap `WriteGEXF` in t
 
 ## Image Analysis
 
-AUT supports image analysis, a growing area of interest within web archives.  
+AUT supports image analysis, a growing area of interest within web archives.
 
 ### Most frequent image URLs in a collection
 
@@ -622,7 +622,7 @@ val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .flatMap(r => ExtractImageLinks(r.getUrl, r.getContentString))
   .countItems()
-  .take(10) 
+  .take(10)
 ```
 Will extract the top ten URLs of images found within a collection, in an array like so:
 
@@ -630,7 +630,7 @@ Will extract the top ten URLs of images found within a collection, in an array l
 links: Array[(String, Int)] = Array((http://www.archive.org/images/star.png,408), (http://www.archive.org/images/no_star.png,122), (http://www.archive.org/images/logo.jpg,118), (http://www.archive.org/images/main-header.jpg,84), (http://www.archive.org/images/rss.png,20), (http://www.archive.org/images/mail.gif,13), (http://www.archive.org/images/half_star.png,10), (http://www.archive.org/images/arrow.gif,7), (http://ia300142.us.archive.org/3/items/americana/am_libraries.gif?cnt=0,3), (http://ia310121.us.archive.org/2/items/GratefulDead/gratefuldead.gif?cnt=0,3), (http://www.archive.org/images/wayback.gif,2), (http://www.archive.org/images/wayback-election2000.gif,2), (http://www.archive.org/images/wayback-wt...
 ```
 
-If you wanted to work with the images, you could download them from the Internet Archive. 
+If you wanted to work with the images, you could download them from the Internet Archive.
 
 Let's use the top-ranked example. [This link](http://web.archive.org/web/*/http://archive.org/images/star.png), for example, will show you the temporal distribution of the image. For a snapshot from September 2007, this URL would work:
 
@@ -638,7 +638,7 @@ Let's use the top-ranked example. [This link](http://web.archive.org/web/*/http:
 
 To do analysis on all images, you could thus prepend `http://web.archive.org/web/20070913051458/` to each URL and `wget` them en masse.
 
-For more information on `wget`, please consult [this lesson available on the Programming Historian website](http://programminghistorian.org/lessons/automated-downloading-with-wget). 
+For more information on `wget`, please consult [this lesson available on the Programming Historian website](http://programminghistorian.org/lessons/automated-downloading-with-wget).
 
 ### Most frequent images in a collection, based on MD5 hash
 
@@ -661,7 +661,7 @@ AUT also supports parsing and analysis of large volumes of Twitter JSON. This al
 
 ### Gathering Twitter JSON Data
 
-To gather Twitter JSON, you will need to use the Twitter API to gather information. We recommend [twarc](https://github.com/edsu/twarc), a "command line tool (and Python library) for archiving Twitter JSON." Nick Ruest and Ian Milligan wrote an open-access article on using twarc to archive an ongoing event, which [you can read here](https://github.com/web-archive-group/ELXN42-Article/blob/master/elxn42.md). 
+To gather Twitter JSON, you will need to use the Twitter API to gather information. We recommend [twarc](https://github.com/edsu/twarc), a "command line tool (and Python library) for archiving Twitter JSON." Nick Ruest and Ian Milligan wrote an open-access article on using twarc to archive an ongoing event, which [you can read here](https://github.com/web-archive-group/ELXN42-Article/blob/master/elxn42.md).
 
 For example, with twarc, you could begin using the searching API (stretching back somewhere between six and nine days) on the #elxn42 hashtag with:
 
@@ -675,7 +675,7 @@ Or you could use the streaming API with:
 twarc.py --stream "#elxn42" > elxn42-stream.json
 ```
 
-Functionality is similar to other parts of AUT, but note that you use `loadTweets` rather than `loadArchives`. 
+Functionality is similar to other parts of AUT, but note that you use `loadTweets` rather than `loadArchives`.
 
 ### Basic Twitter Analysis
 
@@ -717,16 +717,16 @@ hashtags.take(10)
 
 The above script does the following:
 
-* loads the tweets; 
-* counts them; 
-* extracts specific fields based on the Twitter JSON; 
-* Samples them; 
-* counts languages; 
-* and counts and lets you know the top 10 hashtags in a collection. 
+* loads the tweets;
+* counts them;
+* extracts specific fields based on the Twitter JSON;
+* Samples them;
+* counts languages;
+* and counts and lets you know the top 10 hashtags in a collection.
 
 ### Parsing a Specific Field
 
-For example, a user may want to parse a specific field. Here we explore the `created_at` field. 
+For example, a user may want to parse a specific field. Here we explore the `created_at` field.
 
 ```scala
 import io.archivesunleashed._
