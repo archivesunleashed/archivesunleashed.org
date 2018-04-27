@@ -686,7 +686,7 @@ With the ensuing JSON file (or directory of JSON files), you can use the followi
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
+import io.archivesunleashed.util.TweetUtils._
 
 // Load tweets from HDFS
 val tweets = RecordLoader.loadTweets("/path/to/tweets", sc)
@@ -731,7 +731,7 @@ For example, a user may want to parse a specific field. Here we explore the `cre
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
+import io.archivesunleashed.util.TweetUtils._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
@@ -754,7 +754,7 @@ The next example takes the parsed `created_at` field with some of the earlier el
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
+import io.archivesunleashed.util.TweetUtils._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
