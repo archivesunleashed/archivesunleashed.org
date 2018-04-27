@@ -319,24 +319,6 @@
 </li>
 
 
-
-<li>
-  
-    
-
-
-
-<a  title="Subscribe" href="http://archivesunleashed.org/subscribe/">
-	
-	Subscribe
-</a>
-
-
-
-  
-</li>
-
-
         </ul>
         
 
@@ -1028,7 +1010,7 @@ ExtractPopularImages(r, 500, sc).saveAsTextFile(&quot;500-Popular-Images&quot;)
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
+import io.archivesunleashed.util.TweetUtils._
 
 // Load tweets from HDFS
 val tweets = RecordLoader.loadTweets(&quot;/path/to/tweets&quot;, sc)
@@ -1074,7 +1056,7 @@ hashtags.take(10)
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
+import io.archivesunleashed.util.TweetUtils._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
@@ -1096,7 +1078,7 @@ val counts = tweets.map(tweet =&gt; tweet.createdAt)
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
+import io.archivesunleashed.util.TweetUtils._
 import java.text.SimpleDateFormat
 import java.util.TimeZone
 
