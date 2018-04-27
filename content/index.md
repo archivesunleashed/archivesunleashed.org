@@ -10,7 +10,7 @@ weight: 0
 
 Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the [Andrew W. Mellon Foundation](https://mellon.org), we will be developing web archive search and data analysis tools to enable scholars and librarians to access, share, and investigate recent history since the early days of the World Wide Web.
 
-Interested in the project? Subscribe to our [mailing list](/subscribe)! Or you can follow the links at left for information [about the project](/about-project), the [Archives Unleashed Cloud](/cloud), [Archives Unleashed Toolkit](/aut), or our [events](/events). 
+Interested in the project? Subscribe to our [mailing list](/get-involved)! Or you can follow the links at left for information [about the project](/about-project), the [Archives Unleashed Cloud](/cloud), [Archives Unleashed Toolkit](/aut), or our [events](/events). 
 
 We're always looking for [ways to engage](/get-involved) archivists, librarians, researchers, developers, or any others interested in born-digital heritage!
 
