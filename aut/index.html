@@ -394,7 +394,7 @@
 
 <h3 id="quick-start">Quick Start</h3>
 
-<p>If you don&rsquo;t want to install all the dependencies locally, you can use <a href="https://github.com/archivesunleashed/docker-aut"><code>docker-aut</code></a>. You can run the bleeding edge version of <code>aut</code> with <code>docker run --rm -it archivesunleashed/docker-aut</code> or a specific version of <code>aut</code>, such as 0.15.0 with <code>docker run --rm -it archivesunleashed/docker-aut:0.15.0</code>. More information on using <code>docker-aut</code>, such as mounting your own data, can be found <a href="https://github.com/archivesunleashed/docker-aut#use">here</a>.</p>
+<p>If you don&rsquo;t want to install all the dependencies locally, you can use <a href="https://github.com/archivesunleashed/docker-aut"><code>docker-aut</code></a>. You can run the bleeding edge version of <code>aut</code> with <code>docker run --rm -it archivesunleashed/docker-aut</code> or a specific version of <code>aut</code>, such as 0.16.0 with <code>docker run --rm -it archivesunleashed/docker-aut:0.16.0</code>. More information on using <code>docker-aut</code>, such as mounting your own data, can be found <a href="https://github.com/archivesunleashed/docker-aut#use">here</a>.</p>
 
 <h3 id="dependencies">Dependencies</h3>
 
@@ -414,7 +414,7 @@
 
 <h3 id="downloading-aut">Downloading AUT</h3>
 
-<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.15.0/aut-0.15.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
+<p>The Archives Unleashed Toolkit can be <a href="https://github.com/archivesunleashed/aut/releases/download/aut-0.16.0/aut-0.16.0-fatjar.jar">downloaded as a JAR file for easy use</a>.</p>
 
 <p>The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also <a href="https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz">download the example ARC file here</a>.</p>
 
@@ -430,7 +430,7 @@ curl -L &quot;https://raw.githubusercontent.com/archivesunleashed/aut/master/src
 
 <pre><code class="language-bash">curl -L &quot;https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz&quot; &gt; spark-2.1.1-bin-hadoop2.7.tgz
 tar -xvf spark-2.1.1-bin-hadoop2.7.tgz
-./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.15.0&quot;
+./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.16.0&quot;
 </code></pre>
 
 <p>You should have the spark shell ready and running.</p>
@@ -485,7 +485,7 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 
 <p>If you&rsquo;re running locally, you can pass it in your startup command like this:</p>
 
-<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.15.0&quot;
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.16.0&quot;
 </code></pre>
 
 <p>In the above case, you give Spark 4GB of memory to execute the program.</p>
@@ -496,12 +496,12 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 
 <p>You can do so like this (example is using 12 threads on a 16-core machine):</p>
 
-<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.15.0&quot;
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages &quot;io.archivesunleashed:aut:0.16.0&quot;
 </code></pre>
 
 <p>If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The <code>--conf spark.network.timeout=10000000</code> will ensure that AUT continues to work on material, although it may take a while to process. This command then works:</p>
 
-<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages &quot;io.archivesunleashed:aut:0.15.0&quot;
+<pre><code>./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages &quot;io.archivesunleashed:aut:0.16.0&quot;
 </code></pre>
 
 <h2 id="collection-analytics">Collection Analytics</h2>
@@ -515,7 +515,7 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc) 
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 .keepValidPages()
 .map(r =&gt; r.getUrl)
 .take(10)
@@ -526,7 +526,7 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc) 
+val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 .keepValidPages()
 .map(r =&gt; r.getUrl)
 .saveAsTextFile(&quot;/path/to/export/directory/&quot;)
@@ -539,12 +539,12 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val r = 
-RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc) 
-.keepValidPages() 
-.map(r =&gt; ExtractDomain(r.getUrl)) 
-.countItems() 
-.take(10) 
+val r =
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
+.keepValidPages()
+.map(r =&gt; ExtractDomain(r.getUrl))
+.countItems()
+.take(10)
 </code></pre>
 
 <p>If you want to see more than ten results, change the variable in the last line.</p>
@@ -746,10 +746,10 @@ ExtractEntities.extractFromScrapeText(&quot;english.all.3class.distsim.crf.ser.g
 <p>Site link structures can be very useful, allowing you to learn such things as:</p>
 
 <ul>
-<li>what websites were the most linked to;<br /></li>
-<li>what websites had the most outbound links;<br /></li>
-<li>what paths could be taken through the network to connect pages;<br /></li>
-<li>what communities existed within the link structure?<br /></li>
+<li>what websites were the most linked to;</li>
+<li>what websites had the most outbound links;</li>
+<li>what paths could be taken through the network to connect pages;</li>
+<li>what communities existed within the link structure?</li>
 </ul>
 
 <p>Most of the following examples show the <strong>domain</strong> to <strong>domain</strong> links. For example, you discover how many times that <code>liberal.ca</code> linked to <code>twitter.com</code>, rather than learning that <code>http://liberal.ca/contact</code> linked to <code>http://twitter.com/liberal_party</code>. The reason we do that is that in general, if you are working with any data at scale, the sheer number of raw URLs can become overwhelming.</p>
@@ -968,7 +968,7 @@ val links = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
   .keepValidPages()
   .flatMap(r =&gt; ExtractImageLinks(r.getUrl, r.getContentString))
   .countItems()
-  .take(10) 
+  .take(10)
 </code></pre>
 
 <p>Will extract the top ten URLs of images found within a collection, in an array like so:</p>
