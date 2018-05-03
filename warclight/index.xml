@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Warclights on The Archives Unleashed Project</title>
-    <link>http://archivesunleashed.org/warclight/</link>
+    <link>https://archivesunleashed.org/warclight/</link>
     <description>Recent content in Warclights on The Archives Unleashed Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY</copyright>
     <lastBuildDate>Tue, 14 Nov 2017 09:21:11 -0500</lastBuildDate>
     
-	<atom:link href="http://archivesunleashed.org/warclight/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archivesunleashed.org/warclight/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Warclight</title>
-      <link>http://archivesunleashed.org/warclight/</link>
+      <link>https://archivesunleashed.org/warclight/</link>
       <pubDate>Tue, 14 Nov 2017 09:21:11 -0500</pubDate>
       
-      <guid>http://archivesunleashed.org/warclight/</guid>
+      <guid>https://archivesunleashed.org/warclight/</guid>
       <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data that is indexed via the UK Web Archive&amp;rsquo;s webarchive-discovery project.
 Want to know more? You can visit our demo site here, or check out the code on GitHub along with documetation to get you started on your own Warclight application.</description>
     </item>

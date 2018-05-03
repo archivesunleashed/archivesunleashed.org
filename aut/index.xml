@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Auts on The Archives Unleashed Project</title>
-    <link>http://archivesunleashed.org/aut/</link>
+    <link>https://archivesunleashed.org/aut/</link>
     <description>Recent content in Auts on The Archives Unleashed Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
     
-	<atom:link href="http://archivesunleashed.org/aut/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archivesunleashed.org/aut/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Archives Unleashed Toolkit</title>
-      <link>http://archivesunleashed.org/aut/</link>
+      <link>https://archivesunleashed.org/aut/</link>
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
-      <guid>http://archivesunleashed.org/aut/</guid>
+      <guid>https://archivesunleashed.org/aut/</guid>
       <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on Hadoop. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
 Getting Started Quick Start If you don&amp;rsquo;t want to install all the dependencies locally, you can use docker-aut.</description>

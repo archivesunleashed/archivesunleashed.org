@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Archives Unleashed Project</title>
-    <link>http://archivesunleashed.org/</link>
+    <link>https://archivesunleashed.org/</link>
     <description>Recent content on The Archives Unleashed Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>CC-BY</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
     
-	<atom:link href="http://archivesunleashed.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://archivesunleashed.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About the Archives Unleashed Project</title>
-      <link>http://archivesunleashed.org/about-project/</link>
+      <link>https://archivesunleashed.org/about-project/</link>
       <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
       
-      <guid>http://archivesunleashed.org/about-project/</guid>
+      <guid>https://archivesunleashed.org/about-project/</guid>
       <description>Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the Andrew W. Mellon Foundation, we will be developing web archive search and data analysis tools to enable scholars and librarians to access, share, and investigate recent history since the early days of the World Wide Web.
 Growing out of a series of datathons held at the University of Toronto, Library of Congress, Internet Archive, and the British Library, our team recognized the need for better analytics tools, community infrastructure, and accessible web archival interfaces.</description>
     </item>
     
     <item>
       <title>The Archives Unleashed Cloud</title>
-      <link>http://archivesunleashed.org/cloud/</link>
+      <link>https://archivesunleashed.org/cloud/</link>
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
-      <guid>http://archivesunleashed.org/cloud/</guid>
+      <guid>https://archivesunleashed.org/cloud/</guid>
       <description>Under construction!
 The Archives Unleashed Cloud is under construction &amp;mdash; but here&amp;rsquo;s a sneak peak! We&amp;rsquo;ll have more information here soon.
  The Archives Unleashed Cloud makes the Archives Unleashed Toolkit more accessible. It is a web-based front end that allows users to access their web archival collections and analyze them with AUT using a web-based interface.
@@ -36,10 +36,10 @@ Interested in the Archives Unleashed Cloud? Check out our repository or you can 
     
     <item>
       <title>The Archives Unleashed Toolkit</title>
-      <link>http://archivesunleashed.org/aut/</link>
+      <link>https://archivesunleashed.org/aut/</link>
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
-      <guid>http://archivesunleashed.org/aut/</guid>
+      <guid>https://archivesunleashed.org/aut/</guid>
       <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on Hadoop. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
 Getting Started Quick Start If you don&amp;rsquo;t want to install all the dependencies locally, you can use docker-aut.</description>
@@ -47,20 +47,20 @@ Getting Started Quick Start If you don&amp;rsquo;t want to install all the depen
     
     <item>
       <title>Warclight</title>
-      <link>http://archivesunleashed.org/warclight/</link>
+      <link>https://archivesunleashed.org/warclight/</link>
       <pubDate>Tue, 14 Nov 2017 09:21:11 -0500</pubDate>
       
-      <guid>http://archivesunleashed.org/warclight/</guid>
+      <guid>https://archivesunleashed.org/warclight/</guid>
       <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data that is indexed via the UK Web Archive&amp;rsquo;s webarchive-discovery project.
 Want to know more? You can visit our demo site here, or check out the code on GitHub along with documetation to get you started on your own Warclight application.</description>
     </item>
     
     <item>
       <title>Get Involved</title>
-      <link>http://archivesunleashed.org/get-involved/</link>
+      <link>https://archivesunleashed.org/get-involved/</link>
       <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
       
-      <guid>http://archivesunleashed.org/get-involved/</guid>
+      <guid>https://archivesunleashed.org/get-involved/</guid>
       <description>There are many ways you can participate in the Archives Unleashed Project!
 
  There are many ways you can participate in the Archives Unleashed Project. You can always just send us an e-mail too!
@@ -70,10 +70,10 @@ Please read our Code of Conduct.
     
     <item>
       <title>Events</title>
-      <link>http://archivesunleashed.org/events/</link>
+      <link>https://archivesunleashed.org/events/</link>
       <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
       
-      <guid>http://archivesunleashed.org/events/</guid>
+      <guid>https://archivesunleashed.org/events/</guid>
       <description>Toronto, April 2018 The Archives Unleashed will host its first datathon in partnership with the University of Toronto Libraries 26-27 April 2018.
 Please visit the Toronto event page for more information.
 About our Datathons One of our key priorities is sustainability: crucial to the project’s success is leveraging an open-source ecosystem. Cognizant of funded projects that run into sustainability issues following a successful launch, we regard regional datathons staged under the Archives Unleashed banner as vital to ensuring broad community buy-in and continued involvement.</description>
@@ -81,20 +81,20 @@ About our Datathons One of our key priorities is sustainability: crucial to the 
     
     <item>
       <title>Toronto Datathon</title>
-      <link>http://archivesunleashed.org/toronto/</link>
+      <link>https://archivesunleashed.org/toronto/</link>
       <pubDate>Tue, 05 Dec 2017 15:20:57 -0500</pubDate>
       
-      <guid>http://archivesunleashed.org/toronto/</guid>
+      <guid>https://archivesunleashed.org/toronto/</guid>
       <description>About The World Wide Web has a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
 Web archives often contain hundreds of billions of web pages, ranging from individual homepages and social media posts, to institutional websites.</description>
     </item>
     
     <item>
       <title>Welcome to the Archives Unleashed Project</title>
-      <link>http://archivesunleashed.org/</link>
+      <link>https://archivesunleashed.org/</link>
       <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
       
-      <guid>http://archivesunleashed.org/</guid>
+      <guid>https://archivesunleashed.org/</guid>
       <description>Welcome Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the Andrew W. Mellon Foundation, we will be developing web archive search and data analysis tools to enable scholars and librarians to access, share, and investigate recent history since the early days of the World Wide Web.
 Interested in the project? Subscribe to our mailing list!</description>
     </item>
