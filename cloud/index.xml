@@ -18,10 +18,8 @@
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
       <guid>https://archivesunleashed.org/cloud/</guid>
-      <description>Under construction!
-The Archives Unleashed Cloud is under construction &amp;mdash; but here&amp;rsquo;s a sneak peak! We&amp;rsquo;ll have more information here soon.
- The Archives Unleashed Cloud makes the Archives Unleashed Toolkit more accessible. It is a web-based front end that allows users to access their web archival collections and analyze them with AUT using a web-based interface.
-Interested in the Archives Unleashed Cloud? Check out our repository or you can see some screenshots below.</description>
+      <description>Introduction Imagine a world where you could access and analyze a web archives file in as few as three clicks, with no coding necessary. Oh wait, there&amp;rsquo;s a portal for that: the Archives Unleashed Cloud, or AUK.
+AUK is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users a web-based front end to access the Archives Unleashed Toolkit.</description>
     </item>
     
   </channel>
