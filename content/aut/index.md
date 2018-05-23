@@ -21,7 +21,7 @@ If you don't want to install all the dependencies locally, you can use [`docker-
 
 The Archives Unleashed Toolkit requires Java.
 
-For Mac OS: You can find information on Java [here](https://java.com/en/download/help/mac_install.xml), or install with [homebrew](brew.sh) and then:
+For Mac OS: You can find information on Java [here](https://java.com/en/download/help/mac_install.xml), or install with [homebrew](https://brew.sh) and then:
 
 ```
 brew cask install java8
