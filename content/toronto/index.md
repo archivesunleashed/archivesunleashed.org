@@ -96,7 +96,7 @@ For guests flying into Toronto there are two main airports, one located downtown
 While you are in Toronto there are a few ways to get around, but ultimately it will depend on how close you are to campus. The Robarts Library is part of the University of Toronto's St. George Campus. 
 
 * [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) If you are taking subway Line 1, St. George Station is the closest stop to the Robarts Library. 
-* Parking (Green P) - You can check out [Toronto’s Parking Authority Website](parking.green.com) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
+* Parking (Green P) - You can check out [Toronto’s Parking Authority Website](https://parking.greenp.com/) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
 
 ![Attractions](/images/attractions.png)
 For those adventurers who’d like to check out Toronto attractions, you may want to check out the [City of Toronto Tourism Website](http://www.seetorontonow.com). Some of our favourite spots to visit include: 
