@@ -6,7 +6,7 @@ weight: 10
 
 ![Network diagram](/images/label-hairball.png)
 
-Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the [Andrew W. Mellon Foundation](https://mellon.org/), we will be developing web archive search and data analysis tools to enable scholars and librarians to access, share, and investigate recent history since the early days of the World Wide Web.
+Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the [Andrew W. Mellon Foundation](https://mellon.org/), we are developing web archive search and data analysis tools to enable scholars, librarians and archivists to access, share, and investigate recent history since the early days of the World Wide Web.
 
 Growing out of a series of datathons held at the <a href="http://archivesunleashed.ca/">University of Toronto</a>, <a href="http://archivesunleashed.com/">Library of Congress</a>, <a href="http://archivesunleashed.com/">Internet Archive</a>, and the <a href="http://archivesunleashed.com/">British Library</a>, our team recognized the need for better analytics tools, community infrastructure, and accessible web archival interfaces.
 
