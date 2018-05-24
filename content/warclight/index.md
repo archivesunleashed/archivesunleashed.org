@@ -12,17 +12,17 @@ You can visit our demo site [here](http://warclight.archivesunleashed.org), or c
 
 Want to know more?
 
-We have a few posts about Warclight at [news.archivesunleashed.org](news.archivesunleashed.org):
+We have a few posts about Warclight at [news.archivesunleashed.org](https://news.archivesunleashed.org):
 
   - [See a Little Warclight](https://news.archivesunleashed.org/see-a-little-warclight-7b33059355f2)
   - [Warclight and WALK: Providing a Framework for Search and Discovery of Web Archives](https://news.archivesunleashed.org/warclight-and-walk-providing-a-framework-for-search-and-discovery-of-web-archives-47fbd469da2d)
   - [Thumbnails in Warclight](https://news.archivesunleashed.org/thumbnails-in-warclight-e155a0910c35)
 
 We also have Warclight instances setup for each of our [WALK Partners](https://uwaterloo.ca/web-archive-group/news/compute-canada-grant-web-archives-longitudinal-knowledge):
-  
+
   - [Dalhousie University](http://dalhousie.archivesunleashed.org/)
   - [Simon Fraser University](http://sfu.archivesunleashed.org/)
-  - [University of Alberta](ualberta.archivesunleashed.org)
+  - [University of Alberta](http://ualberta.archivesunleashed.org)
   - [University of Toronto](http://utoronto.archivesunleashed.org/)
   - [University of Victoria](http://uvic.archivesunleashed.org/)
   - [University of Winnipeg](http://uwinnipeg.archivesunleashed.org/)
