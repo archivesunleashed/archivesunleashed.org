@@ -1,7 +1,6 @@
 ---
 title: Toronto Datathon
 date: 2017-12-05T15:20:57-05:00
-weight: 45
 ---
 ![Toronto Skyline](/images/toronto-skyline.png)
 ## About

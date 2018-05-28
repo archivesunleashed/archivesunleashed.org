@@ -53,6 +53,7 @@ This event is possible thanks to the generous support of <a href="https://mellon
 University of Toronto, John P. Robarts Research Library, Blackburn Room (4036)
 ![Blackburn Room](/images/blackburn-room.png)
 
+<!---
 ## Travel to Toronto
 
 The AUT team has put together some helpful information and resources to help with your travel plans.
@@ -122,3 +123,4 @@ For those new to the city, we've created this datathon specific map to help you 
 |               |                  |
 |:-----------------:|:------------------------:|
 | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
+-->
