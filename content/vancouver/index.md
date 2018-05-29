@@ -44,7 +44,7 @@ This event is possible thanks to the generous support of <a href="https://mellon
 
 |                                              |                                            |                                                     |
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
-| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
+| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/library_key_logo.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
 
 
