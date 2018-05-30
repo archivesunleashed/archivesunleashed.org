@@ -70,8 +70,8 @@ At the `scala>` prompt, type the following command and press enter.
 Now cut and paste the following script:
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
 .keepValidPages()
@@ -113,8 +113,8 @@ We like to use this example to do two things:
 **If you loaded your own data above**, you can access that directory by substituting the directory in the `loadArchives` command. Try it again! Remeber to type `:paste`, paste the following command in, and then `ctrl` + `D` to execute.
 
 ```scala
-import io.archivesunleashed.spark.matchbox._
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("/data/*.gz", sc)
 .keepValidPages()
@@ -132,8 +132,8 @@ Above we learned that the Liberal Party of Canada's website has 1,968 captures i
 To load this script, remember: type `paste`, copy-and-paste it into the shell, and then hold `ctrl` and `D` at the same time.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
@@ -155,8 +155,8 @@ As this is one of the most common errors, let's see it and then learn how to get
 Try running the **exact same script** that you did above.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
@@ -185,14 +185,14 @@ Take some time to explore the various options and variables that you can swap in
 Some options:
 
 * **Keep URL Patterns**: Instead of domains, what if you wanted to have text relating to just a certain pattern? Substitute `.keepDomains` for a command like: `.keepUrlPatterns(Set("(?i)http://geocities.com/EnchantedForest/.*".r))`
-* **Filter by Date**: What if we just wanted data from 2005, or 2008? You could add the following command after `.keepValidPages()`: `.keepDate(List("2005"), YYYY)`
+* **Filter by Date**: What if we just wanted data from 2006? You could add the following command after `.keepValidPages()`: `.keepDate(List("2006"), ExtractDate.DateComponent.YYYY)`
 * **Filter by Language**: What if you just want French-language pages? After `.keepDomains` add a new line: `.keepLanguages(Set("fr"))`.
 
 For example, if we just wanted the French-language Liberal pages, we would run:
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{RemoveHTML, RecordLoader}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
@@ -200,6 +200,19 @@ RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepLanguages(Set("fr"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("/data/liberal-party-french-text")
+```
+
+Or if we wanted to just have pages from 2006, we would run:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
+  .keepValidPages()
+  .keepDate(List("2006"), ExtractDate.DateComponent.YYYY)
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .saveAsTextFile("/data/2006-text")
 ```
 
 ## People, Places, and Things: Entities Ahoy! {#entities}
@@ -211,7 +224,9 @@ To do this, we need to have a classifier - luckily, we have included an English-
 The code is below. It looks a bit different than what you are used to:
 
 ```
-import io.archivesunleashed.spark.matchbox.ExtractEntities
+import io.archivesunleashed._
+import io.archivesunleashed.app._
+import io.archivesunleashed.matchbox._
 
 ExtractEntities.extractFromRecords("/aut-resources/NER/english.all.3class.distsim.crf.ser.gz", "/aut-resources/Sample-Data/*.gz", "/data/ner-output/", sc)
 ```
@@ -233,8 +248,9 @@ One other thing we can do is a network analysis. By now you are probably getting
 Let's extract all of the links from the sample data and export them to a file format that the popular network analysis program Gephi can use.
 
 ```scala
-import io.archivesunleashed.spark.matchbox.{ExtractDomain, ExtractLinks, RecordLoader, WriteGEXF}
-import io.archivesunleashed.spark.rdd.RecordRDD._
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
