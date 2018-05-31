@@ -137,7 +137,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("liberal.ca"))
+  .keepDomains(Set("www.liberal.ca"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("/data/liberal-party-text")
 ```
@@ -160,7 +160,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("liberal.ca"))
+  .keepDomains(Set("www.liberal.ca"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("/data/liberal-party-text")
 ```
@@ -196,7 +196,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("liberal.ca"))
+  .keepDomains(Set("www.liberal.ca"))
   .keepLanguages(Set("fr"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile("/data/liberal-party-french-text")
@@ -249,8 +249,8 @@ Let's extract all of the links from the sample data and export them to a file fo
 
 ```scala
 import io.archivesunleashed._
+import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .keepValidPages()
