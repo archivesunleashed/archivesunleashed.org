@@ -500,7 +500,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;/aut-resources/Sample-Data/*.gz&quot;, sc)
   .keepValidPages()
-  .keepDomains(Set(&quot;liberal.ca&quot;))
+  .keepDomains(Set(&quot;www.liberal.ca&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;/data/liberal-party-text&quot;)
 </code></pre>
@@ -522,7 +522,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;/aut-resources/Sample-Data/*.gz&quot;, sc)
   .keepValidPages()
-  .keepDomains(Set(&quot;liberal.ca&quot;))
+  .keepDomains(Set(&quot;www.liberal.ca&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;/data/liberal-party-text&quot;)
 </code></pre>
@@ -560,7 +560,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives(&quot;/aut-resources/Sample-Data/*.gz&quot;, sc)
   .keepValidPages()
-  .keepDomains(Set(&quot;liberal.ca&quot;))
+  .keepDomains(Set(&quot;www.liberal.ca&quot;))
   .keepLanguages(Set(&quot;fr&quot;))
   .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
   .saveAsTextFile(&quot;/data/liberal-party-french-text&quot;)
@@ -609,8 +609,8 @@ ExtractEntities.extractFromRecords(&quot;/aut-resources/NER/english.all.3class.d
 <p>Let&rsquo;s extract all of the links from the sample data and export them to a file format that the popular network analysis program Gephi can use.</p>
 
 <pre><code class="language-scala">import io.archivesunleashed._
+import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
-import io.archivesunleashed.util._
 
 val links = RecordLoader.loadArchives(&quot;/aut-resources/Sample-Data/*.gz&quot;, sc)
   .keepValidPages()
