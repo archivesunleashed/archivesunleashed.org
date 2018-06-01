@@ -24,7 +24,7 @@ Join our <a href="https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqH
 
 ## Subscribe
 
-Interested in hearing about the latest Archives Unleashed Project updates? Subscribe to our quarterly newsletter by clicking [here](http://eepurl.com/dfpU7j) or the form below.
+Interested in hearing about the latest Archives Unleashed Project updates? Subscribe to our quarterly newsletter by clicking [here](http://eepurl.com/dfpU7j) or filling out the form below.
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
