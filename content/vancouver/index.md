@@ -7,9 +7,9 @@ weight: 45
 ![Vancouver Skyline](/images/vancouver-skyline.png)
 ## About
 
-The World Wide Web has a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
+The World Wide Web has had a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
 
-The project team We invite archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
+The project team invites archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
 The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">**Simon Fraser University Library**</a>, and <a href="http://www.sfu.ca/key/">**KEY**</a>  (SFU’s Big Data initiative) to host the next Archives Unleashed datathon.
 
@@ -38,7 +38,7 @@ The Archives Unleashed team is pleased to offer modest travel grants to help att
 
 ## Submissions
 
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com"> archivesunleashed@gmail.com</a>) by **midnight on 16 July 2018**:
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **16 July 2018**:
 
 * a 250-word expression of interest;
 * a short one-page CV; and
