@@ -1,65 +1,98 @@
 ---
-title: Toronto Datathon
+title: Vancouver Datathon
 date: 2017-12-05T15:20:57-05:00
+weight: 45
 ---
-![Toronto Skyline](/images/toronto-skyline.png)
+
+![Vancouver Skyline](/images/vancouver-skyline.png)
 ## About
 
-The World Wide Web has a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
+The World Wide Web has had a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
 
-Web archives often contain hundreds of billions of web pages, ranging from individual homepages and social media posts, to institutional websites. These archives offer tremendous potential for social scientists and humanists, and the questions research may pose stretch across a multitude of fields. Scholars broaching topics dating back to the mid-1990s will find their projects enhanced by web data. Moreover, scholars hoping to study the evolution of cultural and societal phenomena will find a treasure trove of data in web archives. In short, web archives offer the ability to reconstruct large-scale traces of the relatively recent past.
+The project team invites archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
-With the latest release of the Archives Unleashed Toolkit (AUT), the project team will be hosting a series of four datathons for archivists, researchers, librarians, computer scientists, and others to collaboratively work with web collections and explore cutting-edge research tools through hands on experience.
+The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">**Simon Fraser University Library**</a>, and <a href="http://www.sfu.ca/key/">**KEY**</a>  (SFU’s Big Data initiative) to host the next Archives Unleashed datathon.
 
-The Archives Unleashed Project is pleased to announce the first datathon will take place at the **University of Toronto Robarts Library, 26-27 April 2018.**
+This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. 
 
-This event will bring together a small group of approximately 15 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. For more information on AUT and the Cloud, please visit https://archivesunleashed.org/. 
+For more information on AUT and the Cloud, please visit http://archivesunleashed.org/. 
 
-
-## Submissions
-
-Submissions for the April 26-27 Toronto Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation. 
 Check to see when Archives Unleashed will be near you… 
 
 |        Date       |         Location         |
 |:-----------------:|:------------------------:|
-| April 26-27, 2018 | Toronto, ON              |
-| Late October 2018 | Canada West Coast        |
+| 26-27 April 2018 | Toronto, ON              |
+| 1-2 November 2018 | Vancouver, BC        |
 | May 2019          | United States East Coast |
 | November 2019     | United States West Coast |
+
+
+
+## Travel Grants
+
+This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> SFU Key </a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
+ 
+
+The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
+
+
+## Submissions
+
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **16 July 2018**:
+
+* a 250-word expression of interest;
+* a short one-page CV; and
+* Indication of need for financial assistance to travel to event (if applicable)
+
+This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale. 
+
+**IMPORTANT DATES**
+
+|        Date       |         Location         |
+|:-----------------:|:------------------------:|
+| 4 June 2018 | Call for Participation|
+| 29 June 2018 | Second Call for Participation|
+| 16 July 2018 | Submissions Due |
+| 27 July 2018 | Applicants notified |
+
 
 ## Organizers
 
 * Ian Milligan (University of Waterloo)
-* Nicholas Worby (University of Toronto)
+* Rebecca Dowson (Simon Fraser University)
 * Nick Ruest (York University)
 * Jimmy Lin (University of Waterloo)
+* Samantha Fritz (University of Waterloo)
 
 
 ## Sponsors
-
-This event is possible thanks to the generous support of <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, the <a href="https://onesearch.library.utoronto.ca/about"> University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts, <a href=""> York University </a>, <a href="https://www.computecanada.ca"> Compute Canada </a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
-
 |                                              |                                            |                                                     |
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
-| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
+| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/library_key_logo.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
 
 
 ## Venue 
 
-University of Toronto, John P. Robarts Research Library, Blackburn Room (4036)
-![Blackburn Room](/images/blackburn-room.png)
 
-## Travel to Toronto
+Harbour Centre (555 W Hastings St, Vancouver, BC V6B 4N4)
+
+Simon Fraser University Vancouver Campus
+
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10410.235288532383!2d-123.1118716!3d49.2847564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1527002584587" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+<!---
+## Travel to Vancouver
 
 The AUT team has put together some helpful information and resources to help with your travel plans.
 
 ![Accommodations](/images/accommodations.png)
 
-While there is no designated hotel the datathon will be using, we have highlighted some options close to the University of Toronto. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
+While there is no designated hotel the datathon will be using, we have highlighted some options near the Harbour Centre. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
 
-Staying to Toronto doesn’t have to be expensive, which is why we like to use some of the following aggregators to compare hotel rates:
+Staying to Vancouver doesn’t have to break the bank, which is why we like using some of the following aggregators to compare hotel rates:
 
 * Airbnb (great option to find reasonably priced accommodations)
 * Kayak
@@ -107,7 +140,7 @@ For those adventurers who’d like to check out Toronto attractions, you may wan
 * [Art Gallery of Ontario](https://ago.ca)
 * [TIFF Bell Lightbox](https://www.tiff.net/visit/)
 
-For those new to the city, we've created this datathon specific map to help you find your way around, including some nearby amenities. We will be updating the map over the next few weeks.
+For those adventurers with some time before or after the datathon who’d like to check out Vancouver attractions, you may want to check out the Vancouver Tourism website. Some of our favourite spots to visit include: 
 
 <iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="100%" height="350"></iframe>
 
@@ -120,3 +153,4 @@ For those new to the city, we've created this datathon specific map to help you 
 |               |                  |
 |:-----------------:|:------------------------:|
 | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
+-->

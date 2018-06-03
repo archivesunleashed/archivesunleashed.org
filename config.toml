@@ -78,8 +78,8 @@ googleAnalytics = "UA-2879197-28"
 	weight = 40
 
 [[menu.main]]
-	name   = "Toronto Datathon"
-	url    = "toronto/"
+	name   = "Vancouver Datathon"
+	url    = "vancouver/"
 	weight = 45
 
 [[menu.main]]
