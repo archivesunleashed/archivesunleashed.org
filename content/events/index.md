@@ -4,7 +4,7 @@ title: Events
 weight: 40
 ---
 
-## Upcoming Events - Vancouver, November 2018
+## Upcoming Events
 
 ![Material Screenshot](/images/vancouver-skyline.png)
 
