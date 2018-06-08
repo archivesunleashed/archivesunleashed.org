@@ -16,6 +16,90 @@ The Archives Unleashed Project is pleased to announce the first datathon will ta
 This event will bring together a small group of approximately 15 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. For more information on AUT and the Cloud, please visit https://archivesunleashed.org/. 
 
 
+## Team Projects
+
+<table>
+  <tr>
+    <td><b>Team: BC Teacher Labor</b>
+      <ul>
+        <li>Nich Worby, University of Toronto Libraries</li>
+        <li>Graeme Campbell, Queen's University</li>
+        <li>Brandon Locke, Michigan State University</li>
+        <li>Katie Mackinnon, University of Toronto</li>
+        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
+      </ul> 
+    <td><image src="/images/BCLabor.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Make Tweets Great Again</a></b>
+      <ul>
+        <li>Jacqueline Whyte Appleby, Scholars Portal/University of Toronto</li>
+        <li>Shawn Jones, Old Dominion University</li>
+        <li>Amanda Oliver, Western University Archives</li>
+        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/MTGA.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Pipeline</b>
+      <ul>
+        <li>Corey Davis, University of Victoria/COPPUL</li>
+        <li>Creighton Barrett, Dalhousie University</li>
+        <li>Ben Goldman, Penn State University Libraries</li>
+        <li>Rebecca Dowson, Simon Fraser University</li>
+        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Pipeline.png"></td>
+  </tr>
+ <tr>
+    <td><b>Team Spamlinks</b>
+      <ul>
+        <li>Justin Littman, George Washington University Libraries</li>
+        <li>Shawn Walker, Arizona State University</li>
+        <li>Russell White, Library and Archives Canada</li>
+        <li>Brian Griffin, Old Dominion University</li>
+        <li>Jayanthy Chengan, Scholars Portal/University of Toronto</li>
+        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Spamlinks.png"></td>
+ </tr>
+</table>
+## Organizers
+
+* Ian Milligan (University of Waterloo)
+* Nicholas Worby (University of Toronto)
+* Nick Ruest (York University)
+* Jimmy Lin (University of Waterloo)
+
+## Sponsors
+
+This event is possible thanks to the generous support of <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, the <a href="https://onesearch.library.utoronto.ca/about"> University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts, <a href=""> York University </a>, <a href="https://www.computecanada.ca"> Compute Canada </a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
+
+|                                              |                                            |                                                     |
+|----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
+| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
+| ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
+
+## Venue 
+
+University of Toronto, John P. Robarts Research Library, Blackburn Room (4036)
+![Blackburn Room](/images/blackburn-room.png)
+
+
+## Schedule
+
+<p>Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.</p>
+
+<p>Please click the image below to check out the <a href="/images/toronto-schedule.pdf">full Toronto Datathon schedule!</a></p>
+
+|               |                  |
+|:-----------------:|:------------------------:|
+| <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
+
+
+
+
+<!---
 ## Submissions
 
 Submissions for the April 26-27 Toronto Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation. 
@@ -27,29 +111,6 @@ Check to see when Archives Unleashed will be near you…
 | Late October 2018 | Canada West Coast        |
 | May 2019          | United States East Coast |
 | November 2019     | United States West Coast |
-
-## Organizers
-
-* Ian Milligan (University of Waterloo)
-* Nicholas Worby (University of Toronto)
-* Nick Ruest (York University)
-* Jimmy Lin (University of Waterloo)
-
-
-## Sponsors
-
-This event is possible thanks to the generous support of <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, the <a href="https://onesearch.library.utoronto.ca/about"> University of Toronto Libraries </a>, the <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts, <a href=""> York University </a>, <a href="https://www.computecanada.ca"> Compute Canada </a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs </a>.
-
-|                                              |                                            |                                                     |
-|----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
-| ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
-| ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
-
-
-## Venue 
-
-University of Toronto, John P. Robarts Research Library, Blackburn Room (4036)
-![Blackburn Room](/images/blackburn-room.png)
 
 ## Travel to Toronto
 
@@ -109,63 +170,4 @@ For those adventurers who’d like to check out Toronto attractions, you may wan
 
 For those new to the city, we've created this datathon specific map to help you find your way around, including some nearby amenities. We will be updating the map over the next few weeks.
 
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="100%" height="350"></iframe>
-
-## Schedule
-
-<p>Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.</p>
-
-<p>Please click the image below to check out the <a href="/images/toronto-schedule.pdf">full Toronto Datathon schedule!</a></p>
-
-|               |                  |
-|:-----------------:|:------------------------:|
-| <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
-
-## Team Projects
-
-<table>
-  <tr>
-    <td><b>Team: BC Teacher Labor</b>
-      <ul>
-        <li>Nich Worby, University of Toronto Libraries</li>
-        <li>Graeme Campbell, Queen's University</li>
-        <li>Brandon Locke, Michigan State University</li>
-        <li>Katie Mackinnon, University of Toronto</li>
-        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
-      </ul> 
-    <td><image src="/images/BCLabor.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: Make Tweets Great Again</a></b>
-      <ul>
-        <li>Jacqueline Whyte Appleby, Scholars Portal/University of Toronto</li>
-       	<li>Shawn Jones, Old Dominion University</li>
-        <li>Amanda Oliver, Western University Archives</li>
-        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/MTGA.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: Pipeline</b>
-      <ul>
-        <li>Corey Davis, University of Victoria/COPPUL</li>
-       	<li>Creighton Barrett, Dalhousie University</li>
-        <li>Ben Goldman, Penn State University Libraries</li>
-        <li>Rebecca Dowson, Simon Fraser University</li>
-        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Pipeline.png"></td>
-  </tr>
- <tr>
-    <td><b>Team Spamlinks</b>
-      <ul>
-        <li>Justin Littman, George Washington University Libraries</li>
-       	<li>Shawn Walker, Arizona State University</li>
-        <li>Russell White, Library and Archives Canada</li>
-        <li>Brian Griffin, Old Dominion University</li>
-        <li>Jayanthy Chengan, Scholars Portal/University of Toronto</li>
-        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Spamlinks.png"></td>
- </tr>
-</table>
+<iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="100%" height="350"></iframe> -->
