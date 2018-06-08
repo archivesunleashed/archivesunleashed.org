@@ -20,7 +20,7 @@ This event will bring together a small group of approximately 15 participants to
 
 <table>
   <tr>
-    <td><b>Team: BC Teacher's Labor Dispute</b> (as per their slides)
+    <td><b>Team: BC Teachers' Labor Dispute</b>
       <ul>
         <li>Nich Worby, University of Toronto Libraries</li>
         <li>Graeme Campbell, Queen's University</li>
