@@ -120,3 +120,52 @@ For those new to the city, we've created this datathon specific map to help you 
 |               |                  |
 |:-----------------:|:------------------------:|
 | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
+
+## Team Projects
+
+<table>
+  <tr>
+    <td><b>Team: BC Teacher Labor</b>
+      <ul>
+        <li>Nich Worby, University of Toronto Libraries</li>
+        <li>Graeme Campbell, Queen's University</li>
+        <li>Brandon Locke, Michigan State University</li>
+        <li>Katie Mackinnon, University of Toronto</li>
+        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
+      </ul> 
+    <td><image src="/images/BCLabor.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Make Tweets Great Again</a></b>
+      <ul>
+        <li>Jacqueline Whyte Appleby, Scholars Portal/University of Toronto</li>
+       	<li>Shawn Jones, Old Dominion University</li>
+        <li>Amanda Oliver, Western University Archives</li>
+        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/MTGA.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Pipeline</b>
+      <ul>
+        <li>Corey Davis, University of Victoria/COPPUL</li>
+       	<li>Creighton Barrett, Dalhousie University</li>
+        <li>Ben Goldman, Penn State University Libraries</li>
+        <li>Rebecca Dowson, Simon Fraser University</li>
+        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Pipeline.png"></td>
+  </tr>
+ <tr>
+    <td><b>Team Spamlinks</b>
+      <ul>
+        <li>Justin Littman, George Washington University Libraries</li>
+       	<li>Shawn Walker, Arizona State University</li>
+        <li>Russell White, Library and Archives Canada</li>
+        <li>Brian Griffin, Old Dominion University</li>
+        <li>Jayanthy Chengan, Scholars Portal/University of Toronto</li>
+        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Spamlinks.png"></td>
+ </tr>
+</table>
