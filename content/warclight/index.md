@@ -26,4 +26,3 @@ We also have Warclight instances setup for each of our [WALK Partners](https://u
   - [University of Toronto](http://utoronto.archivesunleashed.org/)
   - [University of Victoria](http://uvic.archivesunleashed.org/)
   - [University of Winnipeg](http://uwinnipeg.archivesunleashed.org/)
-  - [Web Archives for Historical Research Group](http://wahr.archivesunleashed.org/)
