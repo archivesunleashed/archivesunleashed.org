@@ -39,8 +39,8 @@ From the dashboard, users can select a collection to download, which will trigge
 
 The analysis process then triggers an Apache Spark job and uses AUT to create a basic set of derivatives:
 
-* A GEXF file which you can load with Gephi. It has a basic layout courtesy of our [Graphpass](https://github.com/archivesunleashed/graphpass) program, which allows you to see major nodes and communities in the network;
-* A GraphML file which you can load with [Gephi](https://gephi.org/). It does not have any basic layouts or transformations, requiring you to do so manually. You can use Graphpass to provide layout if you wish to add that feature to your file;
+* A GEXF file which you can load with Gephi. It has a basic layout courtesy of our [GraphPass](https://github.com/archivesunleashed/graphpass) program, which allows you to see major nodes and communities in the network;
+* A GraphML file which you can load with [Gephi](https://gephi.org/). It does not have any basic layouts or transformations, requiring you to do so manually. You can use GraphPass to provide layout if you wish to add that feature to your file;
 * A csv file that explains the distribution of domains within the web archive;
 * A txt file that contains the plain text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file.
 
@@ -48,9 +48,9 @@ Here is a completed collection page:
 
 ![Cloud collections](/images/analysis.png)
 
-In addition, we use [Graphpass](https://github.com/archivesunleashed/graphpass) to help to create a simple network visualization powered by [Sigma js](http://sigmajs.org/) on the collection dashboard. Sigma is a JavaScript library that assists in drawing and displaying graphs. 
+In addition, we use [GraphPass](https://github.com/archivesunleashed/graphpass) to help to create a simple network visualization powered by [Sigma js](http://sigmajs.org/) on the collection dashboard. Sigma is a JavaScript library that assists in drawing and displaying graphs. 
 
-GraphPass produces visualization-related data in the network files such as color, position and size based on common social network algorithms. In the networks each node (dot) represents a domain (i.e. all of the URLs within a domain such as “yorku.ca” or “newyorktimes.com”) and each edge (line) represents a link from one node to another.
+GraphPass produces visualization-related data in the network files such as color, position and size based on common social network algorithms. In the networks each node (dot) represents a domain (i.e. all of the URLs within a domain such as "yorku.ca" or "newyorktimes.com") and each edge (line) represents a link from one node to another.
 
 Users can explore and interact with the network using the helper buttons in the top left corner of the network window. 
 
@@ -62,7 +62,9 @@ Users can explore and interact with the network using the helper buttons in the 
 
 ![Full graph](/images/graph.png)
 
-A few cautionary notes on “scale up” and “scale down” are in order. With website networks, some sites have so many links compared to the others, that they obscure everything else. AUK’s scale-up feature uses **logarithmic transformation** to make the graph a bit easier to read. For example, six nodes with size values 1, 10, 100, 1000, 10000 and 1,000,000,000 can be transformed using a base 10 logarithm to produce new sizes 0, 1, 2, 3, 5, & 9, making the node sizes much closer together in size. 
+A few cautionary notes on "scale up" and "scale down" are in order. With website networks, some sites have so many links compared to the others, that they obscure everything else. AUK’s scale-up feature uses **logarithmic transformation** to make the graph a bit easier to read. For example, six nodes with size values 1, 10, 100, 1000, 10000 and 1,000,000,000 can be transformed using a base 10 logarithm to produce new sizes 0, 1, 2, 3, 4, & 9, making the node sizes much closer together in size. 
+
+> A **logarithm** is a mathematical expression used to deal with non-normal distributed data (like networks). It is created by giving a base number an exponent, which is then multiplied by itself, to create factor increments, rather than equal amount increments, between data points. This is important as it will allow for data points to be more evenly distributed with minimal influence on data accuracy and integrity.
 
 Future development will focus on filtering further down on a collection, and integrating the new [DataFrame](https://spark.apache.org/docs/latest/sql-programming-guide.html) functionality we're adding to AUT via a [JDBC](https://en.wikipedia.org/wiki/JDBC_driver) connector.
 
