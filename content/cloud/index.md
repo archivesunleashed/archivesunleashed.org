@@ -59,12 +59,15 @@ Users can explore and interact with the network using the helper buttons in the 
 * Refresh - brings the network diagram back to its original state
 * Scale up and scale down - allows users to see more or less node labels in the network
 
-
 ![Full graph](/images/graph.png)
 
 A few cautionary notes on "scale up" and "scale down" are in order. With website networks, some sites have so many links compared to the others, that they obscure everything else. AUK’s scale-up feature uses **logarithmic transformation** to make the graph a bit easier to read. For example, six nodes with size values 1, 10, 100, 1000, 10000 and 1,000,000,000 can be transformed using a base 10 logarithm to produce new sizes 0, 1, 2, 3, 4, & 9, making the node sizes much closer together in size. 
 
 > A **logarithm** is a mathematical expression used to deal with non-normal distributed data (like networks). It is created by giving a base number an exponent, which is then multiplied by itself, to create factor increments, rather than equal amount increments, between data points. This is important as it will allow for data points to be more evenly distributed with minimal influence on data accuracy and integrity.
+
+You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that `townyarmouth.ca` has a link to the `atlantic.ctvnews.ca` domain.
+
+![Full graph](/images/neighbours.png)
 
 Future development will focus on filtering further down on a collection, and integrating the new [DataFrame](https://spark.apache.org/docs/latest/sql-programming-guide.html) functionality we're adding to AUT via a [JDBC](https://en.wikipedia.org/wiki/JDBC_driver) connector.
 
