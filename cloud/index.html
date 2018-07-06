@@ -373,11 +373,11 @@
 
 <p>AUK is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users a web-based front end to access the <a href="https://archivesunleashed.org/aut">Archives Unleashed Toolkit</a>. It has been primarily developed by our project co-investigator and developer, <a href="http://ruebot.net/">Nick Ruest</a>.</p>
 
-<p>TL;DR? You can use the Cloud at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a></p>
+<p>You can use the Cloud at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a></p>
 
 <h2 id="functionalities">Functionalities</h2>
 
-<p>AUK has a clean and modern interface with an easy-to-use dashboard. The best part is that you do not need to know how to code, which in tern supports the increased accessibility of working with web archives.</p>
+<p>AUK has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in tern supports the increased accessibility of working with web archives.</p>
 
 <p>Core features of the Archives Unleashed Cloud include:</p>
 
@@ -392,19 +392,19 @@
 
 <h2 id="a-guided-tour-of-auk">A Guided Tour of AUK</h2>
 
-<p>Let&rsquo;s take a tour of how AUK works. Once a user signs up to <a href="http://cloud.archivesunleashed.org/">cloud.archivesunleashed.org</a>, they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with AUK using Archive-It&rsquo;s <a href="https://github.com/WASAPI-Community/data-transfer-apis">WASAPI</a> endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis on their dashboard.</p>
+<p>Let&rsquo;s take a tour of how AUK works. Once a user signs up to <a href="http://cloud.archivesunleashed.org/">cloud.archivesunleashed.org</a>, they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with AUK using Archive-It&rsquo;s <a href="https://github.com/WASAPI-Community/data-transfer-apis">WASAPI</a> endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis.</p>
 
-<p>The AUK dashboard provides some basic information about each collection: title, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!</p>
+<p>The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in AUK yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!</p>
 
 <p><img src="https://archivesunleashed.org/images/collections.png" alt="Cloud collections" /></p>
 
-<p>From the dashboard, users can select a collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our AUK instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin.</p>
+<p>From the main collections screen, users can select a specific collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our AUK instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin.</p>
 
 <p>The analysis process then triggers an Apache Spark job and uses AUT to create a basic set of derivatives:</p>
 
 <ul>
-<li>A GEXF file which you can load with Gephi. It has a basic layout courtesy of our <a href="https://github.com/archivesunleashed/graphpass">Graphpass</a> program, which allows you to see major nodes and communities in the network;</li>
-<li>A GraphML file which you can load with <a href="https://gephi.org/">Gephi</a>. It does not have any basic layouts or transformations, requiring you to do so manually. You can use Graphpass to provide layout if you wish to add that feature to your file;</li>
+<li>A GEXF file which you can load with Gephi. It has a basic layout courtesy of our <a href="https://github.com/archivesunleashed/graphpass">GraphPass</a> program, which allows you to see major nodes and communities in the network;</li>
+<li>A GraphML file which you can load with <a href="https://gephi.org/">Gephi</a>. It does not have any basic layouts or transformations, requiring you to do so manually. You can use <a href="https://github.com/archivesunleashed/graphpass">GraphPass</a> to provide layout if you wish to add that feature to your file;</li>
 <li>A csv file that explains the distribution of domains within the web archive;</li>
 <li>A txt file that contains the plain text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file.</li>
 </ul>
@@ -413,9 +413,30 @@
 
 <p><img src="https://archivesunleashed.org/images/analysis.png" alt="Cloud collections" /></p>
 
-<p>In addition, we use <a href="https://github.com/archivesunleashed/graphpass">Graphpass</a> to help to create a simple network visualization powered by <a href="http://sigmajs.org/">Sigma js</a> on the collection dashboard, and display a table of the top 10 domains occurrences in a given collection.</p>
+<p>In addition, we use <a href="https://github.com/archivesunleashed/graphpass">GraphPass</a> to help to create a simple network visualization powered by <a href="http://sigmajs.org/">Sigma js</a> on the collection page. Sigma is a JavaScript library that assists in drawing and displaying graphs.</p>
+
+<p>GraphPass produces visualization-related data in the network files such as color, position and size based on common social network algorithms. In the networks each node (dot) represents a domain (i.e. all of the URLs within a domain such as &ldquo;yorku.ca&rdquo; or &ldquo;newyorktimes.com&rdquo;) and each edge (line) represents a link from one node to another.</p>
+
+<p>Users can explore and interact with the network using the helper buttons in the top left corner of the network window.</p>
+
+<ul>
+<li>Full Screen - opens up the network to full screen for easier interaction</li>
+<li>Zoom in/out - zooms the camera into the network and away from it</li>
+<li>Refresh - brings the network diagram back to its original state</li>
+<li>Scale up and scale down - allows users to see more or less node labels in the network</li>
+</ul>
 
 <p><img src="https://archivesunleashed.org/images/graph.png" alt="Full graph" /></p>
+
+<p>A few cautionary notes on &ldquo;scale up&rdquo; and &ldquo;scale down&rdquo; are in order. With website networks, some sites have so many links compared to the others, that they obscure everything else. AUK’s scale-up feature uses <strong>logarithmic transformation</strong> to make the graph a bit easier to read. For example, six nodes with size values 1, 10, 100, 1000, 10000 and 1,000,000,000 can be transformed using a base 10 logarithm to produce new sizes 0, 1, 2, 3, 4, &amp; 9, making the node sizes much closer together in size.</p>
+
+<blockquote>
+<p>A <strong>logarithm</strong> is a mathematical expression used to deal with non-normal distributed data (like networks). It is created by giving a base number an exponent, which is then multiplied by itself, to create factor increments, rather than equal amount increments, between data points. This is important as it will allow for data points to be more evenly distributed with minimal influence on data accuracy and integrity.</p>
+</blockquote>
+
+<p>You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that <code>townyarmouth.ca</code> has a link to the <code>atlantic.ctvnews.ca</code> domain.</p>
+
+<p><img src="https://archivesunleashed.org/images/neighbours.png" alt="Full graph" /></p>
 
 <p>Future development will focus on filtering further down on a collection, and integrating the new <a href="https://spark.apache.org/docs/latest/sql-programming-guide.html">DataFrame</a> functionality we&rsquo;re adding to AUT via a <a href="https://en.wikipedia.org/wiki/JDBC_driver">JDBC</a> connector.</p>
 
