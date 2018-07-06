@@ -16,7 +16,7 @@ You can use the Cloud at <http://cloud.archivesunleashed.org>
 
 ## Functionalities
 
-AUK has a clean and modern interface with an easy-to-use dashboard. The best part is that you do not need to know how to code, which in tern supports the increased accessibility of working with web archives.
+AUK has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in tern supports the increased accessibility of working with web archives.
 
 Core features of the Archives Unleashed Cloud include:
 
@@ -29,18 +29,18 @@ In addition, AUK's [documentation](http://cloud.archivesunleashed.org/documentat
 
 ## A Guided Tour of AUK
 
-Let's take a tour of how AUK works. Once a user signs up to [cloud.archivesunleashed.org](http://cloud.archivesunleashed.org/), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with AUK using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis on their dashboard. 
+Let's take a tour of how AUK works. Once a user signs up to [cloud.archivesunleashed.org](http://cloud.archivesunleashed.org/), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with AUK using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
 
-The AUK dashboard provides some basic information about each collection: title, if the collection has been analyzed in AUK yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!
+The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in AUK yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!
 
 ![Cloud collections](/images/collections.png)
- 
-From the dashboard, users can select a collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our AUK instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin. 
+
+From the main collections screen, users can select a specific collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our AUK instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin. 
 
 The analysis process then triggers an Apache Spark job and uses AUT to create a basic set of derivatives:
 
 * A GEXF file which you can load with Gephi. It has a basic layout courtesy of our [GraphPass](https://github.com/archivesunleashed/graphpass) program, which allows you to see major nodes and communities in the network;
-* A GraphML file which you can load with [Gephi](https://gephi.org/). It does not have any basic layouts or transformations, requiring you to do so manually. You can use GraphPass to provide layout if you wish to add that feature to your file;
+* A GraphML file which you can load with [Gephi](https://gephi.org/). It does not have any basic layouts or transformations, requiring you to do so manually. You can use [GraphPass](https://github.com/archivesunleashed/graphpass) to provide layout if you wish to add that feature to your file;
 * A csv file that explains the distribution of domains within the web archive;
 * A txt file that contains the plain text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file.
 
@@ -48,7 +48,7 @@ Here is a completed collection page:
 
 ![Cloud collections](/images/analysis.png)
 
-In addition, we use [GraphPass](https://github.com/archivesunleashed/graphpass) to help to create a simple network visualization powered by [Sigma js](http://sigmajs.org/) on the collection dashboard. Sigma is a JavaScript library that assists in drawing and displaying graphs. 
+In addition, we use [GraphPass](https://github.com/archivesunleashed/graphpass) to help to create a simple network visualization powered by [Sigma js](http://sigmajs.org/) on the collection page. Sigma is a JavaScript library that assists in drawing and displaying graphs. 
 
 GraphPass produces visualization-related data in the network files such as color, position and size based on common social network algorithms. In the networks each node (dot) represents a domain (i.e. all of the URLs within a domain such as "yorku.ca" or "newyorktimes.com") and each edge (line) represents a link from one node to another.
 
