@@ -75,7 +75,7 @@ This expression of interest should address your background and interests in web 
 ## Venue 
 
 
-Harbour Centre (555 W Hastings St, Vancouver, BC V6B 4N4)
+Harbour Centre | 555 W Hastings St, Vancouver, BC V6B 4N4
 
 Simon Fraser University Vancouver Campus
 
@@ -83,14 +83,24 @@ Simon Fraser University Vancouver Campus
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10410.235288532383!2d-123.1118716!3d49.2847564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1527002584587" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-<!---
+
 ## Travel to Vancouver
 
-The AUT team has put together some helpful information and resources to help with your travel plans.
+The AUT team has put together some information and resources to help with your travel plans.
 
 ![Accommodations](/images/accommodations.png)
 
-While there is no designated hotel the datathon will be using, we have highlighted some options near the Harbour Centre. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
+* Delta Vancouver Downtown Suites (Delta Hotels by Marriott) - located just across the street from the Harbour Centre, a block of hotel suites has been set aside for datathon participants who would like to make a reservation. The rate is $189 CND/night (+ tax), and rooms must be booked before October 2. If you are interested in booking with the Delta, please connect with the Archives Unleashed Team so we can send you the reservation link. Note: space is limited so reservations will be on a first-come basis. 
+
+For those looking for alternative accommodation, we've listed a few options that are also near to the Harbour Centre. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
+
+
+| Accommodation Option                                                                                          | Average Cost    | Distance to Harbour Centre |
+|---------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------|
+| [Hyatt Regency Vancouver](https://www.hyatt.com/en-US/hotel/canada/hyatt-regency-vancouver/yvrrv)                                                | Avg. $178 - $230 CND     | Approx. 1km, 12min walk               |
+| [Ramada Limited Vancouver Downtown](https://www.wyndhamhotels.com/ramada/vancouver-british-columbia/ramada-limited-downtown-vancouver/overview?CID=LC:RA::GGL:RIO:National:06937&iata=00065402) | Starts $140 CND | Approx. 180m, 2min walk|
+| [Days Inn by Wyndham Vancouver Downtown](https://www.wyndhamhotels.com/days-inn/vancouver-british-columbia/days-inn-vancouver-downtown/overview?CID=LC:DI::GGL:RIO:National:04088)                                                            | Starts $155 CND   | Approx. 0.5km, 6min walk                 |
+| [Victorian Hotel ](http://victorianhotel.ca)                                                | Starts $105 CND     | Approx. 300m, 4min walk               |
 
 Staying to Vancouver doesn’t have to break the bank, which is why we like using some of the following aggregators to compare hotel rates:
 
@@ -100,49 +110,51 @@ Staying to Vancouver doesn’t have to break the bank, which is why we like usin
 * Trivago
 * Travelocity
 
-There are also a few hotel options listed here:
-
-| Accommodation Option                                                                                          | Average Cost    | Distance to Robarts Library |
-|---------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------|
-| [Downtown Home Inn](http://www.downtownhomeinn.com/index.html)                                                | Avg. $85-145 CND     | Approx. 1.7km               |
-| [Holiday Inn Toronto Downtown Centre](https://www.ihg.com/holidayinn/hotels/us/en/toronto/yyzct/hoteldetail ) | Starts $190 CND | Approx. 2km                 |
-| [Chelsea Hotel](http://www.chelseatoronto.com/en/)                                                            | Avg. $270 CND   | Approx. 2km                 |
 
 ![Airports](/images/airports.png)
 
-For guests flying into Toronto there are two main airports, one located downtown and one located outside of the city centre. 
+Guests flying into Vancouver will arrive at Vancouver International Airport (YVR), located is located approximately 15 km (30 min) from the downtown core. There are a few options for getting downtown:
 
-[**Toronto Pearson International Airport | YYZ**](http://www.torontopearson.com/) - located approximately 30 km away from downtown, there are a few options for getting to the downtown core:
+* SkyTrain – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line".Trains leave every 7 min during peak hours and every 15 min during off hours. It takes 26 minutes to Vancouver City Centre Station.The ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
 
-* [Union Pearson Express Train](https://www.upexpress.com/) – Probably the easiest and most cost efficient way of getting to downtown. The train takes approximately 25 minutes and leaves every 15 minutes, with an adult return ticket of $25CND. You will take the UPExpress to Union Station (downtown). 
+- if you're just coming in for the event, buying single tickets is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
 
-* [Taxis](http://www.torontopearson.com/en/toandfrom/taxilimo/#) to downtown Toronto are available outside both airport terminals. A taxi will run about $60 CND+, but be sure to confirm fare with driver before you leave.
+- if you're planning to stay a bit longer or use transit around the city, it's worth buying a Compass card! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
+
+
+* [Taxi](http://www.yvr.ca/en/passengers/transportation/taxis) - to downtown Vancouver are available outside terminal. There are fixed rate taxis available from YVR, please confirm with your driver before you leave.
+
+* Shuttle. 
+
+* Car rentals are also available at the airport. 
+
+
+![Downtown Transit](/images/transit.png)
+While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus. 
+
+
+![Attractions](/images/attractions.png)
+For those adventurers who’d like to check out Vancouver attractions, you may want to check out the [City of Vancouver's Tourism Website](https://www.tourismvancouver.com). Some of our favourite spots to visit include: 
+
+* [Stanley Park]
+* [Granville Island]
+* [Chinatown]
+* [Dr. Sun Yat-Sen Classical Chinese Garden]
+* [Lions Gate Bridge]
+* [Vancouver Art Gallery]
+* [UBC Botanical Garden]
+
+
+
+
+<!---
 
 * [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) To make things a little simpler, we've provided a link to the TTC trip planner. There are a variety of options for transit including the subway, buses and streetcars. A cash single fare purchase will run $3.25CND; additional information about [TTC fares](https://www.ttc.ca/Fares_and_passes/Prices/Prices.jsp)
 
-[**Billy Bishop Toronto City Airport | YTZ**](http://www.torontoport.com/Airport/Getting-To.aspx) via [Porter Airline](https://www.flyporter.com/) - located downtown Toronto. It’s called the island airport, because the tarmac is quite literally on an island. Once you arrive just follow the signs to reach the airport exit. A complimentary shuttle is available from Billy Bishop to downtown with stops located along major subway routes. 
-
-* You can also book with [Aeroport Taxi](http://www.aeroporttaxi.com/billy-bishop-airport-taxi/) 
- 
-![Downtown Transit](/images/transit.png)
-While you are in Toronto there are a few ways to get around, but ultimately it will depend on how close you are to campus. The Robarts Library is part of the University of Toronto's St. George Campus. 
-
 * [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) If you are taking subway Line 1, St. George Station is the closest stop to the Robarts Library. 
+
 * Parking (Green P) - You can check out [Toronto’s Parking Authority Website](https://parking.greenp.com/) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
 
-![Attractions](/images/attractions.png)
-For those adventurers who’d like to check out Toronto attractions, you may want to check out the [City of Toronto Tourism Website](http://www.seetorontonow.com). Some of our favourite spots to visit include: 
-
-* [Royal Ontario Museum](https://www.rom.on.ca/en)
-* [Queen’s Park](http://www.ontla.on.ca/lao/en/coming-to-queens-park/)
-* [CN Tower](http://www.cntower.ca/intro.html)
-* [Kensington Market](http://www.kensington-market.ca/Default.asp?id=home&l=1)
-* [Art Gallery of Ontario](https://ago.ca)
-* [TIFF Bell Lightbox](https://www.tiff.net/visit/)
-
-For those adventurers with some time before or after the datathon who’d like to check out Vancouver attractions, you may want to check out the Vancouver Tourism website. Some of our favourite spots to visit include: 
-
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="100%" height="350"></iframe>
 
 ## Schedule
 
