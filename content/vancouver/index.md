@@ -80,7 +80,6 @@ Harbour Centre | 555 W Hastings St, Vancouver, BC V6B 4N4
 Simon Fraser University Vancouver Campus
 
 
-
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10410.235288532383!2d-123.1118716!3d49.2847564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1527002584587" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
@@ -90,7 +89,7 @@ The AUT team has put together some information and resources to help with your t
 
 ![Accommodations](/images/accommodations.png)
 
-* Delta Vancouver Downtown Suites (Delta Hotels by Marriott) - located just across the street from the Harbour Centre, a block of hotel suites has been set aside for datathon participants who would like to make a reservation. The rate is $189 CND/night (+ tax), and rooms must be booked before October 2. If you are interested in booking with the Delta, please connect with the Archives Unleashed Team so we can send you the reservation link. Note: space is limited so reservations will be on a first-come basis. 
+* **Delta Vancouver Downtown Suites** (Delta Hotels by Marriott) - located just across the street from the Harbour Centre, a block of hotel suites has been set aside for datathon participants who would like to make a reservation. The rate is $189 CND/night (+ tax), and rooms must be booked before October 2. If you are interested in booking with the Delta, please connect with the Archives Unleashed Team so we can send you the reservation link. Note: space is limited so reservations will be on a first-come basis. 
 
 For those looking for alternative accommodation, we've listed a few options that are also near to the Harbour Centre. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
 
@@ -113,27 +112,28 @@ Staying to Vancouver doesn’t have to break the bank, which is why we like usin
 
 ![Airports](/images/airports.png)
 
-Guests flying into Vancouver will arrive at Vancouver International Airport (YVR), located is located approximately 15 km (30 min) from the downtown core. There are a few options for getting downtown:
+Guests flying into Vancouver will arrive at [Vancouver International Airport (YVR)](http://www.yvr.ca/en/passengers), located approximately 15 km (30 min) from the downtown core. There are a few options for getting downtown:
 
-* SkyTrain – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line".Trains leave every 7 min during peak hours and every 15 min during off hours. It takes 26 minutes to Vancouver City Centre Station.The ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
+* SkyTrain – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line". Trains leave every 7 min during peak hours and every 15 min during off hours. It is an approximate 25min ride and you ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
 
-- if you're just coming in for the event, buying single tickets is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
+> **Note**:
+* If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
+* For those who plan to stay a bit longer or use transit around the city, it's worth buying a *Compass Card*! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
 
-- if you're planning to stay a bit longer or use transit around the city, it's worth buying a Compass card! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
+* [Taxi](http://www.yvr.ca/en/passengers/transportation/taxis) - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
 
-
-* [Taxi](http://www.yvr.ca/en/passengers/transportation/taxis) - to downtown Vancouver are available outside terminal. There are fixed rate taxis available from YVR, please confirm with your driver before you leave.
-
-* Shuttle. 
-
-* Car rentals are also available at the airport. 
-
+* [Onsite car rentals](http://www.yvr.ca/en/passengers/transportation/car-rentals) are also available on the ground floor of the parkade.
 
 ![Downtown Transit](/images/transit.png)
+
 While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus. 
 
+* [Translink](https://www.translink.ca) provides access to public transportation in Vancouver. They have a great trip planner, and again, depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage. 
+
+* Parking - You can check out [Vancouver's Parking Website](https://vancouver.ca/streets-transportation/parking.aspx) and download their [PayByPhone app](https://vancouver.ca/streets-transportation/pay-for-parking.aspx) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so parking spots may be limited. There is also parking available at the [Harbour Centre](http://harbourcentre.com/locationparking-page/)
 
 ![Attractions](/images/attractions.png)
+
 For those adventurers who’d like to check out Vancouver attractions, you may want to check out the [City of Vancouver's Tourism Website](https://www.tourismvancouver.com). Some of our favourite spots to visit include: 
 
 * [Stanley Park]
@@ -149,9 +149,6 @@ For those adventurers who’d like to check out Vancouver attractions, you may w
 
 <!---
 
-* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) To make things a little simpler, we've provided a link to the TTC trip planner. There are a variety of options for transit including the subway, buses and streetcars. A cash single fare purchase will run $3.25CND; additional information about [TTC fares](https://www.ttc.ca/Fares_and_passes/Prices/Prices.jsp)
-
-* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) If you are taking subway Line 1, St. George Station is the closest stop to the Robarts Library. 
 
 * Parking (Green P) - You can check out [Toronto’s Parking Authority Website](https://parking.greenp.com/) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
 
