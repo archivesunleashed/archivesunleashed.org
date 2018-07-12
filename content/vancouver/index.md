@@ -30,7 +30,7 @@ Check to see when Archives Unleashed will be near you…
 
 ## Travel Grants
 
-This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> SFU Key, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
+This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> KEY, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
  
 
 The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
