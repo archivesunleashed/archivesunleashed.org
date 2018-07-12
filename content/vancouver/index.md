@@ -38,7 +38,7 @@ The Archives Unleashed team is pleased to offer modest travel grants to help att
 
 ## Submissions
 
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **16 July 2018**:
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (deadline extension):
 
 * a 250-word expression of interest;
 * a short one-page CV; and
@@ -52,7 +52,8 @@ This expression of interest should address your background and interests in web 
 |:-----------------:|:------------------------:|
 | 4 June 2018 | Call for Participation|
 | 29 June 2018 | Second Call for Participation|
-| 16 July 2018 | Submissions Due |
+| <s>16 July 2018</s> | <s>Submissions Due</s> |
+| 20 July 2018 | Submissions Due (Extension)|
 | 27 July 2018 | Applicants notified |
 
 
