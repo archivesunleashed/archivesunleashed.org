@@ -23,7 +23,7 @@ Check to see when Archives Unleashed will be near you…
 |:-----------------:|:------------------------:|
 | 26-27 April 2018 | Toronto, ON              |
 | 1-2 November 2018 | Vancouver, BC        |
-| May 2019          | United States East Coast |
+| March 2019          | United States East Coast |
 | November 2019     | United States West Coast |
 
 
