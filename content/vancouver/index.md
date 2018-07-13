@@ -11,7 +11,7 @@ The World Wide Web has had a profound impact on how we research and understand t
 
 The project team invites archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
-The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">**Simon Fraser University Library**</a>, and <a href="http://www.sfu.ca/key/">**KEY**</a>  (SFU’s Big Data initiative) to host the next Archives Unleashed datathon.
+The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">**Simon Fraser University Library**</a>, and <a href="http://www.sfu.ca/key/">**KEY**</a> (SFU’s Big Data initiative) to host the next Archives Unleashed datathon.
 
 This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. 
 
@@ -38,7 +38,7 @@ The Archives Unleashed team is pleased to offer modest travel grants to help att
 
 ## Submissions
 
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **16 July 2018**:
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (extended deadline):
 
 * a 250-word expression of interest;
 * a short one-page CV; and
@@ -52,7 +52,7 @@ This expression of interest should address your background and interests in web 
 |:-----------------:|:------------------------:|
 | 4 June 2018 | Call for Participation|
 | 29 June 2018 | Second Call for Participation|
-| 16 July 2018 | Submissions Due |
+| ~16~  20 July 2018 | Submissions Due **(Extended deadline)**|
 | 27 July 2018 | Applicants notified |
 
 
@@ -74,13 +74,11 @@ This expression of interest should address your background and interests in web 
 
 ## Venue 
 
-
 Harbour Centre | 555 W Hastings St, Vancouver, BC V6B 4N4
 
 Simon Fraser University Vancouver Campus
 
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10410.235288532383!2d-123.1118716!3d49.2847564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1527002584587" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MdGucaBTX0B3elYaZWKxEqLKE6glEgmB" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 ## Travel to Vancouver
@@ -109,49 +107,52 @@ Staying to Vancouver doesn’t have to break the bank, which is why we like usin
 * Trivago
 * Travelocity
 
-
 ![Airports](/images/airports.png)
 
 Guests flying into Vancouver will arrive at [Vancouver International Airport (YVR)](http://www.yvr.ca/en/passengers), located approximately 15 km (30 min) from the downtown core. There are a few options for getting downtown:
 
-* SkyTrain – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line". Trains leave every 7 min during peak hours and every 15 min during off hours. It is an approximate 25min ride and you ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
+* **SkyTrain** – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line". Trains leave every 7 min during peak hours and every 15 min during off hours. It is an approximate 25min ride and you ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
 
 > **Note**:
-* If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
-* For those who plan to stay a bit longer or use transit around the city, it's worth buying a *Compass Card*! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
+  - If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
+  - For those who plan to stay a bit longer or use transit around the city, it's worth buying a *Compass Card*! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
 
-* [Taxi](http://www.yvr.ca/en/passengers/transportation/taxis) - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
+* **[Taxi]**(http://www.yvr.ca/en/passengers/transportation/taxis) - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
 
-* [Onsite car rentals](http://www.yvr.ca/en/passengers/transportation/car-rentals) are also available on the ground floor of the parkade.
+* **[Car rentals]**(http://www.yvr.ca/en/passengers/transportation/car-rentals) are also available on the ground floor of the parkade.
 
 ![Downtown Transit](/images/transit.png)
 
-While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus. 
+While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus and is easily accessible. 
 
-* [Translink](https://www.translink.ca) provides access to public transportation in Vancouver. They have a great trip planner, and again, depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage. 
+* **Public Transport** - Translink provides access to public transportation in Vancouver. They have a great [trip planner](https://tripplanning.translink.ca) and handy [Transit real-time app](https://transitapp.com). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage.
 
-* Parking - You can check out [Vancouver's Parking Website](https://vancouver.ca/streets-transportation/parking.aspx) and download their [PayByPhone app](https://vancouver.ca/streets-transportation/pay-for-parking.aspx) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so parking spots may be limited. There is also parking available at the [Harbour Centre](http://harbourcentre.com/locationparking-page/)
+* **Taxis** - a few options for getting around via taxi include:
+  - [Vancouver Taxi](http://www.vancouvertaxi.cab) - 604.871.1111
+  - [Black Top & Checker Cabs](http://btccabs.ca) - 604.731.1111
+  - [MacLure’s Cabs](https://www.maclurescabs.ca) - 604.831.1111
+
+* **Parking** - You can check out [Vancouver's Parking Website](https://vancouver.ca/streets-transportation/parking.aspx) and download their [PayByPhone app](https://vancouver.ca/streets-transportation/pay-for-parking.aspx) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so parking spots may be limited. There is also parking available at the [Harbour Centre](http://harbourcentre.com/locationparking-page/).
 
 ![Attractions](/images/attractions.png)
 
 For those adventurers who’d like to check out Vancouver attractions, you may want to check out the [City of Vancouver's Tourism Website](https://www.tourismvancouver.com). Some of our favourite spots to visit include: 
 
-* [Stanley Park]
-* [Granville Island]
-* [Chinatown]
-* [Dr. Sun Yat-Sen Classical Chinese Garden]
+* [Stanley Park](https://vancouver.ca/parks-recreation-culture/stanley-park.aspx)
+* [The Seawall](https://vancouver.ca/parks-recreation-culture/seawall.aspx)
+* [Granville Island](https://granvilleisland.com)
+* [Chinatown](http://vancouver-chinatown.com)
+* [Dr. Sun Yat-Sen Classical Chinese Garden](http://vancouverchinesegarden.com)
 * [Lions Gate Bridge]
-* [Vancouver Art Gallery]
-* [UBC Botanical Garden]
+* [Vancouver Art Gallery](http://www.vanartgallery.bc.ca)
+* [UBC Botanical Garden](http://botanicalgarden.ubc.ca)
+* [Grouse Mountain](https://www.grousemountain.com/activities-guide)
 
+## Schedule
 
-
+*coming soon*
 
 <!---
-
-
-* Parking (Green P) - You can check out [Toronto’s Parking Authority Website](https://parking.greenp.com/) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
-
 
 ## Schedule
 
