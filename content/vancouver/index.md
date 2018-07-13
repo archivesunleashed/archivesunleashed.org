@@ -11,7 +11,7 @@ The World Wide Web has had a profound impact on how we research and understand t
 
 The project team invites archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
-The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">**Simon Fraser University Library**</a>, and <a href="http://www.sfu.ca/key/">**KEY**</a> (SFU’s Big Data initiative) to host the next Archives Unleashed datathon.
+The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">**Simon Fraser University Library**</a>, and <a href="http://www.sfu.ca/key/">**KEY**</a>, SFU’s Big Data initiative, to host the next Archives Unleashed datathon.
 
 This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. 
 
@@ -30,7 +30,7 @@ Check to see when Archives Unleashed will be near you…
 
 ## Travel Grants
 
-This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> SFU Key </a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
+This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> KEY, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
  
 
 The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
@@ -52,7 +52,8 @@ This expression of interest should address your background and interests in web 
 |:-----------------:|:------------------------:|
 | 4 June 2018 | Call for Participation|
 | 29 June 2018 | Second Call for Participation|
-| ~16~  20 July 2018 | Submissions Due **(Extended deadline)**|
+| <s>16 July 2018</s> | <s>Submissions Due</s> |
+| 20 July 2018 | Submissions Due (Extension)|
 | 27 July 2018 | Applicants notified |
 
 
