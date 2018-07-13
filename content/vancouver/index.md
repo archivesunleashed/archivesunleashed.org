@@ -23,7 +23,7 @@ Check to see when Archives Unleashed will be near you…
 |:-----------------:|:------------------------:|
 | 26-27 April 2018 | Toronto, ON              |
 | 1-2 November 2018 | Vancouver, BC        |
-| May 2019          | United States East Coast |
+| March 2019          | United States East Coast |
 | November 2019     | United States West Coast |
 
 
@@ -38,7 +38,7 @@ The Archives Unleashed team is pleased to offer modest travel grants to help att
 
 ## Submissions
 
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (deadline extension):
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (extended deadline):
 
 * a 250-word expression of interest;
 * a short one-page CV; and
@@ -75,75 +75,85 @@ This expression of interest should address your background and interests in web 
 
 ## Venue 
 
-
-Harbour Centre (555 W Hastings St, Vancouver, BC V6B 4N4)
+Harbour Centre | 555 W Hastings St, Vancouver, BC V6B 4N4
 
 Simon Fraser University Vancouver Campus
 
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MdGucaBTX0B3elYaZWKxEqLKE6glEgmB" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10410.235288532383!2d-123.1118716!3d49.2847564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1527002584587" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-<!---
 ## Travel to Vancouver
 
-The AUT team has put together some helpful information and resources to help with your travel plans.
+The AUT team has put together some information and resources to help with your travel plans.
 
 ![Accommodations](/images/accommodations.png)
 
-While there is no designated hotel the datathon will be using, we have highlighted some options near the Harbour Centre. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
+* **Delta Vancouver Downtown Suites** (Delta Hotels by Marriott) - located just across the street from the Harbour Centre, a block of hotel suites has been set aside for datathon participants who would like to make a reservation. The rate is $189 CND/night (+ tax), and rooms must be booked before October 2. If you are interested in booking with the Delta, the reservation link will be provided in your acceptance e-mail. Note: space is limited so reservations will be on a first-come basis. 
+
+For those looking for alternative accommodation, we've listed a few options that are also close to the Harbour Centre. Please note, we have no relationship with these venues and are providing them below just for your information. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
+
+
+| Accommodation Option                                                                                          | Average Cost    | Distance to Harbour Centre |
+|---------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------|
+| [Hyatt Regency Vancouver](https://www.hyatt.com/en-US/hotel/canada/hyatt-regency-vancouver/yvrrv)                                                | Avg. $178 - $230 CND     | Approx. 1km, 12min walk               |
+| [Ramada Limited Vancouver Downtown](https://www.wyndhamhotels.com/ramada/vancouver-british-columbia/ramada-limited-downtown-vancouver/overview?CID=LC:RA::GGL:RIO:National:06937&iata=00065402) | Starts $140 CND | Approx. 180m, 2min walk|
+| [Days Inn by Wyndham Vancouver Downtown](https://www.wyndhamhotels.com/days-inn/vancouver-british-columbia/days-inn-vancouver-downtown/overview?CID=LC:DI::GGL:RIO:National:04088)                                                            | Starts $155 CND   | Approx. 0.5km, 6min walk                 |
+| [Victorian Hotel ](http://victorianhotel.ca)                                                | Starts $105 CND     | Approx. 300m, 4min walk               |
 
 Staying to Vancouver doesn’t have to break the bank, which is why we like using some of the following aggregators to compare hotel rates:
 
-* Airbnb (great option to find reasonably priced accommodations)
-* Kayak
-* Expedia
-* Trivago
-* Travelocity
-
-There are also a few hotel options listed here:
-
-| Accommodation Option                                                                                          | Average Cost    | Distance to Robarts Library |
-|---------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------|
-| [Downtown Home Inn](http://www.downtownhomeinn.com/index.html)                                                | Avg. $85-145 CND     | Approx. 1.7km               |
-| [Holiday Inn Toronto Downtown Centre](https://www.ihg.com/holidayinn/hotels/us/en/toronto/yyzct/hoteldetail ) | Starts $190 CND | Approx. 2km                 |
-| [Chelsea Hotel](http://www.chelseatoronto.com/en/)                                                            | Avg. $270 CND   | Approx. 2km                 |
+* [Airbnb](https://www.airbnb.ca) (great option to find reasonably priced accommodations)
+* [Kayak](https://www.ca.kayak.com)
+* [Expedia](https://www.expedia.ca)
+* [Trivago](https://www.trivago.ca)
+* [Travelocity](https://www.travelocity.ca)
 
 ![Airports](/images/airports.png)
 
-For guests flying into Toronto there are two main airports, one located downtown and one located outside of the city centre. 
+Guests flying into Vancouver will arrive at [Vancouver International Airport (YVR)](http://www.yvr.ca/en/passengers), located approximately 15 km (30 minutes) from the downtown core. There are a few options for getting downtown:
 
-[**Toronto Pearson International Airport | YYZ**](http://www.torontopearson.com/) - located approximately 30 km away from downtown, there are a few options for getting to the downtown core:
+* **[SkyTrain](https://www.translink.ca/Schedules-and-Maps/SkyTrain.aspx)** – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line". Trains leave every 7 minutes during peak hours and every 15 minutes during off hours. It is an approximate 25min ride and you ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
 
-* [Union Pearson Express Train](https://www.upexpress.com/) – Probably the easiest and most cost efficient way of getting to downtown. The train takes approximately 25 minutes and leaves every 15 minutes, with an adult return ticket of $25CND. You will take the UPExpress to Union Station (downtown). 
+> **Note**:
+  - If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
+  - For those who plan to stay a bit longer or use transit around the city, it's worth buying a *Compass Card*! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
 
-* [Taxis](http://www.torontopearson.com/en/toandfrom/taxilimo/#) to downtown Toronto are available outside both airport terminals. A taxi will run about $60 CND+, but be sure to confirm fare with driver before you leave.
+* **[Taxi](http://www.yvr.ca/en/passengers/transportation/taxis)** - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
 
-* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) To make things a little simpler, we've provided a link to the TTC trip planner. There are a variety of options for transit including the subway, buses and streetcars. A cash single fare purchase will run $3.25CND; additional information about [TTC fares](https://www.ttc.ca/Fares_and_passes/Prices/Prices.jsp)
+* **[Car rentals](http://www.yvr.ca/en/passengers/transportation/car-rentals)** are also available on the ground floor of the parkade.
 
-[**Billy Bishop Toronto City Airport | YTZ**](http://www.torontoport.com/Airport/Getting-To.aspx) via [Porter Airline](https://www.flyporter.com/) - located downtown Toronto. It’s called the island airport, because the tarmac is quite literally on an island. Once you arrive just follow the signs to reach the airport exit. A complimentary shuttle is available from Billy Bishop to downtown with stops located along major subway routes. 
-
-* You can also book with [Aeroport Taxi](http://www.aeroporttaxi.com/billy-bishop-airport-taxi/) 
- 
 ![Downtown Transit](/images/transit.png)
-While you are in Toronto there are a few ways to get around, but ultimately it will depend on how close you are to campus. The Robarts Library is part of the University of Toronto's St. George Campus. 
 
-* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) If you are taking subway Line 1, St. George Station is the closest stop to the Robarts Library. 
-* Parking (Green P) - You can check out [Toronto’s Parking Authority Website](https://parking.greenp.com/) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
+While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus and is easily accessible by public transportation or by foot from most areas of downtown Vancouver. 
+
+* **Public Transport** - Translink provides access to public transportation in Vancouver. They have a great [trip planner](https://tripplanning.translink.ca) and handy [Transit real-time app](https://transitapp.com). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage.
+
+* **Taxis** - a few options for getting around via taxi include:
+  - [Vancouver Taxi](http://www.vancouvertaxi.cab) - 604.871.1111
+  - [Black Top & Checker Cabs](http://btccabs.ca) - 604.731.1111
+  - [MacLure’s Cabs](https://www.maclurescabs.ca) - 604.831.1111
+
+* **Parking** - You can check out [Vancouver's Parking Website](https://vancouver.ca/streets-transportation/parking.aspx) and download their [PayByPhone app](https://vancouver.ca/streets-transportation/pay-for-parking.aspx) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so parking spots may be limited. There is also parking available at the [Harbour Centre](http://harbourcentre.com/locationparking-page/).
 
 ![Attractions](/images/attractions.png)
-For those adventurers who’d like to check out Toronto attractions, you may want to check out the [City of Toronto Tourism Website](http://www.seetorontonow.com). Some of our favourite spots to visit include: 
 
-* [Royal Ontario Museum](https://www.rom.on.ca/en)
-* [Queen’s Park](http://www.ontla.on.ca/lao/en/coming-to-queens-park/)
-* [CN Tower](http://www.cntower.ca/intro.html)
-* [Kensington Market](http://www.kensington-market.ca/Default.asp?id=home&l=1)
-* [Art Gallery of Ontario](https://ago.ca)
-* [TIFF Bell Lightbox](https://www.tiff.net/visit/)
+For those adventurers who’d like to check out Vancouver attractions, you may want to check out the [City of Vancouver's Tourism Website](https://www.tourismvancouver.com). Some of our favourite spots to visit include: 
 
-For those adventurers with some time before or after the datathon who’d like to check out Vancouver attractions, you may want to check out the Vancouver Tourism website. Some of our favourite spots to visit include: 
+* [Stanley Park](https://vancouver.ca/parks-recreation-culture/stanley-park.aspx)
+* [The Seawall](https://vancouver.ca/parks-recreation-culture/seawall.aspx)
+* [Granville Island](https://granvilleisland.com)
+* [Chinatown](http://vancouver-chinatown.com)
+* [Dr. Sun Yat-Sen Classical Chinese Garden](http://vancouverchinesegarden.com)
+* [Lions Gate Bridge](https://en.wikipedia.org/wiki/Lions_Gate_Bridge)
+* [Vancouver Art Gallery](http://www.vanartgallery.bc.ca)
+* [UBC Botanical Garden](http://botanicalgarden.ubc.ca)
+* [Grouse Mountain](https://www.grousemountain.com/activities-guide)
 
-<iframe src="https://www.google.com/maps/d/u/1/embed?mid=10Xx49JUywmcCec3szcugJO4D7pFxMqaJ" width="100%" height="350"></iframe>
+## Schedule
+
+*coming soon*
+
+<!---
 
 ## Schedule
 
