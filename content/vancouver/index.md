@@ -87,9 +87,9 @@ The AUT team has put together some information and resources to help with your t
 
 ![Accommodations](/images/accommodations.png)
 
-* **Delta Vancouver Downtown Suites** (Delta Hotels by Marriott) - located just across the street from the Harbour Centre, a block of hotel suites has been set aside for datathon participants who would like to make a reservation. The rate is $189 CND/night (+ tax), and rooms must be booked before October 2. If you are interested in booking with the Delta, please connect with the Archives Unleashed Team so we can send you the reservation link. Note: space is limited so reservations will be on a first-come basis. 
+* **Delta Vancouver Downtown Suites** (Delta Hotels by Marriott) - located just across the street from the Harbour Centre, a block of hotel suites has been set aside for datathon participants who would like to make a reservation. The rate is $189 CND/night (+ tax), and rooms must be booked before October 2. If you are interested in booking with the Delta, the reservation link will be provided in your acceptance e-mail. Note: space is limited so reservations will be on a first-come basis. 
 
-For those looking for alternative accommodation, we've listed a few options that are also near to the Harbour Centre. Please note, we have no relationship nor do we receive financial return from any of these providers. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
+For those looking for alternative accommodation, we've listed a few options that are also close to the Harbour Centre. Please note, we have no relationship with these venues and are providing them below just for your information. Any rates mentioned are presented as a reference and might be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly.
 
 
 | Accommodation Option                                                                                          | Average Cost    | Distance to Harbour Centre |
@@ -101,29 +101,29 @@ For those looking for alternative accommodation, we've listed a few options that
 
 Staying to Vancouver doesn’t have to break the bank, which is why we like using some of the following aggregators to compare hotel rates:
 
-* Airbnb (great option to find reasonably priced accommodations)
-* Kayak
-* Expedia
-* Trivago
-* Travelocity
+* [Airbnb](https://www.airbnb.ca) (great option to find reasonably priced accommodations)
+* [Kayak](https://www.ca.kayak.com)
+* [Expedia](https://www.expedia.ca)
+* [Trivago](https://www.trivago.ca)
+* [Travelocity](https://www.travelocity.ca)
 
 ![Airports](/images/airports.png)
 
-Guests flying into Vancouver will arrive at [Vancouver International Airport (YVR)](http://www.yvr.ca/en/passengers), located approximately 15 km (30 min) from the downtown core. There are a few options for getting downtown:
+Guests flying into Vancouver will arrive at [Vancouver International Airport (YVR)](http://www.yvr.ca/en/passengers), located approximately 15 km (30 minutes) from the downtown core. There are a few options for getting downtown:
 
-* **SkyTrain** – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line". Trains leave every 7 min during peak hours and every 15 min during off hours. It is an approximate 25min ride and you ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
+* **[SkyTrain](https://www.translink.ca/Schedules-and-Maps/SkyTrain.aspx)** – Probably the easiest and most cost efficient way of getting to downtown. From YVR to Waterfront Station, follow signs to "Canada Line". Trains leave every 7 minutes during peak hours and every 15 minutes during off hours. It is an approximate 25min ride and you ticket can be used for 90 minutes to transfer to buses and other Vancouver Skytrain stations.
 
 > **Note**:
   - If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
   - For those who plan to stay a bit longer or use transit around the city, it's worth buying a *Compass Card*! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
 
-* **[Taxi]**(http://www.yvr.ca/en/passengers/transportation/taxis) - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
+* **[Taxi](http://www.yvr.ca/en/passengers/transportation/taxis)** - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
 
-* **[Car rentals]**(http://www.yvr.ca/en/passengers/transportation/car-rentals) are also available on the ground floor of the parkade.
+* **[Car rentals](http://www.yvr.ca/en/passengers/transportation/car-rentals)** are also available on the ground floor of the parkade.
 
 ![Downtown Transit](/images/transit.png)
 
-While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus and is easily accessible. 
+While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus and is easily accessible by public transportation or by foot from most areas of downtown Vancouver. 
 
 * **Public Transport** - Translink provides access to public transportation in Vancouver. They have a great [trip planner](https://tripplanning.translink.ca) and handy [Transit real-time app](https://transitapp.com). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage.
 
@@ -143,7 +143,7 @@ For those adventurers who’d like to check out Vancouver attractions, you may w
 * [Granville Island](https://granvilleisland.com)
 * [Chinatown](http://vancouver-chinatown.com)
 * [Dr. Sun Yat-Sen Classical Chinese Garden](http://vancouverchinesegarden.com)
-* [Lions Gate Bridge]
+* [Lions Gate Bridge](https://en.wikipedia.org/wiki/Lions_Gate_Bridge)
 * [Vancouver Art Gallery](http://www.vanartgallery.bc.ca)
 * [UBC Botanical Garden](http://botanicalgarden.ubc.ca)
 * [Grouse Mountain](https://www.grousemountain.com/activities-guide)
