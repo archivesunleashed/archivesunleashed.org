@@ -116,7 +116,7 @@ Guests flying into Vancouver will arrive at [Vancouver International Airport (YV
 
 > **Note**:
   - If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
-  - For those who plan to stay a bit longer or use transit around the city, it's worth buying a *Compass Card*! It's a stored-value card that will let you use transit around Metro Vancouver. https://www.compasscard.ca
+  - For those who plan to stay a bit longer or use transit around the city, it's worth buying a *[Compass Card](https://www.compasscard.ca)*! It's a stored-value card that will let you use transit around Metro Vancouver. Alternatively you can use your credit card's "tap to pay" function as discussed below.
 
 * **[Taxi](http://www.yvr.ca/en/passengers/transportation/taxis)** - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
 
@@ -126,7 +126,7 @@ Guests flying into Vancouver will arrive at [Vancouver International Airport (YV
 
 While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus and is easily accessible by public transportation or by foot from most areas of downtown Vancouver. 
 
-* **Public Transport** - Translink provides access to public transportation in Vancouver. They have a great [trip planner](https://tripplanning.translink.ca) and handy [Transit real-time app](https://transitapp.com). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage.
+* **Public Transport** - Translink provides access to public transportation in Vancouver. They have a great [trip planner](https://tripplanning.translink.ca) and handy [Transit real-time app](https://transitapp.com). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage. Additionally, Translink has recently introduced "tap-to-pay" which allows you to use the tap feature on your credit card or Apple Pay, Google Pay, and Samsung Pay to pay your fare.  No Compass card needed! Info about this program can be found [here](https://www.translink.ca/Fares-and-Passes/Tap-to-Pay.aspx).
 
 * **Taxis** - a few options for getting around via taxi include:
   - [Vancouver Taxi](http://www.vancouvertaxi.cab) - 604.871.1111
