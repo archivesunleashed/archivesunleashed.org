@@ -702,9 +702,7 @@ val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;,sc)
 import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
 
-sc.addFile(&quot;/path/to/classifier&quot;)
-
-ExtractEntities.extractFromRecords(&quot;english.all.3class.distsim.crf.ser.gz&quot;, &quot;/path/to/arc/or/warc/files&quot;, &quot;output/&quot;, sc)
+ExtractEntities.extractFromRecords(&quot;/path/to/classifier/english.all.3class.distsim.crf.ser.gz&quot;, &quot;example.arc.gz&quot;, &quot;out-ner/&quot;, sc)
 </code></pre>
 
 <p>Note the call to <code>addFile()</code>. This is necessary if you are running this script on a cluster; it puts a copy of the classifier on each worker node. The classifier and input file paths may be local or on the cluster (e.g., <code>hdfs:///user/joe/collection/</code>).</p>
