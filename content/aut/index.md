@@ -364,9 +364,7 @@ import io.archivesunleashed._
 import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
 
-sc.addFile("/path/to/classifier")
-
-ExtractEntities.extractFromRecords("english.all.3class.distsim.crf.ser.gz", "/path/to/arc/or/warc/files", "output/", sc)
+ExtractEntities.extractFromRecords("/path/to/classifier/english.all.3class.distsim.crf.ser.gz", "example.arc.gz", "out-ner/", sc)
 ```
 
 Note the call to `addFile()`. This is necessary if you are running this script on a cluster; it puts a copy of the classifier on each worker node. The classifier and input file paths may be local or on the cluster (e.g., `hdfs:///user/joe/collection/`).
