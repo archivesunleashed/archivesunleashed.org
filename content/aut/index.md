@@ -211,7 +211,7 @@ import io.archivesunleashed.matchbox._
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-  .saveAsTextFile("out/")
+  .saveAsTextFile("plain-text/")
 ```
 
 If you wanted to use it on your own collection, you would change "src/test/resources/arc/example.arc.gz" to the directory with your own ARC or WARC files, and change "out/" on the last line to where you want to save your output data.
@@ -230,7 +230,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDomains(Set("www.archive.org"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-  .saveAsTextFile("out/")
+  .saveAsTextFile("plain-text-domain/")
 ```
 
 ### Plain text by URL pattern
@@ -260,7 +260,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDomains(Set("archive.org"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(r.getContentString)))
-  .saveAsTextFile("out/")
+  .saveAsTextFile("plain-text-no-boilerplate/")
 ```
 
 ### Plain text filtered by date
@@ -279,7 +279,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDate(List("200804"), ExtractDate.DateComponent.YYYYMM)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-  .saveAsTextFile("out/")
+  .saveAsTextFile("plain-text-date-filtered-200804/")
 ```
 
 The following script extracts plain text for a given collection by year (in this case, 2008).
@@ -292,7 +292,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDate(List("2008"), ExtractDate.DateComponent.YYYY)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-  .saveAsTextFile("out2/")
+  .saveAsTextFile("plain-text-date-filtered-2008/")
 ```
 
 Finally, you can also extract multiple dates or years. In this case, we would extract pages from both 2008 and 2015.
@@ -305,7 +305,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDate(List("2008","2015"), ExtractDate.DateComponent.YYYY)
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-  .saveAsTextFile("out2/")
+  .saveAsTextFile("plain-text-date-filtered-2008-2015/")
 ```
 
 Note: if you created just a dump of plain text using another one of the earlier commands, you do not need to go back and run this. You can instead use bash to extract a sample of text. For example, running this command on a dump of all plain text stored in `alberta_education_curriculum.txt`:
@@ -329,7 +329,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 .keepDomains(Set("www.archive.org"))
 .keepLanguages(Set("fr"))
 .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-.saveAsTextFile("out-fr/")
+.saveAsTextFile("plain-text-fr/")
 ```
 
 ### Plain text filtered by keyword
@@ -346,7 +346,7 @@ val r = RecordLoader.loadArchives("example.arc.gz",sc)
 .keepValidPages()
 .keepContent(Set("archive".r))
 .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-.saveAsTextFile("out-archive/")
+.saveAsTextFile("plain-text-archive/")
 ```
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
@@ -364,7 +364,7 @@ import io.archivesunleashed._
 import io.archivesunleashed.app._
 import io.archivesunleashed.matchbox._
 
-ExtractEntities.extractFromRecords("/path/to/classifier/english.all.3class.distsim.crf.ser.gz", "example.arc.gz", "out-ner/", sc)
+ExtractEntities.extractFromRecords("/path/to/classifier/english.all.3class.distsim.crf.ser.gz", "example.arc.gz", "output-ner/", sc)
 ```
 
 Note the call to `addFile()`. This is necessary if you are running this script on a cluster; it puts a copy of the classifier on each worker node. The classifier and input file paths may be local or on the cluster (e.g., `hdfs:///user/joe/collection/`).
@@ -377,6 +377,8 @@ The output of this script and the one below will consist of lines that look like
 "LOCATION":["Canada","Canada","Canada","Canada"]})
 ```
 
+This following script takes the plain text that you may have extracted earlier and extracts the entities.
+
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.app._
@@ -384,7 +386,7 @@ import io.archivesunleashed.matchbox._
 
 sc.addFile("/path/to/classifier")
 
-ExtractEntities.extractFromScrapeText("english.all.3class.distsim.crf.ser.gz", "/path/to/extracted/text", "output/", sc)
+ExtractEntities.extractFromScrapeText("english.all.3class.distsim.crf.ser.gz", "/path/to/extracted/text", "output-ner/", sc)
 ```
 
 ## Analysis of Site Link Structure
@@ -436,14 +438,14 @@ val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .countItems()
   .filter(r => r._2 > 5)
 
-links.saveAsTextFile("links-all/")
+links.saveAsTextFile("links-all-apple/")
 ```
 
 ### Extraction of a Link Structure, using Raw URLs (not domains)
 
 This following script extracts all of the hyperlink relationships between sites, using the full URL pattern.
 
-```
+```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
@@ -505,7 +507,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
   .filter(r => r._2 != "" && r._3 != "")
   .countItems()
   .filter(r => r._2 > 5)
-  .saveAsTextFile("sitelinks")
+  .saveAsTextFile("sitelinks-by-date/")
 ```
 
 The format of this output is:
@@ -543,6 +545,7 @@ third and the second-last lines.)
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
+import io.archivesunleashed.matchbox.TupleFormatter._
 
 RecordLoader.loadArchives("/path/to/arc", sc)
   .keepValidPages()
@@ -552,7 +555,7 @@ RecordLoader.loadArchives("/path/to/arc", sc)
   .countItems()
   .filter(r => r._2 > 5)
   .map(tabDelimit(_))
-  .saveAsTextFile("cpp.sitelinks2")
+  .saveAsTextFile("sitelinks-tsv/")
 ```
 
 Its output looks like:
@@ -579,7 +582,7 @@ val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
   .filter(r => r._2 != "" && r._3 != "")
   .countItems()
   .filter(r => r._2 > 5)
-  .saveAsTextFile("cpp.sitelinks-liberal")
+  .saveAsTextFile("sitelinks-liberal/")
 ```
 
 ### Exporting to Gephi Directly
