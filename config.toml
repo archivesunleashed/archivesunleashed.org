@@ -87,6 +87,11 @@ googleAnalytics = "UA-2879197-28"
 	url    = "https://news.archivesunleashed.org"
 	weight = 50
 
+[[menu.main]]
+	name   = "YouTube Channel"
+	url    = "https://www.youtube.com/channel/UC4Sq0Xi6UWhYK2VbmAzFhAw"
+	weight = 60
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
