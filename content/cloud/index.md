@@ -29,7 +29,13 @@ In addition, AUK's [documentation](http://cloud.archivesunleashed.org/documentat
 
 ## A Guided Tour of AUK
 
-Let's take a tour of how AUK works. Once a user signs up to [cloud.archivesunleashed.org](http://cloud.archivesunleashed.org/), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with AUK using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
+
+Let's take a tour of how AUK works. Below you will find a video tour of the Archives Unleashed Cloud, followed by a brief overview of what you can expect when working with AUK. 
+<br/><br/>
+
+<iframe width="900" height="300" src="https://www.youtube.com/embed/BHP51tUhBFs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Once a user signs up to [cloud.archivesunleashed.org](http://cloud.archivesunleashed.org/), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with AUK using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
 
 The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in AUK yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!
 
