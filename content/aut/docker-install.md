@@ -3,7 +3,7 @@ title: Hands on With The Archives Unleashed Toolkit
 date: 2018-09-25T11:51:41-04:00
 ---
 
-This quick guide will walk through how to install Docker for Mac users
+This quick guide will walk through how to install Docker for Mac users.
 
 ## Resources
 * [Docker Community for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
@@ -49,7 +49,7 @@ Try running the following two commands:
 6. Now you're ready to install AUT. Type the following command:
 
 ```
-docker run --rm -it archivesunleashed/docker-aut
+docker run --rm -it archivesunleashed/docker-aut:0.16.0
 ```
 
 This will take a while to download and install. Eventually, you'll hopefully see:
@@ -69,4 +69,4 @@ Type :help for more information.
 scala>
 ```
 
-You're now ready for the workshop!
+You're now ready for the [workshop](/aut/lesson).
