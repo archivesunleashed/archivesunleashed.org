@@ -30,7 +30,7 @@ In addition, AUK's [documentation](http://cloud.archivesunleashed.org/documentat
 ## A Guided Tour of AUK
 
 
-Let's take a tour of how AUK works. Below you will find a video tour of the Archives Unleashed CLoud, followed by a brief overview of what you can expect when working with AUK. 
+Let's take a tour of how AUK works. Below you will find a video tour of the Archives Unleashed Cloud, followed by a brief overview of what you can expect when working with AUK. 
 
 <iframe width="900" height="300" src="https://www.youtube.com/embed/BHP51tUhBFs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
