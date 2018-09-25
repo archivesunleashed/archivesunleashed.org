@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://archivesunleashed.org/aut/</loc>
+    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://archivesunleashed.org/warclight/</loc>
     <lastmod>2017-11-14T09:21:11-05:00</lastmod>
   </url>
@@ -35,6 +40,16 @@
   <url>
     <loc>https://archivesunleashed.org/vancouver/</loc>
     <lastmod>2017-12-05T15:20:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/aut/docker-install/</loc>
+    <lastmod>2018-09-25T11:51:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/aut/lesson/</loc>
+    <lastmod>2018-05-29T11:51:41-04:00</lastmod>
   </url>
   
   <url>

@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Get Involved - The Archives Unleashed Project</title>
+    <title>Hands on With The Archives Unleashed Toolkit - The Archives Unleashed Project</title>
     <meta name="generator" content="Hugo 0.49" />
 
     
-    <link rel="canonical" href="https://archivesunleashed.org/get-involved/">
+    <link rel="canonical" href="https://archivesunleashed.org/aut/docker-install/">
     
     <meta name="author" content="The Archives Unleashed Project">
     
 
-    <meta property="og:url" content="https://archivesunleashed.org/get-involved/">
+    <meta property="og:url" content="https://archivesunleashed.org/aut/docker-install/">
     <meta property="og:title" content="The Archives Unleashed Project">
     <meta property="og:image" content="https://archivesunleashed.org/images/ArchivesUnleashedLogo.png">
     <meta name="apple-mobile-web-app-title" content="The Archives Unleashed Project">
@@ -92,7 +92,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Get Involved
+        Hands on With The Archives Unleashed Toolkit
       </div>
     </div>
 
@@ -251,14 +251,11 @@
 
 
 
-<a class="current" title="Get Involved" href="https://archivesunleashed.org/get-involved/">
+<a  title="Get Involved" href="https://archivesunleashed.org/get-involved/">
 	
 	Get Involved
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -361,96 +358,93 @@
 
   <article class="article">
     <div class="wrapper">
-      <h1>Get Involved </h1>
+      <h1>Hands on With The Archives Unleashed Toolkit </h1>
 
       
 
-<p><img src="https://archivesunleashed.org/images/silhouettes.jpg" alt="Network diagram" /></p>
+<p>This quick guide will walk through how to install Docker for Mac users.</p>
 
-<div class="admonition note">
-<p class="admonition-title">There are many ways you can participate in the Archives Unleashed Project!</p>
-<p></p>
-</div>
+<h2 id="resources">Resources</h2>
 
-<p>There are many ways you can participate in the Archives Unleashed Project. You can always just send us an <a href="mailto:archivesunleashed@gmail.com">e-mail too</a>!</p>
+<ul>
+<li><a href="https://store.docker.com/editions/community/docker-ce-desktop-mac">Docker Community for Mac</a></li>
+</ul>
 
-<p>Please read our <a href="https://archivesunleashed.org/about-project#code-of-conduct">Code of Conduct</a>.</p>
+<h2 id="install-docker">Install Docker</h2>
+
+<p>To install Docker for a Mac OS, use this <a href="https://store.docker.com/editions/community/docker-ce-desktop-mac">link</a>. You&rsquo;ll need to create a free Docker ID to get started. It&rsquo;s a fairly quick signup process:</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-create-account.png" alt="Creating an account" /></p>
+
+<p>Once you have an account, log in to Docker and select the Docker Community for Mac program.</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-download2.png" alt="Download" /></p>
+
+<p>From the downloads folder, double click to start installation (.dmg file)</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-download3.png" alt="Download" /></p>
+
+<p>Once file has been verified you can drag and drop into your applications folder, then launch application.</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-install.png" alt="install" /></p>
+
+<p><i>Please note</i>, depending on your security preferences a notice may show up warning you, you are about to open an application from the web. Select open to continue.</p>
+
+<p>The Docker icon should appear in your menu bar along the top of your screen. When you click on the icon, there should be a green dot indicating docker is running</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-running.png" alt="install-6" /></p>
+
+<p>Now that the Docker application is installed you can log in with your Docker ID that you created earlier.</p>
+
+<h2 id="run-docker-and-install-aut">Run Docker and Install AUT</h2>
+
+<p>Open your terminal and try out some Docker commands. On a Mac, you can find a terminal window by going to your Applications Folder, selecting &ldquo;Utilities,&rdquo; and then opening up &ldquo;Terminal.&rdquo;</p>
+
+<p>Try running the following two commands:</p>
 
 <table>
 <thead>
 <tr>
-<th></th>
-<th></th>
+<th>Command</th>
+<th align="center">Purpose</th>
 </tr>
 </thead>
 
 <tbody>
 <tr>
-<td><img src="https://archivesunleashed.org/images/meeting.png" alt="In-Person Events" /></td>
-<td>We will be holding four datathons starting in April 2018! Please stay tuned for our Calls for Participation for our datathon <a href="https://archivesunleashed.org/events">events</a>.</td>
+<td><code>docker version</code></td>
+<td align="center">to check that you have the latest release installed</td>
 </tr>
 
 <tr>
-<td><img src="https://archivesunleashed.org/images/gears.png" alt="GitHub" /></td>
-<td>If you would like to contribute code or help with the development of the Archives Unleashed <a href="https://archivesunleashed.org/cloud">Cloud</a> or <a href="https://archivesunleashed.org/aut">Toolkit</a>. Visit our <a href="https://github.com/archivesunleashed">GitHub organization and repositories</a>, open issues, submit pull requests, or make any suggestion in our <a href="https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqHVYmz2-ItBMzHiJQ-sOlJwTA8u5AQ/viewform?usp=sf_link">Slack group</a>.</td>
-</tr>
-
-<tr>
-<td><img src="https://archivesunleashed.org/images/beaker.png" alt="Test" /></td>
-<td>We&rsquo;d love to have individuals test out our toolkit. Let us know by <a href="mailto:archivesunleashed@gmail.com">e-mail</a> or in <a href="https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqHVYmz2-ItBMzHiJQ-sOlJwTA8u5AQ/viewform?usp=sf_link">Slack</a>. Or just hop in and see how it works (but let us know, we&rsquo;d love to hear how it goes).</td>
-</tr>
-
-<tr>
-<td><img src="https://archivesunleashed.org/images/share.png" alt="Share" /></td>
-<td>Love web archives? Share our website, project, events, and beyond with colleagues.</td>
+<td><code>docker run hello-world</code></td>
+<td align="center">to verify that Docker is pulling images and running as expected</td>
 </tr>
 </tbody>
 </table>
 
-<h2 id="connect">Connect</h2>
+<p>Now you&rsquo;re ready to install AUT. Type the following command:</p>
 
-<p>Join our <a href="https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqHVYmz2-ItBMzHiJQ-sOlJwTA8u5AQ/viewform?usp=sf_link">Slack team</a> if you want to see how things are developing, to discuss suggestions or other parts of our project, or to just shoot the breeze about all things web archiving.</p></p>
+<pre><code>docker run --rm -it archivesunleashed/docker-aut:0.16.0
+</code></pre>
 
-<h2 id="subscribe">Subscribe</h2>
+<p>This will take a while to download and install. Eventually, you&rsquo;ll hopefully see:</p>
 
-<p>Interested in hearing about the latest Archives Unleashed Project updates? Subscribe to our quarterly newsletter by clicking <a href="http://eepurl.com/dfpU7j">here</a> or filling out the form below.</p>
+<pre><code>Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 2.1.1
+      /_/
 
-<!-- Begin MailChimp Signup Form -->
+Using Scala version 2.11.8 (OpenJDK 64-Bit Server VM, Java 1.8.0_151)
+Type in expressions to have them evaluated.
+Type :help for more information.
 
-<p><link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. <em>/
-</style>
-<div id="mc_embed_signup">
-<form action="https://archivesunleashed.us17.list-manage.com/subscribe/post?u=5ab865a3eed7744a0654d875a&amp;id=bbfcebf959" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-<div class="indicates-required"><span class="asterisk"></em></span> indicates required</div>
-<div class="mc-field-group">
-    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
-    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-    <label for="mce-FNAME">First Name </label>
-    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-</div>
-<div class="mc-field-group">
-    <label for="mce-LNAME">Last Name </label>
-    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-</div>
-    <div id="mce-responses" class="clear">
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5ab865a3eed7744a0654d875a_bbfcebf959" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]=&lsquo;EMAIL&rsquo;;ftypes[0]=&lsquo;email&rsquo;;fnames[1]=&lsquo;FNAME&rsquo;;ftypes[1]=&lsquo;text&rsquo;;fnames[2]=&lsquo;LNAME&rsquo;;ftypes[2]=&lsquo;text&rsquo;;}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-<!--End mc_embed_signup--></p>
+scala&gt;
+</code></pre>
+
+<p>You&rsquo;re now ready for the <a href="https://archivesunleashed.org/aut/lesson">workshop</a>.</p>
 
 
       <aside class="copyright" role="note">
@@ -469,7 +463,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="https://archivesunleashed.org/warclight/" title="Warclight">
+      <a href="https://archivesunleashed.org/vancouver/" title="Vancouver Datathon">
         <span class="direction">
           Previous
         </span>
@@ -479,7 +473,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Warclight
+              Vancouver Datathon
             </div>
           </div>
         </div>
@@ -489,14 +483,14 @@
 
   <div class="next">
   
-      <a href="https://archivesunleashed.org/events/" title="Events">
+      <a href="https://archivesunleashed.org/aut/lesson/" title="Hands on With The Archives Unleashed Toolkit">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Events
+              Hands on With The Archives Unleashed Toolkit
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">

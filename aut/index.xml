@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Archives Unleashed Toolkit on The Archives Unleashed Project</title>
+    <link>https://archivesunleashed.org/aut/</link>
+    <description>Recent content in The Archives Unleashed Toolkit on The Archives Unleashed Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Mar 2016 19:56:50 +0100</lastBuildDate>
+    
+	<atom:link href="https://archivesunleashed.org/aut/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Archives Unleashed Toolkit</title>
+      <link>https://archivesunleashed.org/aut/</link>
+      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
+      
+      <guid>https://archivesunleashed.org/aut/</guid>
+      <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
+The Archives Unleashed Toolkit is an open-source platform for managing web archives built on Hadoop. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
+Getting Started Quick Start If you don&amp;rsquo;t want to install all the dependencies locally, you can use docker-aut.</description>
+    </item>
+    
+    <item>
+      <title>Hands on With The Archives Unleashed Toolkit</title>
+      <link>https://archivesunleashed.org/aut/docker-install/</link>
+      <pubDate>Tue, 25 Sep 2018 11:51:41 -0400</pubDate>
+      
+      <guid>https://archivesunleashed.org/aut/docker-install/</guid>
+      <description>This quick guide will walk through how to install Docker for Mac users.
+Resources  Docker Community for Mac  Install Docker To install Docker for a Mac OS, use this link. You&amp;rsquo;ll need to create a free Docker ID to get started. It&amp;rsquo;s a fairly quick signup process:
+Once you have an account, log in to Docker and select the Docker Community for Mac program.
+From the downloads folder, double click to start installation (.</description>
+    </item>
+    
+    <item>
+      <title>Hands on With The Archives Unleashed Toolkit</title>
+      <link>https://archivesunleashed.org/aut/lesson/</link>
+      <pubDate>Tue, 29 May 2018 11:51:41 -0400</pubDate>
+      
+      <guid>https://archivesunleashed.org/aut/lesson/</guid>
+      <description>Welcome to the Archives Unleashed Toolkit hands-on walkthrough!
+The reality of any hands-on workshop is that things will break. We&amp;rsquo;ve tried our best to provide a robust environment that can let you walk through the basics of the Archives Unleashed Toolkit alongside us.
+If you have any questions, let Nick Ruest or Ian Milligan know.
+Table of Contents  Installation and Use Hello World: Our First Script Extracting Some Text  Ouch!</description>
+    </item>
+    
+  </channel>
+</rss>
