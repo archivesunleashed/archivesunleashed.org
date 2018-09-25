@@ -9,27 +9,25 @@ This quick guide will walk through how to install Docker for Mac users.
 * [Docker Community for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 
 ## Install Docker 
-1. To install Docker for a Mac OS, use this [link](https://store.docker.com/editions/community/docker-ce-desktop-mac). You'll need to create a free Docker ID to get started. It's a fairly quick signup process:
+To install Docker for a Mac OS, use this [link](https://store.docker.com/editions/community/docker-ce-desktop-mac). You'll need to create a free Docker ID to get started. It's a fairly quick signup process:
 
-![Creating an account](docker-create-account.png)
+![Creating an account](/images/docker-create-account.png)
 
 Once you have an account, log in to Docker and select the Docker Community for Mac program.
 
-![Mac CE](/images/docker-download.png)
-
 ![Download](/images/docker-download2.png)
 
-2. From the downloads folder, double click to start installation (.dmg file)
+From the downloads folder, double click to start installation (.dmg file)
 
 ![Download](/images/docker-download3.png)
 
-3. Once file has been verified you can drag and drop into your applications folder, then launch application.
+Once file has been verified you can drag and drop into your applications folder, then launch application.
 
 ![install](/images/docker-install.png)
 
 <i>Please note</i>, depending on your security preferences a notice may show up warning you, you are about to open an application from the web. Select open to continue. 
 
-4. The Docker icon should appear in your menu bar along the top of your screen. When you click on the icon, there should be a green dot indicating docker is running
+The Docker icon should appear in your menu bar along the top of your screen. When you click on the icon, there should be a green dot indicating docker is running
 
 ![install-6](/images/docker-running.png)
 
@@ -37,16 +35,16 @@ Now that the Docker application is installed you can log in with your Docker ID 
 
 ## Run Docker and Install AUT
 
-5. Open your terminal and try out some Docker commands. On a Mac, you can find a terminal window by going to your Applications Folder, selecting "Utilities," and then opening up "Terminal."
+Open your terminal and try out some Docker commands. On a Mac, you can find a terminal window by going to your Applications Folder, selecting "Utilities," and then opening up "Terminal."
 
 Try running the following two commands:
 
 | Command        | Purpose           |
 | ------------- |:-------------:|
-| docker version | to check that you have the latest release installed |
-| docker run hello-world | to verify that Docker is pulling images and running as expected |
+| `docker version` | to check that you have the latest release installed |
+| `docker run hello-world` | to verify that Docker is pulling images and running as expected |
 
-6. Now you're ready to install AUT. Type the following command:
+Now you're ready to install AUT. Type the following command:
 
 ```
 docker run --rm -it archivesunleashed/docker-aut:0.16.0
