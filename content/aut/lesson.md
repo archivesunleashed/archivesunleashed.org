@@ -22,7 +22,7 @@ If you have any questions, let [Nick Ruest](https://github.com/ruebot) or [Ian M
 
 ## Installation and Use {#installation}
 
-This lesson only requires one dependency: [Docker](https://www.docker.com/get-docker). 
+This lesson only requires one dependency: [Docker](https://www.docker.com/get-docker). You can follow our instructions to install Docker [here](/docker-install).
 
 Later in this lesson, we use the networking tool [Gephi](https://gephi.org/).
 
