@@ -3,17 +3,20 @@ title: Hands on With The Archives Unleashed Toolkit
 date: 2018-09-25T11:51:41-04:00
 ---
 
-This quick guide will walk through how to install Docker for Mac users.
+This quick guide will walk through how to install Docker for Mac users. Much of this is also applicable to Windows users, although the screenshots are from a Mac.
 
 ## Resources
-* [Docker Community for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+* [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+* [Docker Community Edition for Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows)
 
 ## Install Docker 
-To install Docker for a Mac OS, use this [link](https://store.docker.com/editions/community/docker-ce-desktop-mac). You'll need to create a free Docker ID to get started. It's a fairly quick signup process:
+To install Docker for a Mac OS, use this [link](https://store.docker.com/editions/community/docker-ce-desktop-mac). You can also use these instructions to install Docker on a Windows 10 Professional installation, by using [this link](https://store.docker.com/editions/community/docker-ce-desktop-windows).
+
+You'll need to create a free Docker ID to get started. It's a fairly quick signup process:
 
 ![Creating an account](/images/docker-create-account.png)
 
-Once you have an account, log in to Docker and select the Docker Community for Mac program.
+Once you have an account, log in to Docker and select the Docker Community for Mac (or Windows) program.
 
 ![Download](/images/docker-download2.png)
 
@@ -36,6 +39,8 @@ Now that the Docker application is installed you can log in with your Docker ID 
 ## Run Docker and Install AUT
 
 Open your terminal and try out some Docker commands. On a Mac, you can find a terminal window by going to your Applications Folder, selecting "Utilities," and then opening up "Terminal."
+
+On Windows, you should open up a "command-line terminal like PowerShell." You can find some instructions for that [here](https://programminghistorian.org/en/lessons/intro-to-bash).
 
 Try running the following two commands:
 
