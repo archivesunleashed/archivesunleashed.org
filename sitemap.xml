@@ -63,12 +63,54 @@
   </url>
   
   <url>
+    <loc>https://archivesunleashed.org/about-project/</loc>
+    <lastmod>2016-03-09T00:11:02+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://archivesunleashed.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://archivesunleashed.org/cloud/</loc>
+    <lastmod>2016-03-09T19:56:50+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/events/</loc>
+    <lastmod>2016-03-09T20:10:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/get-involved/</loc>
+    <lastmod>2016-03-09T20:08:11+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://archivesunleashed.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/toronto/</loc>
+    <lastmod>2017-12-05T15:20:57-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/vancouver/</loc>
+    <lastmod>2017-12-05T15:20:57-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/warclight/</loc>
+    <lastmod>2017-11-14T09:21:11-05:00</lastmod>
     <priority>0</priority>
   </url>
   

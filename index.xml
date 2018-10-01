@@ -6,6 +6,7 @@
     <description>Recent content in Welcome to the Archives Unleashed Project on The Archives Unleashed Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>CC-BY</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
 	<atom:link href="https://archivesunleashed.org/index.xml" rel="self" type="application/rss+xml" />
@@ -93,10 +94,8 @@ The project team invites archivists, researchers (from the humanities, social sc
       <pubDate>Tue, 25 Sep 2018 11:51:41 -0400</pubDate>
       
       <guid>https://archivesunleashed.org/aut/docker-install/</guid>
-      <description>This quick guide will walk through how to install Docker for Mac users.
-Resources  Docker Community for Mac  Install Docker To install Docker for a Mac OS, use this link. You&amp;rsquo;ll need to create a free Docker ID to get started. It&amp;rsquo;s a fairly quick signup process:
-Once you have an account, log in to Docker and select the Docker Community for Mac program.
-From the downloads folder, double click to start installation (.</description>
+      <description>This quick guide will walk through how to install Docker for Mac users. Much of this is also applicable to Windows users, although the screenshots are from a Mac.
+Resources  Docker Community Edition for Mac Docker Community Edition for Windows  Install Docker To install Docker for a Mac OS, use this link. You can also use these instructions to install Docker on a Windows 10 Professional installation, by using this link.</description>
     </item>
     
     <item>
