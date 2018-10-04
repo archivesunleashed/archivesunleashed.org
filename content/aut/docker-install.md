@@ -52,7 +52,7 @@ Try running the following two commands:
 Now you're ready to install AUT. Type the following command:
 
 ```
-docker run --rm -it archivesunleashed/docker-aut:0.16.0
+docker run --rm -it archivesunleashed/docker-aut:0.17.0
 ```
 
 This will take a while to download and install. Eventually, you'll hopefully see:
@@ -62,7 +62,7 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 2.1.1
+   /___/ .__/\_,_/_/ /_/\_\   version 2.3.2
       /_/
 
 Using Scala version 2.11.8 (OpenJDK 64-Bit Server VM, Java 1.8.0_151)

@@ -15,7 +15,7 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 ### Quick Start
 
-If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.16.0 with `docker run --rm -it archivesunleashed/docker-aut:0.16.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
+If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.17.0 with `docker run --rm -it archivesunleashed/docker-aut:0.17.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
 
 We have a walkthrough for using AUT on sample data with docker [here](/aut/lesson).
 
@@ -39,7 +39,7 @@ Before Spark Shell can launch, JAVA_HOME must be set. If you recieve an error th
 
 ### Downloading AUT
 
-The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.16.0/aut-0.16.0-fatjar.jar).
+The Archives Unleashed Toolkit can be [downloaded as a JAR file for easy use](https://github.com/archivesunleashed/aut/releases/download/aut-0.17.0/aut-0.17.0-fatjar.jar).
 
 The following bash commands will download an example ARC file, and set up a directory to work with AUT. You can also [download the example ARC file here](https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test/resources/arc/example.arc.gz).
 
@@ -52,12 +52,12 @@ curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test
 
 ### Installing and Running Spark shell
 
-Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
+Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
 ```bash
-curl -L "https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz" > spark-2.1.1-bin-hadoop2.7.tgz
-tar -xvf spark-2.1.1-bin-hadoop2.7.tgz
-./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.16.0"
+curl -L "https://archive.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz" > spark-2.3.2-bin-hadoop2.7.tgz
+tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
+./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 You should have the spark shell ready and running.
@@ -67,7 +67,7 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 2.1.1
+   /___/ .__/\_,_/_/ /_/\_\   version 2.3.2
       /_/
 
 Using Scala version 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_151)
@@ -114,7 +114,7 @@ As your datasets grow, you may need to provide more memory to Spark shell. You'l
 If you're running locally, you can pass it in your startup command like this:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.16.0"
+./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 In the above case, you give Spark 4GB of memory to execute the program.
@@ -126,13 +126,13 @@ On a 16-core machine, you may want to drop to 12 cores if you are having memory 
 You can do so like this (example is using 12 threads on a 16-core machine):
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.16.0"
+./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
 
 ```
-./spark-2.1.1-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.16.0"
+./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 ## Collection Analytics
