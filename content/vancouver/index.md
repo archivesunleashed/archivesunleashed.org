@@ -17,6 +17,8 @@ This event will bring together a small group of **approximately 15-20 participan
 
 For more information on AUT and the Cloud, please visit http://archivesunleashed.org/. 
 
+Thank you for your interest in the Archives Unleashed Datathon, submissions for the Nov 1-2 Vancouver Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation. 
+
 Check to see when Archives Unleashed will be near you… 
 
 |        Date       |         Location         |
@@ -25,36 +27,6 @@ Check to see when Archives Unleashed will be near you…
 | 1-2 November 2018 | Vancouver, BC        |
 | March 2019          | United States East Coast |
 | November 2019     | United States West Coast |
-
-
-
-## Travel Grants
-
-This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> KEY, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
- 
-
-The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
-
-
-## Submissions
-
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (extended deadline):
-
-* a 250-word expression of interest;
-* a short one-page CV; and
-* Indication of need for financial assistance to travel to event (if applicable)
-
-This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale. 
-
-**IMPORTANT DATES**
-
-|        Date       |         Location         |
-|:-----------------:|:------------------------:|
-| 4 June 2018 | Call for Participation|
-| 29 June 2018 | Second Call for Participation|
-| <s>16 July 2018</s> | <s>Submissions Due</s> |
-| 20 July 2018 | Submissions Due (Extension)|
-| 27 July 2018 | Applicants notified |
 
 
 ## Organizers
@@ -151,17 +123,44 @@ For those adventurers who’d like to check out Vancouver attractions, you may w
 
 ## Schedule
 
-*coming soon*
-
-<!---
-
-## Schedule
-
 <p>Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.</p>
 
-<p>Please click the image below to check out the <a href="/images/toronto-schedule.pdf">full Toronto Datathon schedule!</a></p>
+<p>Please click the image below to check out the <a href="/images/vancouver-schedule.pdf">full Vancouver Datathon schedule!</a></p>
 
 |               |                  |
 |:-----------------:|:------------------------:|
-| <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
+| <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day1.png"></a> | <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day2.png" ></a>
+
+
+
+<!---
+
+## Travel Grants
+
+This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> KEY, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
+ 
+
+The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
+
+
+## Submissions
+
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (extended deadline):
+
+* a 250-word expression of interest;
+* a short one-page CV; and
+* Indication of need for financial assistance to travel to event (if applicable)
+
+This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale. 
+
+**IMPORTANT DATES**
+
+|        Date       |         Location         |
+|:-----------------:|:------------------------:|
+| 4 June 2018 | Call for Participation|
+| 29 June 2018 | Second Call for Participation|
+| <s>16 July 2018</s> | <s>Submissions Due</s> |
+| 20 July 2018 | Submissions Due (Extension)|
+| 27 July 2018 | Applicants notified |
+
 -->
