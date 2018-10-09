@@ -215,7 +215,7 @@ RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
   .saveAsTextFile("/data/2006-text")
 ```
 
-Finally, if we want to remove the HTML headers – let's say if we want to create some nice word clouds – we could add a final command: `RemoveHttpHeader`.
+Finally, if we want to remove the HTTP headers – let's say if we want to create some nice word clouds – we can add a final command: `RemoveHttpHeader`.
 
 ```scala
 import io.archivesunleashed._
