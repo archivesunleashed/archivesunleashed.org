@@ -578,6 +578,19 @@ RecordLoader.loadArchives(&quot;/aut-resources/Sample-Data/*.gz&quot;, sc)
   .saveAsTextFile(&quot;/data/2006-text&quot;)
 </code></pre>
 
+<p>Finally, if we want to remove the HTML headers – let&rsquo;s say if we want to create some nice word clouds – we could add a final command: <code>RemoveHttpHeader</code>.</p>
+
+<pre><code class="language-scala">import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+RecordLoader.loadArchives(&quot;/aut-resources/Sample-Data/*.gz&quot;, sc)
+  .keepValidPages()
+  .map(r =&gt; (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHttpHeader(RemoveHTML(r.getContentString))))
+  .saveAsTextFile(&quot;/data/text-no-headers&quot;)
+</code></pre>
+
+<p>You could now try uploading one of the plain text files using a website like <a href="https://voyant-tools.org">Voyant Tools</a>.</p>
+
 <h2 id="entities">People, Places, and Things: Entities Ahoy!</h2>
 
 <p>One last thing we can do with text is to try to use <a href="https://en.wikipedia.org/wiki/Named-entity_recognition">Named-entity recognition</a> (NER) to try to find people, organizations, and locations within the text.</p>
