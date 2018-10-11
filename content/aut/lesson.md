@@ -22,7 +22,9 @@ If you have any questions, let [Nick Ruest](https://github.com/ruebot) or [Ian M
 
 ## Installation and Use {#installation}
 
-This lesson only requires one dependency: [Docker](https://www.docker.com/get-docker). You can follow our instructions to install Docker [here](/aut/docker-install).
+{{< note title="Got Docker?" >}}
+This lesson requires that you install [Docker](https://www.docker.com/get-docker). We have instructions on how to install Docker [here](/aut/docker-install).
+{{< /note >}}
 
 Later in this lesson, we use the networking tool [Gephi](https://gephi.org/).
 
@@ -37,6 +39,14 @@ Use the following command, replacing `/path/to/your/data` with the directory. **
 For example, if your files are in `/Users/ianmilligan1/desktop/data` you would run the above command like:
 
 `docker run --rm -it -v "/Users/ianmilligan1/desktop/data:/data" archivesunleashed/docker-aut:0.17.0`
+
+{{< warning title="Troubleshooting Tips" >}}
+The above commands are important, as they make the rest of the lesson possible!
+
+Remember that you need to have the second `:/data` in the above example. This is making a connection between the directory called "data" on my desktop with a directory in the Docker virtual machine called "docker." 
+
+Also, if you are using Windows, you will need to provide the path as it appears in your file system. For example: `C:\Users\ianmilligan1\data`.
+{{< /note >}}
 
 Once you run this command, you will have to wait a few minutes while data is downloaded and AUT builds. Once it is all working, you should see:
 
@@ -279,7 +289,21 @@ WriteGEXF(links, "/data/links-for-gephi.gexf")
 
 By now this should be seeming pretty straightforward! (remember to keep using `:paste` to enter this code).
 
-Now let's use these instructions to [work with Gephi](https://ianmilligan.ca/2015/12/11/from-dataverse-to-gephi-network-analysis-on-our-data/).
+## Working with the Data
+
+The first step should be to work with this network diagram so you can make a beautiful visualization yourself. 
+
+![Gephi visualization](/images/gephi.png)
+
+First, let's use these instructions to [work with Gephi](https://cloud.archivesunleashed.org/derivatives/gephi).
+
+Secondly, if there is time, we can begin to think about how to work with the plain text file. See the following documents from our "learning guides":
+
+* [**Filtering the Full-Text Derivative File**](https://cloud.archivesunleashed.org/derivatives/text-filtering): This tutorial explores the use of the "grep" command line tool to filter out dates, domains, and keywords from plain text.
+* [**Text Analysis Part One: Beyond the Keyword Search: Using AntConc**](https://cloud.archivesunleashed.org/derivatives/text-antconc): This tutorial explores how you can explore text within a web archive using the AntConc tool.
+* [**Text Analysis Part Two: Sentiment Analysis With the Natural Language Toolkit**](https://cloud.archivesunleashed.org/derivatives/text-sentiment): This tutorial explores how you can calculate the positivity or negativity (in an emotional sense) of web archive text.
+
+Good luck and thanks for joining us on this lesson plan.
 
 ## Acknowledgements and Final Notes {#conclusion}
 

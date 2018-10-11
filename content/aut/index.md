@@ -17,7 +17,9 @@ The Archives Unleashed Toolkit is an open-source platform for managing web archi
 
 If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.17.0 with `docker run --rm -it archivesunleashed/docker-aut:0.17.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
 
-We have a walkthrough for using AUT on sample data with docker [here](/aut/lesson).
+{{< note title="Want a quick walkthrough?" >}}
+We have a walkthrough for using AUT on sample data with Docker [here](/aut/lesson).
+{{< /note >}}
 
 ### Dependencies
 
