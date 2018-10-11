@@ -135,6 +135,55 @@ For those adventurers who’d like to check out Vancouver attractions, you may w
 
 <!---
 
+## Team Projects
+
+<table>
+  <tr>
+    <td><b>Team: Name</b>
+      <ul>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
+      </ul> 
+    <td><image src="/images/BCLabor.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Name</a></b>
+      <ul>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/MTGA.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Name</b>
+      <ul>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Pipeline.png"></td>
+  </tr>
+ <tr>
+    <td><b>Team Name</b>
+      <ul>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li>Name, Institution</li>
+        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Spamlinks.png"></td>
+ </tr>
+</table>
+
 ## Travel Grants
 
 This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> KEY, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
