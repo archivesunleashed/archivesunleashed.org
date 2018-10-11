@@ -387,7 +387,10 @@ The reality of any hands-on workshop is that things will break. We&rsquo;ve trie
 
 <h2 id="installation">Installation and Use</h2>
 
-<p>This lesson only requires one dependency: <a href="https://www.docker.com/get-docker">Docker</a>. You can follow our instructions to install Docker <a href="https://archivesunleashed.org/aut/docker-install">here</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Got Docker?</p>
+<p>This lesson requires that you install <a href="https://www.docker.com/get-docker">Docker</a>. We have instructions on how to install Docker <a href="https://archivesunleashed.org/aut/docker-install">here</a>.</p>
+</div>
 
 <p>Later in this lesson, we use the networking tool <a href="https://gephi.org/">Gephi</a>.</p>
 
@@ -402,6 +405,16 @@ The reality of any hands-on workshop is that things will break. We&rsquo;ve trie
 <p>For example, if your files are in <code>/Users/ianmilligan1/desktop/data</code> you would run the above command like:</p>
 
 <p><code>docker run --rm -it -v &quot;/Users/ianmilligan1/desktop/data:/data&quot; archivesunleashed/docker-aut:0.17.0</code></p>
+
+<div class="admonition warning">
+<p class="admonition-title">Troubleshooting Tips</p>
+<p><p>The above commands are important, as they make the rest of the lesson possible!</p>
+
+<p>Remember that you need to have the second <code>:/data</code> in the above example. This is making a connection between the directory called &ldquo;data&rdquo; on my desktop with a directory in the Docker virtual machine called &ldquo;docker.&rdquo;</p>
+
+<p>Also, if you are using Windows, you will need to provide the path as it appears in your file system. For example: <code>C:\Users\ianmilligan1\data</code>.</p>
+</p>
+</div>
 
 <p>Once you run this command, you will have to wait a few minutes while data is downloaded and AUT builds. Once it is all working, you should see:</p>
 
@@ -638,7 +651,23 @@ WriteGEXF(links, &quot;/data/links-for-gephi.gexf&quot;)
 
 <p>By now this should be seeming pretty straightforward! (remember to keep using <code>:paste</code> to enter this code).</p>
 
-<p>Now let&rsquo;s use these instructions to <a href="https://ianmilligan.ca/2015/12/11/from-dataverse-to-gephi-network-analysis-on-our-data/">work with Gephi</a>.</p>
+<h2 id="working-with-the-data">Working with the Data</h2>
+
+<p>The first step should be to work with this network diagram so you can make a beautiful visualization yourself.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi.png" alt="Gephi visualization" /></p>
+
+<p>First, let&rsquo;s use these instructions to <a href="https://cloud.archivesunleashed.org/derivatives/gephi">work with Gephi</a>.</p>
+
+<p>Secondly, if there is time, we can begin to think about how to work with the plain text file. See the following documents from our &ldquo;learning guides&rdquo;:</p>
+
+<ul>
+<li><a href="https://cloud.archivesunleashed.org/derivatives/text-filtering"><strong>Filtering the Full-Text Derivative File</strong></a>: This tutorial explores the use of the &ldquo;grep&rdquo; command line tool to filter out dates, domains, and keywords from plain text.</li>
+<li><a href="https://cloud.archivesunleashed.org/derivatives/text-antconc"><strong>Text Analysis Part One: Beyond the Keyword Search: Using AntConc</strong></a>: This tutorial explores how you can explore text within a web archive using the AntConc tool.</li>
+<li><a href="https://cloud.archivesunleashed.org/derivatives/text-sentiment"><strong>Text Analysis Part Two: Sentiment Analysis With the Natural Language Toolkit</strong></a>: This tutorial explores how you can calculate the positivity or negativity (in an emotional sense) of web archive text.</li>
+</ul>
+
+<p>Good luck and thanks for joining us on this lesson plan.</p>
 
 <h2 id="conclusion">Acknowledgements and Final Notes</h2>
 
