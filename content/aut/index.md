@@ -11,6 +11,8 @@ weight: 20
 
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on [Hadoop](https://hadoop.apache.org/). The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via [Spark](http://spark.apache.org/).
 
+Most of this documentation is built on [resilient distributed datasets (RDD)](https://spark.apache.org/docs/latest/rdd-programming-guide.html). We are working on adding support for [DataFrames](http://localhost:1313/aut/spark%20dataframes%20tutorial). You can read more about this in our experimental [DataFrames section](#dataframes).
+
 ## Getting Started
 
 ### Quick Start
@@ -811,4 +813,176 @@ implicit lazy val formats = org.json4s.DefaultFormats
 
 // Extract created_at
 (json \ "created_at").extract[String]
+```
+
+## DataFrames
+
+{{< warning title="Troubleshooting Tips" >}}
+This section is experimental and under development! If things don't work, or you have ideas for us, [let us know](https://github.com/archivesunleashed/aut/issues/190)!
+{{< /note >}}
+
+There are two main ways to use the Archives Unleashed Toolkit. The above instructions used [resilient distributed datasets (RDD)](https://spark.apache.org/docs/latest/rdd-programming-guide.html).
+
+We are currently developing support for [DataFrames](spark dataframes tutorial). This is still under active development, so syntax may change. We have an [open thread](https://github.com/archivesunleashed/aut/issues/190) in our GitHub repository if you would like to add any suggestions, thoughts, or requests for this functionality.
+
+You will note that right now we do not support everything in DataFrames: we do not support plain text extraction, named entity recognition, or Twitter analysis.
+
+Here we provide some documentation on how to use DataFrames in AUT.
+
+### List of Domains
+
+The below script will show you the top domains within the collection.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractValidPagesDF()
+
+df.select(ExtractBaseDomain($"Url").as("Domain"))
+  .groupBy("Domain").count().orderBy(desc("count")).show()
+```
+
+Results will look like:
+
+```
++------------------+-----+
+|            Domain|count|
++------------------+-----+
+|   www.archive.org|  132|
+|     deadlists.com|    2|
+|www.hideout.com.br|    1|
++------------------+-----+
+```
+
+You may want to see the schema that you can use when working with domains. To do so, run the following script:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractValidPagesDF()
+
+df.printSchema()
+```
+
+### Hyperlink Network
+
+The below script will give you the source and destination for hyperlinks found within the archive.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractHyperlinksDF()
+
+df.select(RemovePrefixWWW(ExtractBaseDomain($"Src")).as("SrcDomain"),
+    RemovePrefixWWW(ExtractBaseDomain($"Dest")).as("DestDomain"))
+  .groupBy("SrcDomain", "DestDomain").count().orderBy(desc("SrcDomain")).show()
+```
+
+Results will look like:
+
+```
++-------------+--------------------+-----+
+|    SrcDomain|          DestDomain|count|
++-------------+--------------------+-----+
+|deadlists.com|       deadlists.com|    2|
+|deadlists.com|           psilo.com|    2|
+|deadlists.com|                    |    2|
+|deadlists.com|         archive.org|    2|
+|  archive.org|        cyberduck.ch|    1|
+|  archive.org|        balnaves.com|    1|
+|  archive.org|         avgeeks.com|    1|
+|  archive.org|          cygwin.com|    1|
+|  archive.org|      onthemedia.org|    1|
+|  archive.org|ia311502.us.archi...|    2|
+|  archive.org|dvdauthor.sourcef...|    1|
+|  archive.org|              nw.com|    1|
+|  archive.org|             gnu.org|    1|
+|  archive.org|          hornig.net|    2|
+|  archive.org|    webreference.com|    1|
+|  archive.org|    bookmarklets.com|    2|
+|  archive.org|ia340929.us.archi...|    2|
+|  archive.org|            mids.org|    1|
+|  archive.org|       gutenberg.org|    1|
+|  archive.org|ia360602.us.archi...|    2|
++-------------+--------------------+-----+
+only showing top 20 rows
+```
+
+Similarly, you may want to see the schema.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractHyperlinksDF()
+
+df.printSchema()
+```
+
+### Image Analysis
+
+You can also use DataFrames to analyze images. The following command will extract all the images, give you their dimensions, as well as unique hashes.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
+df.select($"url", $"mime_type", $"width", $"height", $"md5", $"bytes").orderBy(desc("md5")).show()
+```
+
+The results will look like this:
+
+```
++--------------------+----------+-----+------+--------------------+--------------------+
+|                 url| mime_type|width|height|                 md5|               bytes|
++--------------------+----------+-----+------+--------------------+--------------------+
+|http://www.archiv...| image/gif|   21|    21|ff05f9b408519079c...|R0lGODlhFQAVAKUpA...|
+|http://www.archiv...|image/jpeg|  275|   300|fbf1aec668101b960...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...|image/jpeg|  300|   225|f611b554b9a44757d...|/9j/4RpBRXhpZgAAT...|
+|http://tsunami.ar...|image/jpeg|  384|   229|f02005e29ffb485ca...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...| image/gif|  301|    47|eecc909992272ce0d...|R0lGODlhLQEvAPcAA...|
+|http://www.archiv...| image/gif|  140|    37|e7166743861126e51...|R0lGODlhjAAlANUwA...|
+|http://www.archiv...| image/png|   14|    12|e1e101f116d9f8251...|iVBORw0KGgoAAAANS...|
+|http://www.archiv...|image/jpeg|  300|   116|e1da27028b81db60e...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...|image/jpeg|   84|    72|d39cce8b2f3aaa783...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...| image/gif|   13|    11|c7ee6d7c17045495e...|R0lGODlhDQALALMAA...|
+|http://www.archiv...| image/png|   20|    15|c1905fb5f16232525...|iVBORw0KGgoAAAANS...|
+|http://www.archiv...| image/gif|   35|    35|c15ec074d95fe7e1e...|R0lGODlhIwAjANUAA...|
+|http://www.archiv...| image/png|  320|   240|b148d9544a1a65ae4...|iVBORw0KGgoAAAANS...|
+|http://www.archiv...| image/gif|    8|    11|a820ac93e2a000c9d...|R0lGODlhCAALAJECA...|
+|http://www.archiv...| image/gif|  385|    30|9f70e6cc21ac55878...|R0lGODlhgQEeALMPA...|
+|http://www.archiv...|image/jpeg|  140|   171|9ed163df5065418db...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...|image/jpeg| 1800|    89|9e41e4d6bdd53cd9d...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...| image/gif|  304|    36|9da73cf504be0eb70...|R0lGODlhMAEkAOYAA...|
+|http://www.archiv...|image/jpeg|  215|    71|97ebd3441323f9b5d...|/9j/4AAQSkZJRgABA...|
+|http://i.creative...| image/png|   88|    31|9772d34b683f8af83...|iVBORw0KGgoAAAANS...|
++--------------------+----------+-----+------+--------------------+--------------------+
+only showing top 20 rows
+```
+
+You may want to save the images to work with them on your own file system. The following command will save the images from a WARC.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
+val res = df.select($"bytes").orderBy(desc("bytes")).saveToDisk("bytes", "/path/to/export/directory/")
+```
+
+As above, you can see the schema by running the following command:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
+df.printSchema()
 ```
