@@ -40,7 +40,7 @@ AUK is an open source cloud-based analysis tool that helps researchers and schol
       <guid>https://archivesunleashed.org/aut/</guid>
       <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on Hadoop. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
-Getting Started Quick Start If you don&amp;rsquo;t want to install all the dependencies locally, you can use docker-aut.</description>
+Most of this documentation is built on resilient distributed datasets (RDD).</description>
     </item>
     
     <item>
