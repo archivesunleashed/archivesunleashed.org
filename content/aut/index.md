@@ -978,7 +978,7 @@ The results will look like this:
 only showing top 20 rows
 ```
 
-You may want to save the images to work with them on your own file system. The following command will save the images from a WARC.
+You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC.
 
 ```scala
 import io.archivesunleashed._
