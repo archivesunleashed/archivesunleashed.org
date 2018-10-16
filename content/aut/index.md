@@ -831,6 +831,18 @@ Here we provide some documentation on how to use DataFrames in AUT.
 
 ### List of Domains
 
+As with the RDD implementation, the first stop is often to work with the frequency of domains appearing within a web archive. You can see the schema that you can use when working with domains by running the following script:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractValidPagesDF()
+
+df.printSchema()
+```
+
 The below script will show you the top domains within the collection.
 
 ```scala
@@ -856,19 +868,19 @@ Results will look like:
 +------------------+-----+
 ```
 
-You may want to see the schema that you can use when working with domains. To do so, run the following script:
+### Hyperlink Network
+
+You may want to work with DataFrames to extract hyperlink networks. You can see the schema with the following commands: 
 
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.df._
 
 val df = RecordLoader.loadArchives("example.arc.gz", sc)
-  .extractValidPagesDF()
+  .extractHyperlinksDF()
 
 df.printSchema()
 ```
-
-### Hyperlink Network
 
 The below script will give you the source and destination for hyperlinks found within the archive.
 
@@ -914,21 +926,19 @@ Results will look like:
 only showing top 20 rows
 ```
 
-Similarly, you may want to see the schema.
+### Image Analysis
+
+You can also use DataFrames to analyze images. You can see the schema for images by running the following command:
 
 ```scala
 import io.archivesunleashed._
-import io.archivesunleashed.df._
+import io.archivesunleashed.matchbox._
 
-val df = RecordLoader.loadArchives("example.arc.gz", sc)
-  .extractHyperlinksDF()
-
+val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
 df.printSchema()
 ```
 
-### Image Analysis
-
-You can also use DataFrames to analyze images. The following command will extract all the images, give you their dimensions, as well as unique hashes.
+The following script will extract all the images, give you their dimensions, as well as unique hashes.
 
 ```scala
 import io.archivesunleashed._
@@ -975,14 +985,4 @@ import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
 val res = df.select($"bytes").orderBy(desc("bytes")).saveToDisk("bytes", "/path/to/export/directory/")
-```
-
-As above, you can see the schema by running the following command:
-
-```scala
-import io.archivesunleashed._
-import io.archivesunleashed.matchbox._
-
-val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
-df.printSchema()
 ```
