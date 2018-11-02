@@ -361,7 +361,7 @@ The following Spark scripts use the [Stanford Named Entity Recognizer](http://nl
 
 The scripts require a NER classifier model. There is one provided in the Stanford NER package (in the `classifiers` folder) called `english.all.3class.distsim.crf.ser.gz`, but you can also use your own.
 
-## Extract entities from ARC/WARC files
+### Extract entities from ARC/WARC files
 
 ```scala
 import io.archivesunleashed._
