@@ -355,6 +355,22 @@ val r = RecordLoader.loadArchives("example.arc.gz",sc)
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
 
+## Raw HTML Extraction
+
+In most cases, users will be interested in working with plain text. In some cases, however, you may want to work with the acutal HTML of the pages themselves (for example, looking for specific tags or HTML content). 
+
+The following script will produce the raw HTML of a WARC file. You can use the filters from above to filter it down accordingly by domain, language, etc.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+RecordLoader.loadArchives("example.arc.gz", sc)
+  .keepValidPages()
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, r.getContentString))
+  .saveAsTextFile("plain-html/")
+```
+
 ## Named Entity Recognition
 
 The following Spark scripts use the [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.shtml) to extract names of entities – persons, organizations, and locations – from collections of ARC/WARC files or extracted texts. You can find a version of Stanford NER in [our aut-Resources repo located here](https://github.com/archivesunleashed/aut-resources).
