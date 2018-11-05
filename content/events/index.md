@@ -6,19 +6,19 @@ weight: 40
 
 ## Upcoming Events
 
-![Material Screenshot](/images/vancouver-skyline.png)
+![Material Screenshot](/images/washington-skyline.png)
 
-**The Archives Unleashed project will hold its second datathon in partnership with Simon Fraser University Library, 1-2 November 2018.**
+**The Archives Unleashed project will hold its third datathon in partnership with George Washington University Libraries, 21-22 March 2019.**
 
-Please visit the [Vancouver event page](/vancouver) for more information.
+Please visit the [Washington event page](/washington) for more information.
 
-Check to see when Archives Unleashed will be near you… 
+Check to see when Archives Unleashed will be near you…
 
 |        Date       |         Location         |
 |:-----------------:|:------------------------:|
 | April 26-27, 2018 | Toronto, ON              |
 | November 1-2, 2018 | Vancouver, BC       |
-| May 2019          | United States East Coast |
+| March 21-22, 2019          | Washing, DC |
 | November 2019     | United States West Coast |
 
 ## Past Datathons
@@ -30,9 +30,10 @@ We have had the pleasure of hosting several datathons. The first four pre-dated 
 * **[Archives Unleashed 3.0](http://archivesunleashed.com/au-3-cfp/)**, Internet Archive, February 2017.
 * **[Archives Unleashed 4.0](http://archivesunleashed.com/au4-0-british-invasion/)**, British Library, June 2017.
 
-As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have hosted one event:
+As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have hosted two events:
 
-* **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2017.
+* **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2018.
+* **[Archives Unleashed Vancouver](/vancouver)**, Simon Fraser University, November 2018.
 
 ## About our Datathons
 

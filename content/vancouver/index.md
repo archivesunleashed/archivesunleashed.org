@@ -13,21 +13,7 @@ The project team invites archivists, researchers (from the humanities, social sc
 
 The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">**Simon Fraser University Library**</a>, and <a href="http://www.sfu.ca/key/">**KEY**</a>, SFU’s Big Data initiative, to host the next Archives Unleashed datathon.
 
-This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. 
-
-For more information on AUT and the Cloud, please visit http://archivesunleashed.org/. 
-
-Thank you for your interest in the Archives Unleashed Datathon, submissions for the Nov 1-2 Vancouver Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation. 
-
-Check to see when Archives Unleashed will be near you… 
-
-|        Date       |         Location         |
-|:-----------------:|:------------------------:|
-| 26-27 April 2018 | Toronto, ON              |
-| 1-2 November 2018 | Vancouver, BC        |
-| March 2019          | United States East Coast |
-| November 2019     | United States West Coast |
-
+This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
 ## Organizers
 
@@ -45,13 +31,121 @@ Check to see when Archives Unleashed will be near you…
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
 
 
-## Venue 
+## Venue
 
 Harbour Centre | 555 W Hastings St, Vancouver, BC V6B 4N4
 
 Simon Fraser University Vancouver Campus
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MdGucaBTX0B3elYaZWKxEqLKE6glEgmB" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+## Schedule
+
+<p>Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.</p>
+
+<p>Please click the image below to check out the <a href="/images/vancouver-schedule.pdf">full Vancouver Datathon schedule!</a></p>
+
+|               |                  |
+|:-----------------:|:------------------------:|
+| <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day1.png"></a> | <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day2.png" ></a>
+
+<!---
+
+## Team Projects
+
+<table>
+  <tr>
+    <td><b>Team Wildfire</b>
+      <ul>
+        <li>Janice Bancer, Simon Fraser University Library</li>
+        <li>Gethin Rees, British Library</li>
+        <li>Rebecca Dowson, Simon Fraser University</li>
+        <li>Umar Quasim, University of Alberta</li>
+        <li>Megan Meredith-Lobay, University of British Columbia</li>
+        <li>Evan Thornberry, University of British Columbia</li>
+        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><image src="/images/BCLabor.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team Assurance</a></b>
+      <ul>
+        <li>Brenda Reyes Ayala, University of Alberta</li>
+        <li>Cindy McLellan, British Columbia Institute of Technology Archives</li>
+        <li>Ryan Deschamps, University of Waterloo/Archives Unleashed Project</li>
+        <li>Sustan Paterson, Simon Fraser University</li>
+        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/MTGA.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team BC Political Topics</b>
+      <ul>
+        <li>Matt Huculak, University of Victoria</li>
+        <li>Luis Menese, Electronic Textual Cultures Lab, University of Victoria</li>
+        <li>Nauman Siddique, Old Dominion University</li>
+        <li>Emily Maemura , University of Toronto</li>
+        <li>Shahira Khair , University of Victoria</li>
+        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Pipeline.png"></td>
+  </tr>
+ <tr>
+    <td><b>Team Indigenous Disaster Management</b>
+      <ul>
+        <li>Ben O'Brien, National Library of New Zealand</li>
+        <li>Carl Cooper, Bodleian Libraries - Oxford University</li>
+        <li>Kathleen Reed, Vancouver Island University</li>
+        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Spamlinks.png"></td>
+ </tr>
+</table>
+
+
+
+
+## Travel Grants
+
+This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> KEY, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
+
+The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
+
+## Submissions
+
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (extended deadline):
+
+* a 250-word expression of interest;
+* a short one-page CV; and
+* Indication of need for financial assistance to travel to event (if applicable)
+
+This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
+
+**IMPORTANT DATES**
+
+|        Date       |         Location         |
+|:-----------------:|:------------------------:|
+| 4 June 2018 | Call for Participation|
+| 29 June 2018 | Second Call for Participation|
+| <s>16 July 2018</s> | <s>Submissions Due</s> |
+| 20 July 2018 | Submissions Due (Extension)|
+| 27 July 2018 | Applicants notified |
+
+
+
+For more information on AUT and the Cloud, please visit http://archivesunleashed.org/.
+
+Thank you for your interest in the Archives Unleashed Datathon, submissions for the Nov 1-2 Vancouver Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
+
+Check to see when Archives Unleashed will be near you…
+
+|        Date       |         Location         |
+|:-----------------:|:------------------------:|
+| 26-27 April 2018 | Toronto, ON              |
+| 1-2 November 2018 | Vancouver, BC        |
+| March 2019          | United States East Coast |
+| November 2019     | United States West Coast |
 
 
 ## Travel to Vancouver
@@ -96,7 +190,7 @@ Guests flying into Vancouver will arrive at [Vancouver International Airport (YV
 
 ![Downtown Transit](/images/transit.png)
 
-While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus and is easily accessible by public transportation or by foot from most areas of downtown Vancouver. 
+While you are in Vancouver there are a few ways to get around, but ultimately it will depend on how close you are to the Harbour Centre. The Harbour Centre is located on SFU Vancouver campus and is easily accessible by public transportation or by foot from most areas of downtown Vancouver.
 
 * **Public Transport** - Translink provides access to public transportation in Vancouver. They have a great [trip planner](https://tripplanning.translink.ca) and handy [Transit real-time app](https://transitapp.com). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [Compass Card](https://www.compasscard.ca) for multi-ride usage. Additionally, Translink has recently introduced "tap-to-pay" which allows you to use the tap feature on your credit card or Apple Pay, Google Pay, and Samsung Pay to pay your fare.  No Compass card needed! Info about this program can be found [here](https://www.translink.ca/Fares-and-Passes/Tap-to-Pay.aspx).
 
@@ -109,7 +203,7 @@ While you are in Vancouver there are a few ways to get around, but ultimately it
 
 ![Attractions](/images/attractions.png)
 
-For those adventurers who’d like to check out Vancouver attractions, you may want to check out the [City of Vancouver's Tourism Website](https://www.tourismvancouver.com). Some of our favourite spots to visit include: 
+For those adventurers who’d like to check out Vancouver attractions, you may want to check out the [City of Vancouver's Tourism Website](https://www.tourismvancouver.com). Some of our favourite spots to visit include:
 
 * [Stanley Park](https://vancouver.ca/parks-recreation-culture/stanley-park.aspx)
 * [The Seawall](https://vancouver.ca/parks-recreation-culture/seawall.aspx)
@@ -120,96 +214,5 @@ For those adventurers who’d like to check out Vancouver attractions, you may w
 * [Vancouver Art Gallery](http://www.vanartgallery.bc.ca)
 * [UBC Botanical Garden](http://botanicalgarden.ubc.ca)
 * [Grouse Mountain](https://www.grousemountain.com/activities-guide)
-
-## Schedule
-
-<p>Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.</p>
-
-<p>Please click the image below to check out the <a href="/images/vancouver-schedule.pdf">full Vancouver Datathon schedule!</a></p>
-
-|               |                  |
-|:-----------------:|:------------------------:|
-| <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day1.png"></a> | <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day2.png" ></a>
-
-
-
-<!---
-
-## Team Projects
-
-<table>
-  <tr>
-    <td><b>Team: Name</b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
-      </ul> 
-    <td><image src="/images/BCLabor.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: Name</a></b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/MTGA.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: Name</b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Pipeline.png"></td>
-  </tr>
- <tr>
-    <td><b>Team Name</b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Spamlinks.png"></td>
- </tr>
-</table>
-
-## Travel Grants
-
-This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> Simon Fraser University Library </a>, <a href="http://www.sfu.ca/key/"> KEY, SFU's Big Data Initiative</a>, <a href="https://uwaterloo.ca/arts/"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>. 
- 
-
-The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
-
-
-## Submissions
-
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **20 July 2018** (extended deadline):
-
-* a 250-word expression of interest;
-* a short one-page CV; and
-* Indication of need for financial assistance to travel to event (if applicable)
-
-This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale. 
-
-**IMPORTANT DATES**
-
-|        Date       |         Location         |
-|:-----------------:|:------------------------:|
-| 4 June 2018 | Call for Participation|
-| 29 June 2018 | Second Call for Participation|
-| <s>16 July 2018</s> | <s>Submissions Due</s> |
-| 20 July 2018 | Submissions Due (Extension)|
-| 27 July 2018 | Applicants notified |
 
 -->
