@@ -30,7 +30,7 @@ We have had the pleasure of hosting several datathons. The first four pre-dated 
 * **[Archives Unleashed 3.0](http://archivesunleashed.com/au-3-cfp/)**, Internet Archive, February 2017.
 * **[Archives Unleashed 4.0](http://archivesunleashed.com/au4-0-british-invasion/)**, British Library, June 2017.
 
-As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have hosted one event:
+As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have hosted two events:
 
 * **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2018.
 * **[Archives Unleashed Vancouver](/vancouver)**, Simon Fraser University, November 2018.
