@@ -15,6 +15,57 @@ The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">
 
 This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
+## Team Projects
+
+<table>
+  <tr>
+    <td><b>Team IDG</b>
+      <ul>
+        <li>Ben O'Brien, <em>(National Library of New Zealand)</em></li>
+        <li>Carl Cooper,  <em>(Bodleian Libraries - Oxford University)</em></li>
+        <li>Kathleen Reed, <em>(Vancouver Island University)</em></li>
+        <li><a href="/images/vancouver-IDG.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><img src="/images/vancouver-IDG.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team BC 2017 Politics</b>
+      <ul>
+        <li>Matt Huculak, <em>(University of Victoria)</em></li>
+        <li>Luis Menese, <em>(Electronic Textual Cultures Lab, University of Victoria)</em></li>
+        <li>Nauman Siddique, <em>(Old Dominion University)</em></li>
+        <li>Emily Maemura, <em>(University of Toronto)</em></li>
+        <li>Shahira Khair, <em>(University of Victoria)</em></li>
+        <li><a href="/images/vancouver-BC2017Politics.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><img src="/images/vancouver-BC2017Politics.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team Wildfyre</b>
+      <ul>
+        <li>Janice Bancer, <em>(Simon Fraser University Library)</em></li>
+        <li>Gethin Rees, <em>(British Library)</em></li>
+        <li>Rebecca Dowson, <em>(Simon Fraser University)</em></li>
+        <li>Umar Quasim, <em>(University of Alberta)</em></li>
+        <li>Megan Meredith-Lobay, <em>(University of British Columbia)</em></li>
+        <li>Evan Thornberry, <em>(University of British Columbia)</em></li>
+        <li><a href="/images/vancouver-wildfyre.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><image src="/images/vancouver-wildfyre.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team Seeds of Anarchy</a></b>
+      <ul>
+        <li>Brenda Reyes Ayala, <em>(University of Alberta)</em></li>
+        <li>Cindy McLellan, <em>(British Columbia Institute of Technology Archives)</em></li>
+        <li>Ryan Deschamps, <em>(University of Waterloo/Archives Unleashed Project)</em></li>
+        <li>Sustan Paterson, <em>(Simon Fraser University)</em></li>
+        <li><a href="/images/vancouver-seedsofanarchy.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><img src="/images/vancouver-seedsofanarchy.png"></td>
+  </tr>
+  </table>
+
 ## Organizers
 
 * Ian Milligan (University of Waterloo)
@@ -29,7 +80,6 @@ This event will bring together a small group of **approximately 15-20 participan
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/library_key_logo.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
-
 
 ## Venue
 
@@ -51,60 +101,6 @@ Simon Fraser University Vancouver Campus
 | <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day1.png"></a> | <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day2.png" ></a>
 
 <!---
-
-## Team Projects
-
-<table>
-  <tr>
-    <td><b>Team Wildfire</b>
-      <ul>
-        <li>Janice Bancer, Simon Fraser University Library</li>
-        <li>Gethin Rees, British Library</li>
-        <li>Rebecca Dowson, Simon Fraser University</li>
-        <li>Umar Quasim, University of Alberta</li>
-        <li>Megan Meredith-Lobay, University of British Columbia</li>
-        <li>Evan Thornberry, University of British Columbia</li>
-        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><image src="/images/BCLabor.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team Assurance</a></b>
-      <ul>
-        <li>Brenda Reyes Ayala, University of Alberta</li>
-        <li>Cindy McLellan, British Columbia Institute of Technology Archives</li>
-        <li>Ryan Deschamps, University of Waterloo/Archives Unleashed Project</li>
-        <li>Sustan Paterson, Simon Fraser University</li>
-        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/MTGA.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team BC Political Topics</b>
-      <ul>
-        <li>Matt Huculak, University of Victoria</li>
-        <li>Luis Menese, Electronic Textual Cultures Lab, University of Victoria</li>
-        <li>Nauman Siddique, Old Dominion University</li>
-        <li>Emily Maemura , University of Toronto</li>
-        <li>Shahira Khair , University of Victoria</li>
-        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Pipeline.png"></td>
-  </tr>
- <tr>
-    <td><b>Team Indigenous Disaster Management</b>
-      <ul>
-        <li>Ben O'Brien, National Library of New Zealand</li>
-        <li>Carl Cooper, Bodleian Libraries - Oxford University</li>
-        <li>Kathleen Reed, Vancouver Island University</li>
-        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Spamlinks.png"></td>
- </tr>
-</table>
-
-
-
 
 ## Travel Grants
 
