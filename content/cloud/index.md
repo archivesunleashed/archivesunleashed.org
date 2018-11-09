@@ -49,7 +49,7 @@ The analysis process then triggers an Apache Spark job and uses AUT to create a 
 * A GraphML file which you can load with [Gephi](https://gephi.org/). It does not have any basic layouts or transformations, requiring you to do so manually. You can use [GraphPass](https://github.com/archivesunleashed/graphpass) to provide layout if you wish to add that feature to your file;
 * A CSV file that explains the distribution of domains within the web archive;
 * A TXT file that contains the plain text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file;
-* A ZIP file that contains the plain text extracted from HTML documents within the web archive, arranged by each domain. Within this ZIP you will have a series of text files, each the full text of a top ten domain.
+* A ZIP file that contains the plain text extracted from HTML documents within the web archive, arranged by each domain. Within this ZIP you will have a series of text files, each containing the full text of a top ten domain.
 
 If you are curious about what you can do with these files, see the [Archives Unleashed Cloud Derivative Files learning guide](https://cloud.archivesunleashed.org/derivatives).
 
