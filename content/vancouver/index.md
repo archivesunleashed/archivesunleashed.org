@@ -60,6 +60,7 @@ This event will bring together a small group of **approximately 15-20 participan
         <li>Cindy McLellan, <em>(British Columbia Institute of Technology Archives)</em></li>
         <li>Ryan Deschamps, <em>(University of Waterloo/Archives Unleashed Project)</em></li>
         <li>Sustan Paterson, <em>(Simon Fraser University)</em></li>
+        <li>Larissa Ringham, <em>(University of British Columbia Library)</em></li>
         <li><a href="/images/vancouver-seedsofanarchy.pdf"><strong>View Presentation</strong></a></li>
       </ul>
     <td><img src="/images/vancouver-seedsofanarchy.png"></td>
