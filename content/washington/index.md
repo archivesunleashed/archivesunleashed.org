@@ -3,7 +3,7 @@ title: Washington, DC Datathon
 date: 2017-12-05T15:20:57-05:00
 weight: 45
 aliases:
-  - "/Washington"
+  - "Washington"
 ---
 
 ![Washington Skyline](/images/washington-skyline.png)
