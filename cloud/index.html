@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>The Archives Unleashed Cloud - The Archives Unleashed Project</title>
-    <meta name="generator" content="Hugo 0.47.1" />
+    <meta name="generator" content="Hugo 0.30.2" />
 
     
     <link rel="canonical" href="https://archivesunleashed.org/cloud/">
@@ -384,7 +384,7 @@
 <ul>
 <li>Syncing Archive-It collections;</li>
 <li>Ingesting Archive-It collections via WASAPI to AUK;</li>
-<li>Creating a network graph, domain distribution list, full-text derivatives, and making each available for download;</li>
+<li>Creating a network graph, domain distribution list, full text, and full text by domain derivatives, and making each available for download;</li>
 <li>Providing an in-browser network diagram to see major nodes and connections within your collection.</li>
 </ul>
 
@@ -410,9 +410,12 @@
 <ul>
 <li>A GEXF file which you can load with Gephi. It has a basic layout courtesy of our <a href="https://github.com/archivesunleashed/graphpass">GraphPass</a> program, which allows you to see major nodes and communities in the network;</li>
 <li>A GraphML file which you can load with <a href="https://gephi.org/">Gephi</a>. It does not have any basic layouts or transformations, requiring you to do so manually. You can use <a href="https://github.com/archivesunleashed/graphpass">GraphPass</a> to provide layout if you wish to add that feature to your file;</li>
-<li>A csv file that explains the distribution of domains within the web archive;</li>
-<li>A txt file that contains the plain text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file.</li>
+<li>A CSV file that explains the distribution of domains within the web archive;</li>
+<li>A TXT file that contains the plain text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file;</li>
+<li>A ZIP file that contains the plain text extracted from HTML documents within the web archive, arranged by each domain. Within this ZIP you will have a series of text files, each containing the full text of a top ten domain.</li>
 </ul>
+
+<p>If you are curious about what you can do with these files, see the <a href="https://cloud.archivesunleashed.org/derivatives">Archives Unleashed Cloud Derivative Files learning guide</a>.</p>
 
 <p>Here is a completed collection page:</p>
 
