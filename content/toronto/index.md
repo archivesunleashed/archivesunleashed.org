@@ -27,7 +27,7 @@ This event will bring together a small group of approximately 15 participants to
         <li>Brandon Locke, Michigan State University</li>
         <li>Katie Mackinnon, University of Toronto</li>
         <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
-      </ul> 
+      </ul>
     <td><image src="/images/BCLabor.png"></td>
   </tr>
   <tr>
@@ -80,7 +80,7 @@ This event is possible thanks to the generous support of <a href="https://mellon
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/uoft-logo-600x200.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
 
-## Venue 
+## Venue
 
 University of Toronto, John P. Robarts Research Library, Blackburn Room (4036)
 ![Blackburn Room](/images/blackburn-room.png)
@@ -95,8 +95,6 @@ University of Toronto, John P. Robarts Research Library, Blackburn Room (4036)
 |               |                  |
 |:-----------------:|:------------------------:|
 | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day1.png"></a> | <a href="/images/toronto-schedule.pdf"><img src="/images/toronto-day2.png" ></a>
-
-
 
 
 <!---
@@ -138,11 +136,11 @@ There are also a few hotel options listed here:
 
 ![Airports](/images/airports.png)
 
-For guests flying into Toronto there are two main airports, one located downtown and one located outside of the city centre. 
+For guests flying into Toronto there are two main airports, one located downtown and one located outside of the city centre.
 
 [**Toronto Pearson International Airport | YYZ**](http://www.torontopearson.com/) - located approximately 30 km away from downtown, there are a few options for getting to the downtown core:
 
-* [Union Pearson Express Train](https://www.upexpress.com/) – Probably the easiest and most cost efficient way of getting to downtown. The train takes approximately 25 minutes and leaves every 15 minutes, with an adult return ticket of $25CND. You will take the UPExpress to Union Station (downtown). 
+* [Union Pearson Express Train](https://www.upexpress.com/) – Probably the easiest and most cost efficient way of getting to downtown. The train takes approximately 25 minutes and leaves every 15 minutes, with an adult return ticket of $25CND. You will take the UPExpress to Union Station (downtown).
 
 * [Taxis](http://www.torontopearson.com/en/toandfrom/taxilimo/#) to downtown Toronto are available outside both airport terminals. A taxi will run about $60 CND+, but be sure to confirm fare with driver before you leave.
 
@@ -150,16 +148,16 @@ For guests flying into Toronto there are two main airports, one located downtown
 
 [**Billy Bishop Toronto City Airport | YTZ**](http://www.torontoport.com/Airport/Getting-To.aspx) via [Porter Airline](https://www.flyporter.com/) - located downtown Toronto. It’s called the island airport, because the tarmac is quite literally on an island. Once you arrive just follow the signs to reach the airport exit. A complimentary shuttle is available from Billy Bishop to downtown with stops located along major subway routes. 
 
-* You can also book with [Aeroport Taxi](http://www.aeroporttaxi.com/billy-bishop-airport-taxi/) 
- 
-![Downtown Transit](/images/transit.png)
-While you are in Toronto there are a few ways to get around, but ultimately it will depend on how close you are to campus. The Robarts Library is part of the University of Toronto's St. George Campus. 
+* You can also book with [Aeroport Taxi](http://www.aeroporttaxi.com/billy-bishop-airport-taxi/)
 
-* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) If you are taking subway Line 1, St. George Station is the closest stop to the Robarts Library. 
+![Downtown Transit](/images/transit.png)
+While you are in Toronto there are a few ways to get around, but ultimately it will depend on how close you are to campus. The Robarts Library is part of the University of Toronto's St. George Campus.
+
+* [Public Transit – Toronto Transit Commission (TTC)](http://www.ttc.ca/Trip_planner/index.jsp) If you are taking subway Line 1, St. George Station is the closest stop to the Robarts Library.
 * Parking (Green P) - You can check out [Toronto’s Parking Authority Website](https://parking.greenp.com/) or download the App (Green P) to your iOS device to find and/or pay for parking. This will most likely be the easiest and most economical choice if you are driving. Please remember that our event is during regular work hours, so campus parking spots and street parking may be limited.
 
 ![Attractions](/images/attractions.png)
-For those adventurers who’d like to check out Toronto attractions, you may want to check out the [City of Toronto Tourism Website](http://www.seetorontonow.com). Some of our favourite spots to visit include: 
+For those adventurers who’d like to check out Toronto attractions, you may want to check out the [City of Toronto Tourism Website](http://www.seetorontonow.com). Some of our favourite spots to visit include:
 
 * [Royal Ontario Museum](https://www.rom.on.ca/en)
 * [Queen’s Park](http://www.ontla.on.ca/lao/en/coming-to-queens-park/)

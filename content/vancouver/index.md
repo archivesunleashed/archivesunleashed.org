@@ -15,6 +15,58 @@ The Archives Unleashed Team has partnered with <a href="https://www.lib.sfu.ca">
 
 This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
+## Team Projects
+
+<table>
+  <tr>
+    <td><b>Team IDG</b>
+      <ul>
+        <li>Ben O'Brien <em>(National Library of New Zealand)</em></li>
+        <li>Carl Cooper <em>(Bodleian Libraries - Oxford University)</em></li>
+        <li>Kathleen Reed <em>(Vancouver Island University)</em></li>
+        <li><a href="/images/vancouver-IDG.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><img src="/images/vancouver-IDG.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team BC 2017 Politics</b>
+      <ul>
+        <li>Matt Huculak <em>(University of Victoria)</em></li>
+        <li>Luis Menese <em>(Electronic Textual Cultures Lab, University of Victoria)</em></li>
+        <li>Nauman Siddique <em>(Old Dominion University)</em></li>
+        <li>Emily Maemura <em>(University of Toronto)</em></li>
+        <li>Shahira Khair <em>(University of Victoria)</em></li>
+        <li><a href="/images/vancouver-BC2017Politics.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><img src="/images/vancouver-BC2017Politics.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team Wildfyre</b>
+      <ul>
+        <li>Janice Bancer <em>(Simon Fraser University Library)</em></li>
+        <li>Gethin Rees <em>(British Library)</em></li>
+        <li>Rebecca Dowson <em>(Simon Fraser University)</em></li>
+        <li>Umar Quasim <em>(University of Alberta)</em></li>
+        <li>Megan Meredith-Lobay <em>(University of British Columbia)</em></li>
+        <li>Evan Thornberry <em>(University of British Columbia)</em></li>
+        <li><a href="/images/vancouver-wildfyre.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><image src="/images/vancouver-wildfyre.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team Seeds of Anarchy</a></b>
+      <ul>
+        <li>Brenda Reyes Ayala <em>(University of Alberta)</em></li>
+        <li>Cindy McLellan <em>(British Columbia Institute of Technology Archives)</em></li>
+        <li>Ryan Deschamps <em>(University of Waterloo/Archives Unleashed Project)</em></li>
+        <li>Sustan Paterson <em>(Simon Fraser University)</em></li>
+        <li>Larissa Ringham <em>(University of British Columbia Library)</em></li>
+        <li><a href="/images/vancouver-seedsofanarchy.pdf"><strong>View Presentation</strong></a></li>
+      </ul>
+    <td><img src="/images/vancouver-seedsofanarchy.png"></td>
+  </tr>
+  </table>
+
 ## Organizers
 
 * Ian Milligan (University of Waterloo)
@@ -23,13 +75,11 @@ This event will bring together a small group of **approximately 15-20 participan
 * Jimmy Lin (University of Waterloo)
 * Samantha Fritz (University of Waterloo)
 
-
 ## Sponsors
 |                                              |                                            |                                                     |
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/library_key_logo.png) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
-
 
 ## Venue
 
@@ -38,7 +88,6 @@ Harbour Centre | 555 W Hastings St, Vancouver, BC V6B 4N4
 Simon Fraser University Vancouver Campus
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MdGucaBTX0B3elYaZWKxEqLKE6glEgmB" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
 
 ## Schedule
 
@@ -51,60 +100,6 @@ Simon Fraser University Vancouver Campus
 | <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day1.png"></a> | <a href="/images/vancouver-schedule.pdf"><img src="/images/vancouver-day2.png" ></a>
 
 <!---
-
-## Team Projects
-
-<table>
-  <tr>
-    <td><b>Team Wildfire</b>
-      <ul>
-        <li>Janice Bancer, Simon Fraser University Library</li>
-        <li>Gethin Rees, British Library</li>
-        <li>Rebecca Dowson, Simon Fraser University</li>
-        <li>Umar Quasim, University of Alberta</li>
-        <li>Megan Meredith-Lobay, University of British Columbia</li>
-        <li>Evan Thornberry, University of British Columbia</li>
-        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><image src="/images/BCLabor.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team Assurance</a></b>
-      <ul>
-        <li>Brenda Reyes Ayala, University of Alberta</li>
-        <li>Cindy McLellan, British Columbia Institute of Technology Archives</li>
-        <li>Ryan Deschamps, University of Waterloo/Archives Unleashed Project</li>
-        <li>Sustan Paterson, Simon Fraser University</li>
-        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/MTGA.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team BC Political Topics</b>
-      <ul>
-        <li>Matt Huculak, University of Victoria</li>
-        <li>Luis Menese, Electronic Textual Cultures Lab, University of Victoria</li>
-        <li>Nauman Siddique, Old Dominion University</li>
-        <li>Emily Maemura , University of Toronto</li>
-        <li>Shahira Khair , University of Victoria</li>
-        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Pipeline.png"></td>
-  </tr>
- <tr>
-    <td><b>Team Indigenous Disaster Management</b>
-      <ul>
-        <li>Ben O'Brien, National Library of New Zealand</li>
-        <li>Carl Cooper, Bodleian Libraries - Oxford University</li>
-        <li>Kathleen Reed, Vancouver Island University</li>
-        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Spamlinks.png"></td>
- </tr>
-</table>
-
-
-
 
 ## Travel Grants
 
@@ -131,8 +126,6 @@ This expression of interest should address your background and interests in web 
 | <s>16 July 2018</s> | <s>Submissions Due</s> |
 | 20 July 2018 | Submissions Due (Extension)|
 | 27 July 2018 | Applicants notified |
-
-
 
 For more information on AUT and the Cloud, please visit http://archivesunleashed.org/.
 
@@ -184,7 +177,7 @@ Guests flying into Vancouver will arrive at [Vancouver International Airport (YV
   - If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
   - For those who plan to stay a bit longer or use transit around the city, it's worth buying a *[Compass Card](https://www.compasscard.ca)*! It's a stored-value card that will let you use transit around Metro Vancouver. Alternatively you can use your credit card's "tap to pay" function as discussed below.
 
-* **[Taxi](http://www.yvr.ca/en/passengers/transportation/taxis)** - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
+* **[Taxi](http://www.yvr.ca/en/passengers/transportation/taxis)** - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR.
 
 * **[Car rentals](http://www.yvr.ca/en/passengers/transportation/car-rentals)** are also available on the ground floor of the parkade.
 
