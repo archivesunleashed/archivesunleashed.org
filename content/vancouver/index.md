@@ -21,9 +21,9 @@ This event will bring together a small group of **approximately 15-20 participan
   <tr>
     <td><b>Team IDG</b>
       <ul>
-        <li>Ben O'Brien, <em>(National Library of New Zealand)</em></li>
-        <li>Carl Cooper,  <em>(Bodleian Libraries - Oxford University)</em></li>
-        <li>Kathleen Reed, <em>(Vancouver Island University)</em></li>
+        <li>Ben O'Brien <em>(National Library of New Zealand)</em></li>
+        <li>Carl Cooper <em>(Bodleian Libraries - Oxford University)</em></li>
+        <li>Kathleen Reed <em>(Vancouver Island University)</em></li>
         <li><a href="/images/vancouver-IDG.pdf"><strong>View Presentation</strong></a></li>
       </ul>
     <td><img src="/images/vancouver-IDG.png"></td>
@@ -31,11 +31,11 @@ This event will bring together a small group of **approximately 15-20 participan
   <tr>
     <td><b>Team BC 2017 Politics</b>
       <ul>
-        <li>Matt Huculak, <em>(University of Victoria)</em></li>
-        <li>Luis Menese, <em>(Electronic Textual Cultures Lab, University of Victoria)</em></li>
-        <li>Nauman Siddique, <em>(Old Dominion University)</em></li>
-        <li>Emily Maemura, <em>(University of Toronto)</em></li>
-        <li>Shahira Khair, <em>(University of Victoria)</em></li>
+        <li>Matt Huculak <em>(University of Victoria)</em></li>
+        <li>Luis Menese <em>(Electronic Textual Cultures Lab, University of Victoria)</em></li>
+        <li>Nauman Siddique <em>(Old Dominion University)</em></li>
+        <li>Emily Maemura <em>(University of Toronto)</em></li>
+        <li>Shahira Khair <em>(University of Victoria)</em></li>
         <li><a href="/images/vancouver-BC2017Politics.pdf"><strong>View Presentation</strong></a></li>
       </ul>
     <td><img src="/images/vancouver-BC2017Politics.png"></td>
@@ -43,12 +43,12 @@ This event will bring together a small group of **approximately 15-20 participan
   <tr>
     <td><b>Team Wildfyre</b>
       <ul>
-        <li>Janice Bancer, <em>(Simon Fraser University Library)</em></li>
-        <li>Gethin Rees, <em>(British Library)</em></li>
-        <li>Rebecca Dowson, <em>(Simon Fraser University)</em></li>
-        <li>Umar Quasim, <em>(University of Alberta)</em></li>
-        <li>Megan Meredith-Lobay, <em>(University of British Columbia)</em></li>
-        <li>Evan Thornberry, <em>(University of British Columbia)</em></li>
+        <li>Janice Bancer <em>(Simon Fraser University Library)</em></li>
+        <li>Gethin Rees <em>(British Library)</em></li>
+        <li>Rebecca Dowson <em>(Simon Fraser University)</em></li>
+        <li>Umar Quasim <em>(University of Alberta)</em></li>
+        <li>Megan Meredith-Lobay <em>(University of British Columbia)</em></li>
+        <li>Evan Thornberry <em>(University of British Columbia)</em></li>
         <li><a href="/images/vancouver-wildfyre.pdf"><strong>View Presentation</strong></a></li>
       </ul>
     <td><image src="/images/vancouver-wildfyre.png"></td>
@@ -56,11 +56,11 @@ This event will bring together a small group of **approximately 15-20 participan
   <tr>
     <td><b>Team Seeds of Anarchy</a></b>
       <ul>
-        <li>Brenda Reyes Ayala, <em>(University of Alberta)</em></li>
-        <li>Cindy McLellan, <em>(British Columbia Institute of Technology Archives)</em></li>
-        <li>Ryan Deschamps, <em>(University of Waterloo/Archives Unleashed Project)</em></li>
-        <li>Sustan Paterson, <em>(Simon Fraser University)</em></li>
-        <li>Larissa Ringham, <em>(University of British Columbia Library)</em></li>
+        <li>Brenda Reyes Ayala <em>(University of Alberta)</em></li>
+        <li>Cindy McLellan <em>(British Columbia Institute of Technology Archives)</em></li>
+        <li>Ryan Deschamps <em>(University of Waterloo/Archives Unleashed Project)</em></li>
+        <li>Sustan Paterson <em>(Simon Fraser University)</em></li>
+        <li>Larissa Ringham <em>(University of British Columbia Library)</em></li>
         <li><a href="/images/vancouver-seedsofanarchy.pdf"><strong>View Presentation</strong></a></li>
       </ul>
     <td><img src="/images/vancouver-seedsofanarchy.png"></td>
