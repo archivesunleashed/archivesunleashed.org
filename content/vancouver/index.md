@@ -75,7 +75,6 @@ This event will bring together a small group of **approximately 15-20 participan
 * Jimmy Lin (University of Waterloo)
 * Samantha Fritz (University of Waterloo)
 
-
 ## Sponsors
 |                                              |                                            |                                                     |
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
@@ -89,7 +88,6 @@ Harbour Centre | 555 W Hastings St, Vancouver, BC V6B 4N4
 Simon Fraser University Vancouver Campus
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1MdGucaBTX0B3elYaZWKxEqLKE6glEgmB" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
 
 ## Schedule
 
@@ -128,8 +126,6 @@ This expression of interest should address your background and interests in web 
 | <s>16 July 2018</s> | <s>Submissions Due</s> |
 | 20 July 2018 | Submissions Due (Extension)|
 | 27 July 2018 | Applicants notified |
-
-
 
 For more information on AUT and the Cloud, please visit http://archivesunleashed.org/.
 
@@ -181,7 +177,7 @@ Guests flying into Vancouver will arrive at [Vancouver International Airport (YV
   - If you're just coming in for the event, buying *single tickets* is best - it'll be $9.20 during the day and $7.95 during evening/weekends to go from Airport to Waterfront. There is a $5 fee for all trips leaving YVR. Return trip will be $2.95 or $4.20.
   - For those who plan to stay a bit longer or use transit around the city, it's worth buying a *[Compass Card](https://www.compasscard.ca)*! It's a stored-value card that will let you use transit around Metro Vancouver. Alternatively you can use your credit card's "tap to pay" function as discussed below.
 
-* **[Taxi](http://www.yvr.ca/en/passengers/transportation/taxis)** - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR. 
+* **[Taxi](http://www.yvr.ca/en/passengers/transportation/taxis)** - [zone fare](http://www.yvr.ca/en/passengers/transportation/taxis) taxis are available outside level 2 of the Domestic and International Arrivals Area, but always check with your driver before your leave. Metered rates apply on return to YVR.
 
 * **[Car rentals](http://www.yvr.ca/en/passengers/transportation/car-rentals)** are also available on the ground floor of the parkade.
 
