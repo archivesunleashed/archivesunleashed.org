@@ -50,6 +50,7 @@ This expression of interest should address your background and interests in web 
 * Laura Wrubel (George Washington University)
 * Dan Kerchner (George Washington University)
 * Rachel Trent (George Washington University)
+* Robin Delaloye (George Washington University)
 * Nick Ruest (York University)
 * Jimmy Lin (University of Waterloo)
 * Samantha Fritz (University of Waterloo)
