@@ -26,7 +26,7 @@ Join our <a href="https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqH
 
 ## Newsletter Subscription
 
-The Archives Unleashed Project is pleased to offer a quarterly newsletter to highlight the most up to date project news. Interested in hearing more about AUT and AUK updates, news, announcements, and upcoming events? You can sign up by clicking [here](http://eepurl.com/dfpU7j) or filling out the form below.
+The Archives Unleashed Project is pleased to offer a quarterly newsletter to highlight the most up-to-date project news. Interested in hearing more about updates to the Toolkit and Cloud, news, announcements, and upcoming events? You can sign up by clicking [here](http://eepurl.com/dfpU7j) or filling out the form below.
 
 Previous issues are accessible below.
 
