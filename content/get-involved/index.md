@@ -24,9 +24,15 @@ Please read our [Code of Conduct](/about-project#code-of-conduct).
 
 Join our <a href="https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqHVYmz2-ItBMzHiJQ-sOlJwTA8u5AQ/viewform?usp=sf_link">Slack team</a> if you want to see how things are developing, to discuss suggestions or other parts of our project, or to just shoot the breeze about all things web archiving.</p>
 
-## Subscribe
+## Newsletter Subscription
 
-Interested in hearing about the latest Archives Unleashed Project updates? Subscribe to our quarterly newsletter by clicking [here](http://eepurl.com/dfpU7j) or filling out the form below.
+The Archives Unleashed Project is pleased to offer a quarterly newsletter to highlight the most up-to-date project news. Interested in hearing more about updates to the Toolkit and Cloud, news, announcements, and upcoming events? You can sign up by clicking [here](http://eepurl.com/dfpU7j) or filling out the form below.
+
+Previous issues are accessible below.
+
+* <a href="/images/AUTNews-Nov2018.pdf">November 2018</a> (current issue)
+* <a href="/images/AUTNews-June2018.pdf">June 2018</a>
+* <a href="/images/AUTNews-Jan2018.pdf">January 2018</a>
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
