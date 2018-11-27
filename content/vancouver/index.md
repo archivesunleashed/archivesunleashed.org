@@ -36,7 +36,7 @@ This event will bring together a small group of **approximately 15-20 participan
         <li>Nauman Siddique <em>(Old Dominion University)</em></li>
         <li>Emily Maemura <em>(University of Toronto)</em></li>
         <li>Shahira Khair <em>(University of Victoria)</em></li>
-        <li><a href="/images/vancouver-BC2017Politics.pdf"><strong>View Presentation</strong></a></li>
+        <li><a href="/images/Vancouver-BC2017Politics.pdf"><strong>View Presentation</strong></a></li>
       </ul>
     <td><img src="/images/vancouver-BC2017Politics.png"></td>
   </tr>
