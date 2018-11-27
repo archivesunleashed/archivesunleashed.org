@@ -30,6 +30,7 @@ The Archives Unleashed Project is pleased to offer a quarterly newsletter to hig
 
 Previous issues are accessible below.
 
+* <a href="/images/AUTNews-Nov2018.pdf">November 2018</a> (current issue)
 * <a href="/images/AUTNews-June2018.pdf">June 2018</a>
 * <a href="/images/AUTNews-Jan2018.pdf">January 2018</a>
 
@@ -68,5 +69,3 @@ Previous issues are accessible below.
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
-
-
