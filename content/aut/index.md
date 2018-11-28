@@ -189,7 +189,7 @@ If you want to see more than ten results, change the variable in the last line.
 
 ### List of Different Subdomains
 
-Finally, you can use regular expressions to extract more fine-tuned information. For example, if you wanted to know all sitenames - i.e. the first-level directories of a given collection.
+You can also use regular expressions to extract more fine-tuned information. For example, if you wanted to know all sitenames - i.e. the first-level directories of a given collection.
 
 ```scala
 import io.archivesunleashed._
@@ -201,6 +201,34 @@ val r = RecordLoader.loadArchives("example.arc.gz", sc)
 ```
 
 In the above example, `"""...."""` declares that we are working with a regular expression, `.r` says turn it into a regular expression, `.findAllIn` says look for all matches in the URL. This will only return the first but that is generally good for our use cases. Finally, `.toList` turns it into a list so you can `flatMap`.
+
+### List of HTTP Status Codes
+
+You may be interested in the [HTTP Status Codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) of each of the resources. The following script will list the status codes amongst the URLs.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+val r = RecordLoader.loadArchives("example.arc.gz", sc)
+.keepValidPages()
+.map(r => r.getUrl, r.getHttpStatus)
+.take(10)
+```
+
+### Location of the Resource in ARCs and WARCs
+
+Finally, you may want to know what WARC file the different resources are located in! The following command will list the WARC file that each URL is found in.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+val r = RecordLoader.loadArchives("example.arc.gz", sc)
+.keepValidPages()
+.map(r => r.getUrl, r.getArchiveFilename)
+.take(10)
+```
 
 ## Plain Text Extraction
 
