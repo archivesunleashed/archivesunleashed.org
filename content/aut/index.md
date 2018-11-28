@@ -218,7 +218,7 @@ val r = RecordLoader.loadArchives("example.arc.gz", sc)
 
 ### Location of the Resource in ARCs and WARCs
 
-Finally, you may want to know what WARC file the different resources are located in! The following command will list the WARC file that each URL is found in.
+Finally, you may want to know what WARC file the different resources are located in! The following command will provide the full path and filename of the ARC/WARC that each url is found in.
 
 ```scala
 import io.archivesunleashed._
@@ -228,6 +228,19 @@ val r = RecordLoader.loadArchives("example.arc.gz", sc)
 .keepValidPages()
 .map(r => (r.getUrl, r.getArchiveFilename))
 .take(10)
+```
+
+Or, if you just want to know the filename, without the full path and filename, the following script will do that.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+import org.apache.commons.io.FilenameUtils
+
+RecordLoader.loadArchives("example.arc.gz", sc)
+  .keepValidPages()
+  .map(r => (r.getUrl, FilenameUtils.getName(r.getArchiveFilename)))
+  .take(10)
 ```
 
 ## Plain Text Extraction
