@@ -240,17 +240,19 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 
 ### Plain text by URL pattern
 
-The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through the collection and find all of the URLs beginning with `http://geocities.com/EnchantedForest/`. The `(?i)` makes this query case insensitive.
+The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through a WARC file and find all of the URLs beginning with `http://archive.org/details/`, and save the text of those URLs.
+
+The `(?i)` makes this query case insensitive.
 
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
+RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepUrlPatterns(Set("(?i)http://geocities.com/EnchantedForest/.*".r))
+  .keepUrlPatterns(Set("(?i)http://www.archive.org/details/.*".r))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-  .saveAsTextFile("EnchantedForest/")
+  .saveAsTextFile("details/")
 ```
 
 ### Plain text minus boilerplate
@@ -263,7 +265,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("archive.org"))
+  .keepDomains(Set("www.archive.org"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(r.getContentString)))
   .saveAsTextFile("plain-text-no-boilerplate/")
 ```
@@ -341,7 +343,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 
 The following Spark script keeps only pages containing a certain keyword, which also stacks on the other scripts.
 
-For example, the following script takes all pages containing the keyword "archive" in a collection.
+For example, the following script takes all pages containing the keyword "radio" in a collection.
 
 ```scala
 import io.archivesunleashed._
@@ -349,9 +351,9 @@ import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz",sc)
 .keepValidPages()
-.keepContent(Set("archive".r))
+.keepContent(Set("radio".r))
 .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-.saveAsTextFile("plain-text-archive/")
+.saveAsTextFile("plain-text-radio/")
 ```
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
@@ -496,23 +498,23 @@ Before `.countItems()` to find just the documents that are linked to more than f
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
-In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
+In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://www.archive.org/details/*`. We do so by using the `keepUrlPatterns` command.
 
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 import io.archivesunleashed.util._
 
-val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
+val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepUrlPatterns(Set("http://geocities.com/EnchantedForest/.*".r))
+  .keepUrlPatterns(Set("(?i)http://www.archive.org/details/.*".r))
   .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
   .map(r => (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))
   .filter(r => r._1 != "" && r._2 != "")
   .countItems()
   .filter(r => r._2 > 5)
 
-links.saveAsTextFile("geocities-links-all/")
+links.saveAsTextFile("details-links-all/")
 ```
 
 ### Grouping by Crawl Date
@@ -600,15 +602,15 @@ In this case, you would only receive links coming from websites in matching the 
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
+val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepUrlPatterns(Set("http://liberal.ca/Canada/.*".r))
+  .keepUrlPatterns(Set("http://www.archive.org/details/.*".r))
   .map(r => (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r => r._2.map(f => (r._1, ExtractDomain(f._1).replaceAll("^\\s*www\\.", ""), ExtractDomain(f._2).replaceAll("^\\s*www\\.", ""))))
   .filter(r => r._2 != "" && r._3 != "")
   .countItems()
   .filter(r => r._2 > 5)
-  .saveAsTextFile("sitelinks-liberal/")
+  .saveAsTextFile("sitelinks-details/")
 ```
 
 ### Exporting to Gephi Directly
