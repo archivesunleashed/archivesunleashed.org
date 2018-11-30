@@ -548,6 +548,7 @@ import io.archivesunleashed.matchbox._
 val r = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
  .keepValidPages()
  .flatMap(r =&gt; &quot;&quot;&quot;http://[^/]+/[^/]+/&quot;&quot;&quot;.r.findAllIn(r.getUrl).toList)
+ .take(10)
 </code></pre>
 
 <p>In the above example, <code>&quot;&quot;&quot;....&quot;&quot;&quot;</code> declares that we are working with a regular expression, <code>.r</code> says turn it into a regular expression, <code>.findAllIn</code> says look for all matches in the URL. This will only return the first but that is generally good for our use cases. Finally, <code>.toList</code> turns it into a list so you can <code>flatMap</code>.</p>
