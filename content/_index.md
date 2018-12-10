@@ -16,4 +16,4 @@ We're always looking for [ways to engage](/get-involved) archivists, librarians,
 
 ## Contact Us
 
-Questions? Comments? Please contact us, either by leaving an issue on one of our <a href="https://github.com/archivesunleashed">GitHub projects</a> or by <a href="mailto:archivesunleashed@gmail.com">sending us an e-mail</a>. Are you a Slack user? [Join our Slack team](https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqHVYmz2-ItBMzHiJQ-sOlJwTA8u5AQ/viewform?usp=sf_link)!
+Questions? Comments? Please contact us, either by leaving an issue on one of our <a href="https://github.com/archivesunleashed">GitHub projects</a> or by <a href="mailto:archivesunleashed@gmail.com">sending us an e-mail</a>. Are you a Slack user? [Join our Slack team](http://slack.archivesunleashed.org)!
