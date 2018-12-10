@@ -22,7 +22,7 @@ Please read our [Code of Conduct](/about-project#code-of-conduct).
 
 ## Connect
 
-Join our <a href="https://docs.google.com/forms/d/e/1FAIpQLScXPIH0Ssw63yWqyMkUqHVYmz2-ItBMzHiJQ-sOlJwTA8u5AQ/viewform?usp=sf_link">Slack team</a> if you want to see how things are developing, to discuss suggestions or other parts of our project, or to just shoot the breeze about all things web archiving.</p>
+Join our <a href="http://slack.archivesunleashed.org/">Slack team</a> if you want to see how things are developing, to discuss suggestions or other parts of our project, or to just shoot the breeze about all things web archiving.</p>
 
 ## Newsletter Subscription
 
