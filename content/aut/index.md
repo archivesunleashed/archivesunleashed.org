@@ -1002,7 +1002,7 @@ The results will look like this:
 only showing top 20 rows
 ```
 
-You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC.
+You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC. Note that the trailing `/` is important for the `saveToDisk` command below. Without it, files will be saved with the prefix provided after the last `/` in the string.
 
 ```scala
 import io.archivesunleashed._
