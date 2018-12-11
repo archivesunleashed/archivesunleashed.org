@@ -67,9 +67,9 @@ The AUT team has put together some information and resources to help with your t
 
 ![Accommodations](/images/accommodations.png)
 
-There are many choices for accommodationsin the DC area! We encourage all of our our-of-town participants to checkout the [DC Metro Rail Map](https://www.wmata.com/schedules/maps/upload/2017-System-Map.pdf) to help spot areas close to campus.
+There are many choices for accommodations in the DC area! We encourage all of our out-of-town participants to check out the [DC Metro Rail Map](https://www.wmata.com/schedules/maps/upload/2017-System-Map.pdf) to help spot areas close to campus.
 
-You can easily access the Blue, Yellow, and Silver Lines that run to the Foggy Bottom Station. If staying outside the city centre, we'd recommended sticking to areas near Arlington, Pentagon, and Crystal City.
+You can easily access the Blue, Yellow, and Silver Lines that run to the Foggy Bottom Station. If staying outside the city center, we'd recommend sticking to areas near Arlington, Pentagon, and Crystal City.
 
 Staying in Washington doesn’t have to break the bank, which is why we like using some of the following aggregators to compare hotel rates:
 
@@ -97,7 +97,7 @@ While you are in Washington there are a few ways to get around, but ultimately i
 * **Public Transport** - Metrorail provides access to public transportation in Washington. They have a great [trip planner](https://www.wmata.com/schedules/trip-planner/). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [SmarTrip® card](https://www.wmata.com/fares/smartrip/) for multi-ride usage.
 
 >**Notes**:
-- Metrorail fare for regular routes is $2.00USD using a SmarTrip® card or cash, and for express routes is $4.25USD. Fares cards can be purchased at [authorized outlets](https://www.wmata.com/fares/basic.cfm) including: vending machines at metrorail stations, online, Metro slaes office, and specific commuter stores and retail outlets.
+- Metrorail fare for regular routes is $2.00USD using a SmarTrip® card or cash, and for express routes is $4.25USD. Fares cards can be purchased at [authorized outlets](https://www.wmata.com/fares/basic.cfm) including: vending machines at Metrorail stations, online, Metro sales office, and specific commuter stores and retail outlets.
 
 * **Taxis** - a few options for getting around via taxi include:
   - [DC Yellow Cab](https://dcyellowcab.com) - .202.544.1212
@@ -110,9 +110,9 @@ For those adventurers who’d like to check out Washington attractions, you may 
 
 * [Library of Congress](https://www.loc.gov) - why not stop by the Jefferson building for a free one-hour walking [tour](https://www.loc.gov/visit/)?
 * [National Archives](https://www.archives.gov/dc) - did you know you can make a reservation to tour the National Archives? This means skipping the General Admission line and heading straight in!
-* [Georgetown](https://washington.org/visit-dc/things-see-do-georgetown-washington-dc) - it's a little further out from GWU, but this is a great area for exploring, shopping, and the resturants are incredible!
-* [Smithsonian](https://www.si.edu/museums) - offering 19 museums, galleries, gardens and a zoo, visitors will have plenty to explore. Checkout the complete list of [museums](https://www.si.edu/museums) to start planning your visit.
-* [DuPont Circle](https://washington.org/topics/dupont-circle) - another great neighbourhood to checkout, with bistros, bookstores, unique resturants, and lively entertainment.
+* [Georgetown](https://washington.org/visit-dc/things-see-do-georgetown-washington-dc) - it's a little further out from GWU, but this is a great area for exploring, shopping, and the restaurants are incredible!
+* [Smithsonian](https://www.si.edu/museums) - offering 19 museums, galleries, gardens, and a zoo, visitors will have plenty to explore. Check out the complete list of [museums](https://www.si.edu/museums) to start planning your visit.
+* [DuPont Circle](https://washington.org/topics/dupont-circle) - another great neighbourhood to visit, with bistros, bookstores, unique restaurants, and lively entertainment.
 
 <!---
 
