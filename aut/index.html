@@ -1316,7 +1316,7 @@ df.select($&quot;url&quot;, $&quot;mime_type&quot;, $&quot;width&quot;, $&quot;h
 only showing top 20 rows
 </code></pre>
 
-<p>You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC.</p>
+<p>You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC. Note that the trailing <code>/</code> is important for the <code>saveToDisk</code> command below. Without it, files will be saved with the prefix provided after the last <code>/</code> in the string.</p>
 
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.df._
