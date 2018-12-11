@@ -26,14 +26,7 @@ This event is possible thanks to the generous support of the <a href="https://me
 The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
 
 ## Submissions
-
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **3 December 2018**:
-
-* a 250-word expression of interest;
-* a short one-page CV; and
-* Indication of need for financial assistance to travel to event (if applicable)
-
-This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
+Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 21-22 Washington Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
 
 **IMPORTANT DATES**
 
@@ -68,8 +61,68 @@ George Washington University - Foggy Bottom Campus
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12420.328684893137!2d-77.0483541!3d38.8992362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0d1febd782fab15!2sGelman+Library!5e0!3m2!1sen!2sca!4v1541111558124" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
+## Travel to Washington
+
+The AUT team has put together some information and resources to help with your travel plans.
+
+![Accommodations](/images/accommodations.png)
+
+There are many choices for accommodationsin the DC area! We encourage all of our our-of-town participants to checkout the [DC Metro Rail Map](https://www.wmata.com/schedules/maps/upload/2017-System-Map.pdf) to help spot areas close to campus.
+
+You can easily access the Blue, Yellow, and Silver Lines that run to the Foggy Bottom Station. If staying outside the city centre, we'd recommended sticking to areas near Arlington, Pentagon, and Crystal City.
+
+Staying in Washington doesn’t have to break the bank, which is why we like using some of the following aggregators to compare hotel rates:
+
+* [Airbnb](https://www.airbnb.ca) (great option to find reasonably priced accommodations)
+* [Kayak](https://www.ca.kayak.com)
+* [Expedia](https://www.expedia.ca)
+* [Trivago](https://www.trivago.ca)
+* [Travelocity](https://www.travelocity.ca)
+
+![Airports](/images/airports.png)
+
+For guests flying into Washington, there are two main airports with several options for reaching downtown Washington, DC.
+
+|                           |                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Airport           | **[Ronald Reagan Washington National Airport](http://www.flyreagan.com/dca/reagan-national-airport)**                                                                                                                                                                                                                       | **[Washington Dulles International Airport](http://flydulles.com/iad/dulles-international-airport)**                                                                                                                                                                                                                                                                                                                                                          |
+| Distance to downtown | Approximately 5 miles (8km)                                                                                                                                                                                                                                                                                             | Approximately 25 miles (40km)                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Metrorail                 | The least expensive option is to use the [Metrorail trains](https://www.translink.ca/Schedules-and-Maps/SkyTrain.aspx). You can connect to the Blue and Yellow Lines from the Ronald Reagan Washington National Airport station. Trains leave every 8 minutes during peak hours and every 12 minutes during off hours. | Using the Metrorail from [Dulles Airport](http://www.flydulles.com/iad/silver-line-express-bus-metrorail-station), you can use the Silver Line Express Bus to connect to the Metro's Silver Line. The Bus leaves every 15 minutes during peak hours and every 20 minutes during off hours. It costs $5.00US each way, cash or credit - SmartTrip Cards are not accepted.                                                                                  |
+| Taxi                      | [Taxis](http://www.flyreagan.com/dca/taxi-service) are available outside Terminals A, B, and C and are available on a first-come, first-serve basis. All taxicabs accept cash or credit cards and [metered rates](http://www.flyreagan.com/sites/default/files/taxi_rate_dca_2016.pdf) apply.                           | [Washington Flyer Taxicabs](http://www.flydulles.com/iad/washington-flyer-taxi-service) serve the Dulles airport exclusively, with 24-hour service. To find taxis, follow the Ground Transportation signs down the ramp to Door 2 and Door 6. All taxicabs accept cash or credit cards. Please confirm with the Airport Taxi Counter for taxi rates, estimates for fares, as of 2017, can be found [here](http://www.flydulles.com/iad/estimated-taxi-fares). |
+| Car Rentals               | Located inside the airport, there are several companies that offer [car rental services](http://www.flyreagan.com/dca/rental-cars).                                                                                                                                                                                     | You can **[rent a car](http://www.flydulles.com/iad/rental-cars)** at Dulles from several companies, with complimentary shuttles between the rental lot and the terminal.                                                                                                                                                                                                                                                                                     |
+![Downtown Transit](/images/transit.png)
+
+While you are in Washington there are a few ways to get around, but ultimately it will depend on how close you are to the University. The Gelman Library is located on Foggy Bottom campus and is easily accessible by public transportation or by foot from most areas of downtown Washington.
+
+* **Public Transport** - Metrorail provides access to public transportation in Washington. They have a great [trip planner](https://www.wmata.com/schedules/trip-planner/). Depending on whether you will be doing any extra traveling around the city, you may want to consider a [SmarTrip® card](https://www.wmata.com/fares/smartrip/) for multi-ride usage.
+
+>**Notes**:
+- Metrorail fare for regular routes is $2.00USD using a SmarTrip® card or cash, and for express routes is $4.25USD. Fares cards can be purchased at [authorized outlets](https://www.wmata.com/fares/basic.cfm) including: vending machines at metrorail stations, online, Metro slaes office, and specific commuter stores and retail outlets.
+
+* **Taxis** - a few options for getting around via taxi include:
+  - [DC Yellow Cab](https://dcyellowcab.com) - .202.544.1212
+  - [Red Cab DC](http://www.redcabdc.com) - 202.285.1632
+  - [Taxi Transportation Service](http://dctaxionline.com/) - 202.398.0500
+
+![Attractions](/images/attractions.png)
+
+For those adventurers who’d like to check out Washington attractions, you may want to check out the [Visitor's Guide to Washington, DC](https://washington.org/things-do-washington-dc). Some of our favourite spots to visit include:
+
+* [Library of Congress](https://www.loc.gov) - why not stop by the Jefferson building for a free one-hour walking [tour](https://www.loc.gov/visit/)?
+* [National Archives](https://www.archives.gov/dc) - did you know you can make a reservation to tour the National Archives? This means skipping the General Admission line and heading straight in!
+* [Georgetown](https://washington.org/visit-dc/things-see-do-georgetown-washington-dc) - it's a little further out from GWU, but this is a great area for exploring, shopping, and the resturants are incredible!
+* [Smithsonian](https://www.si.edu/museums) - offering 19 museums, galleries, gardens and a zoo, visitors will have plenty to explore. Checkout the complete list of [museums](https://www.si.edu/museums) to start planning your visit.
+* [DuPont Circle](https://washington.org/topics/dupont-circle) - another great neighbourhood to checkout, with bistros, bookstores, unique resturants, and lively entertainment.
 
 <!---
+
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **3 December 2018**:
+
+* a 250-word expression of interest;
+* a short one-page CV; and
+* Indication of need for financial assistance to travel to event (if applicable)
+
+This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
 
 Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 21-22 Washington Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
 
@@ -81,7 +134,7 @@ The AUT team has put together some information and resources to help with your t
 
 * **Name of hotel** - located just across the street from the Harbour Centre, a block of hotel suites has been set aside for datathon participants who would like to make a reservation. The rate is $189 CND/night (+ tax), and rooms must be booked before October 2. If you are interested in booking with the Delta, the reservation link will be provided in your acceptance e-mail.
 
-For those looking for alternative accommodation, we've listed a few options that are also close to George Washington University. Please note, we have no relationship with these venues and are providing them below just for your information. Any rates mentioned are presented as a reference and may be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly. There are a variety of options available in Virginia, which is accessible by metro. 
+For those looking for alternative accommodation, we've listed a few options that are also close to George Washington University. Please note, we have no relationship with these venues and are providing them below just for your information. Any rates mentioned are presented as a reference and may be higher at the time of your booking. We highly encourage you to shop around and book early as space can fill up quickly. There are a variety of options available in Virginia, which is accessible by metro.
 
 | Accommodation Option                                                                                          | Average Cost    | Distance to Harbour Centre |
 |---------------------------------------------------------------------------------------------------------------|-----------------|-----------------------------|
@@ -202,5 +255,36 @@ For those adventurers who’d like to check out Washington attractions, you may 
     <td><img src="/images/Spamlinks.png"></td>
  </tr>
 </table>
+
+
+For those wanting to checkout the Capital Hill area, there are many 
+* [Lincoln Memorial]
+* [Washington Monument]
+* [Jefferson Memorial and Tidal Basin]
+* [Thomas Jefferson Memorial]
+* [Vietnam VetransMemorial]
+* [United States Botanical Garden]
+
+
+
+
+
+
+
+**[Ronald Reagan Washington National Airport](http://www.flyreagan.com/dca/reagan-national-airport)**, is conveniently located close (4.5 miles) to the city center. there are a few options for getting downtown:
+
+* **[Metrorail](https://www.translink.ca/Schedules-and-Maps/SkyTrain.aspx)**- The least expensive option is to use the metrorail trains. You can connect to the Blue and Yellow Lines from the Ronald Reagan Washington National Airport station. Trains leave every 8 minutes during peak hours and every 12 minutes during off hours.
+
+* **[Taxi](http://www.flyreagan.com/dca/taxi-service)** - taxis are available outside Terminals A, B, and C and are available on a first-come, first-serve basis. All taxicabs accept cash or credit cards and [metered rates](http://www.flyreagan.com/sites/default/files/taxi_rate_dca_2016.pdf) apply.
+
+* **[Car rentals](http://www.flyreagan.com/dca/rental-cars)** are also available from several companies.
+
+**[Washington Dulles International Airport](http://flydulles.com/iad/dulles-international-airport)**, which is about 25miles (40km) from the downtown core.
+
+* **[Metrorail](http://www.flydulles.com/iad/silver-line-express-bus-metrorail-station)**- The least expensive option is to use Metrorail. You can used the Silver Line Express Bus from the airport to connect to the Metro's Silver Line. The Bus leaves every 15 minutes during peak hours and every 20 minutes during off hours. It costs $5.00US each way, cash or credit - no SmartTrip Cards.
+
+* **[Taxi](http://www.flydulles.com/iad/washington-flyer-taxi-service)** - Washington Flyer Taxicabs serve the Dulles airport exclusively, with 24-hour service. To find taxis, follow the Ground Transportation signs down the ramp to Door 2 and Door 6. All taxicabs accept cash or credit cards. Please confirm with the Airport Taxi Counter for taxi rates, estimates for fares, as of 2017, can be found [here](http://www.flydulles.com/iad/estimated-taxi-fares).
+
+* **[Car rentals](http://www.flydulles.com/iad/rental-cars)** - are also available from several companies, with complimentary shuttles between the rental lot and the terminal.
 
 -->
