@@ -360,7 +360,7 @@ There is also `discardContent` which does the opposite, if you have a frequent k
 
 ## Raw HTML Extraction
 
-In most cases, users will be interested in working with plain text. In some cases, however, you may want to work with the acutal HTML of the pages themselves (for example, looking for specific tags or HTML content). 
+In most cases, users will be interested in working with plain text. In some cases, however, you may want to work with the acutal HTML of the pages themselves (for example, looking for specific tags or HTML content).
 
 The following script will produce the raw HTML of a WARC file. You can use the filters from above to filter it down accordingly by domain, language, etc.
 
@@ -894,7 +894,7 @@ Results will look like:
 
 ### Hyperlink Network
 
-You may want to work with DataFrames to extract hyperlink networks. You can see the schema with the following commands: 
+You may want to work with DataFrames to extract hyperlink networks. You can see the schema with the following commands:
 
 ```scala
 import io.archivesunleashed._
@@ -956,7 +956,7 @@ You can also use DataFrames to analyze images. You can see the schema for images
 
 ```scala
 import io.archivesunleashed._
-import io.archivesunleashed.matchbox._
+import io.archivesunleashed.df._
 
 val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
 df.printSchema()
@@ -966,7 +966,7 @@ The following script will extract all the images, give you their dimensions, as 
 
 ```scala
 import io.archivesunleashed._
-import io.archivesunleashed.matchbox._
+import io.archivesunleashed.df._
 
 val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
 df.select($"url", $"mime_type", $"width", $"height", $"md5", $"bytes").orderBy(desc("md5")).show()
@@ -1006,7 +1006,7 @@ You may want to save the images to work with them on your own file system. The f
 
 ```scala
 import io.archivesunleashed._
-import io.archivesunleashed.matchbox._
+import io.archivesunleashed.df._
 val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
 val res = df.select($"bytes").orderBy(desc("bytes")).saveToDisk("bytes", "/path/to/export/directory/")
 ```
