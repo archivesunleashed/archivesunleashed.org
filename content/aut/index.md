@@ -212,7 +212,6 @@ import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz", sc)
-.keepValidPages()
 .map(r => (r.getUrl, r.getHttpStatus))
 .take(10)
 ```
