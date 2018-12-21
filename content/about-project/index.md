@@ -119,7 +119,6 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 ## Privacy Policy
 
-*The Archives Unleashed Privacy Policy*
 _This Privacy Policy is effective January 2019_
 
 We recognize the importance of and are committed to protecting the privacy of all users. The following privacy policy guides and outlines the Archives Unleashed Project’s (AU) online information practices.
