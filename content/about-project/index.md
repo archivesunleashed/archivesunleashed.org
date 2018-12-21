@@ -31,6 +31,10 @@ The three-year Archives Unleashed project has three major thrusts: First, the pr
 | **[Michele Weigle](https://www.odu.edu/directory/people/m/mweigle)** is a Professor of Computer Science at Old Dominion University. Her research interests include digital preservation, web science, information visualization, and mobile networking. Since 2012, she has been PI or Co-PI on over $2M in funding for research related to web archiving from NSF, NEH, IMLS, and the Andrew W. Mellon Foundation. Dr. Weigle received her PhD in computer science from the University of North Carolina at Chapel Hill in 2003.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **[Nicholas Worby](https://onesearch.library.utoronto.ca/library-staff/nich-worby)** is the Government Information and Statistics Librarian as well as the Web Archives Program Coordinator at the University of Toronto. In addition to providing research and instruction support for government information and statistics, he oversees collection development, production crawls and researcher outreach for web archive collections.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
+## Funding
+
+This work is primarily supported by the [Andrew W. Mellon Foundation](https://mellon.org/). Other financial and in-kind support comes from the [Social Sciences and Humanities Research Council](http://www.sshrc-crsh.gc.ca), [Compute Canada](https://www.computecanada.ca), the [Ontario Ministry of Research, Innovation, and Science](https://www.ontario.ca/page/ministry-research-innovation-and-science), [York University Libraries](https://www.library.yorku.ca/web/), [Start Smart Labs](http://www.startsmartlabs.com), and the [Faculty of Arts](https://uwaterloo.ca/arts/) and [David R. Cheriton School of Computer Science](https://cs.uwaterloo.ca) at the [University of Waterloo](https://uwaterloo.ca).
+
 ## Code of Conduct
 
 ### Our Pledge
@@ -113,6 +117,95 @@ available at [http://contributor-covenant.org/version/1/4][version]
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
 
-## Funding
+## Privacy Policy
 
-This work is primarily supported by the [Andrew W. Mellon Foundation](https://mellon.org/). Other financial and in-kind support comes from the [Social Sciences and Humanities Research Council](http://www.sshrc-crsh.gc.ca), [Compute Canada](https://www.computecanada.ca), the [Ontario Ministry of Research, Innovation, and Science](https://www.ontario.ca/page/ministry-research-innovation-and-science), [York University Libraries](https://www.library.yorku.ca/web/), [Start Smart Labs](http://www.startsmartlabs.com), and the [Faculty of Arts](https://uwaterloo.ca/arts/) and [David R. Cheriton School of Computer Science](https://cs.uwaterloo.ca) at the [University of Waterloo](https://uwaterloo.ca).
+*The Archives Unleashed Privacy Policy*
+_This Privacy Policy is effective January 2019_
+
+We recognize the importance of and are committed to protecting the privacy of all users. The following privacy policy guides and outlines the Archives Unleashed Project’s online information practices.
+
+The Archives Unleashed Privacy Policy describes what users can expect from Archives Unleashed as to how information is collected, used and shared. This policy applies to all information collected from or submitted to the Archives Unleashed Project, including the Archives Unleashed Cloud (AUK) portal located at cloud.archivesunleashed.org and all related sub-domains.
+
+By accessing and using the services and products of the Archives Unleashed Project, users accept the practices outlined in the policy below.
+
+### Information Collection and Use
+
+We request the minimum amount of personal information necessary for the operation of Archives Unleashed software. We collect several types of information for various purposes to provide and improve our service to you.
+
+ *-- Personal Data*
+
+ While using our service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you.
+
+| Archives Unleashed Service | Information Required | Required | Collected by AU | Explanation |
+|----------------------------|--------------------------------|----------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Archives Unleashed Cloud](https://cloud.archivesunleashed.org/) | GitHub/Twitter Credentials | Yes | No | Your GitHub/Twitter user name and password are only used to authenticate. We don't have access to nor collect this information. |
+|  | Email | Yes | Yes | We need a point of contact to connect with you. |
+|  | Name | Yes | Yes | We like to know who our users are. |
+|  | Institution | Yes | Yes | We like to know a bit about our users: where they're from, what sort of user they are, so we can best target and refine our services. |
+|  | Archive-It Account Information | Yes | Yes | Credentials are necessary to connect Archive-It to the Cloud. This information is encrypted with a [salt](https://en.wikipedia.org/wiki/Salt_(cryptography)) </a> in our database. |
+| [Archives Unleashed Toolkit](https://archivesunleashed.org/) | None | No | No | The Toolkit is used locally, so we don't need any information. |
+| [Newsletter](https://archivesunleashed.org/get-involved/#newsletter-subscription) | Email Address | Yes | Yes | An email address is needed so we can send you our quarterly newsletter. This services is opt-in and is maintained by [Mailchimp](https://mailchimp.com/legal/privacy/). Users have the option to opt-out at any time. |
+|  | First name (optional) | No | Yes | It’s always nice when we can personalize a message to our subscribers and get to know them. This information is ONLY collected if provided. |
+|  | Last name (optional) | No | Yes |  |
+| [Slack](http://slack.archivesunleashed.org/) | Slack URL | Yes | No | To join our [Slack](https://slack.com/privacy-policy) channel you’ll need to input this information. All we will see is when you post to any of our channels or direct message our team. |
+| [GitHub](https://github.com/archivesunleashed/) | Username | Yes | No | When anyone follows, watches, or contributes to any of the Archives Unleashed [GitHub](https://help.github.com/articles/github-privacy-statement/) Repositories, we are able to see usernames, but participation is voluntary and we do not collect any information. |
+
+  *-- Usage Data*
+
+We may also collect information how our services are accessed and used. In some case reports are generated by the applications we’ve subscribed to, such as Slack, MailChimp and GitHub. These reports include general usage statics and descriptive data.
+
+| Archives Unleashed Service | Usage Data Collected |
+|----------------------------|----------------------|
+| [Archives Unleashed Cloud](https://cloud.archivesunleashed.org/)   |  * Apache Spark logs showing timestamps to produce derivative files<br>* The name and size of your Archive-It collections</br>* Username and institution |
+| [Archives Unleashed Toolkit](https://archivesunleashed.org/) | Not Applicable |
+| [Newsletter](https://archivesunleashed.org/get-involved/#newsletter-subscription) |  General stats that help us understand how people are interacting with our newsletters:</br>* Number of subscribers</br>* Number of opt-outs</br>* Audience growth</br>* Open/click rates</br>* Campaign performance</br>* Email clients used</br>* Locations (general not specific) |
+| [Slack](http://slack.archivesunleashed.org/) |  Report provided to Slack account stats to understand:</br>* Total number of users</br>* When users become inactive |
+| [GitHub](https://github.com/archivesunleashed/) | Our public repositories provide insights into the repositories maintained by the Archives Unleashed Project to understand the work being done and who are contributors are. |
+
+*-- Tracking & Cookies Data*
+
+We use a session cookie to keep you logged in on our service.
+
+Cookies are files with a small amount of data which may include an anonymous unique identifier. They are sent to your browser from a website and stored on your device. The Archives Unleashed Cloud uses a session cookie, which can let you stay logged in between visits to the page.
+
+No personal or identifying information is collected while using cookies, and you can always opt out by changing your browser settings or permanently using a browser plugin. If you do not accept cookies, you may encounter some minor issues when using our service.
+
+### Use of Information Collected
+
+In accessing Archives Unleashed tools and services, collected information is used for a variety of purposes:
+
+* To provide and maintain Archives Unleashed services
+* To notify users about changes to our policies or immediate news about our services (e.g. systems interruptions, maintenance)
+* To allow you to participate in interactive features of our services when you choose to do so, such as our newsletter, Slack channel, or within our GitHub repositories.
+* To provide user support by responding to inquiries and requests
+* To provide analysis or valuable information so that we can improve the Service
+* To monitor the usage of the service
+* To detect, prevent and address technical issues
+
+### Security of Information
+
+We do not sell or provide access of any user information to third-parties. We will NOT share any of your information without consent.
+
+As mentioned before we do not store or have access to your authenticating credentials for GitHub or Twitter. Authentication with these applications are only used to authenticate to the Archives Unleashed Cloud. Archive-It credentials are supplied over HTTPS, and are salted and encrypted.
+
+### Links To Other Sites
+We are strongly committed to serving and participating in open-source communities, which is why you will find that our services reference and link out to other projects and resources that are not operated by us.
+
+When you click on a third-party link, you will be directed to an site outside of the Archives Unleashed Project. We recommend you review the Privacy Policy for those sites to fully understand their information practices. We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.
+
+### Changes to this Privacy Policy
+Any updates to our Privacy Policy will be posted to this page. We will also let users know via email and/or a prominent notice, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy. Changes to this Privacy Policy are effective when they are posted on this page.
+
+### Contact Us
+General questions or concerns about the Archives Unleashed Privacy Policy should be directed to our Project Manager, [Samantha Fritz](sam.fritz@archivesunleashed.org)
+
+### Acknowledgements
+We would like to acknowledge that this privacy policy is inspired from the work done by:
+
+* [Free Privacy Policy Template Website](https://www.freeprivacypolicy.com/blog/sample-privacy-policy-template/)
+* University of Waterloo, [Website privacy statement](https://uwaterloo.ca/privacy/privacy-statement).
+* IIPC, [Privacy Policy](https://www.iipccanada.com/privacy-policy/)
+* GitHub, [Privacy Statement](https://help.github.com/articles/github-privacy-statement)
+* Wikimedia, [Privacy Policy](https://foundation.wikimedia.org/wiki/Privacy_policy)
+
+_Many thanks to Ian Milligan, Nick Ruest and Samantha Fritz for their contributions in developing this privacy policy._
