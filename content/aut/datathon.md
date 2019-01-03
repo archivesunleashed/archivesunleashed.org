@@ -93,7 +93,7 @@ The `--master local[*]` refers to the number of cores that you are using. In gen
 
 The `--driver-memory 12G` refers to the amount of RAM you've given the toolkit. On our VMs, please keep it at `12G`. 
 
-### What to do with AUT?
+## What to do with AUT?
 
 We recommend using the [main documentation found here](https://archivesunleashed.org/aut/). Take a look at the left hand column and see what you can do with WARCs. 
 
