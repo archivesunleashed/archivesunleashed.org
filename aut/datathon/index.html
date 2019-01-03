@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Welcome to the Archives Unleashed Project</title>
+    <title>Archives Unleashed Datathon Cheat Sheet - The Archives Unleashed Project</title>
     <meta name="generator" content="Hugo 0.30.2" />
 
     
-    <link rel="canonical" href="https://archivesunleashed.org/">
+    <link rel="canonical" href="https://archivesunleashed.org/aut/datathon/">
     
     <meta name="author" content="The Archives Unleashed Project">
     
 
-    <meta property="og:url" content="https://archivesunleashed.org/">
+    <meta property="og:url" content="https://archivesunleashed.org/aut/datathon/">
     <meta property="og:title" content="The Archives Unleashed Project">
     <meta property="og:image" content="https://archivesunleashed.org/images/ArchivesUnleashedLogo.png">
     <meta name="apple-mobile-web-app-title" content="The Archives Unleashed Project">
@@ -67,9 +67,6 @@
     <script src="https://archivesunleashed.org/javascripts/modernizr.js"></script>
 
     
-    <link href="https://archivesunleashed.org/index.xml" rel="alternate" type="application/rss+xml" title="The Archives Unleashed Project" />
-    <link href="https://archivesunleashed.org/index.xml" rel="feed" type="application/rss+xml" title="The Archives Unleashed Project" />
-    
 
   </head>
   <body class="palette-primary-grey palette-accent-red">
@@ -95,7 +92,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Welcome to the Archives Unleashed Project
+        Archives Unleashed Datathon Cheat Sheet
       </div>
     </div>
 
@@ -164,14 +161,11 @@
 
 
 
-<a class="current" title="Home" href="https://archivesunleashed.org/">
+<a  title="Home" href="https://archivesunleashed.org/">
 	
 	Home
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -364,26 +358,170 @@
 
   <article class="article">
     <div class="wrapper">
-      
-        <h1>Welcome to the Archives Unleashed Project </h1>
-
-        
-
-<p><img src="https://archivesunleashed.org/images/hairball-roboto.png" alt="Material Screenshot" /></p>
-
-<h2 id="welcome">Welcome</h2>
-
-<p>Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the <a href="https://mellon.org">Andrew W. Mellon Foundation</a>, we are developing web archive search and data analysis tools to enable scholars, librarians and archivists to access, share, and investigate recent history since the early days of the World Wide Web.</p>
-
-<p>Interested in the project? Subscribe to our <a href="https://archivesunleashed.org/get-involved/#subscribe">newsletter</a>! Or you can follow the links at left for information <a href="https://archivesunleashed.org/about-project">about the project</a>, the <a href="https://archivesunleashed.org/cloud">Archives Unleashed Cloud</a>, <a href="https://archivesunleashed.org/aut">Archives Unleashed Toolkit</a>, or our <a href="https://archivesunleashed.org/events">events</a>.</p>
-
-<p>We&rsquo;re always looking for <a href="https://archivesunleashed.org/get-involved">ways to engage</a> archivists, librarians, researchers, developers, or any others interested in born-digital heritage!</p>
-
-<h2 id="contact-us">Contact Us</h2>
-
-<p>Questions? Comments? Please contact us, either by leaving an issue on one of our <a href="https://github.com/archivesunleashed">GitHub projects</a> or by <a href="mailto:archivesunleashed@gmail.com">sending us an e-mail</a>. Are you a Slack user? <a href="http://slack.archivesunleashed.org">Join our Slack team</a>!</p>
+      <h1>Archives Unleashed Datathon Cheat Sheet </h1>
 
       
+
+<p>This guide is meant to be a quick reference guide for attendees at the Archives Unleashed <a href="https://archivesunleashed.org/events">datathons</a>. These are commonly-asked questions and options that attendees have used, and may be updated during events.</p>
+
+<p>Screenshots are from Mac, as we don&rsquo;t have a Windows machine on our project team. Our apologies.</p>
+
+<h2 id="finding-your-terminal">Finding Your Terminal</h2>
+
+<p>While the <a href="https://archivesunleashed.org/cloud">Archives Unleashed Cloud</a> is easy to use in a web browser, the <a href="https://archivesunleashed.org/toolkit">Archives Unleashed Toolkit</a> requires the use of the command line.</p>
+
+<p>On Mac OS, you can find the terminal by going to your &ldquo;Applications&rdquo; folder, then &ldquo;Utilities,&rdquo; then &ldquo;Terminal.&rdquo; See the screenshot below.</p>
+
+<p><img src="https://archivesunleashed.org/images/Mac-OS-terminal.png" alt="Download" /></p>
+
+<p>On Windows, we recommend using PowerShell. You can launch this a few different ways, as outlined in this <a href="https://docs.microsoft.com/en-us/powershell/scripting/getting-started/starting-windows-powershell?view=powershell-6">guide from Microsoft</a>. We recommend clicking your &ldquo;Start&rdquo; button, typing &ldquo;PowerShell&rdquo;, and then clicking &ldquo;Windows PowerShell&rdquo;.</p>
+
+<h2 id="connecting-to-a-virtual-machine">Connecting to a Virtual Machine</h2>
+
+<p>Fortunately, we do most of our work at the datathon not on your own laptop, but on our <a href="https://www.computecanada.ca">Compute Canada</a> virtual machines!</p>
+
+<p>The trick is connecting to them.</p>
+
+<p>To do so, you need two things:</p>
+
+<ul>
+<li>a file known as a private key so that you can connect to the machine securely (at our hackathons this is generally known as <code>archives-hackathon.key</code>)</li>
+<li>an IP address that lets your computer know <em>where</em> the machine you are joining is.</li>
+</ul>
+
+<p>We will give you the key at the datathon. We will also assign each team a virtual machine known by its IP. When you receive the key, we recommend saving it to your desktop for convenience during the event.</p>
+
+<h2 id="setting-up-the-key">Setting Up the Key</h2>
+
+<p>The first thing you need to do with your key is change the ownership. You need to open your terminal window and type the following. This will work on your desktop.</p>
+
+<pre><code class="language-bash">chmod 600 ~/desktop/archives-hackathon.key
+</code></pre>
+
+<p>It might look a bit like this. No error mesage means that it worked!</p>
+
+<p><img src="https://archivesunleashed.org/images/chmod.png" alt="Download" /></p>
+
+<h2 id="connecting">Connecting</h2>
+
+<p>To connect, you need to modify the following command. Note that the IP address will change.</p>
+
+<pre><code class="language-bash">ssh -i ~/desktop/archives-hackathon.key ubuntu@206.167.180.200
+</code></pre>
+
+<p>The IP address is the number <code>206.167.180.200</code> above. If this works, you&rsquo;ll see something like this.</p>
+
+<pre><code>The authenticity of host '18.236.128.116 (18.236.128.116)' can't be established.
+ECDSA key fingerprint is SHA256:YjkquLPPmNlFqU4+E4cscSA9lqbHqg3D/8pBN0F+sRg.
+Are you sure you want to continue connecting (yes/no)? yes
+</code></pre>
+
+<p>Type yes.</p>
+
+<p>In the future, logging in will now just look like this.</p>
+
+<p><img src="https://archivesunleashed.org/images/login.png" alt="Download" /></p>
+
+<h2 id="launching-the-toolkit-on-the-virtual-machine">Launching the Toolkit on the Virtual Machine</h2>
+
+<p>Once you&rsquo;re on the machine, it will be preloaded with a number of collections - we will let you know the details about that in Slack.</p>
+
+<p>Each of the VMs will be preloaded with:</p>
+
+<ul>
+<li>Apache Spark 2.3.2
+
+<ul>
+<li>Spark shell: <code>/home/ubuntu/spark/bin/spark-shell</code></li>
+</ul></li>
+<li>Python3, Python 2.7</li>
+<li>Java 8</li>
+<li>Ruby 2.3.1</li>
+<li>jq</li>
+<li>GNU Parallel</li>
+</ul>
+
+<p>Data will be located in <code>/mnt/data</code> in a series of subdirectories. For example, a collection might be found in <code>/mnt/data/sfu-ngos</code> for the SFU NGO collection.</p>
+
+<p>A few other things to keep in mind:</p>
+
+<ul>
+<li>Each collection&rsquo;s directory will have a <code>warcs</code> directory containing all of it&rsquo;s ARCs/WARCs</li>
+<li>Each collection&rsquo;s directory will have a <code>derivatives</code> directory containing the scholarly derivatives created on <a href="https://cloud.archivesunleashed.org">https://cloud.archivesunleashed.org</a>.</li>
+<li>More info about those files can be found here: <a href="https://cloud.archivesunleashed.org/derivatives">https://cloud.archivesunleashed.org/derivatives</a>.</li>
+</ul>
+
+<p>To run Apache Spark shell with <code>aut</code> on each machine, run the following command:
+<code>~/spark/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.17.0&quot;</code></p>
+
+<p>In the course of your project, you might need to use additional flags. These should work well on each machine:
+<code>~/spark/bin/spark-shell --packages &quot;io.archivesunleashed:aut:0.17.0&quot; --master local[*] --driver-memory 12G --conf spark.network.timeout=10000000</code></p>
+
+<p>The <code>--master local[*]</code> refers to the number of cores that you are using. In general, the default works. But if you run into crashes, you may want to lower that number to <code>6</code>, i.e. <code>--master local[6]</code>.</p>
+
+<p>The <code>--driver-memory 12G</code> refers to the amount of RAM you&rsquo;ve given the toolkit. On our VMs, please keep it at <code>12G</code>.</p>
+
+<h2 id="what-to-do-with-aut">What to do with AUT?</h2>
+
+<p>We recommend using the <a href="https://archivesunleashed.org/aut/">main documentation found here</a>. Take a look at the left hand column and see what you can do with WARCs.</p>
+
+<p>Let&rsquo;s take a sample script, however. In the documentation <a href="https://archivesunleashed.org/aut/#collection-analytics">here</a>, see this script that lets you know what domains are found.</p>
+
+<pre><code class="language-scala">import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+val r =
+RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc)
+.keepValidPages()
+.map(r =&gt; ExtractDomain(r.getUrl))
+.countItems()
+.take(10)
+</code></pre>
+
+<p>To run this on your machine, you just need to change the input. So let&rsquo;s change <code>example.arc.gz</code> to the directory that has your data. In this case, we&rsquo;ll use the fictional SFU NGO collection mentioned above.</p>
+
+<pre><code class="language-scala">import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+val r =
+RecordLoader.loadArchives(&quot;/mnt/data/sfu-ngos/warcs/*.gz&quot;, sc)
+.keepValidPages()
+.map(r =&gt; ExtractDomain(r.getUrl))
+.countItems()
+.take(10)
+</code></pre>
+
+<h2 id="copying-results-from-the-vm">Copying Results From the VM</h2>
+
+<p>Finally, you may want to get results out of the VM so that you can use them locally.</p>
+
+<p>Let&rsquo;s imagine you have a result file on your VM named <code>results.txt</code>. In this case, it is located in a directory called <code>output</code> off your home.</p>
+
+<p>Here I <code>cd</code>, or change directory, into that directory and then type <code>pwd</code> to get the full path of it.</p>
+
+<p><img src="https://archivesunleashed.org/images/pwd.png" alt="Download" /></p>
+
+<p>I now know that the file I want is located as:</p>
+
+<pre><code>/home/ubuntu/output/results.txt
+</code></pre>
+
+<p>To get that file on my own machine, I open up a <strong>NEW</strong> terminal window. In this case, I decide I want to move it to my downloads folder.</p>
+
+<p>I first type</p>
+
+<pre><code>cd downloads
+</code></pre>
+
+<p>to move to my downloads folder. I then run <code>scp</code> to transfer the file. Note that it looks <em>very similar</em> to the command you used to connect to the file.</p>
+
+<pre><code class="language-bash">scp -i ~/desktop/archives-hackathon.key ubuntu@18.236.128.116:/home/ubuntu/output/results.txt .
+</code></pre>
+
+<p>The trailing <code>.</code> is not a typo. This tells it to download in the directory you are in! See the screenshot below.</p>
+
+<p><img src="https://archivesunleashed.org/images/download.png" alt="Download" /></p>
+
 
       <aside class="copyright" role="note">
         
@@ -398,23 +536,37 @@
       <footer class="footer">
         
 
-
-
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
+  
+      <a href="https://archivesunleashed.org/washington/" title="Washington, DC Datathon">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Washington, DC Datathon
+            </div>
+          </div>
+        </div>
+      </a>
+  
   </div>
 
-  
-  
   <div class="next">
-      <a href="https://archivesunleashed.org/cloud/" title="The Archives Unleashed Cloud">
+  
+      <a href="https://archivesunleashed.org/aut/docker-install/" title="Hands on With The Archives Unleashed Toolkit">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              The Archives Unleashed Cloud
+              Hands on With The Archives Unleashed Toolkit
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -422,8 +574,11 @@
           </div>
         </div>
       </a>
+  
   </div>
 </nav>
+
+
 
 
 

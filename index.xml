@@ -99,6 +99,17 @@ The project team invites archivists, researchers (from the humanities, social sc
     </item>
     
     <item>
+      <title>Archives Unleashed Datathon Cheat Sheet</title>
+      <link>https://archivesunleashed.org/aut/datathon/</link>
+      <pubDate>Tue, 01 Jan 2019 11:51:41 -0400</pubDate>
+      
+      <guid>https://archivesunleashed.org/aut/datathon/</guid>
+      <description>This guide is meant to be a quick reference guide for attendees at the Archives Unleashed datathons. These are commonly-asked questions and options that attendees have used, and may be updated during events.
+Screenshots are from Mac, as we don&amp;rsquo;t have a Windows machine on our project team. Our apologies.
+Finding Your Terminal While the Archives Unleashed Cloud is easy to use in a web browser, the Archives Unleashed Toolkit requires the use of the command line.</description>
+    </item>
+    
+    <item>
       <title>Hands on With The Archives Unleashed Toolkit</title>
       <link>https://archivesunleashed.org/aut/docker-install/</link>
       <pubDate>Tue, 25 Sep 2018 11:51:41 -0400</pubDate>
