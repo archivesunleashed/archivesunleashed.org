@@ -24,8 +24,9 @@ Fortunately, we do most of our work at the datathon not on your own laptop, but 
 The trick is connecting to them. 
 
 To do so, you need two things:
-- a file known as a private key so that you can connect to the machine securely (at our hackathons this is generally known as `archives-hackathon.key`)
-- an IP address that lets your computer know _where_ the machine you are joining is.
+
+* a file known as a private key so that you can connect to the machine securely (at our hackathons this is generally known as `archives-hackathon.key`)
+* an IP address that lets your computer know _where_ the machine you are joining is.
 
 We will give you the key at the datathon. We will also assign each team a virtual machine known by its IP. When you receive the key, we recommend saving it to your desktop for convenience during the event.
 
@@ -68,6 +69,7 @@ In the future, logging in will now just look like this.
 Once you're on the machine, it will be preloaded with a number of collections - we will let you know the details about that in Slack.
 
 Each of the VMs will be preloaded with:
+
 - Apache Spark 2.3.2
   - Spark shell: `/home/ubuntu/spark/bin/spark-shell`
 - Python3, Python 2.7
@@ -79,6 +81,7 @@ Each of the VMs will be preloaded with:
 Data will be located in `/mnt/data` in a series of subdirectories. For example, a collection might be found in `/mnt/data/sfu-ngos` for the SFU NGO collection.
 
 A few other things to keep in mind:
+
 - Each collection's directory will have a `warcs` directory containing all of it's ARCs/WARCs
 - Each collection's directory will have a `derivatives` directory containing the scholarly derivatives created on <https://cloud.archivesunleashed.org>.
 - More info about those files can be found here: <https://cloud.archivesunleashed.org/derivatives>.
