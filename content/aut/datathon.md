@@ -3,7 +3,7 @@ title: Archives Unleashed Datathon Cheat Sheet
 date: 2019-01-01T11:51:41-04:00
 ---
 
-This guide is meant to be a quick reference guide for attendees at the Archives Unleashed [datathons](/events). These are commonly-asked questions and options that attendees have used, and may be dynamically updated during events.
+This guide is meant to be a quick reference guide for attendees at the Archives Unleashed [datathons](/events). These are commonly-asked questions and options that attendees have used, and may be updated during events.
 
 Screenshots are from Mac, as we don't have a Windows machine on our project team. Our apologies.
 
