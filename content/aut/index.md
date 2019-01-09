@@ -1004,9 +1004,11 @@ only showing top 20 rows
 
 You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC. Note that the trailing `/` is important for the `saveToDisk` command below. Without it, files will be saved with the prefix provided after the last `/` in the string.
 
+For example, below, this would generate files such as `prefix-c7ee6d7c17045495e.jpg` and `prefix-a820ac93e2a000c9d.gif` in the `/path/to/export/directory/` directory.
+
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.df._
 val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
-val res = df.select($"bytes").orderBy(desc("bytes")).saveToDisk("bytes", "/path/to/export/directory/")
+val res = df.select($"bytes").orderBy(desc("bytes")).saveToDisk("bytes", "/path/to/export/directory/prefix")
 ```
