@@ -1318,10 +1318,12 @@ only showing top 20 rows
 
 <p>You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC. Note that the trailing <code>/</code> is important for the <code>saveToDisk</code> command below. Without it, files will be saved with the prefix provided after the last <code>/</code> in the string.</p>
 
+<p>For example, below, this would generate files such as <code>prefix-c7ee6d7c17045495e.jpg</code> and <code>prefix-a820ac93e2a000c9d.gif</code> in the <code>/path/to/export/directory/</code> directory.</p>
+
 <pre><code class="language-scala">import io.archivesunleashed._
 import io.archivesunleashed.df._
 val df = RecordLoader.loadArchives(&quot;example.arc.gz&quot;, sc).extractImageDetailsDF();
-val res = df.select($&quot;bytes&quot;).orderBy(desc(&quot;bytes&quot;)).saveToDisk(&quot;bytes&quot;, &quot;/path/to/export/directory/&quot;)
+val res = df.select($&quot;bytes&quot;).orderBy(desc(&quot;bytes&quot;)).saveToDisk(&quot;bytes&quot;, &quot;/path/to/export/directory/prefix&quot;)
 </code></pre>
 
 
