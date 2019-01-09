@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
     <title>The Archives Unleashed Cloud - The Archives Unleashed Project</title>
-    <meta name="generator" content="Hugo 0.30.2" />
+    <meta name="generator" content="Hugo 0.49" />
 
     
     <link rel="canonical" href="https://archivesunleashed.org/cloud/">
@@ -369,41 +369,41 @@
 
 <h2 id="introduction">Introduction</h2>
 
-<p>Imagine a world where you could access and analyze a web archives file in as few as three clicks, with no coding necessary. Oh wait, there&rsquo;s a portal for that: the Archives Unleashed Cloud, or AUK.</p>
+<p>Imagine a world where you could access and analyze a web archives file in as few as three clicks, with no coding necessary. Oh wait, there&rsquo;s a portal for that: the Archives Unleashed Cloud.</p>
 
-<p>AUK is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users a web-based front end to access the <a href="https://archivesunleashed.org/aut">Archives Unleashed Toolkit</a>. It has been primarily developed by our project co-investigator and developer, <a href="http://ruebot.net/">Nick Ruest</a>.</p>
+<p>The Archives Unleashed Cloud is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users a web-based front end to access the <a href="https://archivesunleashed.org/aut">Archives Unleashed Toolkit</a>. It has been primarily developed by our project co-investigator and developer, <a href="http://ruebot.net/">Nick Ruest</a>.</p>
 
 <p>You can use the Cloud at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a></p>
 
 <h2 id="functionalities">Functionalities</h2>
 
-<p>AUK has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in tern supports the increased accessibility of working with web archives.</p>
+<p>The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in tern supports the increased accessibility of working with web archives.</p>
 
 <p>Core features of the Archives Unleashed Cloud include:</p>
 
 <ul>
 <li>Syncing Archive-It collections;</li>
-<li>Ingesting Archive-It collections via WASAPI to AUK;</li>
+<li>Ingesting Archive-It collections via WASAPI to the Cloud;</li>
 <li>Creating a network graph, domain distribution list, full text, and full text by domain derivatives, and making each available for download;</li>
 <li>Providing an in-browser network diagram to see major nodes and connections within your collection.</li>
 </ul>
 
-<p>In addition, AUK&rsquo;s <a href="http://cloud.archivesunleashed.org/documentation">documentation</a> offers guidance on how to get AUK up and running, as well as how to use some of its features.</p>
+<p>In addition, our <a href="http://cloud.archivesunleashed.org/documentation">documentation</a> offers guidance on how to get the Cloud up and running, as well as how to use some of its features.</p>
 
-<h2 id="a-guided-tour-of-auk">A Guided Tour of AUK</h2>
+<h2 id="a-guided-tour-of-the-archives-unleashed-cloud">A Guided Tour of the Archives Unleashed Cloud</h2>
 
-<p>Let&rsquo;s take a tour of how AUK works. Below you will find a video tour of the Archives Unleashed Cloud, followed by a brief overview of what you can expect when working with AUK.
+<p>Let&rsquo;s take a tour of how the Cloud works. Below you will find a video tour of the Archives Unleashed Cloud, followed by a brief overview of what you can expect when working with the platform.
 <br/><br/></p>
 
 <iframe width="900" height="300" src="https://www.youtube.com/embed/BHP51tUhBFs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<p>Once a user signs up to <a href="http://cloud.archivesunleashed.org/">cloud.archivesunleashed.org</a>, they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with AUK using Archive-It&rsquo;s <a href="https://github.com/WASAPI-Community/data-transfer-apis">WASAPI</a> endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis.</p>
+<p>Once a user signs up to <a href="http://cloud.archivesunleashed.org/">cloud.archivesunleashed.org</a>, they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It&rsquo;s <a href="https://github.com/WASAPI-Community/data-transfer-apis">WASAPI</a> endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis.</p>
 
-<p>The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in AUK yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!</p>
+<p>The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in the Cloud yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!</p>
 
 <p><img src="https://archivesunleashed.org/images/collections.png" alt="Cloud collections" /></p>
 
-<p>From the main collections screen, users can select a specific collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our AUK instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin.</p>
+<p>From the main collections screen, users can select a specific collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our Archives Unleashed Cloud instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin.</p>
 
 <p>The analysis process then triggers an Apache Spark job and uses AUT to create a basic set of derivatives:</p>
 
@@ -436,7 +436,7 @@
 
 <p><img src="https://archivesunleashed.org/images/graph.png" alt="Full graph" /></p>
 
-<p>A few cautionary notes on &ldquo;scale up&rdquo; and &ldquo;scale down&rdquo; are in order. With website networks, some sites have so many links compared to the others, that they obscure everything else. AUK’s scale-up feature uses <strong>logarithmic transformation</strong> to make the graph a bit easier to read. For example, six nodes with size values 1, 10, 100, 1000, 10000 and 1,000,000,000 can be transformed using a base 10 logarithm to produce new sizes 0, 1, 2, 3, 4, &amp; 9, making the node sizes much closer together in size.</p>
+<p>A few cautionary notes on &ldquo;scale up&rdquo; and &ldquo;scale down&rdquo; are in order. With website networks, some sites have so many links compared to the others, that they obscure everything else. The Archives Unleashed Cloud&rsquo;s scale-up feature uses <strong>logarithmic transformation</strong> to make the graph a bit easier to read. For example, six nodes with size values 1, 10, 100, 1000, 10000 and 1,000,000,000 can be transformed using a base 10 logarithm to produce new sizes 0, 1, 2, 3, 4, &amp; 9, making the node sizes much closer together in size.</p>
 
 <blockquote>
 <p>A <strong>logarithm</strong> is a mathematical expression used to deal with non-normal distributed data (like networks). It is created by giving a base number an exponent, which is then multiplied by itself, to create factor increments, rather than equal amount increments, between data points. This is important as it will allow for data points to be more evenly distributed with minimal influence on data accuracy and integrity.</p>
@@ -450,11 +450,11 @@
 
 <h2 id="can-i-try-it-out">Can I try it out?</h2>
 
-<p>Currently, anyone with an Archive-It subscription can take AUK for a spin. Please just come over to <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a> and give it a try.</p>
+<p>Currently, anyone with an Archive-It subscription can take the Cloud for a spin. Please just come over to <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a> and give it a try.</p>
 
-<p>If you don&rsquo;t have an Archive-It account, sit tight, we are looking into development for AUK users who would like to bring their own WARCs to AUK with <a href="https://webrecorder.io/">webrecorder.io</a>. Updates will be provided through our social media channels and newsletter, as well as on our website.</p>
+<p>If you don&rsquo;t have an Archive-It account, sit tight, we are looking into development for Cloud users who would like to bring their own WARCs to the Cloud with <a href="https://webrecorder.io/">webrecorder.io</a>. Updates will be provided through our social media channels and newsletter, as well as on our website.</p>
 
-<p>AUK is an open source project, you can view the codebase <a href="http://github.com/archivesunleashed/auk">here</a>. Although it is tied closely to the canonical instance running at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, <a href="https://archivesunleashed.org/get-involved/">let us know and we can collaborate</a> and figure out how to make it happen.</p>
+<p>The Archives Unleashed Cloud is an open source project, you can view the codebase <a href="http://github.com/archivesunleashed/auk">here</a>. Although it is tied closely to the canonical instance running at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, <a href="https://archivesunleashed.org/get-involved/">let us know and we can collaborate</a> and figure out how to make it happen.</p>
 
 
       <aside class="copyright" role="note">
