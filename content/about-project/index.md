@@ -123,7 +123,7 @@ _This Privacy Policy is effective January 2019_
 
 We recognize the importance of and are committed to protecting the privacy of all users. The following privacy policy guides and outlines the Archives Unleashed Project's (AU) online information practices.
 
-The Archives Unleashed Privacy Policy describes what users can expect from Archives Unleashed as to how information is collected, used and shared. This policy applies to all information collected from or submitted to the Archives Unleashed Project, including the Archives Unleashed Cloud (AUK) portal located at [cloud.archivesunleashed.org](https://cloud.archivesunleashed.org) and all related sub-domains.
+The Archives Unleashed Privacy Policy describes what users can expect from Archives Unleashed as to how information is collected, used and shared. This policy applies to all information collected from or submitted to the Archives Unleashed Project, including the Archives Unleashed Cloud portal located at [cloud.archivesunleashed.org](https://cloud.archivesunleashed.org) and all related sub-domains.
 
 By accessing and using the services and products of the Archives Unleashed Project, users accept the practices outlined in the policy below.
 
