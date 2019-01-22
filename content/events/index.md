@@ -8,9 +8,7 @@ weight: 40
 
 ![Material Screenshot](/images/washington-skyline.png)
 
-**The Archives Unleashed project will hold its third datathon in partnership with George Washington University Libraries, 21-22 March 2019.**
-
-Please visit the [Washington event page](/washington) for more information.
+**The Archives Unleashed project will hold its third datathon in partnership with George Washington University Libraries, 21-22 March 2019.**  Please visit the [Washington event page](/washington) for more information.
 
 Check to see when Archives Unleashed will be near you…
 
