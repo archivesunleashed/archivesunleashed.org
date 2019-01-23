@@ -12,7 +12,7 @@ Imagine a world where you could access and analyze a web archives file in as few
 
 The Archives Unleashed Cloud is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users a web-based front end to access the [Archives Unleashed Toolkit](/aut). It has been primarily developed by our project co-investigator and developer, [Nick Ruest](http://ruebot.net/).
 
-You can use the Cloud at <http://cloud.archivesunleashed.org>
+You can use the Cloud (for **free**) at <http://cloud.archivesunleashed.org>
 
 ## Functionalities
 

@@ -28,15 +28,6 @@ The Archives Unleashed team is pleased to offer modest travel grants to help att
 ## Submissions
 Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 21-22 Washington Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
 
-**IMPORTANT DATES**
-
-|        Date       |         Location         |
-|:-----------------:|:------------------------:|
-| 5 November 2018 | Call for Participation|
-| 19 November 2018 | Second Call for Participation|
-| 3 December 2018 | Submissions Due |
-| 19 December 2018| Applicants notified |
-
 ## Organizers
 
 * Ian Milligan (University of Waterloo)
@@ -53,13 +44,16 @@ Thank you for your interest in the Archives Unleashed Datathon, submissions for 
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/gwu-logo.jpg) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
-## Venue
 
-Gelman Library | 2130 H St NW, Washington, DC 20052, USA
+## Venue
 
 George Washington University - Foggy Bottom Campus
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12420.328684893137!2d-77.0483541!3d38.8992362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0d1febd782fab15!2sGelman+Library!5e0!3m2!1sen!2sca!4v1541111558124" width="600" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+Gelman Library
+
+2130 H St NW, Washington, DC 20052, USA
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12420.328684893137!2d-77.0483541!3d38.8992362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0d1febd782fab15!2sGelman+Library!5e0!3m2!1sen!2sca!4v1541111558124" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## Travel to Washington
 
@@ -117,7 +111,38 @@ For those adventurers who’d like to check out Washington attractions, you may 
 * [Smithsonian museums](https://www.si.edu/museums) - offering 19 museums, galleries, gardens, and a zoo, visitors will have plenty to explore. Check out the complete list of [museums](https://www.si.edu/museums) to start planning your visit.
 * [Dupont Circle](https://washington.org/topics/dupont-circle) - another great neighbourhood to visit, with bistros, bookstores, unique restaurants, and lively entertainment.
 
+## Schedule
+
+We're currently preparing the schedule, but to make it a little easier for travel planning we've outlined an overview of event times.
+
+Day 1: 8:30am - 5:00pm (We will be hosting an evening social starting at 5:30pm, dinner included.)
+
+Day 2: 9:00am - 4:30pm
+
 <!---
+Datathon Page Outline:
+## About
+## Travel Grants
+## Submissions
+## Travel to (Location)
+![Accommodations](/images/accommodations.png)
+![Airports](/images/airports.png)
+![Downtown Transit](/images/transit.png)
+![Attractions](/images/attractions.png)
+## Organizers
+## Sponsors
+## Venue
+## Schedule
+## Team Projects
+
+**IMPORTANT DATES**
+
+|        Date       |         Location         |
+|:-----------------:|:------------------------:|
+| 5 November 2018 | Call for Participation|
+| 19 November 2018 | Second Call for Participation|
+| 3 December 2018 | Submissions Due |
+| 19 December 2018| Applicants notified |
 
 Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **3 December 2018**:
 
@@ -289,5 +314,6 @@ For those wanting to checkout the Capital Hill area, there are many
 * **[Taxi](http://www.flydulles.com/iad/washington-flyer-taxi-service)** - Washington Flyer Taxicabs serve the Dulles airport exclusively, with 24-hour service. To find taxis, follow the Ground Transportation signs down the ramp to Door 2 and Door 6. All taxicabs accept cash or credit cards. Please confirm with the Airport Taxi Counter for taxi rates, estimates for fares, as of 2017, can be found [here](http://www.flydulles.com/iad/estimated-taxi-fares).
 
 * **[Car rentals](http://www.flydulles.com/iad/rental-cars)** - are also available from several companies, with complimentary shuttles between the rental lot and the terminal.
+
 
 -->

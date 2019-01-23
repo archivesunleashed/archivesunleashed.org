@@ -8,9 +8,7 @@ weight: 40
 
 ![Material Screenshot](/images/washington-skyline.png)
 
-**The Archives Unleashed project will hold its third datathon in partnership with George Washington University Libraries, 21-22 March 2019.**
-
-Please visit the [Washington event page](/washington) for more information.
+**The Archives Unleashed project will hold its third datathon in partnership with George Washington University Libraries, 21-22 March 2019.**  Please visit the [Washington event page](/washington) for more information.
 
 Check to see when Archives Unleashed will be near you…
 
@@ -18,7 +16,7 @@ Check to see when Archives Unleashed will be near you…
 |:-----------------:|:------------------------:|
 | April 26-27, 2018 | Toronto, ON              |
 | November 1-2, 2018 | Vancouver, BC       |
-| March 21-22, 2019          | Washing, DC |
+| March 21-22, 2019          | Washington, DC |
 | November 2019     | United States West Coast |
 
 ## Past Datathons
@@ -37,8 +35,5 @@ As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have h
 
 ## About our Datathons
 
-![Toronto Datathon](/images/Hackathon.jpg)
-
-One of our key priorities is sustainability: crucial to the project’s success is leveraging an open-source ecosystem. Cognizant of funded projects that run into sustainability issues following a successful launch, we regard regional datathons staged under the Archives Unleashed banner as vital to ensuring broad community buy-in and continued involvement.
-
-The datathon model brings together researchers, programmers, visualization experts, graphical designers, and others into one room in order to facilitate their intensive collaboration on a shared project. In our case, programmers, academics, memory institution professionals, and other librarians will gather to work on accessing web archives with our cloud interface.
+| ![Toronto Datathon](/images/Hackathon.jpg) | One of our key priorities is sustainability: crucial to the project’s success is leveraging an open-source ecosystem. Cognizant of funded projects that run into sustainability issues following a successful launch, we regard regional datathons staged under the Archives Unleashed banner as vital to ensuring broad community buy-in and continued involvement. The datathon model brings together researchers, programmers, visualization experts, graphical designers, and others into one room in order to facilitate their intensive collaboration on a shared project. In our case, programmers, academics, memory institution professionals, and other librarians will gather to work on accessing web archives with our cloud interface. |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
