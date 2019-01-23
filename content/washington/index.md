@@ -35,7 +35,7 @@ Thank you for your interest in the Archives Unleashed Datathon, submissions for 
 * Dan Kerchner (George Washington University)
 * Rachel Trent (George Washington University)
 * Robin Delaloye (George Washington University)
-* Nick Ruest (York University Libraries)
+* Nick Ruest (York University)
 * Jimmy Lin (University of Waterloo)
 * Samantha Fritz (University of Waterloo)
 
@@ -115,9 +115,9 @@ For those adventurers who’d like to check out Washington attractions, you may 
 
 We're currently preparing the schedule, but to make it a little easier for travel planning we've outlined an overview of event times.
 
-Day 1: 8:30am - 5:00pm
+Day 1: 8:30am - 5:00pm (We will be hosting an evening social starting at 5:30pm, dinner included.)
 
-Day 2: 9:00am - 5:00pm
+Day 2: 9:00am - 4:30pm
 
 <!---
 Datathon Page Outline:
