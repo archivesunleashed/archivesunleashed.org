@@ -295,9 +295,66 @@ The first step should be to work with this network diagram so you can make a bea
 
 ![Gephi visualization](/images/gephi.png)
 
-First, let's use these instructions to [work with Gephi](https://cloud.archivesunleashed.org/derivatives/gephi).
+## Gephi
 
-Secondly, if there is time, we can begin to think about how to work with the plain text file. See the following documents from our "learning guides":
+You should now download and install Gephi, which you can find [here](http://gephi.github.io/). 
+
+Upon opening the Gephi application, you want to select “Open a Graph File...” and select the links-for-gephi.gexf file that you generated in the last script. It will be found in the `/data` directory you have been working with.
+
+![open file](/images/gephi-1.png)
+
+You then want to click 'ok' on the next page. You can see in the sample data that you have a network with 125 nodes (or domains) with 200 edges (or links between those domains).
+
+![import report](/images/gephi-2.png)
+
+You'll now see the following basic layout in the Overview tab. Not too useful, is it? Let's begin by creating a new layout, which you'll see highlighted here below:
+
+![basic graph](/images/gephi-3.png)
+
+Select the layout tab at left, and select "Yifan Hu Proportional." Leave the values default, but you can begin to play with the figures and see what it does. To lay the graph out, click the "run" button. 
+
+The following image shows what this looks like after clicking "run" on the default visualization.
+
+![yifan hu](/images/gephi-4.png)
+
+Let's add some labels so we can see what this all means. Click on the "T" button below the graph, which is highlighted below. You'll then see lots of labels. It is not too readable - don't worry, we will deal with that shortly.
+
+![label select](/images/gephi-5.png)
+
+The next step is to resize the nodes (domains) based on a characteristic. Let's make them bigger based on how many times they are linked to. This is called "in-degree" in Gephi.
+
+This can sometimes be a bit challenging to find in the Gephi interface! In the "Appearance" window at left, click on the "size" icon, select "ranking," and then select "In-Degree" with a min sie of 3 and a max size of 40. Then click "Apply."
+
+If the above is confusing, look at the screenshot below and try to reproduce what you see there.
+
+![label select](/images/gephi-6.png)
+
+Now let's do the same for label size: the bigger the label, the more it is linked to; the smaller the label, the less it is linked to. You then want to click on the "text size" icon, select "Ranking," and then select "In-Degree." Let's do a min size of 0.1 and a max size of 3. If this is confusing, again try to recreate what you see in the screenshot below.
+
+![text size](/images/gephi-7.png)
+
+Some of the labels now overlap, so let's run another simple "layout." This time, we select "Label Adjust" and press run.
+
+![label adjust](/images/gephi-8.png)
+
+Now let's run a statistical analysis. We'll run a rudimentary community detection algorithm. We can find that in the "statistics" section on the right hand side. Click the "run" button next to modularity, and click through the next report. The two following screenshots show you where to look.
+
+![modularity report](/images/gephi-9.png)
+
+![modularity report 2](/images/gephi-10.png)
+
+The final step is to apply the modularity categories to the graph. Let's colour the nodes based on the community that they appear in. 
+
+To do so, go back to apperance. This time click the painter's palette, select "Partition," and then apply "Modularity Class." As before, try to recreate what you see in the screenshot below if it is confusing.
+
+![modularity application](/images/gephi-11.png)
+
+Hazzah, now you have a nicely-laid out graph. Try experimenting with other features in Gephi now.
+
+![final layout](/images/gephi-12.png)
+
+### Learning Guides
+Once you're comfortable with Gephi, you can explore some of the other learning guides. See below: 
 
 * [**Filtering the Full-Text Derivative File**](https://cloud.archivesunleashed.org/derivatives/text-filtering): This tutorial explores the use of the "grep" command line tool to filter out dates, domains, and keywords from plain text.
 * [**Text Analysis Part One: Beyond the Keyword Search: Using AntConc**](https://cloud.archivesunleashed.org/derivatives/text-antconc): This tutorial explores how you can explore text within a web archive using the AntConc tool.
