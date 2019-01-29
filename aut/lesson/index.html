@@ -657,9 +657,67 @@ WriteGEXF(links, &quot;/data/links-for-gephi.gexf&quot;)
 
 <p><img src="https://archivesunleashed.org/images/gephi.png" alt="Gephi visualization" /></p>
 
-<p>First, let&rsquo;s use these instructions to <a href="https://cloud.archivesunleashed.org/derivatives/gephi">work with Gephi</a>.</p>
+<h2 id="gephi">Gephi</h2>
 
-<p>Secondly, if there is time, we can begin to think about how to work with the plain text file. See the following documents from our &ldquo;learning guides&rdquo;:</p>
+<p>You should now download and install Gephi, which you can find <a href="http://gephi.github.io/">here</a>.</p>
+
+<p>Upon opening the Gephi application, you want to select “Open a Graph File&hellip;” and select the links-for-gephi.gexf file that you generated in the last script. It will be found in the <code>/data</code> directory you have been working with.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-1.png" alt="open file" /></p>
+
+<p>You then want to click &lsquo;ok&rsquo; on the next page. You can see in the sample data that you have a network with 125 nodes (or domains) with 200 edges (or links between those domains).</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-2.png" alt="import report" /></p>
+
+<p>You&rsquo;ll now see the following basic layout in the Overview tab. Not too useful, is it? Let&rsquo;s begin by creating a new layout, which you&rsquo;ll see highlighted here below:</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-3.png" alt="basic graph" /></p>
+
+<p>Select the layout tab at left, and select &ldquo;Yifan Hu Proportional.&rdquo; Leave the values default, but you can begin to play with the figures and see what it does. To lay the graph out, click the &ldquo;run&rdquo; button.</p>
+
+<p>The following image shows what this looks like after clicking &ldquo;run&rdquo; on the default visualization.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-4.png" alt="yifan hu" /></p>
+
+<p>Let&rsquo;s add some labels so we can see what this all means. Click on the &ldquo;T&rdquo; button below the graph, which is highlighted below. You&rsquo;ll then see lots of labels. It is not too readable - don&rsquo;t worry, we will deal with that shortly.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-5.png" alt="label select" /></p>
+
+<p>The next step is to resize the nodes (domains) based on a characteristic. Let&rsquo;s make them bigger based on how many times they are linked to. This is called &ldquo;in-degree&rdquo; in Gephi.</p>
+
+<p>This can sometimes be a bit challenging to find in the Gephi interface! In the &ldquo;Appearance&rdquo; window at left, click on the &ldquo;size&rdquo; icon, select &ldquo;ranking,&rdquo; and then select &ldquo;In-Degree&rdquo; with a min sie of 3 and a max size of 40. Then click &ldquo;Apply.&rdquo;</p>
+
+<p>If the above is confusing, look at the screenshot below and try to reproduce what you see there.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-6.png" alt="label select" /></p>
+
+<p>Now let&rsquo;s do the same for label size: the bigger the label, the more it is linked to; the smaller the label, the less it is linked to. You then want to click on the &ldquo;text size&rdquo; icon, select &ldquo;Ranking,&rdquo; and then select &ldquo;In-Degree.&rdquo; Let&rsquo;s do a min size of 0.1 and a max size of 3. If this is confusing, again try to recreate what you see in the screenshot below.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-7.png" alt="text size" /></p>
+
+<p>Some of the labels now overlap, so let&rsquo;s run another simple &ldquo;layout.&rdquo; This time, we select &ldquo;Label Adjust&rdquo; and press run.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-8.png" alt="label adjust" /></p>
+
+<p>Now let&rsquo;s run a statistical analysis. We&rsquo;ll run a rudimentary community detection algorithm. We can find that in the &ldquo;statistics&rdquo; section on the right hand side. Click the &ldquo;run&rdquo; button next to modularity, and click through the next report. The two following screenshots show you where to look.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-9.png" alt="modularity report" /></p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-10.png" alt="modularity report 2" /></p>
+
+<p>The final step is to apply the modularity categories to the graph. Let&rsquo;s colour the nodes based on the community that they appear in.</p>
+
+<p>To do so, go back to apperance. This time click the painter&rsquo;s palette, select &ldquo;Partition,&rdquo; and then apply &ldquo;Modularity Class.&rdquo; As before, try to recreate what you see in the screenshot below if it is confusing.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-11.png" alt="modularity application" /></p>
+
+<p>Hazzah, now you have a nicely-laid out graph. Try experimenting with other features in Gephi now.</p>
+
+<p><img src="https://archivesunleashed.org/images/gephi-12.png" alt="final layout" /></p>
+
+<h3 id="learning-guides">Learning Guides</h3>
+
+<p>Once you&rsquo;re comfortable with Gephi, you can explore some of the other learning guides. See below:</p>
 
 <ul>
 <li><a href="https://cloud.archivesunleashed.org/derivatives/text-filtering"><strong>Filtering the Full-Text Derivative File</strong></a>: This tutorial explores the use of the &ldquo;grep&rdquo; command line tool to filter out dates, domains, and keywords from plain text.</li>
