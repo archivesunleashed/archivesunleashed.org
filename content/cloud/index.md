@@ -16,11 +16,11 @@ You can use the Cloud (for **free**) at <http://cloud.archivesunleashed.org>
 
 ## Functionalities
 
-The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in tern supports the increased accessibility of working with web archives.
+The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in turn supports the increased accessibility of working with web archives.
 
 Core features of the Archives Unleashed Cloud include:
 
-* Syncing Archive-It collections;
+* Syncing [Archive-It](https://archive-it.org) collections;
 * Ingesting Archive-It collections via WASAPI to the Cloud;
 * Creating a network graph, domain distribution list, full text, and full text by domain derivatives, and making each available for download;
 * Providing an in-browser network diagram to see major nodes and connections within your collection.
