@@ -299,7 +299,7 @@ The first step should be to work with this network diagram so you can make a bea
 
 You should now download and install Gephi, which you can find [here](http://gephi.github.io/). 
 
-On the opening screen, you want to select “Open a Graph File...” and select the links-for-gephi.gexf file that you generated in the last script. It will be found in the `/data` directory you have been working with.
+Upon opening the Gephi application, you want to select “Open a Graph File...” and select the links-for-gephi.gexf file that you generated in the last script. It will be found in the `/data` directory you have been working with.
 
 ![open file](/images/gephi-1.png)
 
@@ -307,11 +307,11 @@ You then want to click 'ok' on the next page. You can see in the sample data tha
 
 ![import report](/images/gephi-2.png)
 
-You'll now see the following basic layout. Not too useful, is it? Let's begin by creating a new layout, which you'll see highlighted here below:
+You'll now see the following basic layout in the Overview tab. Not too useful, is it? Let's begin by creating a new layout, which you'll see highlighted here below:
 
 ![basic graph](/images/gephi-3.png)
 
-Select the layout tab at left, and select "Yifan Hu Proportional." Leave the values default, but you can begin to play with the figures and see what it does. To lay the graph out, please click the "run" button. 
+Select the layout tab at left, and select "Yifan Hu Proportional." Leave the values default, but you can begin to play with the figures and see what it does. To lay the graph out, click the "run" button. 
 
 The following image shows what this looks like after clicking "run" on the default visualization.
 
@@ -333,7 +333,7 @@ Now let's do the same for label size: the bigger the label, the more it is linke
 
 ![text size](/images/gephi-7.png)
 
-Some of the labels now overlap, so let's run another simple "layout." This time, we select "Label Adjust" and press play.
+Some of the labels now overlap, so let's run another simple "layout." This time, we select "Label Adjust" and press run.
 
 ![label adjust](/images/gephi-8.png)
 
@@ -354,7 +354,8 @@ Hazzah, now you have a nicely-laid out graph. Try experimenting with other featu
 ![final layout](/images/gephi-12.png)
 
 ### Learning Guides
-Once you're comfortable with Gephi, you can explore some of the other learning guides. See below:
+Once you're comfortable with Gephi, you can explore some of the other learning guides. See below: 
+
 * [**Filtering the Full-Text Derivative File**](https://cloud.archivesunleashed.org/derivatives/text-filtering): This tutorial explores the use of the "grep" command line tool to filter out dates, domains, and keywords from plain text.
 * [**Text Analysis Part One: Beyond the Keyword Search: Using AntConc**](https://cloud.archivesunleashed.org/derivatives/text-antconc): This tutorial explores how you can explore text within a web archive using the AntConc tool.
 * [**Text Analysis Part Two: Sentiment Analysis With the Natural Language Toolkit**](https://cloud.archivesunleashed.org/derivatives/text-sentiment): This tutorial explores how you can calculate the positivity or negativity (in an emotional sense) of web archive text.
