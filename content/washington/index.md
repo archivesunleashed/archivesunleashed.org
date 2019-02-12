@@ -113,7 +113,7 @@ For those adventurers who’d like to check out Washington attractions, you may 
 
 ## Schedule
 
-We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout!
+We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event!
 
 Please click the image below to check out the <a href="/images/washington-schedule.pdf">full Washington Datathon schedule!</a>
 
