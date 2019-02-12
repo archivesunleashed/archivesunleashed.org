@@ -97,7 +97,7 @@ While you are in Washington there are a few ways to get around, but ultimately i
 * **Rideshare Apps** - - [Uber](https://www.uber.com/en-CA/cities/washington-DC/) and [Lyft](https://www.lyft.com/rider/cities/washington-dc) are available in Washington, DC. You can download the apps and book a ride easily.
 
 * **Taxis** - a few options for getting around via taxi include:
-  - [DC Yellow Cab](https://dcyellowcab.com) - .202.544.1212
+  - [DC Yellow Cab](https://dcyellowcab.com) - 202.544.1212
   - [Red Cab DC](http://www.redcabdc.com) - 202.285.1632
   - [Taxi Transportation Service](http://dctaxionline.com/) - 202.398.0500
 
@@ -113,11 +113,13 @@ For those adventurers who’d like to check out Washington attractions, you may 
 
 ## Schedule
 
-We're currently preparing the schedule, but to make it a little easier for travel planning we've outlined an overview of event times.
+We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
 
-Day 1: 8:30am - 5:00pm (We will be hosting an evening social starting at 5:30pm, dinner included.)
+Please click the image below to check out the <a href="/images/washington-schedule.pdf">full Washington Datathon schedule!</a>
 
-Day 2: 9:00am - 4:30pm
+|               |                  |
+|:-----------------:|:------------------------:|
+| <img src="/images/washington-day1.png"></a> | <img src="/images/washington-day2.png" ></a>
 
 <!---
 Datathon Page Outline:
