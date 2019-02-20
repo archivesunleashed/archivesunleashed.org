@@ -119,7 +119,7 @@ Please click the image below to check out the <a href="/images/washington-schedu
 
 |               |                  |
 |:-----------------:|:------------------------:|
-| <img src="/images/washington-day1.png"></a> | <img src="/images/washington-day2.png" ></a>
+| <a href="/images/washington-schedule.pdf"><img src="/images/washington-day1.png"></a> | <a href="/images/washington-schedule.pdf"><img src="/images/washington-day2.png" ></a>
 
 <!---
 Datathon Page Outline:
