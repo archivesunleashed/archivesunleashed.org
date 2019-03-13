@@ -47,13 +47,11 @@ Thank you for your interest in the Archives Unleashed Datathon, submissions for 
 
 ## Venue
 
-George Washington University - Foggy Bottom Campus
+| Directions | Gelman Library Floor Plans |
+|------------|----------------------------|
+|George Washington University - Foggy Bottom Campus, Gelman Library, 2130 H St NW, Washington, DC 20052, USA|Check-in at entrance desk and head down to the National Churchill Center (Room 101).|
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12420.328684893137!2d-77.0483541!3d38.8992362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0d1febd782fab15!2sGelman+Library!5e0!3m2!1sen!2sca!4v1541111558124" width="400" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>          |  <a href="/images/Gelman-FloorPlan.png" width="100" height="100" frameborder="0" style="border:0" ><img src="/images/Gelman-FloorPlan.png"></a>|
 
-Gelman Library
-
-2130 H St NW, Washington, DC 20052, USA
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12420.328684893137!2d-77.0483541!3d38.8992362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0d1febd782fab15!2sGelman+Library!5e0!3m2!1sen!2sca!4v1541111558124" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 ## Travel to Washington
 
