@@ -53,7 +53,7 @@ George Washington University - Foggy Bottom Campus, Gelman Library, 2130 H St NW
 
 ## Gelman Library 
 
-Once you arrive at the Gelman Library, you will need to check-in at the entrance desk with a piece of ID, and then make your way down to the [National Churchill Library and Center (Room 101)](https://library.gwu.edu/churchillcenter)
+Once you arrive at the Gelman Library, you will need to check-in at the entrance desk with a piece of ID, and then you can head down to the [National Churchill Library and Center (Room 101)](https://library.gwu.edu/churchillcenter)
 <a href="/images/GelmanLib-FloorPlan.png" ><img src="/images/GelmanLib-FloorPlan.png"></a>
 
 
