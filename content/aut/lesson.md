@@ -154,7 +154,13 @@ RecordLoader.loadArchives("/aut-resources/Sample-Data/*.gz", sc)
 
 **If you're using your own data, that's why the domain count was key!** Swap out the "liberal.ca" command above with the domain that you want to look at from your own data.
 
-Now let's look at the ensuing data. Go to the folder you provided in the very first startup – remember, in my case it was `/users/ianmilligan1/desktop/data` - and you will now have a folder called `liberal-party-text`. Open up the files with your text editor and check it out!
+Now let's look at the ensuing data. Go to the folder you provided in the very first startup – remember, in my case it was `/users/ianmilligan1/desktop/data` - and you will now have a folder called `liberal-party-text`. It will look something like this:
+
+![Part files in Finder](/images/files_output.png)
+
+Open up the files with your text editor and check it out! You should see something along the lines of the following:
+
+![TextEdit showing results](/images/text_files_reading.png)
 
 ### Ouch: Our First Error {#error}
 
