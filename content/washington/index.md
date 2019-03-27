@@ -49,7 +49,7 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
         <li>Grace Thomas, Library of Congress</li>
         <li>James Jacobs, Stanford University</li>
         <li>Laura Wrubel, George Washington University</li>
-        <li>Olive Kiechle, Heinrich-Heine-University Duesseldorf</li>
+        <li>Oliver Kiechle, Heinrich-Heine-University Duesseldorf</li>
         <li><a href="/images/Washington-Group-DCPunkMediaUnleashed.pdf">View Presentation</a></li>
       </ul>
     <td><img src="/images/Washington-Pic-DCPunk.png"></td>
