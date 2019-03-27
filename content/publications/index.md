@@ -31,7 +31,7 @@ The Archives Unleashed project has a body of published research. Check back for 
 
 ## Conference Presentations
 
-* Nick Ruest, "Oh, I Get by with a little help from my friends: Interdisciplinary Web Archive Collaboration," _The Fields Institute Workshop on Quantitative Analysis and the Digital Turn in Historical Studies_, February 27-March 1, 2019, Toronto, Ontario, Canada.
+* Nick Ruest, "Oh, I Get by with a little help from my friends: Interdisciplinary Web Archive Collaboration," _The Fields Institute Workshop on Quantitative Analysis and the Digital Turn in Historical Studies_, February 2019, Toronto, Ontario, Canada.
 * Ian Milligan, "Opening up WARCs: The Archives Unleashed Toolkit and Cloud Projects," _International Internet Preservation Consortium Annual Meeting_, Wellington, New Zealand. November 2018.
 * Nick Ruest, "Make it WALK," _Archives Association of Ontario 2018_, May 2018, Waterloo, Ontario, Canada.
 * Ryan Deschamps, Jimmy Lin, Nick Ruest, Samantha Fritz, Ian Milligan. "Usability, Accessibility, and Performance: Striking the Right Balance with the Archives Unleashed Toolkit."" _CSDH/SCHN Digital Humanities Conference 2018_, May 2018, Regina, Saskatchewan, Canada.
@@ -41,14 +41,14 @@ The Archives Unleashed project has a body of published research. Check back for 
 * Nick Ruest and Ian Milligan, "Learning to WALK (Web Archives for Longitudinal Knowledge): Building a National Web Archiving Collaborative Platform," _International Internet Preservation Consortium/RESAW Conference_, London, England. June 2017.
 * Ian Milligan and Nick Ruest, "Warcbase: Using Scalable Web Analytics to Analyze Canadian Collections En Masse," _National Symposium on Web Archiving_, San Francisco, California. February 2017.
 * Ian Milligan, Jimmy Lin, Jeremy Wiebe, and Alice Zhou. "Exploring and Discovering Archive-It Collections with Warcbase." _Digital Humanities 2016_, July 2016, Krakow, Poland. [[link](http://dh2016.adho.org/static/data/99.html)]
-* Ian Milligan, Nick Ruest, "Engaging the Public with Web Archives: Providing Access to 10 Years of Political History with WebArchives.ca", _Canadian Society of Digital Humanities/Société canadienne des humanités numériques Conference_, May 2016, Calgary, Alberta, Canada.
-* Ian Milligan, Nick Ruest, "Hands on with Warcbase," _International Internet Preservation Consortium Conference_, April 2016, Reykjavik, Iceland.
+* Ian Milligan and Nick Ruest, "Engaging the Public with Web Archives: Providing Access to 10 Years of Political History with WebArchives.ca", _Canadian Society of Digital Humanities/Société canadienne des humanités numériques Conference_, May 2016, Calgary, Alberta, Canada.
+* Ian Milligan and Nick Ruest, "Hands on with Warcbase," _International Internet Preservation Consortium Conference_, April 2016, Reykjavik, Iceland.
 
 ## Invited Talks and Lectures
 
 * Nick Ruest, "Hot Tips To Boost Your Interdisciplinary Web Archive Collaboration!" _Lewis & Ruth Sherman Centre for Digital Scholarship Speaker Series_, April 2018, Hamilton, Ontario, Canada.
 * Nick Ruest, "Boosting Your Interdisciplinary Web Archive Collaboration", _BC Research Libraries Group Lecture Series_, February 2018, Vancouver, British Columbia, Canada.
 * Ian Milligan, "Big Data and History (‘Or How this Historian Learned to Stop Worrying and Love Big Data", _Love Your Data Week 2018_, February 2018, Vancouver, British Columbia, Canada.
-* Ian Milligan, Nick Ruest, "Twitter and Web Archive Analysis at Scale", _Data Love-In 2018_, February 2018, Vancouver, British Columbia, Canada.
-* Ian Milligan, Nick Ruest, "Capturing the Web Today for Tomorrow: Innovations in capturing and analyzing social media and websites for the new scholarly record", _University Librarian’s Speaker Series on Emergent Research in Digital Scholarship_, March 2017, Toronto, Ontario, Canada.
-* Ian Milligan, Nick Ruest, "Walking the WALK; Facilitating Interdisciplinary Web Archive Collaboration," _University of Alberta_, June 2016, Edmonton, Alberta, Canada.
+* Ian Milligan and Nick Ruest, "Twitter and Web Archive Analysis at Scale", _Data Love-In 2018_, February 2018, Vancouver, British Columbia, Canada.
+* Ian Milligan and Nick Ruest, "Capturing the Web Today for Tomorrow: Innovations in capturing and analyzing social media and websites for the new scholarly record", _University Librarian’s Speaker Series on Emergent Research in Digital Scholarship_, March 2017, Toronto, Ontario, Canada.
+* Ian Milligan and Nick Ruest, "Walking the WALK; Facilitating Interdisciplinary Web Archive Collaboration," _University of Alberta_, June 2016, Edmonton, Alberta, Canada.
