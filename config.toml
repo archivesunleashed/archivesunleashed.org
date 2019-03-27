@@ -77,10 +77,6 @@ googleAnalytics = "UA-2879197-28"
 	url    = "events/"
 	weight = 40
 
-[[menu.main]]
-	name   = "Washington Datathon"
-	url    = "washington/"
-	weight = 45
 
 [[menu.main]]
 	name   = "Publications"
