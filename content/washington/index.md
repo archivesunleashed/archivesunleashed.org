@@ -19,14 +19,73 @@ This event will bring together a small group of **approximately 15-20 participan
 
 For more information on AUT and the Cloud, please visit http://archivesunleashed.org/.
 
-## Travel Grants
+## Team Projects
 
-This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> George Washington University Libraries </a>, <a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>.
-
-The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
-
-## Submissions
-Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 21-22 Washington Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
+<table>
+  <tr>
+    <td><b>Team: #metoo Group 1</b>
+      <ul>
+        <li>Angela Woodall, Columbia University</li>
+        <li>Jane Kelly, Schlesinger Library, Radcliffe Institute, Harvard University</li>
+        <li>Michael Nashed, Bibliotheca Alexandria</li>
+        <li>Sarah McTavish, University of Waterloo</li>
+        <li><a href="/images/Washington-Group-metoo-1.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Washington-Pic-metoo1.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: #metoo Group 2</a></b>
+      <ul>
+        <li>Yoo Young Lee, University of Ottawa</li>
+        <li>Christie Moffatt, National Library of Medicine</li>
+        <li>Anna St.Onge, York University Libraries</li>
+        <li><a href="/images/Washington-Group-metoo-2.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Washington-Pic-metoo2.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: DC Punk Media Unleashed</b>
+      <ul>
+        <li>Grace Thomas, Library of Congress</li>
+        <li>James Jacobs, Stanford University</li>
+        <li>Laura Wrubel, George Washington University</li>
+        <li>Oliver Kiechle, Heinrich-Heine-University Duesseldorf</li>
+        <li><a href="/images/Washington-Group-DCPunkMediaUnleashed.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Washington-Pic-DCPunk.png"></td>
+  </tr>
+ <tr>
+    <td><b>Team: Kompromat</b>
+      <ul>
+        <li>Ed Summers, University of Maryland</li>
+        <li>Gregory Wiedeman, University at Albany, SUNY</li>
+        <li>Helena Byrne, British Library</li>
+        <li>Shawn Walker, Arizona State University</li>
+        <li><a href="/images/Washington-Group-Kompromat.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Washington-Pic-Kompromat.png"></td>
+ </tr>
+ <tr>
+    <td><b>Team: Psyarchives</b>
+      <ul>
+        <li>Ryan Deschamps, University of Waterloo</li>
+        <li>Mario Nakazawa, Berea College</li>
+        <li><a href="/images/Washington-Group-Psyarchives.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Washington-Pic-Psyarchives.png"></td>
+ </tr>
+ <tr>
+    <td><b>Team: Punkavists</b>
+      <ul>
+        <li>Chase Dooley, Library of Congress</li>
+        <li>Roger Gillis, Dalhousie University</li>
+        <li>Rachel Trent, George Washington University</li>
+        <li>Jennifer Weintraub, Schlesinger Library, Radcliffe Institute, Harvard University</li>
+        <li><a href="/images/Washington-Group-Punkavists.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/Washington-Pic-Punkavists.png"></td>
+ </tr>
+</table>
 
 ## Organizers
 
@@ -44,7 +103,49 @@ Thank you for your interest in the Archives Unleashed Datathon, submissions for 
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/gwu-logo.jpg) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
+## Schedule
 
+We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event!
+
+Please click the image below to check out the <a href="/images/washington-schedule.pdf">full Washington Datathon schedule!</a>
+
+|               |                  |
+|:-----------------:|:------------------------:|
+| <a href="/images/washington-schedule.pdf"><img src="/images/washington-day1.png"></a> | <a href="/images/washington-schedule.pdf"><img src="/images/washington-day2.png" ></a>
+
+<!---
+Datathon Page Outline:
+
+## Travel Grants
+
+This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://www.lib.sfu.ca"> George Washington University Libraries </a>, <a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>.
+
+The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 CAD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
+
+## Submissions
+Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 21-22 Washington Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
+
+**IMPORTANT DATES**
+
+|        Date       |         Location         |
+|:-----------------:|:------------------------:|
+| 5 November 2018 | Call for Participation|
+| 19 November 2018 | Second Call for Participation|
+| 3 December 2018 | Submissions Due |
+| 19 December 2018| Applicants notified |
+
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **3 December 2018**:
+
+* a 250-word expression of interest;
+* a short one-page CV; and
+* Indication of need for financial assistance to travel to event (if applicable)
+
+This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
+
+Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 21-22 Washington Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
+
+## Organizers
+## Sponsors
 ## Venue
 
 George Washington University - Foggy Bottom Campus, Gelman Library, 2130 H St NW, Washington, DC 20052, USA.
@@ -114,96 +215,5 @@ For those adventurers who’d like to check out Washington attractions, you may 
 * [Dupont Circle](https://washington.org/topics/dupont-circle) - another great neighbourhood to visit, with bistros, bookstores, unique restaurants, and lively entertainment.
 
 ## Schedule
-
-We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event!
-
-Please click the image below to check out the <a href="/images/washington-schedule.pdf">full Washington Datathon schedule!</a>
-
-|               |                  |
-|:-----------------:|:------------------------:|
-| <a href="/images/washington-schedule.pdf"><img src="/images/washington-day1.png"></a> | <a href="/images/washington-schedule.pdf"><img src="/images/washington-day2.png" ></a>
-
-<!---
-Datathon Page Outline:
-## About
-## Travel Grants
-## Submissions
-## Travel to (Location)
-![Accommodations](/images/accommodations.png)
-![Airports](/images/airports.png)
-![Downtown Transit](/images/transit.png)
-![Attractions](/images/attractions.png)
-## Organizers
-## Sponsors
-## Venue
-## Schedule
 ## Team Projects
-
-**IMPORTANT DATES**
-
-|        Date       |         Location         |
-|:-----------------:|:------------------------:|
-| 5 November 2018 | Call for Participation|
-| 19 November 2018 | Second Call for Participation|
-| 3 December 2018 | Submissions Due |
-| 19 December 2018| Applicants notified |
-
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:archivesunleashed@gmail.com">archivesunleashed@gmail.com</a>) by **midnight Eastern Standard Time** on **3 December 2018**:
-
-* a 250-word expression of interest;
-* a short one-page CV; and
-* Indication of need for financial assistance to travel to event (if applicable)
-
-This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
-
-Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 21-22 Washington Datathon are now closed. If you weren't able to get an application in to us be sure to keep an eye out for the next Call for Participation.
-
-## Team Projects
-
-<table>
-  <tr>
-    <td><b>Team: Name</b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/BCLaborPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><image src="/images/BCLabor.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: Name</a></b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/MTGAPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/MTGA.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: Name</b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/PipelinePresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Pipeline.png"></td>
-  </tr>
- <tr>
-    <td><b>Team Name</b>
-      <ul>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li>Name, Institution</li>
-        <li><a href="/images/SpamlinksPresentation.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Spamlinks.png"></td>
- </tr>
-</table>
 -->
