@@ -52,3 +52,10 @@ The Archives Unleashed project has a body of published research. Check back for 
 * Ian Milligan and Nick Ruest, "Twitter and Web Archive Analysis at Scale", _Data Love-In 2018_, February 2018, Vancouver, British Columbia, Canada.
 * Ian Milligan and Nick Ruest, "Capturing the Web Today for Tomorrow: Innovations in capturing and analyzing social media and websites for the new scholarly record", _University Librarian’s Speaker Series on Emergent Research in Digital Scholarship_, March 2017, Toronto, Ontario, Canada.
 * Ian Milligan and Nick Ruest, "Walking the WALK; Facilitating Interdisciplinary Web Archive Collaboration," _University of Alberta_, June 2016, Edmonton, Alberta, Canada.
+
+## Datasets
+
+*  Ruest, Nick; Milligan, Ian; Lin, Jimmy; Deschamps, Ryan; Fritz, Samantha, "Derivative data for Web Archives for Longitudinal Knowledge (WALK)," 2018, https://dx.doi.org/10.20383/101.036
+*  Milligan, Ian; Ruest, Nick; Deschamps, Ryan, 2016, "Network Data for the Web Archives for Longitudinal Knowledge (WALK) Project", https://hdl.handle.net/10864/12040, Scholars Portal Dataverse
+*  Milligan, Ian; Ruest, Nick; Lin, Jimmy, 2015, "Derivative data for the Canadian Political Parties and Interest Groups collection", https://hdl.handle.net/10864/11301, Scholars Portal Dataverse
+*  Ruest, Nick; Library and Archives Canada, 2015, "#elxn42 tweets (42nd Canadian Federal Election)", https://hdl.handle.net/10864/11311, Scholars Portal Dataverse
