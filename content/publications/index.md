@@ -55,7 +55,7 @@ The Archives Unleashed project has a body of published research. Check back for 
 
 ## Datasets
 
-*  Ruest, Nick; Milligan, Ian; Lin, Jimmy; Deschamps, Ryan; Fritz, Samantha, "Derivative data for Web Archives for Longitudinal Knowledge (WALK)," 2018, https://dx.doi.org/10.20383/101.036
-*  Milligan, Ian; Ruest, Nick; Deschamps, Ryan, 2016, "Network Data for the Web Archives for Longitudinal Knowledge (WALK) Project", https://hdl.handle.net/10864/12040, Scholars Portal Dataverse
-*  Milligan, Ian; Ruest, Nick; Lin, Jimmy, 2015, "Derivative data for the Canadian Political Parties and Interest Groups collection", https://hdl.handle.net/10864/11301, Scholars Portal Dataverse
-*  Ruest, Nick; Library and Archives Canada, 2015, "#elxn42 tweets (42nd Canadian Federal Election)", https://hdl.handle.net/10864/11311, Scholars Portal Dataverse
+*  Nick Ruest, Ian Milligan, Jimmy Lin, Ryan Deschamps, and Samantha Fritz, "Derivative data for Web Archives for Longitudinal Knowledge (WALK)," 2018, https://dx.doi.org/10.20383/101.036
+*  Ian Milligan, Nick Ruest, and Ryan Deschamps, "Network Data for the Web Archives for Longitudinal Knowledge (WALK) Project", 2016, https://hdl.handle.net/10864/12040
+*  Ian Milligan, Nick Ruest, Jimmy Lin, "Derivative data for the Canadian Political Parties and Interest Groups collection", 2015, https://hdl.handle.net/10864/11301
+*  Nick Ruest, and Library and Archives Canada, "#elxn42 tweets (42nd Canadian Federal Election)", 2015, https://hdl.handle.net/10864/11311
