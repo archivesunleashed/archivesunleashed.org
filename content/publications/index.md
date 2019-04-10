@@ -9,7 +9,7 @@ The Archives Unleashed project has a body of published research. Check back for 
 ## Journal Articles
 
 * Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warcbase: Scalable Analytics Infrastructure for Exploring Web Archives,” _ACM Journal of Computing and Cultural Heritage_, Vol. 10, Issue 4, July 2017. [[link](https://dl.acm.org/citation.cfm?id=3097570)]
-* Ian Milligan, Nick Ruest, and Anna St-Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
+* Ian Milligan, Nick Ruest, and Anna St.Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
 * Ian Milligan. "Lost in the Infinite Archive: The Promise and Pitfalls of Web Archives." _International Journal of Humanities and Arts Computing_, Vol. 10, No. 1-2 (2016): 87—94. [[link](https://www.euppublishing.com/doi/full/10.3366/ijhac.2016.0161)] [[preprint](https://uwspace.uwaterloo.ca/handle/10012/10322)]
 
 ## Book
@@ -52,3 +52,10 @@ The Archives Unleashed project has a body of published research. Check back for 
 * Ian Milligan and Nick Ruest, "Twitter and Web Archive Analysis at Scale", _Data Love-In 2018_, February 2018, Vancouver, British Columbia, Canada.
 * Ian Milligan and Nick Ruest, "Capturing the Web Today for Tomorrow: Innovations in capturing and analyzing social media and websites for the new scholarly record", _University Librarian’s Speaker Series on Emergent Research in Digital Scholarship_, March 2017, Toronto, Ontario, Canada.
 * Ian Milligan and Nick Ruest, "Walking the WALK; Facilitating Interdisciplinary Web Archive Collaboration," _University of Alberta_, June 2016, Edmonton, Alberta, Canada.
+
+## Datasets
+
+*  Nick Ruest, Ian Milligan, Jimmy Lin, Ryan Deschamps, and Samantha Fritz, "Derivative data for Web Archives for Longitudinal Knowledge (WALK)," 2018, https://dx.doi.org/10.20383/101.036
+*  Ian Milligan, Nick Ruest, and Ryan Deschamps, "Network Data for the Web Archives for Longitudinal Knowledge (WALK) Project", 2016, https://hdl.handle.net/10864/12040
+*  Ian Milligan, Nick Ruest, Jimmy Lin, "Derivative data for the Canadian Political Parties and Interest Groups collection", 2015, https://hdl.handle.net/10864/11301
+*  Nick Ruest, and Library and Archives Canada, "#elxn42 tweets (42nd Canadian Federal Election)", 2015, https://hdl.handle.net/10864/11311
