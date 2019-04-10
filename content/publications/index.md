@@ -9,7 +9,7 @@ The Archives Unleashed project has a body of published research. Check back for 
 ## Journal Articles
 
 * Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warcbase: Scalable Analytics Infrastructure for Exploring Web Archives,” _ACM Journal of Computing and Cultural Heritage_, Vol. 10, Issue 4, July 2017. [[link](https://dl.acm.org/citation.cfm?id=3097570)]
-* Ian Milligan, Nick Ruest, and Anna St-Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
+* Ian Milligan, Nick Ruest, and Anna St.Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
 * Ian Milligan. "Lost in the Infinite Archive: The Promise and Pitfalls of Web Archives." _International Journal of Humanities and Arts Computing_, Vol. 10, No. 1-2 (2016): 87—94. [[link](https://www.euppublishing.com/doi/full/10.3366/ijhac.2016.0161)] [[preprint](https://uwspace.uwaterloo.ca/handle/10012/10322)]
 
 ## Book
