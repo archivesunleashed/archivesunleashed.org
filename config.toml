@@ -63,6 +63,11 @@ googleAnalytics = "UA-2879197-28"
 	weight = 16
 
 [[menu.main]]
+	name   = "Archives Unleashed Notebooks"
+	url	   = "notebooks/"
+	weight = 17
+
+[[menu.main]]
 	name   = "Warclight"
 	url    = "warclight/"
 	weight = 18
