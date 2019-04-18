@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://archivesunleashed.org/notebooks/</loc>
+    <lastmod>2017-11-14T09:21:11-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://archivesunleashed.org/warclight/</loc>
     <lastmod>2017-11-14T09:21:11-05:00</lastmod>
   </url>
@@ -103,6 +108,12 @@
   <url>
     <loc>https://archivesunleashed.org/get-involved/</loc>
     <lastmod>2016-03-09T20:08:11+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://archivesunleashed.org/notebooks/</loc>
+    <lastmod>2017-11-14T09:21:11-05:00</lastmod>
     <priority>0</priority>
   </url>
   
