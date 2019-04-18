@@ -26,7 +26,7 @@ There are three notebooks: domain analysis, text analysis, and network analysis.
 
 ![AUK Notebook screenshot](/images/AUK_Notebook_Domains.png)
 
-Domains are a fairly basic analysis of the web archive, and while important, there’s not too much to do, other than to highlight what domains are included in the web archive and how often they appear. 
+Domains are a fairly basic analysis of the web archive that highlight what domains are included and how often they appear. You can, for example, see how many .com addresses are in the collection or which domains are over or underrepresented.
 
 ## Text Analysis
 
