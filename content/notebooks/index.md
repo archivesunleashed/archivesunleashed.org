@@ -12,7 +12,7 @@ We are excited to introduce our Archives Unleashed Jupyter Notebooks, a prototyp
 
 We are currently exploring greater integration between the notebooks and the Archives Unleashed Cloud. 
 
-**To use them now, please visit the GitHub repository [here](https://github.com/archivesunleashed/auk-notebooks) and follow the instructions.** You can play with a live demo via Binder [here](https://mybinder.org/v2/gh/archivesunleashed/auk-notebooks/master?filepath=auk-notebook.ipynb).
+**To use them now, please visit the GitHub repository [here](https://github.com/archivesunleashed/auk-notebooks) and follow the instructions.** You can play with a live demo via Binder [here](https://mybinder.org/v2/gh/archivesunleashed/auk-notebooks/master).
 
 {{< note title="This is still in the prototype stage!" >}}
 Any and all feedback and suggestions are greatly appreciated and can be sent to [Samantha Fritz](sam.fritz@archivesunleashed.org), our project manager.
@@ -42,4 +42,4 @@ Archives Unleashed Cloud network derivatives already offer some solid visualisat
 
 ## Try It Yourself!
 
-As noted, you can currently try the notebooks via our [GitHub repository](https://github.com/archivesunleashed/auk-notebooks). You can also get a sneak peak by running it via [Binder](https://mybinder.org/v2/gh/archivesunleashed/auk-notebooks/master?filepath=auk-notebook.ipynb).
+As noted, you can currently try the notebooks via our [GitHub repository](https://github.com/archivesunleashed/auk-notebooks). You can also get a sneak peak by running it via [Binder](https://mybinder.org/v2/gh/archivesunleashed/auk-notebooks/master).
