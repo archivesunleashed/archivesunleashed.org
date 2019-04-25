@@ -18,6 +18,7 @@ The Archives Unleashed project has a body of published research. Check back for 
 
 ## Peer-Reviewed Conference Publications
 
+* Ryan Deschamps, Nick Ruest, Jimmy Lin, Samantha Fritz, and Ian Milligan. "The Archives Unleashed Notebook: Madlibs for Jumpstarting Scholarly Exploration of Web Archives." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). Forthcoming.
 * Ryan Deschamps, Samantha Fritz, Jimmy Lin, Ian Milligan, and Nick Ruest. "The Cost of a WARC: Analyzing Web Archives in the Cloud." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). Forthcoming.
 * Ian Milligan, Nathalie Casemajor, Samantha Fritz, Jimmy Lin, Nick Ruest, Matthew S. Weber, and Nicholas Worby. "Building Community and Tools for Analyzing Web Archives through Datathons." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). Forthcoming.
 * Ian Milligan, Nick Ruest, and Jimmy Lin. "Content Selection and Curation for Web Archiving: The Gatekeepers vs. the Masses." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 16 (2016): 107—110. [[link](https://dl.acm.org/citation.cfm?id=2910913)] [[preprint](http://hdl.handle.net/10315/31235)]
