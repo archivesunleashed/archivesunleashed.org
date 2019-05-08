@@ -53,6 +53,11 @@ googleAnalytics = "UA-2879197-28"
 	weight = 10
 
 [[menu.main]]
+	name   = "Getting Started"
+	url    = "getting-started/"
+	weight = 12
+
+[[menu.main]]
 	name   = "Archives Unleashed Toolkit"
 	url    = "aut/"
 	weight = 15
