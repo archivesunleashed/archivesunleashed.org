@@ -6,7 +6,6 @@
     <description>Recent content in Welcome to the Archives Unleashed Project on The Archives Unleashed Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>CC-BY</copyright>
     <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
     
 	<atom:link href="https://archivesunleashed.org/index.xml" rel="self" type="application/rss+xml" />
@@ -20,6 +19,16 @@
       <guid>https://archivesunleashed.org/about-project/</guid>
       <description>Archives Unleashed aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the Andrew W. Mellon Foundation, we are developing web archive search and data analysis tools to enable scholars, librarians and archivists to access, share, and investigate recent history since the early days of the World Wide Web.
 Growing out of a series of datathons held at the University of Toronto, Library of Congress, Internet Archive, and the British Library, our team recognized the need for better analytics tools, community infrastructure, and accessible web archival interfaces.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://archivesunleashed.org/getting-started/</link>
+      <pubDate>Fri, 03 May 2019 09:21:11 -0500</pubDate>
+      
+      <guid>https://archivesunleashed.org/getting-started/</guid>
+      <description>Overview The Archives Unleashed Project consists of four major tools: the Archives Unleashed Cloud, the Archives Unleashed Toolkit, the Archives Unleashed Jupyter Notebooks and Warclight.
+   Tool Skill What it Does What You Need Ideal For      Beginner The Archives Unleashed Cloud is a web-based platform for working with Archive-It collections. Drawing on your Archive-It credentials, you can sync your collections, run basic analyses, and generate a standardized set of research derivatives: full text, network diagrams, and basic statistics on your collection.</description>
     </item>
     
     <item>
