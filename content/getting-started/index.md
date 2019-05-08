@@ -4,8 +4,6 @@ date: 2019-05-03T09:21:11-05:00
 weight: 15
 ---
 
-Welcome to the Archives Unleashed Project. 
-
 <!---
 The introductory video will go here
 -->
