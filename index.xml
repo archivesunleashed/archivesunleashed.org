@@ -127,6 +127,17 @@ Journal Articles  Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warc
     </item>
     
     <item>
+      <title>Digging into WARCs - Hands-On with the Archives Unleashed Toolkit</title>
+      <link>https://archivesunleashed.org/aut/resaw/</link>
+      <pubDate>Mon, 27 May 2019 11:51:41 -0400</pubDate>
+      
+      <guid>https://archivesunleashed.org/aut/resaw/</guid>
+      <description>Workshop Description Welcome to &amp;ldquo;Digging into WARCs: Hands-On with the Archives Unleashed Toolkit.&amp;rdquo; The Archives Unleashed Toolkit, or AUT, is an open-source platform for managing and analyzing web archives built on Apache Spark.
+This is a hands-on introductory workshop with the Archives Unleashed Toolkit and Archives Unleashed Jupyter Notebooks. No existing technical knowledge is needed, and we will be aiming this at beginner and intermediate users alike.
+This workshop is being held on Tuesday, June 18th from 14:00-17:30 in room BG2 0.</description>
+    </item>
+    
+    <item>
       <title>Archives Unleashed Datathon Cheat Sheet</title>
       <link>https://archivesunleashed.org/aut/datathon/</link>
       <pubDate>Tue, 01 Jan 2019 11:51:41 -0400</pubDate>
