@@ -18,11 +18,11 @@ This workshop is being held on **Tuesday, June 18th** from **14:00-17:30** in **
 |  Time       | Content                                                              |
 |-------------|----------------------------------------------------------------------|
 | 1400 - 1410 | Introductions, Getting Settled                                       |
-| 1410 - 1430 | Introduction to the Archives Unleashed Toolkit (and related project) |
-| 1430 - 1530 | Hands-on with the Archives Unleashed Toolkit, Gephi, etc.            |
+| 1410 - 1430 | [Introduction to the Archives Unleashed Toolkit (and related project)](https://docs.google.com/presentation/d/1YXxNZblL7z6TcpwzX9kxbjg-1eG-K3HRfeyruOlrDg0/edit?usp=sharing) |
+| 1430 - 1530 | [Hands-on with the Archives Unleashed Toolkit, Gephi, etc.](https://archivesunleashed.org/aut/lesson/)            |
 | 1530 - 1600 | Coffee Break                                                         |
-| 1600 - 1630 | More Advanced Analytics (DataFrames, etc.)                           |
-| 1630 - 1715 | Digging into WARCs with Jupyter Notebooks                            |
+| 1600 - 1630 | More Advanced Analytics ([DataFrames](https://archivesunleashed.org/aut/#dataframes), etc.)                           |
+| 1630 - 1715 | [Digging into WARCs with Jupyter Notebooks](https://archivesunleashed.org/notebooks/)                            |
 | 1715 - 1730 | Wrap Up                                                              |
 
 ## Homework
