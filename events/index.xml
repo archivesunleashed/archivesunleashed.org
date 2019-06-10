@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on The Archives Unleashed Project</title>
+    <link>https://archivesunleashed.org/events/</link>
+    <description>Recent content in Events on The Archives Unleashed Project</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC-BY</copyright>
+    <lastBuildDate>Wed, 09 Mar 2016 20:10:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://archivesunleashed.org/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Events</title>
+      <link>https://archivesunleashed.org/events/</link>
+      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
+      
+      <guid>https://archivesunleashed.org/events/</guid>
+      <description>Upcoming Events The Archives Unleashed team will be hosting the final datathon in the spring of 2020. Will we post information here and through our channels as it becomes available. Feel free to explore past event pages to learn more about the datathon set up and checkout group projects.
+   Date Location     April 26-27, 2018 Toronto, ON   November 1-2, 2018 Vancouver, BC   March 21-22, 2019 Washington, DC   Spring 2020 United States West Coast    Past Datathons We have had the pleasure of hosting several datathons.</description>
+    </item>
+    
+  </channel>
+</rss>
