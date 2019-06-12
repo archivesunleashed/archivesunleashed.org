@@ -196,7 +196,7 @@ When you click on a third-party link, you will be directed to an site outside of
 Any updates to our Privacy Policy will be posted to this page. We will also let users know via email and/or a prominent notice, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy. Changes to this Privacy Policy are effective when they are posted on this page.
 
 ### Contact Us
-General questions or concerns about the Archives Unleashed Privacy Policy should be directed to our Project Manager, [Samantha Fritz](sam.fritz@archivesunleashed.org).
+General questions or concerns about the Archives Unleashed Privacy Policy should be directed to our Project Manager, <a href="mailto:sam.fritz@archivesunleashed.org">Samantha Fritz</a>.
 
 ### Acknowledgements
 We would like to acknowledge that this privacy policy is inspired from the work done by:
