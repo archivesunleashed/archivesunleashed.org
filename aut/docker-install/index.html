@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Warclight - The Archives Unleashed Project</title>
+    <title>Hands on With The Archives Unleashed Toolkit - The Archives Unleashed Project</title>
     <meta name="generator" content="Hugo 0.30.2" />
 
     
-    <link rel="canonical" href="https://archivesunleashed.org/warclight/">
+    <link rel="canonical" href="https://archivesunleashed.org/aut/docker-install/">
     
     <meta name="author" content="The Archives Unleashed Project">
     
 
-    <meta property="og:url" content="https://archivesunleashed.org/warclight/">
+    <meta property="og:url" content="https://archivesunleashed.org/aut/docker-install/">
     <meta property="og:title" content="The Archives Unleashed Project">
     <meta property="og:image" content="https://archivesunleashed.org/images/ArchivesUnleashedLogo.png">
     <meta name="apple-mobile-web-app-title" content="The Archives Unleashed Project">
@@ -92,7 +92,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Warclight
+        Hands on With The Archives Unleashed Toolkit
       </div>
     </div>
 
@@ -269,14 +269,11 @@
 
 
 
-<a class="current" title="Warclight" href="https://archivesunleashed.org/warclight/">
+<a  title="Warclight" href="https://archivesunleashed.org/warclight/">
 	
 	Warclight
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -397,34 +394,98 @@
 
   <article class="article">
     <div class="wrapper">
-      <h1>Warclight </h1>
+      <h1>Hands on With The Archives Unleashed Toolkit </h1>
 
-      <p><a href="https://github.com/archivesunleashed/warclight">Warclight</a> is a <a href="http://projectblacklight.org/">Project Blacklight</a> based <a href="http://guides.rubyonrails.org/engines.html">Rails engine</a> that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data that is indexed via the UK Web Archive&rsquo;s <a href="https://github.com/ukwa/webarchive-discovery">webarchive-discovery</a> project.</p>
+      
 
-<p><img src="https://archivesunleashed.org/images/warclight.png" alt="Warclight screenshot" /></p>
+<p>This quick guide will walk through how to install Docker for Mac users. Much of this is also applicable to Windows users, although the screenshots are from a Mac.</p>
 
-<p>You can visit our demo site <a href="http://warclight.archivesunleashed.org">here</a>, or check out the code on <a href="https://github.com/archivesunleashed/warclight">GitHub</a> along with <a href="https://github.com/archivesunleashed/warclight/wiki">documetation</a> to get you started on your own Warclight application.</p>
-
-<p>Want to know more?</p>
-
-<p>We have a few posts about Warclight at <a href="https://news.archivesunleashed.org">news.archivesunleashed.org</a>:</p>
+<h2 id="resources">Resources</h2>
 
 <ul>
-<li><a href="https://news.archivesunleashed.org/see-a-little-warclight-7b33059355f2">See a Little Warclight</a></li>
-<li><a href="https://news.archivesunleashed.org/warclight-and-walk-providing-a-framework-for-search-and-discovery-of-web-archives-47fbd469da2d">Warclight and WALK: Providing a Framework for Search and Discovery of Web Archives</a></li>
-<li><a href="https://news.archivesunleashed.org/thumbnails-in-warclight-e155a0910c35">Thumbnails in Warclight</a></li>
+<li><a href="https://store.docker.com/editions/community/docker-ce-desktop-mac">Docker Community Edition for Mac</a></li>
+<li><a href="https://store.docker.com/editions/community/docker-ce-desktop-windows">Docker Community Edition for Windows</a></li>
 </ul>
 
-<p>We also have Warclight instances setup for each of our <a href="https://uwaterloo.ca/web-archive-group/news/compute-canada-grant-web-archives-longitudinal-knowledge">WALK Partners</a>:</p>
+<h2 id="install-docker">Install Docker</h2>
 
-<ul>
-<li><a href="http://dalhousie.archivesunleashed.org/">Dalhousie University</a></li>
-<li><a href="http://sfu.archivesunleashed.org/">Simon Fraser University</a></li>
-<li><a href="http://ualberta.archivesunleashed.org">University of Alberta</a></li>
-<li><a href="http://utoronto.archivesunleashed.org/">University of Toronto</a></li>
-<li><a href="http://uvic.archivesunleashed.org/">University of Victoria</a></li>
-<li><a href="http://uwinnipeg.archivesunleashed.org/">University of Winnipeg</a></li>
-</ul>
+<p>To install Docker for a Mac OS, use this <a href="https://store.docker.com/editions/community/docker-ce-desktop-mac">link</a>. You can also use these instructions to install Docker on a Windows 10 Professional installation, by using <a href="https://store.docker.com/editions/community/docker-ce-desktop-windows">this link</a>.</p>
+
+<p>You&rsquo;ll need to create a free Docker ID to get started. It&rsquo;s a fairly quick signup process:</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-create-account.png" alt="Creating an account" /></p>
+
+<p>Once you have an account, log in to Docker and select the Docker Community for Mac (or Windows) program.</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-download2.png" alt="Download" /></p>
+
+<p>From the downloads folder, double click to start installation (.dmg file)</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-download3.png" alt="Download" /></p>
+
+<p>Once file has been verified you can drag and drop into your applications folder, then launch application.</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-install.png" alt="install" /></p>
+
+<p><i>Please note</i>, depending on your security preferences a notice may show up warning you, you are about to open an application from the web. Select open to continue.</p>
+
+<p>The Docker icon should appear in your menu bar along the top of your screen. When you click on the icon, there should be a green dot indicating docker is running</p>
+
+<p><img src="https://archivesunleashed.org/images/docker-running.png" alt="install-6" /></p>
+
+<p>Now that the Docker application is installed you can log in with your Docker ID that you created earlier.</p>
+
+<h2 id="run-docker-and-install-aut">Run Docker and Install AUT</h2>
+
+<p>Open your terminal and try out some Docker commands. On a Mac, you can find a terminal window by going to your Applications Folder, selecting &ldquo;Utilities,&rdquo; and then opening up &ldquo;Terminal.&rdquo;</p>
+
+<p>On Windows, you should open up a &ldquo;command-line terminal like PowerShell.&rdquo; You can find some instructions for that <a href="https://programminghistorian.org/en/lessons/intro-to-bash">here</a>.</p>
+
+<p>Try running the following two commands:</p>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th align="center">Purpose</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>docker version</code></td>
+<td align="center">to check that you have the latest release installed</td>
+</tr>
+
+<tr>
+<td><code>docker run hello-world</code></td>
+<td align="center">to verify that Docker is pulling images and running as expected</td>
+</tr>
+</tbody>
+</table>
+
+<p>Now you&rsquo;re ready to install AUT. Type the following command:</p>
+
+<pre><code>docker run --rm -it archivesunleashed/docker-aut:0.17.0
+</code></pre>
+
+<p>This will take a while to download and install. Eventually, you&rsquo;ll hopefully see:</p>
+
+<pre><code>Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /___/ .__/\_,_/_/ /_/\_\   version 2.3.2
+      /_/
+
+Using Scala version 2.11.8 (OpenJDK 64-Bit Server VM, Java 1.8.0_151)
+Type in expressions to have them evaluated.
+Type :help for more information.
+
+scala&gt;
+</code></pre>
+
+<p>You&rsquo;re now ready for the <a href="https://archivesunleashed.org/aut/lesson">workshop</a>.</p>
 
 
       <aside class="copyright" role="note">
@@ -443,7 +504,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   
-      <a href="https://archivesunleashed.org/notebooks/" title="Archives Unleashed Jupyter Notebooks">
+      <a href="https://archivesunleashed.org/aut/datathon/" title="Archives Unleashed Datathon Cheat Sheet">
         <span class="direction">
           Previous
         </span>
@@ -453,7 +514,7 @@
           </div>
           <div class="stretch">
             <div class="title">
-              Archives Unleashed Jupyter Notebooks
+              Archives Unleashed Datathon Cheat Sheet
             </div>
           </div>
         </div>
@@ -463,14 +524,14 @@
 
   <div class="next">
   
-      <a href="https://archivesunleashed.org/get-involved/" title="Get Involved">
+      <a href="https://archivesunleashed.org/aut/lesson/" title="Hands on With The Archives Unleashed Toolkit">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Get Involved
+              Hands on With The Archives Unleashed Toolkit
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
