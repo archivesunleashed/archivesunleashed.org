@@ -5,24 +5,16 @@ weight: 30
 ---
 ![Network diagram](/images/silhouettes.jpg)
 
-{{< note title="There are many ways you can participate in the Archives Unleashed Project!" >}}
-{{< /note >}}
+There are many ways you can participate in the Archives Unleashed Project. 
 
-There are many ways you can participate in the Archives Unleashed Project. You can always just send us an [e-mail too](mailto:archivesunleashed@gmail.com)!
-
-Please read our [Code of Conduct](/about-project#code-of-conduct).
-
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ![In-Person Events](/images/meeting.png)| We will be holding four datathons starting in April 2018! Please stay tuned for our Calls for Participation for our datathon [events](/events)                                                                                                                                                                                                                                                                                                                                                                        |
-| ![GitHub](/images/gears.png)             | If you would like to contribute code or help with the development of the Archives Unleashed [Cloud](/cloud) or [Toolkit](/aut). Visit our [GitHub organization and repositories](https://github.com/archivesunleashed), open issues, submit pull requests, or make any suggestion in our [Slack group](http://slack.archivesunleashed.org).                                                                                              |
-| ![Test](/images/beaker.png)              | We'd love to have individuals test out our toolkit. Let us know by [e-mail](mailto:sam.fritz@archivesunleashed.org) or in [Slack](http://slack.archivesunleashed.org). Or just hop in and see how it works (but let us know, we'd love to hear how it goes).                                                                                                                                                                                 |
-| ![Share](/images/share.png)              | Love web archives? Share our website, project, events, and beyond with colleagues.                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| ![Learn](/images/learn.png)             | Checkout our learning resources, including a new [YouTube Channel](https://www.youtube.com/channel/UC4Sq0Xi6UWhYK2VbmAzFhAw). The Archives Unleashed Cloud [Learning Guides](https://cloud.archivesunleashed.org/derivatives) walk through how to use derivative files. If you'd like more hands on with the Archives Unleashed Toolkit, examples scripts can be found in the [AUT](https://archivesunleashed.org/aut/) section of our website. |
-
-## Connect
-
-Join our <a href="http://slack.archivesunleashed.org/">Slack team</a> if you want to see how things are developing, to discuss suggestions or other parts of our project, or to just shoot the breeze about all things web archiving.</p>
+|   |   |
+|---|---|
+|![In-Person Events](/images/GI-Participate.png)|We will be holding four datathons starting in April 2018! Please stay tuned for our Calls for Participation for our datathon [events](/events).|
+|![GitHub](/images/GI-Contribute.png)|If you would like to contribute code or help with the development of the Archives Unleashed [Cloud](/cloud) or [Toolkit](/aut). Visit our [GitHub organization and repositories](https://github.com/archivesunleashed), open issues, submit pull requests, or make any suggestion in our [Slack group](http://slack.archivesunleashed.org).|
+|![Test](/images/GI-Test.png)|We'd love to have individuals test out our toolkit. Let us know by [e-mail](mailto:sam.fritz@archivesunleashed.org) or in [Slack](http://slack.archivesunleashed.org). Or just hop in and see how it works (but let us know, we'd love to hear how it goes).|
+|![Learn](/images/GI-Share.png)|Checkout our learning resources, including a new [YouTube Channel](https://www.youtube.com/channel/UC4Sq0Xi6UWhYK2VbmAzFhAw).<br>The Archives Unleashed Cloud [Learning Guides](https://cloud.archivesunleashed.org/derivatives) walk through how to use derivative files. If you'd like more hands on with the Archives Unleashed Toolkit, examples scripts can be found in the [AUT](https://archivesunleashed.org/aut/) section of our website.|
+|![Share](/images/GI-Learn.png)|Love web archives? Share our website, project, events, and beyond with colleagues.|
+|![Connect](/images/GI-Connect.png)|Connect with our team via:<br>Slack: [http://slack.archivesunleashed.org/](http://slack.archivesunleashed.org/)<br>Twitter: [@UnleashArchives](https://twitter.com/unleasharchives)<br>Email: [sam.fritz@archivesunleashed.org](mailto:sam.fritz@archivesunleashed.org)|
 
 ## Newsletter Subscription
 
