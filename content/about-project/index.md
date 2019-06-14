@@ -27,10 +27,10 @@ The three-year Archives Unleashed project has three major thrusts:
 
 The Archives Unleashed Team would like to recognize former collaborators for their contributions to the project: 
 
-* Ryan Deschamps
-* Sarah McTavish
-* Rebecca
-* Jeremy Wiebe
+* Ryan Deschamps (2017-2019)
+* Sarah McTavish (2018-2019)
+* Jeremy Wiebe (2018-2019)
+* Rebecca MacAlpine (2019)
 
 
 ## Advisory Board
