@@ -15,7 +15,7 @@ We are currently exploring greater integration between the notebooks and the Arc
 **To use them now, please visit the GitHub repository [here](https://github.com/archivesunleashed/auk-notebooks) and follow the instructions.** You can play with a live demo via Binder [here](https://mybinder.org/v2/gh/archivesunleashed/auk-notebooks/master).
 
 {{< note title="This is still in the prototype stage!" >}}
-Any and all feedback and suggestions are greatly appreciated and can be sent to [Samantha Fritz](sam.fritz@archivesunleashed.org), our project manager.
+Any and all feedback and suggestions are greatly appreciated and can be sent to <a href="mailto:sam.fritz@archivesunleashed.org">Samantha Fritz</a>, our project manager.
 {{< /note >}}
 
 You can read more about the thinking behind these Notebooks in our Medium post, "[Exploring Web Archival Data through Archives Unleashed Cloud Jupyter Notebooks](https://news.archivesunleashed.org/exploring-web-archival-data-through-archives-unleashed-cloud-jupyter-notebooks-7605c6ca2b33)."

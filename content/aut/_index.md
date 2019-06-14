@@ -11,13 +11,17 @@ weight: 20
 
 The Archives Unleashed Toolkit is an open-source platform for managing web archives built on [Hadoop](https://hadoop.apache.org/). The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via [Spark](http://spark.apache.org/).
 
+Most of this documentation is built on [resilient distributed datasets (RDD)](https://spark.apache.org/docs/latest/rdd-programming-guide.html). We are working on adding support for [DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes). You can read more about this in our experimental [DataFrames section](#dataframes).
+
 ## Getting Started
 
 ### Quick Start
 
 If you don't want to install all the dependencies locally, you can use [`docker-aut`](https://github.com/archivesunleashed/docker-aut). You can run the bleeding edge version of `aut` with `docker run --rm -it archivesunleashed/docker-aut` or a specific version of `aut`, such as 0.17.0 with `docker run --rm -it archivesunleashed/docker-aut:0.17.0`. More information on using `docker-aut`, such as mounting your own data, can be found [here](https://github.com/archivesunleashed/docker-aut#use).
 
-We have a walkthrough for using AUT on sample data with docker [here](/aut/lesson).
+{{< note title="Want a quick walkthrough?" >}}
+We have a walkthrough for using AUT on sample data with Docker [here](/aut/lesson).
+{{< /note >}}
 
 ### Dependencies
 
@@ -52,12 +56,12 @@ curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test
 
 ### Installing and Running Spark shell
 
-Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
+Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
 ```bash
-curl -L "https://archive.apache.org/dist/spark/spark-2.1.1/spark-2.1.1-bin-hadoop2.7.tgz" > spark-2.1.1-bin-hadoop2.7.tgz
-tar -xvf spark-2.1.1-bin-hadoop2.7.tgz
-./spark-2.1.1-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.17.0"
+curl -L "https://archive.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz" > spark-2.3.2-bin-hadoop2.7.tgz
+tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
+./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 You should have the spark shell ready and running.
@@ -67,7 +71,7 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 2.1.1
+   /___/ .__/\_,_/_/ /_/\_\   version 2.3.2
       /_/
 
 Using Scala version 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_151)
@@ -132,7 +136,7 @@ You can do so like this (example is using 12 threads on a 16-core machine):
 If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
 
 ```
-./spark-2.3.2-bin-hadoop2.6/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.17.0"
+./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 ## Collection Analytics
@@ -194,6 +198,7 @@ import io.archivesunleashed.matchbox._
 val r = RecordLoader.loadArchives("example.arc.gz", sc)
  .keepValidPages()
  .flatMap(r => """http://[^/]+/[^/]+/""".r.findAllIn(r.getUrl).toList)
+ .take(10)
 ```
 
 In the above example, `"""...."""` declares that we are working with a regular expression, `.r` says turn it into a regular expression, `.findAllIn` says look for all matches in the URL. This will only return the first but that is generally good for our use cases. Finally, `.toList` turns it into a list so you can `flatMap`.
@@ -235,17 +240,19 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 
 ### Plain text by URL pattern
 
-The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through the collection and find all of the URLs beginning with `http://geocities.com/EnchantedForest/`. The `(?i)` makes this query case insensitive.
+The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a regular expression pattern. In the example case, it will go through a WARC file and find all of the URLs beginning with `http://archive.org/details/`, and save the text of those URLs.
+
+The `(?i)` makes this query case insensitive.
 
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
+RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepUrlPatterns(Set("(?i)http://geocities.com/EnchantedForest/.*".r))
+  .keepUrlPatterns(Set("(?i)http://www.archive.org/details/.*".r))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-  .saveAsTextFile("EnchantedForest/")
+  .saveAsTextFile("details/")
 ```
 
 ### Plain text minus boilerplate
@@ -258,7 +265,7 @@ import io.archivesunleashed.matchbox._
 
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepDomains(Set("archive.org"))
+  .keepDomains(Set("www.archive.org"))
   .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(r.getContentString)))
   .saveAsTextFile("plain-text-no-boilerplate/")
 ```
@@ -336,7 +343,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 
 The following Spark script keeps only pages containing a certain keyword, which also stacks on the other scripts.
 
-For example, the following script takes all pages containing the keyword "archive" in a collection.
+For example, the following script takes all pages containing the keyword "radio" in a collection.
 
 ```scala
 import io.archivesunleashed._
@@ -344,20 +351,41 @@ import io.archivesunleashed.matchbox._
 
 val r = RecordLoader.loadArchives("example.arc.gz",sc)
 .keepValidPages()
-.keepContent(Set("archive".r))
+.keepContent(Set("radio".r))
 .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
-.saveAsTextFile("plain-text-archive/")
+.saveAsTextFile("plain-text-radio/")
 ```
 
 There is also `discardContent` which does the opposite, if you have a frequent keyword you are not interested in.
 
+## Raw HTML Extraction
+
+In most cases, users will be interested in working with plain text. In some cases, however, you may want to work with the acutal HTML of the pages themselves (for example, looking for specific tags or HTML content).
+
+The following script will produce the raw HTML of a WARC file. You can use the filters from above to filter it down accordingly by domain, language, etc.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+RecordLoader.loadArchives("example.arc.gz", sc)
+  .keepValidPages()
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, r.getContentString))
+  .saveAsTextFile("plain-html/")
+```
+
 ## Named Entity Recognition
+
+{{< warning title="NER is Extremely Resource Intensive and Time Consuming" >}}
+Named Entity Recognition is extremely resource intensive, and will take a very long time. Our recommendation is to begin testing NER on one or two WARC files, before trying it on a larger body of information. Depending on the speed of your system, it can take a day or two to process information that you are used to working with in under an hour.
+{{< /note >}}
+
 
 The following Spark scripts use the [Stanford Named Entity Recognizer](http://nlp.stanford.edu/software/CRF-NER.shtml) to extract names of entities – persons, organizations, and locations – from collections of ARC/WARC files or extracted texts. You can find a version of Stanford NER in [our aut-Resources repo located here](https://github.com/archivesunleashed/aut-resources).
 
 The scripts require a NER classifier model. There is one provided in the Stanford NER package (in the `classifiers` folder) called `english.all.3class.distsim.crf.ser.gz`, but you can also use your own.
 
-## Extract entities from ARC/WARC files
+### Extract entities from ARC/WARC files
 
 ```scala
 import io.archivesunleashed._
@@ -470,23 +498,23 @@ Before `.countItems()` to find just the documents that are linked to more than f
 
 ### Extraction of a Site Link Structure, organized by URL pattern
 
-In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://geocities.com/EnchantedForest/.*`. We do so by using the `keepUrlPatterns` command.
+In this following example, we run the same script but only extract links coming from URLs matching the pattern `http://www.archive.org/details/*`. We do so by using the `keepUrlPatterns` command.
 
 ```scala
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 import io.archivesunleashed.util._
 
-val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
+val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepUrlPatterns(Set("http://geocities.com/EnchantedForest/.*".r))
+  .keepUrlPatterns(Set("(?i)http://www.archive.org/details/.*".r))
   .flatMap(r => ExtractLinks(r.getUrl, r.getContentString))
   .map(r => (ExtractDomain(r._1).removePrefixWWW(), ExtractDomain(r._2).removePrefixWWW()))
   .filter(r => r._1 != "" && r._2 != "")
   .countItems()
   .filter(r => r._2 > 5)
 
-links.saveAsTextFile("geocities-links-all/")
+links.saveAsTextFile("details-links-all/")
 ```
 
 ### Grouping by Crawl Date
@@ -574,15 +602,15 @@ In this case, you would only receive links coming from websites in matching the 
 import io.archivesunleashed._
 import io.archivesunleashed.matchbox._
 
-val links = RecordLoader.loadArchives("/path/to/many/warcs/*.gz", sc)
+val links = RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
-  .keepUrlPatterns(Set("http://liberal.ca/Canada/.*".r))
+  .keepUrlPatterns(Set("http://www.archive.org/details/.*".r))
   .map(r => (r.getCrawlDate, ExtractLinks(r.getUrl, r.getContentString)))
   .flatMap(r => r._2.map(f => (r._1, ExtractDomain(f._1).replaceAll("^\\s*www\\.", ""), ExtractDomain(f._2).replaceAll("^\\s*www\\.", ""))))
   .filter(r => r._2 != "" && r._3 != "")
   .countItems()
   .filter(r => r._2 > 5)
-  .saveAsTextFile("sitelinks-liberal/")
+  .saveAsTextFile("sitelinks-details/")
 ```
 
 ### Exporting to Gephi Directly
@@ -809,4 +837,178 @@ implicit lazy val formats = org.json4s.DefaultFormats
 
 // Extract created_at
 (json \ "created_at").extract[String]
+```
+
+## DataFrames
+
+{{< warning title="Troubleshooting Tips" >}}
+This section is experimental and under development! If things don't work, or you have ideas for us, [let us know](https://github.com/archivesunleashed/aut/issues/190)!
+{{< /note >}}
+
+There are two main ways to use the Archives Unleashed Toolkit. The above instructions used [resilient distributed datasets (RDD)](https://spark.apache.org/docs/latest/rdd-programming-guide.html).
+
+We are currently developing support for [DataFrames](spark dataframes tutorial). This is still under active development, so syntax may change. We have an [open thread](https://github.com/archivesunleashed/aut/issues/190) in our GitHub repository if you would like to add any suggestions, thoughts, or requests for this functionality.
+
+You will note that right now we do not support everything in DataFrames: we do not support plain text extraction, named entity recognition, or Twitter analysis.
+
+Here we provide some documentation on how to use DataFrames in AUT.
+
+### List of Domains
+
+As with the RDD implementation, the first stop is often to work with the frequency of domains appearing within a web archive. You can see the schema that you can use when working with domains by running the following script:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractValidPagesDF()
+
+df.printSchema()
+```
+
+The below script will show you the top domains within the collection.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractValidPagesDF()
+
+df.select(ExtractBaseDomain($"Url").as("Domain"))
+  .groupBy("Domain").count().orderBy(desc("count")).show()
+```
+
+Results will look like:
+
+```
++------------------+-----+
+|            Domain|count|
++------------------+-----+
+|   www.archive.org|  132|
+|     deadlists.com|    2|
+|www.hideout.com.br|    1|
++------------------+-----+
+```
+
+### Hyperlink Network
+
+You may want to work with DataFrames to extract hyperlink networks. You can see the schema with the following commands:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractHyperlinksDF()
+
+df.printSchema()
+```
+
+The below script will give you the source and destination for hyperlinks found within the archive.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc)
+  .extractHyperlinksDF()
+
+df.select(RemovePrefixWWW(ExtractBaseDomain($"Src")).as("SrcDomain"),
+    RemovePrefixWWW(ExtractBaseDomain($"Dest")).as("DestDomain"))
+  .groupBy("SrcDomain", "DestDomain").count().orderBy(desc("SrcDomain")).show()
+```
+
+Results will look like:
+
+```
++-------------+--------------------+-----+
+|    SrcDomain|          DestDomain|count|
++-------------+--------------------+-----+
+|deadlists.com|       deadlists.com|    2|
+|deadlists.com|           psilo.com|    2|
+|deadlists.com|                    |    2|
+|deadlists.com|         archive.org|    2|
+|  archive.org|        cyberduck.ch|    1|
+|  archive.org|        balnaves.com|    1|
+|  archive.org|         avgeeks.com|    1|
+|  archive.org|          cygwin.com|    1|
+|  archive.org|      onthemedia.org|    1|
+|  archive.org|ia311502.us.archi...|    2|
+|  archive.org|dvdauthor.sourcef...|    1|
+|  archive.org|              nw.com|    1|
+|  archive.org|             gnu.org|    1|
+|  archive.org|          hornig.net|    2|
+|  archive.org|    webreference.com|    1|
+|  archive.org|    bookmarklets.com|    2|
+|  archive.org|ia340929.us.archi...|    2|
+|  archive.org|            mids.org|    1|
+|  archive.org|       gutenberg.org|    1|
+|  archive.org|ia360602.us.archi...|    2|
++-------------+--------------------+-----+
+only showing top 20 rows
+```
+
+### Image Analysis
+
+You can also use DataFrames to analyze images. You can see the schema for images by running the following command:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
+df.printSchema()
+```
+
+The following script will extract all the images, give you their dimensions, as well as unique hashes.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+
+val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
+df.select($"url", $"mime_type", $"width", $"height", $"md5", $"bytes").orderBy(desc("md5")).show()
+```
+
+The results will look like this:
+
+```
++--------------------+----------+-----+------+--------------------+--------------------+
+|                 url| mime_type|width|height|                 md5|               bytes|
++--------------------+----------+-----+------+--------------------+--------------------+
+|http://www.archiv...| image/gif|   21|    21|ff05f9b408519079c...|R0lGODlhFQAVAKUpA...|
+|http://www.archiv...|image/jpeg|  275|   300|fbf1aec668101b960...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...|image/jpeg|  300|   225|f611b554b9a44757d...|/9j/4RpBRXhpZgAAT...|
+|http://tsunami.ar...|image/jpeg|  384|   229|f02005e29ffb485ca...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...| image/gif|  301|    47|eecc909992272ce0d...|R0lGODlhLQEvAPcAA...|
+|http://www.archiv...| image/gif|  140|    37|e7166743861126e51...|R0lGODlhjAAlANUwA...|
+|http://www.archiv...| image/png|   14|    12|e1e101f116d9f8251...|iVBORw0KGgoAAAANS...|
+|http://www.archiv...|image/jpeg|  300|   116|e1da27028b81db60e...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...|image/jpeg|   84|    72|d39cce8b2f3aaa783...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...| image/gif|   13|    11|c7ee6d7c17045495e...|R0lGODlhDQALALMAA...|
+|http://www.archiv...| image/png|   20|    15|c1905fb5f16232525...|iVBORw0KGgoAAAANS...|
+|http://www.archiv...| image/gif|   35|    35|c15ec074d95fe7e1e...|R0lGODlhIwAjANUAA...|
+|http://www.archiv...| image/png|  320|   240|b148d9544a1a65ae4...|iVBORw0KGgoAAAANS...|
+|http://www.archiv...| image/gif|    8|    11|a820ac93e2a000c9d...|R0lGODlhCAALAJECA...|
+|http://www.archiv...| image/gif|  385|    30|9f70e6cc21ac55878...|R0lGODlhgQEeALMPA...|
+|http://www.archiv...|image/jpeg|  140|   171|9ed163df5065418db...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...|image/jpeg| 1800|    89|9e41e4d6bdd53cd9d...|/9j/4AAQSkZJRgABA...|
+|http://www.archiv...| image/gif|  304|    36|9da73cf504be0eb70...|R0lGODlhMAEkAOYAA...|
+|http://www.archiv...|image/jpeg|  215|    71|97ebd3441323f9b5d...|/9j/4AAQSkZJRgABA...|
+|http://i.creative...| image/png|   88|    31|9772d34b683f8af83...|iVBORw0KGgoAAAANS...|
++--------------------+----------+-----+------+--------------------+--------------------+
+only showing top 20 rows
+```
+
+You may want to save the images to work with them on your own file system. The following command will save the images from an ARC or WARC. Note that the trailing `/` is important for the `saveToDisk` command below. Without it, files will be saved with the prefix provided after the last `/` in the string.
+
+For example, below, this would generate files such as `prefix-c7ee6d7c17045495e.jpg` and `prefix-a820ac93e2a000c9d.gif` in the `/path/to/export/directory/` directory.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.df._
+val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
+val res = df.select($"bytes").orderBy(desc("bytes")).saveToDisk("bytes", "/path/to/export/directory/prefix")
 ```
