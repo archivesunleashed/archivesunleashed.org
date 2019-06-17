@@ -27,10 +27,14 @@ The three-year Archives Unleashed project has three major thrusts:
 
 The Archives Unleashed Team would like to recognize former collaborators for their contributions to the project: 
 
-* Ryan Deschamps (2017-2019)
-* Sarah McTavish (2018-2019)
-* Jeremy Wiebe (2018-2019)
-* Rebecca MacAlpine (2019)
+* Rebecca MacAlpine, Department of History, University of Waterloo (2019-Present)
+* Sarah McTavish, Department of History, University of Waterloo (2018-Present)
+* Hsiu-Wei Yang, David R. Cheriton School of Computer Science, University of Waterloo (2018-2019)
+* Linqing Liu, David R. Cheriton School of Computer Science, University of Waterloo (2018-2019)
+* Borui Lin, David R. Cheriton School of Computer Science, University of Waterloo (2018)
+* Jeremy Wiebe, Department of History, University of Waterloo (2018-2019)
+
+Finally, we would like to recognize our former postdoctoral fellow Ryan Deschamps (2017-2019) who provided invaluable support to this project, especially in the development of [GraphPass](https://github.com/archivesunleashed/graphpass).
 
 
 ## Advisory Board
@@ -170,7 +174,7 @@ We may also collect information how our services are accessed and used. In some 
 | [Archives Unleashed Cloud](https://cloud.archivesunleashed.org/)   |  * Apache Spark logs showing timestamps to produce derivative files<br>* The name and size of your Archive-It collections</br>* Username and institution |
 | [Archives Unleashed Toolkit](https://archivesunleashed.org/) | Not Applicable |
 | [Newsletter](https://archivesunleashed.org/get-involved/#newsletter-subscription) |  General stats that help us understand how people are interacting with our newsletters:</br>* Number of subscribers</br>* Number of opt-outs</br>* Audience growth</br>* Open/click rates</br>* Campaign performance</br>* Email clients used</br>* Locations (general not specific) |
-| [Slack](http://slack.archivesunleashed.org/) |  Stats report provided to Slack administrators to understand:</br>* Total number of users</br>* When users become inactive |
+| [Slack](http://slack.archivesunleashed.org/) |  Statistical reports are provided to Slack administrators to understand:</br>* Total number of users</br>* When users become inactive |
 | [GitHub](https://github.com/archivesunleashed/) | Our public repositories provide insights into the repositories maintained by the Archives Unleashed Project to understand the work being done and who our contributors are. |
 
 *Tracking & Cookies Data*
