@@ -25,6 +25,10 @@ This workshop is being held on **Tuesday, June 18th** from **14:00-17:30** in **
 | 1630 - 1715 | [Digging into WARCs with Jupyter Notebooks](https://archivesunleashed.org/notebooks/)                            |
 | 1715 - 1730 | Wrap Up                                                              |
 
+## Jupyter Notebooks
+
+You can run the Jupyter Notebooks in your browser at <https://mybinder.org/v2/gh/archivesunleashed/auk-notebooks/master>. Have fun!
+
 ## Homework
 
 What should you bring? If you want to dig into WARCs yourself, you'll need a laptop. If not, we will be working through exercises collectively, so you are more than welcome to participate in that manner too. 
