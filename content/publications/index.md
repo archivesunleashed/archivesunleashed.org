@@ -19,7 +19,6 @@ The Archives Unleashed project has a body of published research. Check back for 
 ## Peer-Reviewed Conference Publications
 
 * Ryan Deschamps, Samantha Fritz, Jimmy Lin, Ian Milligan, and Nick Ruest. "The Cost of a WARC : Analyzing Web Archives in the Cloud." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36158)]
-
 * Ian Milligan, Nathalie Casemajor, Samantha Fritz, Jimmy Lin, Nick Ruest, Matthew S. Weber, and Nicholas Worby. "Building Community and Tools for Analyzing Web Archives through Datathons." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36180)]
 * Ian Milligan, Nick Ruest, and Jimmy Lin. "Content Selection and Curation for Web Archiving : The Gatekeepers vs. the Masses." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 16 (2016): 107—110. [[link](https://dl.acm.org/citation.cfm?id=2910913)] [[preprint](http://hdl.handle.net/10315/31235)]
 * Andrew Jackson, Jimmy Lin, Ian Milligan, and Nick Ruest. "Desiderata for Exploratory Search Interfaces to Web Archives in Support of Scholarly Activities." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 16 (2016): 103—106. [[link](https://dl.acm.org/citation.cfm?id=2910912)] [[preprint](http://hdl.handle.net/10315/31236)]
@@ -32,9 +31,9 @@ The Archives Unleashed project has a body of published research. Check back for 
 * Nick Ruest, Ian Milligan, and Jimmy Lin. "Warclight: A Rails Engine for Web Archive Discovery." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36159)]
 
 ## Conference Presentations
-
-* Nick Ruest and Ian Milligan. "See a Little Warclight : Building an Open-Source Web Archive Portal with Project Blacklight." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia.
-* Nick Ruest and Ian Milligan. "Project Sustainability and Research Platforms : The Archives Unleashed Cloud Project." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia.
+* Nick Ruest and Ian Milligan. "Lowering the Barrier to Access: The Archives Unleashed Cloud Project." _The Web That Was: Archives, Traces, Reflections_, June 2019, Amsterdam, Netherlands. [[slides](http://hdl.handle.net/10315/36237)]
+* Nick Ruest and Ian Milligan. "See a Little Warclight : Building an Open-Source Web Archive Portal with Project Blacklight." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[slides](http://hdl.handle.net/10315/36232)]
+* Nick Ruest and Ian Milligan. "Project Sustainability and Research Platforms : The Archives Unleashed Cloud Project." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[slides](http://hdl.handle.net/10315/36233)]
 * Nick Ruest, "Oh, I Get by with a Little Help from my Friends : Interdisciplinary Web Archive Collaboration." _The Fields Institute Workshop on Quantitative Analysis and the Digital Turn in Historical Studies_, February 2019, Toronto, Ontario, Canada.
 * Ian Milligan, "Opening up WARCs: The Archives Unleashed Toolkit and Cloud Projects." _International Internet Preservation Consortium Annual Meeting_, November 2018, Wellington, New Zealand.
 * Nick Ruest, "Make it WALK." _Archives Association of Ontario 2018_, May 2018, Waterloo, Ontario, Canada.
