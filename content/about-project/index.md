@@ -224,8 +224,3 @@ We would like to acknowledge that this privacy policy is inspired from the work 
 * Wikimedia, [Privacy Policy](https://foundation.wikimedia.org/wiki/Privacy_policy).
 
 _Many thanks to Ian Milligan, Nick Ruest and Samantha Fritz for their contributions in developing this privacy policy._
-
-
-<!---
-
-| ![Deschamps](/images/Deschamps.jpg)**Postdoctoral Fellow**| **[Ryan Deschamps](https://uwaterloo.ca/web-archive-group/people-profiles/ryan-deschamps)** is a postdoctoral fellow in the University of Waterloo's Department of History, working under Milligan. He completed his dissertation at the Johnson Shoyama Graduate School of Public Policy (University of Regina) studying the role of social media on policy agendas. His post-doctoral research focuses on the influence of digital information on the interpretation of Canadian historical events. Ryan's position is funded by the Social Sciences and Humanities Research Council and the David R. Cheriton Chair at the David R. Cheriton School of Computer Science.   
