@@ -9,7 +9,7 @@ weight: 20
 ![Internet Archive server rack](/images/server.jpg)
 *Internet Archive servers in San Francisco, photo by Ian Milligan.*
 
-The Archives Unleashed Toolkit is an open-source platform for managing web archives built on [Hadoop](https://hadoop.apache.org/). The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via [Spark](http://spark.apache.org/).
+The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on [Hadoop](https://hadoop.apache.org/). Tight integration with Hadoop provides powerful tools for analytics and data processing via [Spark](http://spark.apache.org/).
 
 Most of this documentation is built on [resilient distributed datasets (RDD)](https://spark.apache.org/docs/latest/rdd-programming-guide.html). We are working on adding support for [DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes). You can read more about this in our experimental [DataFrames section](#dataframes).
 
@@ -56,12 +56,12 @@ curl -L "https://raw.githubusercontent.com/archivesunleashed/aut/master/src/test
 
 ### Installing and Running Spark shell
 
-Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
+Remaining in the aut directory you created above, download and unzip [Spark](https://archive.apache.org/dist/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz) from the [Apache Spark Website](http://spark.apache.org/downloads.html).
 
 ```bash
-curl -L "https://archive.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz" > spark-2.3.2-bin-hadoop2.7.tgz
-tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
-./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.17.0"
+curl -L "https://archive.apache.org/dist/spark/spark-2.4.3/spark-2.4.3-bin-hadoop2.7.tgz" > spark-2.4.3-bin-hadoop2.7.tgz
+tar -xvf spark-2.4.3-bin-hadoop2.7.tgz
+./spark-2.4.3-bin-hadoop2.7/bin/spark-shell --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 You should have the spark shell ready and running.
@@ -71,10 +71,10 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 2.3.2
+   /___/ .__/\_,_/_/ /_/\_\   version 2.4.3
       /_/
 
-Using Scala version 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_151)
+Using Scala version 2.11.12 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_74)
 Type in expressions to have them evaluated.
 Type :help for more information.
 
@@ -118,7 +118,7 @@ As your datasets grow, you may need to provide more memory to Spark shell. You'l
 If you're running locally, you can pass it in your startup command like this:
 
 ```
-./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.17.0"
+./spark-2.4.3-bin-hadoop2.7/bin/spark-shell --driver-memory 4G --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 In the above case, you give Spark 4GB of memory to execute the program.
@@ -130,13 +130,13 @@ On a 16-core machine, you may want to drop to 12 cores if you are having memory 
 You can do so like this (example is using 12 threads on a 16-core machine):
 
 ```
-./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.17.0"
+./spark-2.4.3-bin-hadoop2.7/bin/spark-shell --master local[12] --driver-memory 4G --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 If you continue to have errors, you may also want to increase the network timeout value. Once in a while, AUT might get stuck on an odd record and take longer than normal to process it. The `--conf spark.network.timeout=10000000` will ensure that AUT continues to work on material, although it may take a while to process. This command then works:
 
 ```
-./spark-2.3.2-bin-hadoop2.7/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.17.0"
+./spark-2.4.3-bin-hadoop2.7/bin/spark-shell --master local[12] --driver-memory 90G --conf spark.network.timeout=10000000 --packages "io.archivesunleashed:aut:0.17.0"
 ```
 
 ## Collection Analytics
