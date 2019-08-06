@@ -18,8 +18,8 @@
       
       <guid>https://archivesunleashed.org/aut/</guid>
       <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
-The Archives Unleashed Toolkit is an open-source platform for managing web archives built on Hadoop. The platform provides a flexible data model for storing and managing raw content as well as metadata and extracted knowledge. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
-Most of this documentation is built on resilient distributed datasets (RDD).</description>
+The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on Hadoop. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
+Most of this documentation is built on resilient distributed datasets (RDD). We are working on adding support for DataFrames. You can read more about this in our experimental DataFrames section.</description>
     </item>
     
     <item>
