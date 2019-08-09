@@ -901,3 +901,25 @@ import io.archivesunleashed.matchbox._
 val df = RecordLoader.loadArchives("example.arc.gz", sc).extractImageDetailsDF();
 val res = df.select($"bytes").orderBy(desc("bytes")).saveToDisk("bytes", "/path/to/export/directory/")
 ```
+
+## Loading Data from Amazon S3
+
+We also support loading data stored in [Amazon S3](https://aws.amazon.com/s3/). This advanced functionality requires that you provide spark shell with your AWS Access Key and AWS Secret Key, which you will get when creating your AWS credentials ([read more here](https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/)).
+
+This script, for example, will find the top ten domains from a set of WARCs found in an s3 bucket.
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+sc.hadoopConfiguration.set("fs.s3a.access.key", "<my-access-key>")
+sc.hadoopConfiguration.set("fs.s3a.secret.key", "<my-secret-key>")
+
+val r = RecordLoader.loadArchives("s3a://<my-bucket>/*.gz", sc)
+.keepValidPages()
+.map(r => ExtractDomain(r.getUrl))
+.countItems()
+.take(10)
+```
+
+You can modify any of the scripts in this documentation accordingly.
