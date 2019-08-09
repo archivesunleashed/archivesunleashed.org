@@ -247,7 +247,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 
 ### All plain text
 
-This script extracts the crawl date, domain, URL, and plain text from HTML files in the sample ARC data (and saves the output to out/).
+This script extracts the crawl date, domain, URL, and plain text from HTML files in the sample ARC data (and saves the output to out/). By default, HTTP headers are included in the plain text that is extracted.
 
 ```scala
 import io.archivesunleashed._
@@ -263,6 +263,22 @@ If you wanted to use it on your own collection, you would change "src/test/resou
 
 Note that this will create a new directory to store the output, which cannot already exist.
 
+### Plain text without HTTP headers
+
+If you want to remove HTTP headers, you can add one more command: `RemoveHttpHeader`. The script would then look like:
+
+```scala
+import io.archivesunleashed._
+import io.archivesunleashed.matchbox._
+
+RecordLoader.loadArchives("example.arc.gz", sc)
+  .keepValidPages()
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
+  .saveAsTextFile("plain-text-noheaders/")
+```
+
+As most plain text use cases do not require HTTP headers to be in the output, we are removing headers in the following examples.
+
 ### Plain text by domain
 
 The following Spark script generates plain text renderings for all the web pages in a collection with a URL matching a filter string. In the example case, it will go through the collection and find all of the URLs within the "archive.org" domain.
@@ -274,7 +290,7 @@ import io.archivesunleashed.matchbox._
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDomains(Set("www.archive.org"))
-  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
   .saveAsTextFile("plain-text-domain/")
 ```
 
@@ -291,7 +307,7 @@ import io.archivesunleashed.matchbox._
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepUrlPatterns(Set("(?i)http://www.archive.org/details/.*".r))
-  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
   .saveAsTextFile("details/")
 ```
 
@@ -306,7 +322,7 @@ import io.archivesunleashed.matchbox._
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDomains(Set("www.archive.org"))
-  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(r.getContentString)))
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, ExtractBoilerpipeText(RemoveHttpHeader(r.getContentString))))
   .saveAsTextFile("plain-text-no-boilerplate/")
 ```
 
@@ -325,7 +341,7 @@ import io.archivesunleashed.matchbox._
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDate(List("200804"), ExtractDate.DateComponent.YYYYMM)
-  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
   .saveAsTextFile("plain-text-date-filtered-200804/")
 ```
 
@@ -338,7 +354,7 @@ import io.archivesunleashed.matchbox._
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDate(List("2008"), ExtractDate.DateComponent.YYYY)
-  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
   .saveAsTextFile("plain-text-date-filtered-2008/")
 ```
 
@@ -351,7 +367,7 @@ import io.archivesunleashed.matchbox._
 RecordLoader.loadArchives("example.arc.gz", sc)
   .keepValidPages()
   .keepDate(List("2008","2015"), ExtractDate.DateComponent.YYYY)
-  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+  .map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
   .saveAsTextFile("plain-text-date-filtered-2008-2015/")
 ```
 
@@ -375,7 +391,7 @@ RecordLoader.loadArchives("example.arc.gz", sc)
 .keepValidPages()
 .keepDomains(Set("www.archive.org"))
 .keepLanguages(Set("fr"))
-.map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+.map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
 .saveAsTextFile("plain-text-fr/")
 ```
 
@@ -392,7 +408,7 @@ import io.archivesunleashed.matchbox._
 val r = RecordLoader.loadArchives("example.arc.gz",sc)
 .keepValidPages()
 .keepContent(Set("radio".r))
-.map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(r.getContentString)))
+.map(r => (r.getCrawlDate, r.getDomain, r.getUrl, RemoveHTML(RemoveHttpHeader(r.getContentString))))
 .saveAsTextFile("plain-text-radio/")
 ```
 
