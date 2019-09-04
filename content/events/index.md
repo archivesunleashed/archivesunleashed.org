@@ -30,7 +30,7 @@ As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have h
 * **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2018.
 * **[Archives Unleashed Vancouver](/vancouver)**, Simon Fraser University, November 2018.
 * **[Archives Unleashed Washington](/washington)**, George Washington University, March 2019.
-* **[Archives Unleashed New York](/)**, Columbia University, March 2020.
+* **[Archives Unleashed New York](/new-york)**, Columbia University, March 2020.
 
 ## About our Datathons
 
