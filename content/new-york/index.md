@@ -1,5 +1,5 @@
 ---
-title: newyork
+title: New York Datathon
 date: 2017-12-05T15:20:57-05:00
 weight: 45
 aliases:
@@ -30,10 +30,9 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 * Samantha Fritz (University of Waterloo)
 
 ## Sponsors
-|                                              |                                            |                                                     |
-|----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
-| ![alt text](/images/mellon-logo-600x300.png) | Columbia University | ![alt text](/images/waterloo-arts-logo-600x200.png) |
-| ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
+
+![Sponsor Logos](/images/ny-sponsors.png)
+
 
 **IMPORTANT DATES**
 
