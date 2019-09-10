@@ -23,7 +23,7 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 
 * Ian Milligan (University of Waterloo)
 * Pamela Graham (Columbia University)
-* Samantha Abrams (Columbia University)
+* Samantha Abrams (Ivy Plus Libraries Confederation))
 * Alexander Thurman (Columbia University)
 * Nick Ruest (York University) 
 * Jimmy Lin (University of Waterloo)
