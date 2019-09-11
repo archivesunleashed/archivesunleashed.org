@@ -8,7 +8,7 @@ weight: 25
 
 ![Warclight screenshot](/images/warclight.png)
 
-You can visit our demo site [here](http://warclight.archivesunleashed.org), or check out the code on [GitHub](https://github.com/archivesunleashed/warclight) along with [documetation](https://github.com/archivesunleashed/warclight/wiki) to get you started on your own Warclight application.
+You can visit our demo site [here](http://warclight.archivesunleashed.org), or check out the code on [GitHub](https://github.com/archivesunleashed/warclight) along with [documentation](https://github.com/archivesunleashed/warclight/wiki) to get you started on your own Warclight application.
 
 Want to know more?
 
