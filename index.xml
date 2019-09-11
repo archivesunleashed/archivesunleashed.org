@@ -47,9 +47,11 @@ The Archives Unleashed Cloud is an open source cloud-based analysis tool that he
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
       <guid>https://archivesunleashed.org/aut/</guid>
-      <description>Introduction Internet Archive servers in San Francisco, photo by Ian Milligan.
-The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on Hadoop. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
-Most of this documentation is built on resilient distributed datasets (RDD). We are working on adding support for DataFrames. You can read more about this in our experimental DataFrames section.</description>
+      <description>Where&amp;#39;s the documentation?
+We&amp;rsquo;ve reworked our website, and the documentation now lives here.
+ Introduction The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on Hadoop. Tight integration with Hadoop provides powerful tools for analytics and data processing via Spark.
+Most of this documentation is built on resilient distributed datasets (RDD). We are working on adding support for DataFrames.
+Check out the code on GitHub along with helpful user documentation to get you started using the Archives Unleashed Toolkit.</description>
     </item>
     
     <item>
@@ -70,7 +72,7 @@ To use them now, please visit the GitHub repository here and follow the instruct
       
       <guid>https://archivesunleashed.org/warclight/</guid>
       <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data that is indexed via the UK Web Archive&amp;rsquo;s webarchive-discovery project.
-You can visit our demo site here, or check out the code on GitHub along with documetation to get you started on your own Warclight application.</description>
+You can visit our demo site here, or check out the code on GitHub along with documentation to get you started on your own Warclight application.</description>
     </item>
     
     <item>
@@ -143,28 +145,6 @@ This workshop is being held on Tuesday, June 18th from 14:00-17:30 in room BG2 0
       <description>This guide is meant to be a quick reference guide for attendees at the Archives Unleashed datathons. These are commonly-asked questions and options that attendees have used, and may be updated during events.
 Screenshots are from Mac, as we don&amp;rsquo;t have a Windows machine on our project team. Our apologies.
 Finding Your Terminal While the Archives Unleashed Cloud is easy to use in a web browser, the Archives Unleashed Toolkit requires the use of the command line.</description>
-    </item>
-    
-    <item>
-      <title>Hands on With The Archives Unleashed Toolkit</title>
-      <link>https://archivesunleashed.org/aut/docker-install/</link>
-      <pubDate>Tue, 25 Sep 2018 11:51:41 -0400</pubDate>
-      
-      <guid>https://archivesunleashed.org/aut/docker-install/</guid>
-      <description>This quick guide will walk through how to install Docker for Mac users. Much of this is also applicable to Windows users, although the screenshots are from a Mac.
-Resources  Docker Community Edition for Mac Docker Community Edition for Windows  Install Docker To install Docker for a Mac OS, use this link. You can also use these instructions to install Docker on a Windows 10 Professional installation, by using this link.</description>
-    </item>
-    
-    <item>
-      <title>Hands on With The Archives Unleashed Toolkit</title>
-      <link>https://archivesunleashed.org/aut/lesson/</link>
-      <pubDate>Tue, 29 May 2018 11:51:41 -0400</pubDate>
-      
-      <guid>https://archivesunleashed.org/aut/lesson/</guid>
-      <description>Welcome to the Archives Unleashed Toolkit hands-on walkthrough!
-The reality of any hands-on workshop is that things will break. We&amp;rsquo;ve tried our best to provide a robust environment that can let you walk through the basics of the Archives Unleashed Toolkit alongside us.
-If you have any questions, let Nick Ruest or Ian Milligan know.
-Table of Contents  Installation and Use Hello World: Our First Script Extracting Some Text  Ouch!</description>
     </item>
     
     <item>
