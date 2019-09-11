@@ -6,7 +6,8 @@ aliases:
   - "New York"
 ---
 
-![New York Skyline](/images/ny-skyline.png)
+![New York Skyline](/images/ny-save.png)
+
 ## About
 
 The World Wide Web has had a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
@@ -15,7 +16,7 @@ The project team invites archivists, researchers (from the humanities, social sc
 
 The Archives Unleashed Team has partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon.
 
-This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
+This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of the Archives Unleashed Toolkit and Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
 For more information on AUT and the Cloud, please visit http://archivesunleashed.org/.
 
