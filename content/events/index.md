@@ -14,7 +14,7 @@ The Archives Unleashed team will be hosting the final datathon in the spring of 
 | April 26-27, 2018 | Toronto, ON              |
 | November 1-2, 2018 | Vancouver, BC       |
 | March 21-22, 2019          | Washington, DC |
-| Spring 2020     | United States West Coast |
+| March 26-27,202     | New York City, NY |
 
 ## Past Datathons
 
@@ -30,6 +30,7 @@ As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have h
 * **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2018.
 * **[Archives Unleashed Vancouver](/vancouver)**, Simon Fraser University, November 2018.
 * **[Archives Unleashed Washington](/washington)**, George Washington University, March 2019.
+* **[Archives Unleashed New York](/new-york)**, Columbia University, March 2020.
 
 ## About our Datathons
 
