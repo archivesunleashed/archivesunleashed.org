@@ -41,16 +41,17 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 |:-----------------:|:------------------------:|
 | 16 September 2019 | Call for Participation|
 | 16 October 2019 | Second Call for Participation|
-| 1 November 2019 | Submissions Due |
+| ~~1 November 2019~~ | ~~Submissions Due~~ |
+| 5 November 2019 | **Extension** Submissions Due |
 | 12 November 2019| Applicants notified |
 
 ## Call for Participation
 
-![New York Datathon Call for Participation](/images/NY-CFP-Short.png)
+![New York Datathon Call for Participation](/images/NYCFPDeadlineExtension.png)
 
 ## Submissions
 
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:sam.fritz@archivesunleashed.org">sam.fritz@archivesunleashed.org</a>) by **midnight Eastern Standard Time** on **1 November 2019**:
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:sam.fritz@archivesunleashed.org">sam.fritz@archivesunleashed.org</a>) by **midnight Eastern Standard Time** on **5 November 2019**:
 
 * a 250-word expression of interest;
 * a short one-page CV; and
