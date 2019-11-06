@@ -16,7 +16,7 @@ The project team invites archivists, researchers (from the humanities, social sc
 
 The Archives Unleashed Team has partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon.
 
-This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of the Archives Unleashed Toolkit and Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
+This event will bring together a small group to experiment with the newest release of the Archives Unleashed Toolkit and Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
 For more information on AUT and the Cloud, please visit http://archivesunleashed.org/.
 
@@ -32,6 +32,8 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 
 ## Sponsors
 
+This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://library.columbia.edu">Columbia University Libraries</a>, <a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>.
+
 ![Sponsor Logos](/images/ny-sponsors.png)
 
 
@@ -39,31 +41,19 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 
 |        Date       |         Location         |
 |:-----------------:|:------------------------:|
-| 16 September 2019 | Call for Participation|
-| 16 October 2019 | Second Call for Participation|
-| ~~1 November 2019~~ | ~~Submissions Due~~ |
-| 5 November 2019 | **Extension** Submissions Due |
+| ~~16 September 2019~~ | ~~Call for Participation~~|
+| ~~16 October 2019~~ | ~~Second Call for Participation~~|
+| ~~5 November 2019~~ | ~~**Extension** Submissions Due~~ |
 | 12 November 2019| Applicants notified |
-
-## Call for Participation
-
-![New York Datathon Call for Participation](/images/NYCFPDeadlineExtension.png)
 
 ## Submissions
 
-Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:sam.fritz@archivesunleashed.org">sam.fritz@archivesunleashed.org</a>) by **midnight Eastern Standard Time** on **5 November 2019**:
+Thank you for your interest in the Archives Unleashed Datathon!
 
-* a 250-word expression of interest;
-* a short one-page CV; and
-* Indication of need for financial assistance to travel to event (if applicable)
-
-This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
-
-## Travel Grants
-
-This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://library.columbia.edu">Columbia University Libraries</a>, <a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>.
-
-The Archives Unleashed team is pleased to offer modest travel grants to help attendees participate in this event. These grants can cover **up to $1,000 USD** in travel expenses. If you require financial assistance to attend the event, please explicitly indicate in your statement of interest that you would like to be considered for the travel grant.
+|        Date       |         Location         |         Datathon         |
+|:-----------------:|:------------------------:|:------------------------:|
+| 26-27 March 2020  | Columbia University, <br>New York | Submissions are now **closed**|
+| 14-15 May 2020    | Montreal, Quebec | Call for Participation **open** until <br>1 Dec 2019 @ midnight (EST). <br><br>**Note:** The Montreal datathon directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.|
 
 
 <!---
@@ -73,6 +63,7 @@ Datathon Page Outline:
 ## Organizers
 ## Sponsors
 ** Important Dates**
+## Call for Participation
 ## Sumbissions
 ## Travel Grants
 ## Venu
@@ -83,8 +74,22 @@ Datathon Page Outline:
 
 _________________________________________________________________________________
 
+
+## Call for Participation
+
+![New York Datathon Call for Participation](/images/NYCFPDeadlineExtension.png)
+
+
 ## Submissions
 Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 26-27 New York Datathon are now closed.
+
+Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:sam.fritz@archivesunleashed.org">sam.fritz@archivesunleashed.org</a>) by **midnight Eastern Standard Time** on **5 November 2019**:
+
+* a 250-word expression of interest;
+* a short one-page CV; and
+* Indication of need for financial assistance to travel to event (if applicable)
+
+This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
 
 
 ## Venue
