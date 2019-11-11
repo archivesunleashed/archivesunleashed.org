@@ -10,7 +10,7 @@ aliases:
 
 ## **About**
 
-We invites archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
+We invite archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
 The Archives Unleashed Team has partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon.
 
@@ -46,7 +46,7 @@ This event is possible thanks to the generous support of the <a href="https://me
 
 ## **Submissions**
 
-Thank you for your interest in the Archives Unleashed Datathon! Submissions to attend the March 2020 event at Columbia University, NY have **closed.**
+Thank you for your interest in the Archives Unleashed Datathon! Submissions to attend the March 2020 event at Columbia University, NY have now **closed.**
 
 However, you may want to checkout:
 
@@ -61,7 +61,7 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 ## **Butler Library**
 
-The Butler Library is located at the south end of the Morning Side campus. The only public entrance is available through the campus side. [General directions] (https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include  subway station (#1) or bus stop (M104, M4, M60).
+The Butler Library is located at the south end of the Morning Side campus. The only public entrance is available through the campus side. [General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include subway station (#1) or bus stop (M104, M4, M60).
 
 Once you arrive at the Butler Library, you will need to check-in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203.<img src="/images/butler-floorplan.png"></a>
 
@@ -71,9 +71,7 @@ The Archives Unleashed team has put together some information and resources to h
 
 ![Accommodations](/images/accommodations.png)
 
-There are many choices for accommodations in the NY area! We encourage all of our out-of-town participants to check out the [MTA - New York City Transit Map](http://www.mta.info/nyct) to help spot areas close to campus. The Butler Library is located near Columbia's main gate at W. 116th St and Broadway.
-
-If staying outside the city center, we'd recommend sticking to areas nearby.
+There are many choices for accommodations in the NY area! We encourage all of our out-of-town participants to check out the [MTA - New York City Transit Map](http://www.mta.info/nyct) to help spot areas close to campus and transit lines. The Butler Library is located near Columbia's main gate at W. 116th St and Broadway.
 
 Staying in New York City doesn’t have to break the bank, which is why we like using some of the following aggregators to compare hotel rates:
 
