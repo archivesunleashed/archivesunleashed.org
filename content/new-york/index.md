@@ -48,7 +48,7 @@ This event is possible thanks to the generous support of the <a href="https://me
 
 Thank you for your interest in the Archives Unleashed Datathon! Submissions to attend the March 2020 event at Columbia University, NY have now **closed.**
 
-However, you may want to checkout:
+However, you may want to check out:
 
 * **Montreal Datathon, 14-15 May 2020**. Call for Participation is **open** until **1 Dec 2019 @ midnight (EST)**. This event directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.
 
@@ -61,9 +61,9 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 ## **Butler Library**
 
-The Butler Library is located at the south end of the Morning Side campus. The only public entrance is available through the campus side. [General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include subway station (#1) or bus stop (M104, M4, M60).
+The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. [General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).
 
-Once you arrive at the Butler Library, you will need to check-in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203.<img src="/images/butler-floorplan.png"></a>
+Once you arrive at the Butler Library, you will need to check in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203.<img src="/images/butler-floorplan.png"></a>
 
 ## **Travel to New York**
 
@@ -92,11 +92,11 @@ For guests flying into New York, there are three main airports with several opti
 | [Newark International Airport (EWR)](https://www.newarkairport.com)         |            ~ 20 Miles           | Newark, in Newark, New Jersey, handles both domestic and international flights | 
 
 
-There are several options for getting to the downtown core from each airport, including by subway, bus, taxi, and shared vehical.
+There are several options for getting to the downtown core from each airport, including by subway, bus, taxi, and shared vehicle.
 
 * **[JFK Airport Transportation](https://www.jfkairport.com/to-from-airport/public-transportation)**
-  * [Airtrain](https://www.jfkairport.com/to-from-airport/air-train) - provides transportation around the airport.
-  * [Public Transportation](https://www.jfkairport.com/to-from-airport/public-transportation) - The AirTrain links all passenger terminals with NYC’s Subway. AirTrain fares are separate from Subway, but can both be paid using the MetroCard. Detailed transportation options to Manhatten can be found [here](https://www.jfkairport.com/to-from-airport/public-transportation); fares start at $2.75USD.
+  * [AirTrain](https://www.jfkairport.com/to-from-airport/air-train) - provides transportation around the airport and to subway and LIRR connections.
+  * [Public Transportation](https://www.jfkairport.com/to-from-airport/public-transportation) - The AirTrain links all passenger terminals with NYC’s Subway. AirTrain fares are separate from Subway, but can both be paid using the MetroCard. Detailed transportation options to Manhattan can be found [here](https://www.jfkairport.com/to-from-airport/public-transportation); fares start at $2.75USD.
   * [Taxi](https://www.jfkairport.com/to-from-airport/taxi-car-and-van-service) - stands are located outside each terminal. Taxis at JFK Airport charge a flat fare of $52 for trips between the airport and Manhattan (tolls and tips not included). Be sure to check out taxi tips provided on the [JFK webpage](https://www.jfkairport.com/to-from-airport/taxi-car-and-van-service).
   * [Car, Van and Scheduled Bus Service ](https://www.jfkairport.com/to-from-airport/taxi-car-and-van-service) - Reservations can be made at the Port Authority Welcome Center located on the Arrivals level of each terminal. Individual car rentals are also available.
 
@@ -106,7 +106,7 @@ There are several options for getting to the downtown core from each airport, in
   * [Car or Shared ride service](https://www.laguardiaairport.com/to-from-airport/car-service-and-shared-rides) - reservation for a private car or various shared ride service can be made through the Welcome Center located on the arrivals level of each terminal.
 
 * **[Newark Airport Transportation](https://www.newarkairport.com/to-from-airport/airport-directions)**
-  * [Airtrain](https://www.newarkairport.com/to-from-airport/air-train) - provides transportation to, from, and around Newark Liberty International Airport, and offers an accessible option to get to and from Manhattan. For more information on schedules, maps, and fees, please checkout the [Airtrain Website](https://www.newarkairport.com/to-from-airport/air-train).
+  * [AirTrain](https://www.newarkairport.com/to-from-airport/air-train) - provides transportation to, from, and around Newark Liberty International Airport, and can connect you to NJ Transit.
   * [Public Transportation](https://www.newarkairport.com/to-from-airport/public-transportation) - There are several options both to and from Newark via public transportation.
   * [Taxi](https://www.newarkairport.com/to-from-airport/taxi-car-and-van-service) - To use ground transportation, vists the Port Authority Welcome Center located in the arrivals area of each terminal. Rates will depend on drop off location; fare to New York City/Manhattan area ranges from $50-70USD, not including tolls or tips.
   * [Car, Van and Scheduled Bus Service ](https://www.newarkairport.com/to-from-airport/taxi-car-and-van-service) - Reservations can also be made directly at the Port Authority Welcome Center located on the Arrivals level of each terminal. A number of options are available.
@@ -114,7 +114,7 @@ There are several options for getting to the downtown core from each airport, in
 
 ![Downtown Transit](/images/transit.png)
 
-While you are in New York there are a few ways to get around, but ultimately it will depend on how close you are to the University. The Butler Library is located at the south end of the Morning Side campus (near Columbia's main gate at W. 116th St and Broadway) and is easily accessible by public transportation or by foot from most areas of downtown New York.
+While you are in New York there are a few ways to get around, but ultimately it will depend on how close you are to the University. The Butler Library is located at the south end of the Morningside campus (near Columbia's main gate at W. 116th St and Broadway) and is easily accessible by public transportation or by foot from most areas of downtown New York.
 
 * **Public Transport**
   * MTA Subways and Buses - Pay-per-ride MetroCard, a single subway or local bus ride costs $2.75USD for standard buses, and $6.50USd for express buses. Fares can be paid in cash or by[MetroCard](http://web.mta.info/metrocard/). You can purchase MetroCard at all subway stations, at the Station Booth or at MetroCard Vending Machines. You will need to put a minimum value of $5.50 on the card, not including the card fee ($1).
@@ -127,7 +127,7 @@ While you are in New York there are a few ways to get around, but ultimately it 
 
 For those adventurers who’d like to check out New York attractions, you may want to check out the [Official Visitor's Guide to New York City](https://www.nycgo.com). Some of our favourite spots to visit include:
 
-* [Empire State Building Observatory](https://www.esbnyc.com) - check out the stunning 360 view of the city from a building that has its own zip code!
+* [Empire State Building Observatory](https://www.esbnyc.com) - check out the stunning 360 degree view of the city from a building that has its own zip code!
 * [Statue of Liberty](https://www.nps.gov/stli/index.htm) - this iconic statue was a gift from the French in 1886 as a symbol of freedom and democracy. Visitors can tour the pedestal or crown!
 * [Times Square](https://www.timessquarenyc.org) - there's never a dull moment when you visit what has been referred to as "The Crossroads of the World".
 * [Central Park](http://www.centralparknyc.org) - this urban park covers 843 acres and includes various landscapes (geological, wooded areas and watercourses), landmarks, sculptures, exhibits, recreational facilities, and is home to over 571 species. 
@@ -189,7 +189,7 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 ## Butler Library 
 
-The Butler Library is located at the south end of the Morning Side campus. The only public entrance is available through the campus side. [General directions] (https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include  subway station (#1) or bus stop (M104, M4, M60).
+The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. [General directions] (https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include  subway station (#1) or bus stop (M104, M4, M60).
 
 Once you arrive at the Butler Library, you will need to check-in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203<img src="/images/butler-floorplan.png"></a>.
 
@@ -226,7 +226,7 @@ There are several options for getting to the downtown core from each airport, in
 
 * [JFK Airport Transportation](https://www.jfkairport.com/to-from-airport/public-transportation)
   * [Airtrain](https://www.jfkairport.com/to-from-airport/air-train) - provides transportation around the airport
-  * [Public Transportation](https://www.jfkairport.com/to-from-airport/public-transportation) - The AirTrain links all passenger terminals with NYC’s Subway. AirTrain fares are separate from Subway, but can both be paid using the MetroCard. Detailed transportation options to Manhatten can be found [here](https://www.jfkairport.com/to-from-airport/public-transportation); fares start at $2.75USD.
+  * [Public Transportation](https://www.jfkairport.com/to-from-airport/public-transportation) - The AirTrain links all passenger terminals with NYC’s Subway. AirTrain fares are separate from Subway, but can both be paid using the MetroCard. Detailed transportation options to Manhattan can be found [here](https://www.jfkairport.com/to-from-airport/public-transportation); fares start at $2.75USD.
   * [Taxi](https://www.jfkairport.com/to-from-airport/taxi-car-and-van-service) - stands are located outside each terminal. Taxis at JFK Airport charge a flat fare of $52 for trips between the airport and Manhattan (tolls and tips not included). Be sure to check out taxi tips provided on the [JFK webpage](https://www.jfkairport.com/to-from-airport/taxi-car-and-van-service)
   * [Car, Van and Scheduled Bus Service ](https://www.jfkairport.com/to-from-airport/taxi-car-and-van-service) - Reservations can be made at the Port Authority Welcome Center located on the Arrivals level of each terminal. Individual car rentals are also available.
 
@@ -244,7 +244,7 @@ There are several options for getting to the downtown core from each airport, in
 
 ![Downtown Transit](/images/transit.png)
 
-While you are in New York there are a few ways to get around, but ultimately it will depend on how close you are to the University. The Butler Library is located at the south end of the Morning Side campus (near Columbia's main gate at W. 116th St and Broadway). and is easily accessible by public transportation or by foot from most areas of downtown New York.
+While you are in New York there are a few ways to get around, but ultimately it will depend on how close you are to the University. The Butler Library is located at the south end of the Morningside campus (near Columbia's main gate at W. 116th St and Broadway). and is easily accessible by public transportation or by foot from most areas of downtown New York.
 
 * **Public Transport** - 
 
@@ -257,7 +257,7 @@ While you are in New York there are a few ways to get around, but ultimately it 
 
 For those adventurers who’d like to check out New York attractions, you may want to check out the [Official Visitor's Guide to New York City](https://www.nycgo.com). Some of our favourite spots to visit include:
 
-* [Empire State Building Observatory](https://www.esbnyc.com) - check out the stunning 360 view of the city from a building that has its own zip code!
+* [Empire State Building Observatory](https://www.esbnyc.com) - check out the stunning 360 degree view of the city from a building that has its own zip code!
 * [Statue of Liberty](https://www.nps.gov/stli/index.htm) - this iconic statue was a gift from the French in 1886 as a symbol of freedom and democracy. Visitors can tour the pedestal or crown!
 * [Times Square](https://www.timessquarenyc.org) - there's never a dull moment when you visit what has been referred to as "The Crossroads of the World".
 * [Central Park](http://www.centralparknyc.org) - this urban park covers 843 acres and includes various landscapes (geological, wooded areas and watercourses), landmarks, sculptures, exhibits, recreational facilities, and is home to over 571 species. 
