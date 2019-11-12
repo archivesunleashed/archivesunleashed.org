@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to the Archives Unleashed Project on The Archives Unleashed Project</title>
@@ -101,8 +101,9 @@ You can visit our demo site here, or check out the code on GitHub along with doc
       <pubDate>Tue, 05 Dec 2017 15:20:57 -0500</pubDate>
       
       <guid>https://archivesunleashed.org/new-york/</guid>
-      <description>About The World Wide Web has had a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
-The project team invites archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.</description>
+      <description>About We invite archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
+The Archives Unleashed Team has partnered with Columbia University Libraries to host the fourth Archives Unleashed datathon.
+This event will bring together a small group to experiment with the newest release of the Archives Unleashed Toolkit and Cloud, and to kick-off collaboratively inspired research projects.</description>
     </item>
     
     <item>
