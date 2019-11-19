@@ -1,0 +1,13 @@
+name: Build and publish archivesunleashed.org
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: Publish
+      run: publish_to_ghpages.sh
