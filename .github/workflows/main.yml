@@ -8,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@master
-    - name: Publish
-      run: ./publish_to_ghpages.sh
+      - uses: actions/checkout@master
+      - name: Git config
+        run: |
+          git config --global user.email "ruestn@gmail.com"
+          git config --global user.name "nruest"
+      - name: Publish
+        run: ./publish_to_ghpages.sh
