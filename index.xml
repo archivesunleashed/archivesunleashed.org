@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to the Archives Unleashed Project on The Archives Unleashed Project</title>
@@ -132,8 +132,8 @@ The project team invites archivists, researchers (from the humanities, social sc
       <pubDate>Tue, 19 Mar 2019 14:45:14 -0400</pubDate>
       
       <guid>https://archivesunleashed.org/publications/</guid>
-      <description>The Archives Unleashed project has a body of published research. Check back for more soon!
-Journal Articles  Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warcbase : Scalable Analytics Infrastructure for Exploring Web Archives.” ACM Journal of Computing and Cultural Heritage, Vol. 10, Issue 4, July 2017. [link] Ian Milligan, Nick Ruest, and Anna St.Onge. &amp;ldquo;The Great WARC Adventure : Using SIPS, AIPS and DIPS to Document SLAAPs.</description>
+      <description>The Archives Unleashed project has a body of published research.
+Preprints  Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. &amp;ldquo;The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives.&amp;rdquo; arXiv:2001.05399, January 2020. [link]  Journal Articles  Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warcbase : Scalable Analytics Infrastructure for Exploring Web Archives.” ACM Journal of Computing and Cultural Heritage, Vol.</description>
     </item>
     
     <item>
