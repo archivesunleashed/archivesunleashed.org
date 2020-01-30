@@ -4,7 +4,11 @@ date: 2019-03-19T14:45:14-04:00
 weight: 48
 ---
 
-The Archives Unleashed project has a body of published research. Check back for more soon!
+The Archives Unleashed project has a body of published research.
+
+## Preprints
+
+* Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. "The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives." arXiv:2001.05399, January 2020. [[link](https://arxiv.org/abs/2001.05399)]
 
 ## Journal Articles
 
@@ -18,6 +22,7 @@ The Archives Unleashed project has a body of published research. Check back for 
 
 ## Peer-Reviewed Conference Publications
 
+* Jimmy Lin, Ian Milligan, Douglas Oard, Nick Ruest, and Katie Shilton. "We Could, but Should We? Ethical Considerations for Providing Access to GeoCities and Other Historical Digital Collections." _Proceedings of the Fifth ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2020)_. [forthcoming]
 * Ryan Deschamps, Samantha Fritz, Jimmy Lin, Ian Milligan, and Nick Ruest. "The Cost of a WARC : Analyzing Web Archives in the Cloud." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36158)]
 * Ian Milligan, Nathalie Casemajor, Samantha Fritz, Jimmy Lin, Nick Ruest, Matthew S. Weber, and Nicholas Worby. "Building Community and Tools for Analyzing Web Archives through Datathons." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36180)]
 * Ian Milligan, Nick Ruest, and Jimmy Lin. "Content Selection and Curation for Web Archiving : The Gatekeepers vs. the Masses." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 16 (2016): 107—110. [[link](https://dl.acm.org/citation.cfm?id=2910913)] [[preprint](http://hdl.handle.net/10315/31235)]
@@ -31,6 +36,8 @@ The Archives Unleashed project has a body of published research. Check back for 
 * Nick Ruest, Ian Milligan, and Jimmy Lin. "Warclight: A Rails Engine for Web Archive Discovery." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36159)]
 
 ## Conference Presentations
+* Samantha Fritz and Sarah McTavish. "Analyzing Web Archives with the Archives Unleashed Project.” _Continuing Education to Advance Web Archiving (CEDWARC)_, October, 2019, Washington, DC. [[Overview](https://docs.google.com/presentation/d/1InV_NbsWFC2hRH_xkJZsZeozmXHQ_DJenA7wjj8RdBw/edit?usp=sharing)] [[Workshop Slides](https://docs.google.com/presentation/d/1IfS6TaWveClL6J9vVO0KAhqqqRE92Zq4pNQZniGIp_w/edit?usp=sharing)]
+* Samantha Fritz. "Web Archives: A Doorway to Access and Usability.” _Access Conference_, September 2019, Edmonton, Alberta. [[Slides](https://docs.google.com/presentation/d/1CSKn2ExAdRrQ-NJNlVdjsJOpSr369haGNu2nDbwf3aY/edit?usp=sharing)]
 * Nick Ruest and Ian Milligan. "Lowering the Barrier to Access: The Archives Unleashed Cloud Project." _The Web That Was: Archives, Traces, Reflections_, June 2019, Amsterdam, Netherlands. [[slides](http://hdl.handle.net/10315/36237)]
 * Nick Ruest and Ian Milligan. "See a Little Warclight : Building an Open-Source Web Archive Portal with Project Blacklight." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[slides](http://hdl.handle.net/10315/36232)]
 * Nick Ruest and Ian Milligan. "Project Sustainability and Research Platforms : The Archives Unleashed Cloud Project." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[slides](http://hdl.handle.net/10315/36233)]
@@ -49,6 +56,7 @@ The Archives Unleashed project has a body of published research. Check back for 
 
 ## Invited Talks and Lectures
 
+* Ian Milligan, "History in the Age of Abundance: Skills, Tools, and Methods for the 21st-Century Historian," _Invited Lecture at York University Department of History Historian’s Craft Series_, January 2020, Toronto, Ontario, Canada.
 * Ian Milligan, "Working with Cultural Heritage at Scale: Developing Tools and Platforms to Enable Historians to Explore History in the Age of Abundance." _ACL Special Interest Group on Language Technologies for Socio-Economic Science and Humanities_, June 2019, Minneapolis, Minnesota, USA.
 * Nick Ruest, "Hot Tips To Boost Your Interdisciplinary Web Archive Collaboration!" _Lewis & Ruth Sherman Centre for Digital Scholarship Speaker Series_, April 2018, Hamilton, Ontario, Canada.
 * Nick Ruest, "Boosting Your Interdisciplinary Web Archive Collaboration." _BC Research Libraries Group Lecture Series_, February 2018, Vancouver, British Columbia, Canada.
