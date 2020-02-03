@@ -35,22 +35,9 @@ This event is possible thanks to the generous support of the <a href="https://me
 ![Sponsor Logos](/images/ny-sponsors.png)
 
 
-**IMPORTANT DATES**
-
-|        Date       |         Location         |
-|:-----------------:|:------------------------:|
-| ~~16 September 2019~~ | ~~Call for Participation~~|
-| ~~16 October 2019~~ | ~~Second Call for Participation~~|
-| ~~5 November 2019~~ | ~~**Extension** Submissions Due~~ |
-| 12 November 2019| Applicants notified |
-
 ## **Submissions**
 
 Thank you for your interest in the Archives Unleashed Datathon! Submissions to attend the March 2020 event at Columbia University, NY have now **closed.**
-
-However, you may want to check out:
-
-* **Montreal Datathon, 14-15 May 2020**. Call for Participation is **open** until **1 Dec 2019 @ midnight (EST)**. This event directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.
 
 
 ## **Venue**
@@ -61,9 +48,26 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 ## **Butler Library**
 
-The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. [General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).
+|<br><br><a href="/images/butler-floorplan.png"><img src="/images/butler-floorplan.png"></a> (click image to enlarge)| The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. <br><br>[General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).<br><br>Once you arrive at the Butler Library, you will need to check in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203 |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-Once you arrive at the Butler Library, you will need to check in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203.<img src="/images/butler-floorplan.png"></a>
+## **Schedule**
+
+Coming Soon! 
+
+For reference, the datathon event will run:
+
+| **Thursday March 26** | **Friday March 27**     |
+|-----------------------|--------------------------|
+| 9am - 4:30/5pm        | 9am - 4:30pm             |
+| Doors opens at 8:30am | We may wrap up a bit sooner depending <br>on the number of groups we have |
+
+## **Important Notes**
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+|**PHOTOGRAPHY** <br><br> ![Camera logo](/images/ny-camera100.png)| While not many photographs are taken at the event (especially with all the fantastic collaboration), but we ask that everyone be mindful of fellow attendees’ wishes. We ask that everyone make an effore to not photograph attendees who have a red dot sticker on their name badge. <br><br>If there are any questions or concerns, please don’t hesitate to reach out to any member of the Archives Unleashed team. |
+|**NUT ALLERGY** <br><br> ![No Nuts logo](/images/ny-nonuts100.png)| <br><br>Please be aware that we have a **serious nut allergy** among our group. To help ensure the comfort and safety of all our guests, we ask that participants refrain from bringing any nut products (snacks, hand creams, etc.). |
 
 ## **Travel to New York**
 
@@ -117,7 +121,7 @@ There are several options for getting to the downtown core from each airport, in
 While you are in New York there are a few ways to get around, but ultimately it will depend on how close you are to the University. The Butler Library is located at the south end of the Morningside campus (near Columbia's main gate at W. 116th St and Broadway) and is easily accessible by public transportation or by foot from most areas of downtown New York.
 
 * **Public Transport**
-  * MTA Subways and Buses - Pay-per-ride MetroCard, a single subway or local bus ride costs $2.75USD for standard buses, and $6.50USd for express buses. Fares can be paid in cash or by[MetroCard](http://web.mta.info/metrocard/). You can purchase MetroCard at all subway stations, at the Station Booth or at MetroCard Vending Machines. You will need to put a minimum value of $5.50 on the card, not including the card fee ($1).
+  * MTA Subways and Buses - Pay-per-ride MetroCard, a single subway or local bus ride costs $2.75USD for standard buses, and $6.50USD for express buses. Fares can be paid in cash or by[MetroCard](http://web.mta.info/metrocard/). You can purchase MetroCard at all subway stations, at the Station Booth or at MetroCard Vending Machines. You will need to put a minimum value of $5.50 on the card, not including the card fee ($1).
 
 * **Rideshare Apps** - - [Uber](https://www.uber.com/global/en/cities/new-york/) and [Lyft](https://www.lyft.com/rider/cities/new-york-city-ny) are available in New York City, NY. You can download the apps and book a ride easily.
 
@@ -136,14 +140,6 @@ For those adventurers who’d like to check out New York attractions, you may wa
 * [Yankee Stadium](https://www.mlb.com/yankees/ballpark) - catch a game or tour!
 * [Brooklyn Bridge](https://www1.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml) - you can view, walk [tips](https://freetoursbyfoot.com/walking-the-brooklyn-bridge/), or cycle this beautiful 136 year old landmark.
 * [Staten Island Ferry](https://www.siferry.com) - enjoy a beautiful ride along the New York Harbour.
-
-
-## **Schedule**
-
-Coming Soon! 
-
-(For those that need a general timeline for travel planning, please note the event will run 9:00 - 5:00pm on Thursday and 9:00 - 4:40pm on Friday).
-
 
 <!---
 Datathon Page Outline:
@@ -168,6 +164,14 @@ ________________________________________________________________________________
 
 ![New York Datathon Call for Participation](/images/NYCFPDeadlineExtension.png)
 
+**IMPORTANT DATES**
+
+|        Date       |         Location         |
+|:-----------------:|:------------------------:|
+| ~~16 September 2019~~ | ~~Call for Participation~~|
+| ~~16 October 2019~~ | ~~Second Call for Participation~~|
+| ~~5 November 2019~~ | ~~**Extension** Submissions Due~~ |
+| 12 November 2019| Applicants notified |
 
 ## Submissions
 Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 26-27 New York Datathon are now closed.
@@ -179,6 +183,11 @@ Those interested in participating should submit the following to the Archives Un
 * Indication of need for financial assistance to travel to event (if applicable)
 
 This expression of interest should address your background and interests in web archiving, and what you would hope to get out of working with tools and web archive data at scale.
+
+
+However, you may want to check out:
+
+* **Montreal Datathon, 14-15 May 2020**. Call for Participation is **open** until **1 Dec 2019 @ midnight (EST)**. This event directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.
 
 
 ## Venue
