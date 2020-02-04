@@ -48,7 +48,7 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 ## **Butler Library**
 
-|<br><br><a href="/images/butler-floorplan.png"><img src="/images/butler-floorplan.png"></a> (click image to enlarge)| The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. <br><br>[General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).<br><br>Once you arrive at the Butler Library, you will need to check in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203 |
+|<br><br><a href="/images/butler-floorplan.png"><img src="/images/butler-floorplan.png"></a> (click image to enlarge)| The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. <br><br>[General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).<br><br>Once you arrive at the Butler Library, you will need to check in with a piece of ID at the Library Information Office (located just inside the entrance). Then you can head to Room 203. |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## **Schedule**
@@ -60,13 +60,13 @@ For reference, the datathon event will run:
 | **Thursday March 26** | **Friday March 27**     |
 |-----------------------|--------------------------|
 | 9am - 4:30/5pm        | 9am - 4:30pm             |
-| Doors opens at 8:30am | We may wrap up a bit sooner depending <br>on the number of groups we have |
+| Doors open at 8:30am. | We may wrap up a bit sooner depending <br>on the number of groups we have. |
 
 ## **Important Notes**
 
 |                                       |                                       |
 |---------------------------------------|---------------------------------------|
-|**PHOTOGRAPHY** <br><br> ![Camera logo](/images/ny-camera100.png)| While not many photographs are taken at the event (especially with all the fantastic collaboration), but we ask that everyone be mindful of fellow attendees’ wishes. We ask that everyone make an effore to not photograph attendees who have a red dot sticker on their name badge. <br><br>If there are any questions or concerns, please don’t hesitate to reach out to any member of the Archives Unleashed team. |
+|**PHOTOGRAPHY** <br><br> ![Camera logo](/images/ny-camera100.png)| While not many photographs are taken at the event (especially with all the fantastic collaboration), but we ask that everyone be mindful of fellow attendees’ wishes. We ask that everyone make an effort to not photograph attendees who have a red dot sticker on their name badge. <br><br>If there are any questions or concerns, please don’t hesitate to reach out to any member of the Archives Unleashed team. |
 |**NUT ALLERGY** <br><br> ![No Nuts logo](/images/ny-nonuts100.png)| <br><br>Please be aware that we have a **serious nut allergy** among our group. To help ensure the comfort and safety of all our guests, we ask that participants refrain from bringing any nut products (snacks, hand creams, etc.). |
 
 ## **Travel to New York**
