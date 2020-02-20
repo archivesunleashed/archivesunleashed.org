@@ -22,7 +22,7 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 
 * Ian Milligan (University of Waterloo)
 * Pamela Graham (Columbia University)
-* Samantha Abrams (Ivy Plus Libraries Confederation))
+* Samantha Abrams (Ivy Plus Libraries Confederation)
 * Alexander Thurman (Columbia University)
 * Nick Ruest (York University) 
 * Jimmy Lin (University of Waterloo)
@@ -30,25 +30,26 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 
 ## **Sponsors**
 
-This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://library.columbia.edu">Columbia University Libraries</a>, <a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>.
+|                                             |                             |
+|----------------------------------------------|-----------------------------|
+| <br><br>![Sponsor Logos](/images/ny-sponsorslist.png) | This event is possible thanks to the generous support from: <br><br><a href="https://mellon.org"> Andrew W. Mellon Foundation </a> <br><br><a href="https://library.columbia.edu">Columbia University Libraries</a><br><br><a href="https://library.columbia.edu/collections/web-archives/Ivy_Plus_Libraries.html">Ivy Plus Libraries Confederation</a><br><br><a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a><br><br><a href="http://www.yorku.ca"> York University Libraries </a><br><br><a href="https://www.computecanada.ca"> Compute Canada</a><br><br><a href="http://www.startsmartlabs.com"> Start Smart Labs</a> |
 
-![Sponsor Logos](/images/ny-sponsorslist.png)
 
 
-## **Submissions**
 
-Thank you for your interest in the Archives Unleashed Datathon! Submissions to attend the March 2020 event at Columbia University, NY have now **closed.**
+
+
 
 
 ## **Venue**
 
 Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, USA
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6039.96275808335!2d-73.96541404909422!3d40.8064029792134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c31da1355%3A0xf11ddb8a69ec829b!2sButler%20Library!5e0!3m2!1sen!2sca!4v1567542633671!5m2!1sen!2sca" width="900" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6039.96275808335!2d-73.96541404909422!3d40.8064029792134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c31da1355%3A0xf11ddb8a69ec829b!2sButler%20Library!5e0!3m2!1sen!2sca!4v1567542633671!5m2!1sen!2sca" width="900" height="380" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 ## **Butler Library**
 
-|<br><br><a href="/images/butler-floorplan.png"><img src="/images/butler-floorplan.png"></a> (click image to enlarge)| The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. <br><br>[General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).<br><br>Once you arrive at the Butler Library, you will need to check in with a piece of ID at the Library Information Office (located just inside the entrance). Then you can head to Room 203. |
+|<br><a href="/images/butler-floorplan.png"><img src="/images/butler-floorplan.png"></a> (click image to enlarge)| <br>The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. <br><br>[General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).<br><br>Once you arrive at the Butler Library, you will need to check in with a piece of ID at the Library Information Office (located just inside the entrance). Then you can head to Room 203. |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## Schedule
@@ -59,14 +60,14 @@ Please click the image below to check out the <a href="/images/NYScheduleFull.pd
 
 |               |                  |
 |:-----------------:|:------------------------:|
-| <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day1.png"></a> | <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day2.png" ></a>
+| <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day1.png"></a><br>(click image to view PDF) | <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day2.png" ></a>
 
 ## **Important Notes**
 
 |                                       |                                       |
 |---------------------------------------|---------------------------------------|
 |**PHOTOGRAPHY** <br><br> ![Camera logo](/images/ny-camera100.png)| While not many photographs are taken at the event (especially with all the fantastic collaboration), but we ask that everyone be mindful of fellow attendees’ wishes. We ask that everyone make an effort to not photograph attendees who have a red dot sticker on their name badge. <br><br>If there are any questions or concerns, please don’t hesitate to reach out to any member of the Archives Unleashed team. |
-|**NUT ALLERGY** <br><br> ![No Nuts logo](/images/ny-nonuts100.png)| <br><br>Please be aware that we have a **serious nut allergy** among our group. To help ensure the comfort and safety of all our guests, we ask that participants refrain from bringing any nut products (snacks, hand creams, etc.). |
+|**NUT ALLERGY** <br><br> ![No Nuts logo](/images/ny-nonuts100.png)| <br><br>Please be aware that we have a **severe nut allergy** among our group. To help ensure the comfort and safety of all our guests, we ask that participants refrain from bringing any nut products (snacks, hand creams, etc.). |
 
 ## **Travel to New York**
 
@@ -173,6 +174,7 @@ ________________________________________________________________________________
 | 12 November 2019| Applicants notified |
 
 ## Submissions
+
 Thank you for your interest in the Archives Unleashed Datathon, submissions for the March 26-27 New York Datathon are now closed.
 
 Those interested in participating should submit the following to the Archives Unleashed Team (<a href="mailto:sam.fritz@archivesunleashed.org">sam.fritz@archivesunleashed.org</a>) by **midnight Eastern Standard Time** on **5 November 2019**:
