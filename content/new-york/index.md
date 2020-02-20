@@ -51,16 +51,15 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 |<br><br><a href="/images/butler-floorplan.png"><img src="/images/butler-floorplan.png"></a> (click image to enlarge)| The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. <br><br>[General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).<br><br>Once you arrive at the Butler Library, you will need to check in with a piece of ID at the Library Information Office (located just inside the entrance). Then you can head to Room 203. |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-## **Schedule**
+## Schedule
 
-Coming Soon! 
+We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event!
 
-For reference, the datathon event will run:
+Please click the image below to check out the <a href="/images/NYScheduleFull.pdf">full New York Datathon schedule!</a>
 
-| **Thursday March 26** | **Friday March 27**     |
-|-----------------------|--------------------------|
-| 9am - 4:30/5pm        | 9am - 4:30pm             |
-| Doors open at 8:30am. | We may wrap up a bit sooner depending <br>on the number of groups we have. |
+|               |                  |
+|:-----------------:|:------------------------:|
+| <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day1.png"></a> | <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day2.png" ></a>
 
 ## **Important Notes**
 
@@ -201,6 +200,17 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. [General directions] (https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include  subway station (#1) or bus stop (M104, M4, M60).
 
 Once you arrive at the Butler Library, you will need to check-in at the Library Information Office with a piece of ID, which is just inside the entrance, and then you can head to Room 203<img src="/images/butler-floorplan.png"></a>.
+
+## **Schedule**
+
+Coming Soon! 
+
+For reference, the datathon event will run:
+
+| **Thursday March 26** | **Friday March 27**     |
+|-----------------------|--------------------------|
+| 9am - 4:30/5pm        | 9am - 4:30pm             |
+| Doors open at 8:30am. | We may wrap up a bit sooner depending <br>on the number of groups we have. |
 
 ## Travel to New York
 
