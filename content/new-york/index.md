@@ -32,7 +32,7 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 
 This event is possible thanks to the generous support of the <a href="https://mellon.org"> Andrew W. Mellon Foundation </a>, <a href="https://library.columbia.edu">Columbia University Libraries</a>, <a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a>, <a href="http://www.yorku.ca"> York University Libraries </a>, <a href="https://www.computecanada.ca"> Compute Canada</a>, and <a href="http://www.startsmartlabs.com"> Start Smart Labs</a>.
 
-![Sponsor Logos](/images/ny-sponsors.png)
+![Sponsor Logos](/images/ny-sponsorslist.png)
 
 
 ## **Submissions**
