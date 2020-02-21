@@ -34,13 +34,6 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 |----------------------------------------------|-----------------------------|
 | <br><br>![Sponsor Logos](/images/ny-sponsorslist.png) | This event is possible thanks to the generous support from: <br><br><a href="https://mellon.org"> Andrew W. Mellon Foundation </a> <br><br><a href="https://library.columbia.edu">Columbia University Libraries</a><br><br><a href="https://library.columbia.edu/collections/web-archives/Ivy_Plus_Libraries.html">Ivy Plus Libraries Confederation</a><br><br><a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a><br><br><a href="http://www.yorku.ca"> York University Libraries </a><br><br><a href="https://www.computecanada.ca"> Compute Canada</a><br><br><a href="http://www.startsmartlabs.com"> Start Smart Labs</a> |
 
-
-
-
-
-
-
-
 ## **Venue**
 
 Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, USA
@@ -54,7 +47,7 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 ## Schedule
 
-We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event!
+We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event! We will also have a dinner social event on the evening of Thursday, March 26th.
 
 Please click the image below to check out the <a href="/images/NYScheduleFull.pdf">full New York Datathon schedule!</a>
 
