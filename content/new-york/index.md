@@ -6,6 +6,10 @@ aliases:
   - "New York"
 ---
 
+{{< warning title="Event Cancelled" >}}
+Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to cancel the Archives Unleashed datathon which was to be held at Columbia University, March 26-27, 2019. Rest assured that this decision was not taken lightly and was made with the best interests of our attendees in mind. All attendees should have received an e-mail with next steps as we are exploring moving this event online.
+{{< /warning >}}
+
 ![New York Skyline](/images/ny-save.png)
 
 ## **About**

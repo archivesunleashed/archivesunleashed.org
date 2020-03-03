@@ -4,6 +4,10 @@ title: Events
 weight: 40
 ---
 
+{{< warning title="Event Cancelled" >}}
+Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to cancel the Archives Unleashed datathon which was to be held at Columbia University, March 26-27, 2019. Rest assured that this decision was not taken lightly and was taken with the best interests of our attendees in mind. All attendees should have received an e-mail with next steps as we are exploring moving this event online.
+{{< /warning >}}
+
 ## Upcoming Events
 ![Material Screenshot](/images/washington-hackathon.png)
 
@@ -14,7 +18,7 @@ The Archives Unleashed team will be hosting the final datathon in the spring of 
 | 26-27 April 2018 | Toronto, ON              | [University of Toronto Libraries](https://onesearch.library.utoronto.ca/about) |
 | 1-2 November 2018| Vancouver, BC            | [Simon Fraser University Library](https://www.lib.sfu.ca) and [KEY](https://www.sfu.ca/big-data/) | 
 | 21-22 March 2019 | Washington, DC           | [George Washington University Libraries](https://library.gwu.edu) |
-| 26-27 March 2020 | New York City, NY        | [Columbia University Libraries](https://library.columbia.edu) |
+| 26-27 March 2020 | New York City, NY (**In-Person Cancelled**)       | [Columbia University Libraries](https://library.columbia.edu) |
 | 14-15 May 2020   | Montreal, Quebec         | [BAnQ](http://www.banq.qc.ca/accueil/index.html?language_id=1) and [IIPC](http://netpreserve.org) |
 
 ## **Past Datathons**
@@ -31,7 +35,7 @@ As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have h
 * **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2018.
 * **[Archives Unleashed Vancouver](/vancouver)**, Simon Fraser University, November 2018.
 * **[Archives Unleashed Washington](/washington)**, George Washington University, March 2019.
-* *UPCOMING* **[Archives Unleashed New York](/new-york)**, Columbia University, 26-27 March 2020.
+* **CANCELLED** **[Archives Unleashed New York](/new-york)**, Columbia University, 26-27 March 2020.
 
 **Additional Datathons/Workshops**:
 
