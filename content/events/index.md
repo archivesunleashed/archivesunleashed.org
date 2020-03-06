@@ -5,7 +5,7 @@ weight: 40
 ---
 
 {{< warning title="Event Cancelled" >}}
-Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to cancel the Archives Unleashed datathon which was to be held at Columbia University, March 26-27, 2019. Rest assured that this decision was not taken lightly and was taken with the best interests of our attendees in mind. All attendees should have received an e-mail with next steps as we are exploring moving this event online.
+Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to cancel the Archives Unleashed datathon which was to be held at Columbia University, March 26-27, 2019. Rest assured that this decision was not taken lightly and was made with the best interests of our attendees in mind. All attendees should have received an e-mail with next steps as we are exploring moving this event online.
 {{< /warning >}}
 
 ## Upcoming Events
@@ -39,7 +39,7 @@ As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have h
 
 **Additional Datathons/Workshops**:
 
-* **[Archives Unleashed Montreal](http://netpreserve.org/ga2020/datathon/)**, Montreal, QB, 14-15 May 2020. <br> This datathon directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.|
+* **[Archives Unleashed Montreal](http://netpreserve.org/ga2020/datathon/)**, Montreal, QB, 14-15 May 2020. <br> This datathon directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.
 
 ## About our Datathons
 
