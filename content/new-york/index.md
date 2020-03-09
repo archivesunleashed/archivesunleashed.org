@@ -6,8 +6,8 @@ aliases:
   - "New York"
 ---
 
-{{< warning title="Event Cancelled" >}}
-Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to cancel the Archives Unleashed datathon which was to be held at Columbia University, March 26-27, 2019. Rest assured that this decision was not taken lightly and was made with the best interests of our attendees in mind. All attendees should have received an e-mail with next steps as we are exploring moving this event online.
+{{< warning title="Event Moved Online" >}}
+Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to hold our March 26-27 Archives Unleashed event as an online-only event. Our thanks again to our attendees for their patience and help as we navigate this shift.
 {{< /warning >}}
 
 ![New York Skyline](/images/ny-save.png)
@@ -51,7 +51,9 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 ## Schedule
 
-We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event! We will also have a dinner social event on the evening of Thursday, March 26th.
+We are moving Archives Unleashed online!
+
+We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. 
 
 Please click the image below to check out the <a href="/images/NYScheduleFull.pdf">full New York Datathon schedule!</a>
 

@@ -4,8 +4,8 @@ title: Events
 weight: 40
 ---
 
-{{< warning title="Event Cancelled" >}}
-Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to cancel the Archives Unleashed datathon which was to be held at Columbia University, March 26-27, 2019. Rest assured that this decision was not taken lightly and was made with the best interests of our attendees in mind. All attendees should have received an e-mail with next steps as we are exploring moving this event online.
+{{< warning title="Event Moved Online" >}}
+Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to hold our March 26-27 Archives Unleashed event as an online-only event. Our thanks again to our attendees for their patience and help as we navigate this shift.
 {{< /warning >}}
 
 ## Upcoming Events
