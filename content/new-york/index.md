@@ -44,11 +44,6 @@ Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, U
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6039.96275808335!2d-73.96541404909422!3d40.8064029792134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c31da1355%3A0xf11ddb8a69ec829b!2sButler%20Library!5e0!3m2!1sen!2sca!4v1567542633671!5m2!1sen!2sca" width="900" height="380" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-## **Butler Library**
-
-|<br><a href="/images/butler-floorplan.png"><img src="/images/butler-floorplan.png"></a> (click image to enlarge)| <br>The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. <br><br>[General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries. The closest transit stops include the West 116th Street subway station (on the 1 train) or bus stop (M104, M4, M60).<br><br>Once you arrive at the Butler Library, you will need to check in with a piece of ID at the Library Information Office (located just inside the entrance). Then you can head to Room 203. |
-|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 ## Schedule
 
 We are moving Archives Unleashed online!
