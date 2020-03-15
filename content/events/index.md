@@ -4,8 +4,10 @@ title: Events
 weight: 40
 ---
 
-{{< warning title="Event Moved Online" >}}
+{{< warning title="Event Updates" >}}
 Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to hold our March 26-27 Archives Unleashed event as an online-only event. Our thanks again to our attendees for their patience and help as we navigate this shift.
+
+As the IIPC Web Archiving Conference has been postponed until September 2020, we have also canceled our datathon that was part of that larger event.
 {{< /warning >}}
 
 ## Upcoming Events
@@ -19,7 +21,7 @@ The Archives Unleashed team will be hosting the final datathon in the spring of 
 | 1-2 November 2018| Vancouver, BC            | [Simon Fraser University Library](https://www.lib.sfu.ca) and [KEY](https://www.sfu.ca/big-data/) | 
 | 21-22 March 2019 | Washington, DC           | [George Washington University Libraries](https://library.gwu.edu) |
 | 26-27 March 2020 | New York City, NY (**In-Person Cancelled**)       | [Columbia University Libraries](https://library.columbia.edu) |
-| 14-15 May 2020   | Montreal, Quebec         | [BAnQ](http://www.banq.qc.ca/accueil/index.html?language_id=1) and [IIPC](http://netpreserve.org) |
+| 14-15 May 2020   | Montreal, Quebec (**Cancelled**)         | [BAnQ](http://www.banq.qc.ca/accueil/index.html?language_id=1) and [IIPC](http://netpreserve.org) |
 
 ## **Past Datathons**
 
@@ -35,11 +37,11 @@ As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have h
 * **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2018.
 * **[Archives Unleashed Vancouver](/vancouver)**, Simon Fraser University, November 2018.
 * **[Archives Unleashed Washington](/washington)**, George Washington University, March 2019.
-* **CANCELLED** **[Archives Unleashed New York](/new-york)**, Columbia University, 26-27 March 2020.
+* **[CANCELLED DUE TO COVID-19]** **[Archives Unleashed New York](/new-york)**, Columbia University, 26-27 March 2020.
 
 **Additional Datathons/Workshops**:
 
-* **[Archives Unleashed Montreal](http://netpreserve.org/ga2020/datathon/)**, Montreal, QB, 14-15 May 2020. <br> This datathon directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.
+* **[CANCELLED DUE TO COVID-19]** **[Archives Unleashed Montreal](http://netpreserve.org/ga2020/datathon/)**, Montreal, QB, 14-15 May 2020.
 
 ## About our Datathons
 
