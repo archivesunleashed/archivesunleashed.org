@@ -38,30 +38,17 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 |----------------------------------------------|-----------------------------|
 | <br><br>![Sponsor Logos](/images/ny-sponsorslist.png) | This event is possible thanks to the generous support from: <br><br><a href="https://mellon.org"> Andrew W. Mellon Foundation </a> <br><br><a href="https://library.columbia.edu">Columbia University Libraries</a><br><br><a href="https://library.columbia.edu/collections/web-archives/Ivy_Plus_Libraries.html">Ivy Plus Libraries Confederation</a><br><br><a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a><br><br><a href="http://www.yorku.ca"> York University Libraries </a><br><br><a href="https://www.computecanada.ca"> Compute Canada</a><br><br><a href="http://www.startsmartlabs.com"> Start Smart Labs</a> |
 
-## **Venue**
+## **Schedule**
 
-Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, USA
+We are moving Archives Unleashed online! <br><br>We are looking forward to spending a couple of days with with our participants. The event will kick off with some discussion around  web archiving, our project tools, and set up of the Archives Unleashed Notebooks via Colab Notebooks. After a team formation activity, the majority of our time will be dedicated for group work. Presentations will be held Friday afternoon.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6039.96275808335!2d-73.96541404909422!3d40.8064029792134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c31da1355%3A0xf11ddb8a69ec829b!2sButler%20Library!5e0!3m2!1sen!2sca!4v1567542633671!5m2!1sen!2sca" width="900" height="380" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
-## Schedule
-
-We are moving Archives Unleashed online!
-
-We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. 
-
-Please click the image below to check out the <a href="/images/NYScheduleFull.pdf">full New York Datathon schedule!</a>
-
-|               |                  |
-|:-----------------:|:------------------------:|
-| <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day1.png"></a><br>(click image to view PDF) | <a href="/images/NYScheduleFull.pdf"><img src="/images/ny-day2.png" ></a>
+<a href="/images/AUT-NY-Schedule.png"><img src="/images/AUT-NY-Schedule.pdf"></a>
 
 ## **Important Notes**
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-|**PHOTOGRAPHY** <br><br> ![Camera logo](/images/ny-camera100.png)| While not many photographs are taken at the event (especially with all the fantastic collaboration), but we ask that everyone be mindful of fellow attendees’ wishes. We ask that everyone make an effort to not photograph attendees who have a red dot sticker on their name badge. <br><br>If there are any questions or concerns, please don’t hesitate to reach out to any member of the Archives Unleashed team. |
-|**NUT ALLERGY** <br><br> ![No Nuts logo](/images/ny-nonuts100.png)| <br><br>Please be aware that we have a **severe nut allergy** among our group. To help ensure the comfort and safety of all our guests, we ask that participants refrain from bringing any nut products (snacks, hand creams, etc.). |
+Final presentations will be shared after the event, stay tuned!
+
+
 
 
 
@@ -115,11 +102,11 @@ However, you may want to check out:
 * **Montreal Datathon, 14-15 May 2020**. Call for Participation is **open** until **1 Dec 2019 @ midnight (EST)**. This event directly follows the IIPC [Web Archiving Conference](http://netpreserve.org/ga2020/). Please visit the **[Montreal datathon](http://netpreserve.org/ga2020/datathon/)** event page for submission details.
 
 
-## Venue
+## **Venue**
 
 Columbia University | Butler Library | 535 West 114th St., New York, NY 10027, USA
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6039.96275808335!2d-73.96541404909422!3d40.8064029792134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c31da1355%3A0xf11ddb8a69ec829b!2sButler%20Library!5e0!3m2!1sen!2sca!4v1567542633671!5m2!1sen!2sca" width="900" height="600" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6039.96275808335!2d-73.96541404909422!3d40.8064029792134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2f63c31da1355%3A0xf11ddb8a69ec829b!2sButler%20Library!5e0!3m2!1sen!2sca!4v1567542633671!5m2!1sen!2sca" width="900" height="380" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 ## Butler Library 
 
@@ -220,6 +207,11 @@ Please click the image below to check out the <a href="/images/washington-schedu
 |               |                  |
 |:-----------------:|:------------------------:|
 | <a href="/images/washington-schedule.pdf"><img src="/images/washington-day1.png"></a> | <a href="/images/washington-schedule.pdf"><img src="/images/washington-day2.png" ></a>
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+|**PHOTOGRAPHY** <br><br> ![Camera logo](/images/ny-camera100.png)| While not many photographs are taken at the event (especially with all the fantastic collaboration), but we ask that everyone be mindful of fellow attendees’ wishes. We ask that everyone make an effort to not photograph attendees who have a red dot sticker on their name badge. <br><br>If there are any questions or concerns, please don’t hesitate to reach out to any member of the Archives Unleashed team. |
+|**NUT ALLERGY** <br><br> ![No Nuts logo](/images/ny-nonuts100.png)| <br><br>Please be aware that we have a **severe nut allergy** among our group. To help ensure the comfort and safety of all our guests, we ask that participants refrain from bringing any nut products (snacks, hand creams, etc.). |
 
 
 ## Team Projects
