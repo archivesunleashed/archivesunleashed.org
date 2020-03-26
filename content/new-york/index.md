@@ -42,7 +42,7 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 
 We are moving Archives Unleashed online! <br><br>We are looking forward to spending a couple of days with with our participants. The event will kick off with some discussion around  web archiving, our project tools, and set up of the Archives Unleashed Notebooks via Colab Notebooks. After a team formation activity, the majority of our time will be dedicated for group work. Presentations will be held Friday afternoon.
 
-<a href="/images/AUT-NY-Schedule.png"><img src="/images/AUT-NY-Schedule.pdf"></a>
+<a href="/images/AUT-NY-Schedule.png"><img src="/images/AUT-NY-Schedule.png"></a>
 
 ## **Important Notes**
 
