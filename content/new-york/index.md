@@ -14,13 +14,15 @@ Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to hold
 
 ## **About**
 
-We invite archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
+The Archives Unleashed Team  partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon. This event brought together archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
-The Archives Unleashed Team has partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon.
+## Datathon Materials
 
-This event will bring together a small group to experiment with the newest release of the Archives Unleashed Toolkit and Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
+If you were not able to join us at the datathon, feel free to check out our resources available for use: 
 
-For more information on AUT and the Cloud, please visit http://archivesunleashed.org/.
+* [Video] [Archives Unleashed New York Datathon (Online)](https://youtu.be/Io6RvhqHfe4).
+
+* [PDF Slides] [[Datathon Opening Presentation](/images/AU-NY-IntroSlides-reduced.pdf")]
 
 ## **Organizers**
 
@@ -38,19 +40,60 @@ For more information on AUT and the Cloud, please visit http://archivesunleashed
 |----------------------------------------------|-----------------------------|
 | <br><br>![Sponsor Logos](/images/ny-sponsorslist.png) | This event is possible thanks to the generous support from: <br><br><a href="https://mellon.org"> Andrew W. Mellon Foundation </a> <br><br><a href="https://library.columbia.edu">Columbia University Libraries</a><br><br><a href="https://library.columbia.edu/collections/web-archives/Ivy_Plus_Libraries.html">Ivy Plus Libraries Confederation</a><br><br><a href="https://library.gwu.edu"> University of Waterloo’s Faculty of Arts </a><br><br><a href="http://www.yorku.ca"> York University Libraries </a><br><br><a href="https://www.computecanada.ca"> Compute Canada</a><br><br><a href="http://www.startsmartlabs.com"> Start Smart Labs</a> |
 
+## Team Projects
+
+<table>
+  <tr>
+    <td><b>Team: Latin American and Caribbean Contemporary Art Web Archive</b>
+      <ul>
+        <li>Samantha Abrams, Ivy Plus Libraries Confederation</li>
+        <li>Sumitra Duncan, Frick Art Reference Library/NYARC</li>
+        <li>Mary Nakija, Pratt / NYARC</li>
+        <li>Jim Kammerer, Montana State Library</li>
+        <li><a href="/images/.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Contemporary Composers Web Archives</a></b>
+      <ul>
+        <li>Pamela Graham, Columbia University Libraries</li>
+        <li>Giulia Occhini, University of Bristol/The Alan Turing Institute</li>
+        <li>Nicole Greenhouse, NYU</li>
+        <li><a href="/images/.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/.png"></td>
+  </tr>
+  <tr>
+    <td><b>Team: Global Web Comics Web Archives</b>
+      <ul>
+        <li>Kae Bara Kratcha, Columbia University Libraries</li>
+        <li>Kritika Garg, Old Dominion University</li>
+        <li>Wei Yin, Columbia University Libraries</li>
+        <li>Francis Kayiwa, DocNow/Princeton University Library</li>
+        <li><a href="/images/.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/.png"></td>
+  </tr>
+ <tr>
+    <td><b>Team: Stonewall</b>
+      <ul>
+        <li>Sarah McTavish, University of Waterloo</li>
+        <li>Alex Thurman, Columbia University Libraries</li>
+        <li>Dan Royles, Florida International University</li>
+        <li>Brian M. Watson, Kinsey Institute Indiana University Bloomington</li>
+        <li><a href="/images/.pdf">View Presentation</a></li>
+      </ul>
+    <td><img src="/images/.png"></td>
+ </tr>
+ </tr>
+</table>
+
 ## **Schedule**
 
 We are moving Archives Unleashed online! <br><br>We are looking forward to spending a couple of days with with our participants. The event will kick off with some discussion around  web archiving, our project tools, and set up of the Archives Unleashed Notebooks via Colab Notebooks. After a team formation activity, the majority of our time will be dedicated for group work. Presentations will be held Friday afternoon.
 
 <a href="/images/AUT-NY-Schedule.png"><img src="/images/AUT-NY-Schedule.png"></a>
-
-## **Important Notes**
-
-Final presentations will be shared after the event, stay tuned!
-
-
-
-
 
 <!---
 Datathon Page Outline:
