@@ -5,7 +5,7 @@ weight: 20
 ---
 
 {{< note title="Where's the documentation?" >}}
-We've reworked our website, and the documentation now lives [here](https://github.com/archivesunleashed/aut/wiki/User-Documentation).
+We've reworked our website, and the documentation now lives [here](https://github.com/archivesunleashed/aut-docs/blob/master/current/README.md).
 {{< /note >}}
 
 ## Introduction
