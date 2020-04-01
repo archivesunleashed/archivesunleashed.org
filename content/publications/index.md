@@ -10,7 +10,7 @@ The Archives Unleashed project has a body of published research.
 
 * Archives Unleashed. "AU NY Datathon (Online)." Online video clip. _YouTube_, 26-27 March 2020. https://youtu.be/Io6RvhqHfe4 
 
-* Ian Milligan, Nick Ruest, Jimmy Lin, Samantha Fritz. "Archives Unleashed New York Datathon: Introduction." _Archives Unleashed NY Datathon_, March 2020, Online. [[Datathon Slides](/images/AU-NY-IntroSlides-reduced.pdf")]
+* Ian Milligan, Nick Ruest, Jimmy Lin, and Samantha Fritz. "Archives Unleashed New York Datathon: Introduction." _Archives Unleashed NY Datathon_, March 2020, Online. [[Datathon Slides](/images/AU-NY-IntroSlides-reduced.pdf")]
 
 ## Preprints
 
