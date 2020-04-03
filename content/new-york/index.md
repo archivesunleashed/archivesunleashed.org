@@ -50,9 +50,9 @@ If you were not able to join us at the datathon, feel free to check out our reso
         <li>Sumitra Duncan, Frick Art Reference Library/NYARC</li>
         <li>Mary Nakija, Pratt / NYARC</li>
         <li>Jim Kammerer, Montana State Library</li>
-        <li><a href="/images/.pdf">View Presentation</a></li>
+        <li><a href="/images/NY-project-artWA.pdf">View Presentation</a></li>
       </ul>
-    <td><img src="/images/.png"></td>
+    <td><img src="/images/NY-project-artWA.png"></td>
   </tr>
   <tr>
     <td><b>Team: Contemporary Composers Web Archives</a></b>
@@ -60,9 +60,9 @@ If you were not able to join us at the datathon, feel free to check out our reso
         <li>Pamela Graham, Columbia University Libraries</li>
         <li>Giulia Occhini, University of Bristol/The Alan Turing Institute</li>
         <li>Nicole Greenhouse, NYU</li>
-        <li><a href="/images/.pdf">View Presentation</a></li>
+        <li><a href="/images/NY-project-composers.pdf">View Presentation</a></li>
       </ul>
-    <td><img src="/images/.png"></td>
+    <td><img src="/images/NY-project-Composers.png"></td>
   </tr>
   <tr>
     <td><b>Team: Global Web Comics Web Archives</b>
@@ -71,9 +71,9 @@ If you were not able to join us at the datathon, feel free to check out our reso
         <li>Kritika Garg, Old Dominion University</li>
         <li>Wei Yin, Columbia University Libraries</li>
         <li>Francis Kayiwa, DocNow/Princeton University Library</li>
-        <li><a href="/images/.pdf">View Presentation</a></li>
+        <li><a href="/images/NY-project-webcomics.pdf">View Presentation</a></li>
       </ul>
-    <td><img src="/images/.png"></td>
+    <td><img src="/images/NY-project-webcomic.png"></td>
   </tr>
  <tr>
     <td><b>Team: Stonewall</b>
@@ -82,9 +82,9 @@ If you were not able to join us at the datathon, feel free to check out our reso
         <li>Alex Thurman, Columbia University Libraries</li>
         <li>Dan Royles, Florida International University</li>
         <li>Brian M. Watson, Kinsey Institute Indiana University Bloomington</li>
-        <li><a href="/images/.pdf">View Presentation</a></li>
+        <li><a href="/images/NY-project-stonewall.pdf">View Presentation</a></li>
       </ul>
-    <td><img src="/images/.png"></td>
+    <td><img src="/images/NY-project-stonewall.png"></td>
  </tr>
  </tr>
 </table>
