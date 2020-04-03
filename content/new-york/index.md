@@ -14,15 +14,18 @@ Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to hold
 
 ## **About**
 
-The Archives Unleashed Team  partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon. This event brought together archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
+The Archives Unleashed Team partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon. This event brought together archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
 ## Datathon Materials
 
 If you were not able to join us at the datathon, feel free to check out our resources available for use: 
 
-* [Video] [Archives Unleashed New York Datathon (Online)](https://youtu.be/Io6RvhqHfe4).
+* [Video] [Archives Unleashed New York Datathon (Online)](https://youtu.be/Io6RvhqHfe4)
 
-* [PDF Slides] [[Datathon Opening Presentation](/images/AU-NY-IntroSlides-reduced.pdf")]
+* [PDF Slides] <a href="/images/AU-NY-IntroSlides.pdf">Datathon Opening Presentation</a></li>
+
+
+
 
 ## **Organizers**
 
@@ -48,7 +51,7 @@ If you were not able to join us at the datathon, feel free to check out our reso
       <ul>
         <li>Samantha Abrams, Ivy Plus Libraries Confederation</li>
         <li>Sumitra Duncan, Frick Art Reference Library/NYARC</li>
-        <li>Mary Nakija, Pratt / NYARC</li>
+        <li>Mary Bakija, Pratt / NYARC</li>
         <li>Jim Kammerer, Montana State Library</li>
         <li><a href="/images/NY-project-artWA.pdf">View Presentation</a></li>
       </ul>
