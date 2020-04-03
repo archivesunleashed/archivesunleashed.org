@@ -22,7 +22,7 @@ If you were not able to join us at the datathon, feel free to check out our reso
 
 * [Video] [Archives Unleashed New York Datathon (Online)](https://youtu.be/Io6RvhqHfe4)
 
-* [PDF Slides] <a href="/images/AU-NY-IntroSlides.pdf">Datathon Opening Presentation</a></li>
+* [PDF Slides] <a href="/images/AU-NY-IntroSlides-reduced.pdf">Datathon Opening Presentation</a></li>
 
 
 
