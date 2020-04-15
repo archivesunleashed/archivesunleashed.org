@@ -20,7 +20,7 @@
       <description>Where&amp;#39;s the documentation?
 We&amp;rsquo;ve reworked our website, and the documentation now lives here.
  Introduction The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on Apache Spark, which provides powerful tools for analytics and data processing.
-Most of this documentation is built on resilient distributed datasets (RDD). We are working on adding support for DataFrames.
+You can process your data with either resilient distributed datasets (RDD) or [DataFrames.
 Check out the code on GitHub along with helpful user documentation to get you started using the Archives Unleashed Toolkit.</description>
     </item>
     
