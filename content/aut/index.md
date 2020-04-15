@@ -14,7 +14,7 @@ We've reworked our website, and the documentation now lives [here](https://githu
 
 The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on [Apache Spark](http://spark.apache.org/), which provides powerful tools for analytics and data processing. 
 
-You can process your data with either [resilient distributed datasets (RDD)](https://spark.apache.org/docs/latest/rdd-programming-guide.html) and [[DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes). 
+You can process your data with either [resilient distributed datasets (RDD)](https://spark.apache.org/docs/latest/rdd-programming-guide.html) or [[DataFrames](https://spark.apache.org/docs/latest/sql-programming-guide.html#datasets-and-dataframes). 
 
 Check out the code on [GitHub](https://github.com/archivesunleashed/aut/) along with helpful [user documentation](https://github.com/archivesunleashed/aut-docs/blob/master/current/README.md) to get you started using the Archives Unleashed Toolkit. If you want hack on the Archives Unleashed Toolkit, check out our [API documentation](https://api.docs.archivesunleashed.io/).
 
