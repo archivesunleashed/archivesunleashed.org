@@ -47,7 +47,7 @@ The analysis process then triggers an Apache Spark job and uses AUT to create a 
 * A GEXF file which you can load with Gephi. It has a basic layout courtesy of our [GraphPass](https://github.com/archivesunleashed/graphpass) program, which allows you to see major nodes and communities in the network;
 * A GraphML file which you can load with [Gephi](https://gephi.org/). It does not have any basic layouts or transformations, requiring you to do so manually. You can use [GraphPass](https://github.com/archivesunleashed/graphpass) to provide layout if you wish to add that feature to your file;
 * A CSV file that explains the distribution of domains within the web archive;
-* A TXT file that contains the plain text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file;
+* A CSV file that contains the text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file;
 * A ZIP file that contains the plain text extracted from HTML documents within the web archive, arranged by each domain. Within this ZIP you will have a series of text files, each containing the full text of a top ten domain.
 
 If you are curious about what you can do with these files, see the [Archives Unleashed Cloud Derivative Files learning guide](https://cloud.archivesunleashed.org/derivatives).
@@ -82,7 +82,5 @@ Future development will focus on filtering further down on a collection, and int
 ## Can I try it out?
 
 Currently, anyone with an Archive-It subscription can take the Cloud for a spin. Please just come over to <http://cloud.archivesunleashed.org> and give it a try.
-
-If you don't have an Archive-It account, sit tight, we are looking into development for Cloud users who would like to bring their own WARCs to the Cloud with [webrecorder.io](https://webrecorder.io/). Updates will be provided through our social media channels and newsletter, as well as on our website.
 
 The Archives Unleashed Cloud is an open source project, you can view the codebase [here](http://github.com/archivesunleashed/auk). Although it is tied closely to the canonical instance running at <http://cloud.archivesunleashed.org>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, [let us know and we can collaborate](https://archivesunleashed.org/get-involved/) and figure out how to make it happen.
