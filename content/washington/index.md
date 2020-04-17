@@ -17,8 +17,6 @@ The Archives Unleashed Team has partnered with <a href="https://library.gwu.edu"
 
 This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
-For more information on AUT and the Cloud, please visit <http://archivesunleashed.org/>.
-
 ## Team Projects
 
 <table>
