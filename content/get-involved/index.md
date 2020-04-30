@@ -22,7 +22,8 @@ The Archives Unleashed Project is pleased to offer a quarterly newsletter to hig
 
 Previous issues are accessible below.
 
-* <a href="/images/AUTNews-Jan2020.pdf">January 2020</a> (current issue)
+* <a href="/images/AUTNews-Apr2020.pdf">April 2020</a> (current issue)
+* <a href="/images/AUTNews-Jan2020.pdf">January 2020</a>
 * <a href="/images/AUTNews-Aug2019.pdf">August 2019</a>
 * <a href="/images/AUTNews-Mar2019.pdf">March 2019</a> 
 * <a href="/images/AUTNews-Nov2018.pdf">November 2018</a>
