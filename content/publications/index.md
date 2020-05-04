@@ -73,6 +73,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Datasets
 
+* Nick Ruest, Jocelyn Wilk, Alex Thurman. "University Archives web archive collection derivatives", 2020, https://doi.org/10.5683/SP2/FONRZU
 * Nick Ruest, Matthew C. Baker, and Alex Thurman. "Burke Library New York City Religions web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3701455
 * Nick Ruest. "Rare Book and Manuscript Library web archive collection derivatives" 2020, http://doi.org/10.5281/zenodo.3701593
 * Nick Ruest, and Samantha Abrams. "Contemporary Composers Web Archive (CCWA) web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3692559
