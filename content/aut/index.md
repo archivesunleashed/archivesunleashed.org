@@ -4,13 +4,7 @@ title: The Archives Unleashed Toolkit
 weight: 20
 ---
 
-{{< note title="Where's the documentation?" >}}
-We've reworked our website, and the documentation now lives [here](https://github.com/archivesunleashed/aut-docs/blob/master/current/README.md).
-{{< /note >}}
-
-## Introduction
-
-![aut in action](/images/prompt.png)
+<iframe width="900" height="315" src="https://www.youtube.com/embed/b4zBD_h4OLY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on [Apache Spark](http://spark.apache.org/), which provides powerful tools for analytics and data processing. 
 
