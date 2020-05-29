@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to the Archives Unleashed Project on The Archives Unleashed Project</title>
@@ -48,8 +48,8 @@ The Archives Unleashed Cloud is an open source cloud-based analysis tool that he
       
       <guid>https://archivesunleashed.org/aut/</guid>
       <description>The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on Apache Spark, which provides powerful tools for analytics and data processing.
-You can process your data with either resilient distributed datasets (RDD) or [DataFrames.
-Check out the code on GitHub along with helpful user documentation to get you started using the Archives Unleashed Toolkit. If you want hack on the Archives Unleashed Toolkit, check out our API documentation.</description>
+Check out the code on GitHub along with helpful user documentation to get you started using the Archives Unleashed Toolkit. If you want hack on the Archives Unleashed Toolkit, check out our Java and Scala API documentation.
+The Archives Unleashed Toolkit can also be used in conjunction with Spark Notebooks, and Apache Zepplin.</description>
     </item>
     
     <item>
