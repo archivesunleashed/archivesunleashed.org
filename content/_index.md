@@ -5,6 +5,14 @@ type: index
 weight: 0
 ---
 
+{{< note title="Announcing the next phase of our project" >}}
+![logo](/images/AU+AI-Announcement.png)
+Supported by a new grant by the Andrew W. Mellon Foundation, Archives Unleashed is partnering with our colleagues at the Internet Archive. We will be integrating the Cloud with their Archive-It service in order to ensure the project’s long-term sustainability, as well as enhance usability and accessibility. 
+
+[Read more about the next stage of the project here](http://uwaterloo.ca) and stay tuned for more updates.
+{{< /note >}}
+
+<br>
 <iframe width="900" height="315" src="https://www.youtube.com/embed/nBwgM63MxY8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The Archives Unleashed project aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Supported by a grant from the [Andrew W. Mellon Foundation](https://mellon.org), we are developing web archive search and data analysis tools to enable scholars, librarians and archivists to access, share, and investigate recent history since the early days of the World Wide Web.
