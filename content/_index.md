@@ -10,7 +10,7 @@ weight: 0
 ![logo](/images/AU+AI-Announcement.png)
 Supported by a new grant by [The Andrew W. Mellon Foundation](https://mellon.org/), Archives Unleashed is partnering with our colleagues at the [Internet Archive](https://archive.org). We will be integrating the Cloud with their [Archive-It service](https://archive-it.org) in order to ensure the project’s long-term sustainability, as well as enhance usability and accessibility. 
 
-[Read more about the next stage of the project here](http://uwaterloo.ca) and stay tuned for more updates.
+[Read more about the next stage of the project here](https://uwaterloo.ca/arts/news/archives-unleashed-project-scales-archive-it-better) and stay tuned for more updates.
 
 
 ## The Project
