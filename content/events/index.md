@@ -4,16 +4,10 @@ title: Events
 weight: 40
 ---
 
-{{< warning title="Event Updates" >}}
-Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to hold our March 26-27 Archives Unleashed event as an online-only event. Our thanks again to our attendees for their patience and help as we navigate this shift.
-
-As the IIPC Web Archiving Conference has been postponed until September 2020, we have also canceled our datathon that was part of that larger event.
-{{< /warning >}}
-
 ## Upcoming Events
 ![Material Screenshot](/images/washington-hackathon.png)
 
-The Archives Unleashed team will be hosting the final datathon in the spring of 2020. Will we post information here and through our channels as it becomes available. Feel free to explore past event pages to learn more about the datathon set up and checkout group projects.
+The Archives Unleashed team hosted our final datathon in the spring of 2020. Feel free to explore past event pages to learn more about the datathon set up and checkout group projects.
 
 |        Date       |         Location         |        Hosts             |
 |:-----------------:|:------------------------:|:------------------------:|
