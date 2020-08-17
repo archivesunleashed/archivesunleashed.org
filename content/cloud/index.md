@@ -23,7 +23,7 @@ Core features of the Archives Unleashed Cloud include:
 * Syncing [Archive-It](https://archive-it.org) collections;
 * Ingesting Archive-It collections via WASAPI to the Cloud;
 * Creating a network graph, domain distribution list, full text, and full text by domain derivatives, and making each available for download;
-* Providing an in-browser diagrams to highlight a collection's crawl frequency, interactive network graph (to see major nodes and connections within your collection), and domains graph. 
+* Providing in-browser diagrams to highlight a collection's crawl frequency, interactive network graph (to see major nodes and connections within your collection), and domains graph. 
 
 In addition, our [documentation](http://cloud.archivesunleashed.org/documentation) offers guidance on how to get the Cloud up and running, as well as how to use some of its features. 
 
