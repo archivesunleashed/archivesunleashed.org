@@ -23,7 +23,7 @@ Core features of the Archives Unleashed Cloud include:
 * Syncing [Archive-It](https://archive-it.org) collections;
 * Ingesting Archive-It collections via WASAPI to the Cloud;
 * Creating a network graph, domain distribution list, full text, and full text by domain derivatives, and making each available for download;
-* Providing an in-browser network diagram to see major nodes and connections within your collection.
+* Providing in-browser diagrams to highlight a collection's crawl frequency, interactive network graph (to see major nodes and connections within your collection), and domains graph. 
 
 In addition, our [documentation](http://cloud.archivesunleashed.org/documentation) offers guidance on how to get the Cloud up and running, as well as how to use some of its features. 
 
@@ -38,7 +38,7 @@ Once a user signs up to [cloud.archivesunleashed.org](http://cloud.archivesunlea
 
 The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in the Cloud yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!
 
-![Cloud collections](/images/collections.png)
+![Cloud collections](/images/cloud-collections.png)
 
 From the main collections screen, users can select a specific collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our Archives Unleashed Cloud instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin. 
 
@@ -50,11 +50,12 @@ The analysis process then triggers an Apache Spark job and uses AUT to create a 
 * A CSV file that contains the text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file;
 * A ZIP file that contains the plain text extracted from HTML documents within the web archive, arranged by each domain. Within this ZIP you will have a series of text files, each containing the full text of a top-ten domain.
 
-If you are curious about what you can do with these files, see the [Archives Unleashed Cloud Derivative Files learning guide](https://cloud.archivesunleashed.org/derivatives).
+If you are curious about what you can do with these files, see the [Archives Unleashed Cloud Derivative Files learning guides](https://cloud.archivesunleashed.org/derivatives).
 
 Here is a completed collection page:
 
-![Cloud collections](/images/analysis.png)
+![Cloud collections](/images/cloud-interface1.png)
+![Cloud collections continued](/images/cloud-interface2.png)
 
 In addition, we use [GraphPass](https://github.com/archivesunleashed/graphpass) to help to create a simple network visualization powered by [Sigma js](http://sigmajs.org/) on the collection page. Sigma is a JavaScript library that assists in drawing and displaying graphs. 
 
@@ -67,7 +68,7 @@ Users can explore and interact with the network using the helper buttons in the 
 * Refresh - brings the network diagram back to its original state
 * Scale up and scale down - allows users to see more or less node labels in the network
 
-![Full graph](/images/graph.png)
+![Full graph](/images/AUK-graphfull.png)
 
 A few cautionary notes on "scale up" and "scale down" are in order. With website networks, some sites have so many links compared to the others, that they obscure everything else. The Archives Unleashed Cloud's scale-up feature uses **logarithmic transformation** to make the graph a bit easier to read. For example, six nodes with size values 1, 10, 100, 1000, 10000 and 1,000,000,000 can be transformed using a base 10 logarithm to produce new sizes 0, 1, 2, 3, 4, & 9, making the node sizes much closer together in size. 
 
@@ -75,7 +76,7 @@ A few cautionary notes on "scale up" and "scale down" are in order. With website
 
 You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that `townyarmouth.ca` has a link to the `atlantic.ctvnews.ca` domain.
 
-![Full graph](/images/neighbours.png)
+![Full graph](/images/AUK-graph-zoomin.png)
 
 Future development will focus on filtering further down on a collection, and integrating the new [DataFrame](https://spark.apache.org/docs/latest/sql-programming-guide.html) functionality we're adding to AUT via a [JDBC](https://en.wikipedia.org/wiki/JDBC_driver) connector.
 

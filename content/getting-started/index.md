@@ -28,11 +28,10 @@ As noted above, the Archives Unleashed Cloud is an open source cloud-based analy
 
 Here it is in action:
 
-![Cloud collections](/images/collections.png)
+![Cloud collections](/images/cloud-collections.png)
 
-![Cloud collections](/images/analysis.png)
-
-![Full graph](/images/neighbours.png)
+![Cloud collections](/images/cloud-interface1.png)
+![Cloud collections continued](/images/cloud-interface2.png)
 
 ## Tools in Action: The Notebook
 

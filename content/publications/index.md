@@ -6,18 +6,17 @@ weight: 48
 
 The Archives Unleashed project has a body of published research.
 
-## Datathon Materials
+## Archives Unleashed Project Materials
 
+* Archives Unleashed. 2020. "Archives Unleashed Community Report (2017–2020)." [[PDF](/images/au-community-report.pdf)]
+* Archives Unleashed. 2020. "Reflecting on Collaborations and Community at Archives Unleashed Datathons." [[Post](https://news.archivesunleashed.org/reflecting-on-collaborations-and-community-at-archives-unleashed-datathons-d2d4538db462)]  [[PDF](/images/au-datathon-report.pdf)]
 * Archives Unleashed. "AU NY Datathon (Online)." Online video clip. _YouTube_, 26-27 March 2020. https://youtu.be/Io6RvhqHfe4 
-
 * Ian Milligan, Nick Ruest, Jimmy Lin, and Samantha Fritz. "Archives Unleashed New York Datathon: Introduction." _Archives Unleashed NY Datathon_, March 2020, Online. [[Datathon Slides](/images/AU-NY-IntroSlides-reduced.pdf")]
 
-## Preprints
-
-* Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. "The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives." arXiv:2001.05399, January 2020. [[link](https://arxiv.org/abs/2001.05399)]
 
 ## Journal Articles
 
+* Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Building community at distance: a datathon during COVID-19." _Digital Library Perspectives_, 2020. [[link](https://doi.org/10.1108/DLP-04-2020-0024)]
 * Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warcbase : Scalable Analytics Infrastructure for Exploring Web Archives.” _ACM Journal of Computing and Cultural Heritage_, Vol. 10, Issue 4, July 2017. [[link](https://dl.acm.org/citation.cfm?id=3097570)]
 * Ian Milligan, Nick Ruest, and Anna St.Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to Document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
 * Ian Milligan. "Lost in the Infinite Archive : The Promise and Pitfalls of Web Archives." _International Journal of Humanities and Arts Computing_, Vol. 10, No. 1-2 (2016): 87—94. [[link](https://www.euppublishing.com/doi/full/10.3366/ijhac.2016.0161)] [[preprint](https://uwspace.uwaterloo.ca/handle/10012/10322)]
@@ -28,6 +27,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Peer-Reviewed Conference Publications
 
+* Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. "The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives". In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL ’20)_. Association for Computing Machinery, New York, NY, USA, 157–166 (2020) [[link](https://doi.org/10.1145/3383583.3398513)] [[preprint](https://arxiv.org/abs/2001.05399)] [[presentation](https://youtu.be/TaVE1cU_EmQ)]
 * Jimmy Lin, Ian Milligan, Douglas Oard, Nick Ruest, and Katie Shilton. "We Could, but Should We? Ethical Considerations for Providing Access to GeoCities and Other Historical Digital Collections." _Proceedings of the Fifth ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2020)_. [[preprint](https://cs.uwaterloo.ca/~jimmylin/publications/Lin_etal_CHIIR2020.pdf)]
 * Ryan Deschamps, Samantha Fritz, Jimmy Lin, Ian Milligan, and Nick Ruest. "The Cost of a WARC : Analyzing Web Archives in the Cloud." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[link](https://ieeexplore.ieee.org/document/8791179)] [[preprint](http://hdl.handle.net/10315/36158)]
 * Ian Milligan, Nathalie Casemajor, Samantha Fritz, Jimmy Lin, Nick Ruest, Matthew S. Weber, and Nicholas Worby. "Building Community and Tools for Analyzing Web Archives through Datathons." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[link](https://ieeexplore.ieee.org/document/8791131)] [[preprint](http://hdl.handle.net/10315/36180)]
@@ -37,6 +37,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Peer-Reviewed Posters and Demonstrations
 
+* Tobi Adewoye, Xiao Han, Nick Ruest, Ian Milligan, Samantha Fritz, and Jimmy Lin. "Content-Based Exploration of Archival Images Using Neural Networks". In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL ’20)_. Association for Computing Machinery, New York, NY, USA, 489–490 (2020). [[link](https://doi.org/10.1145/3383583.3398577)] [[preprint](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/37504/image-search.pdf?sequence=1&isAllowed=y)] [[poster demo](/images/jcdl-2020-poster.pdf)] [[video summary](https://youtu.be/TQdZbasiI2I)]
 * Ryan Deschamps, Nick Ruest, Jimmy Lin, Samantha Fritz, and Ian Milligan. "The Archives Unleashed Notebook: Madlibs for Jumpstarting Scholarly Exploration of Web Archives." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36160)]
 * Hsiu-Wei Yang, Linqing Liu, Ian Milligan, Nick Ruest, and Jimmy Lin. "Scalable Content-Based Analysis of Images in Web Archives with TensorFlow and the Archives Unleashed Toolkit." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36161)]
 * Nick Ruest, Ian Milligan, and Jimmy Lin. "Warclight: A Rails Engine for Web Archive Discovery." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36159)]
