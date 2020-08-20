@@ -185,7 +185,7 @@ We may also collect information how our services are accessed and used. In some 
 
 | Archives Unleashed Service | Usage Data Collected |
 |----------------------------|----------------------|
-| [Archives Unleashed Cloud](https://cloud.archivesunleashed.org/)   |  * Apache Spark logs showing timestamps to produce derivative files</br>* The name and size of your Archive-It collections</br>* Username and institution |
+| [Archives Unleashed Cloud](https://cloud.archivesunleashed.org/)   |  * Apache Spark logs showing timestamps to produce derivative files<br>* The name and size of your Archive-It collections</br>* Username and institution |
 | [Archives Unleashed Toolkit](https://archivesunleashed.org/) | Not Applicable |
 | [Newsletter](https://archivesunleashed.org/get-involved/#newsletter-subscription) |  General stats that help us understand how people are interacting with our newsletters:</br>* Number of subscribers</br>* Number of opt-outs</br>* Audience growth</br>* Open/click rates</br>* Campaign performance</br>* Email clients used</br>* Locations (general not specific) |
 | [Slack](http://slack.archivesunleashed.org/) |  Statistical reports are provided to Slack administrators to understand:</br>* Total number of users</br>* When users become inactive |
