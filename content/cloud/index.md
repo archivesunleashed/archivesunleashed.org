@@ -85,3 +85,13 @@ Future development will focus on filtering further down on a collection, and int
 Currently, anyone with an Archive-It subscription can take the Cloud for a spin. Please just come over to <http://cloud.archivesunleashed.org> and give it a try.
 
 The Archives Unleashed Cloud is an open source project, you can view the codebase [here](http://github.com/archivesunleashed/auk). Although it is tied closely to the canonical instance running at <http://cloud.archivesunleashed.org>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, [let us know and we can collaborate](https://archivesunleashed.org/get-involved/) and figure out how to make it happen.
+
+## Citing Archives Unleashed
+
+Your citations help to further the recognition of using open-source tools for scientific inquiry, assists in growing the web archiving community, and acknowledges the efforts of contributors to this project.
+
+How to cite the Archives Unleashed Toolkit or Cloud in your research:
+
+|    |   |
+|----|---|
+|![Citation Icon](/images/au-citation-icon.png)| Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. 2020. The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives. In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL '20)_. Association for Computing Machinery, New York, NY, USA, 157–166. DOI: https://doi.org/10.1145/3383583.3398513 |

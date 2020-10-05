@@ -16,6 +16,16 @@ Starting in June 2020, the project entered a [second phase](https://uwaterloo.ca
 
 Over three years, the team will be engaged in two priorities: First, we will be integrating the Archives Unleashed Cloud with the Internet Archive's Archive-It Service. Secondly, to facilitate researcher engagement with web archives, we will be planning the Archives Unleashed Cohorts program. Stay tuned for more detail.
 
+## Citing Archives Unleashed 
+
+Your citations help to further the recognition of using open-source tools for scientific inquiry, assists in growing the web archiving community, and acknowledges the efforts of contributors to this project.
+
+How to cite the Archives Unleashed Toolkit or Cloud in your research:
+
+|    |   |
+|----|---|
+|![Citation Icon](/images/au-citation-icon.png)| Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. 2020. The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives. In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL '20)_. Association for Computing Machinery, New York, NY, USA, 157–166. DOI: https://doi.org/10.1145/3383583.3398513 |
+
 ## Project Team
 
 |    |   |
