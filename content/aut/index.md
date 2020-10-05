@@ -13,3 +13,7 @@ Check out the code on [GitHub](https://github.com/archivesunleashed/aut/) along 
 The Archives Unleashed Toolkit can also be used in conjunction with [Spark Notebooks](http://spark-notebook.io/), and [Apache Zepplin](https://zeppelin.apache.org/).
 
 If you want to learn more about [Apache Spark](https://spark.apache.org/), we highly recommend [Spark: The Definitive Guide](http://shop.oreilly.com/product/0636920034957.do)
+
+|    |   |
+|----|---|
+|![Citation Icon](/images/au-citation-icon.png)| Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. 2020. The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives. In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL '20)_. Association for Computing Machinery, New York, NY, USA, 157–166. DOI: https://doi.org/10.1145/3383583.3398513 |
