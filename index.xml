@@ -69,7 +69,7 @@ To use them now, please visit the GitHub repository here and follow the instruct
       <pubDate>Tue, 14 Nov 2017 09:21:11 -0500</pubDate>
       
       <guid>https://archivesunleashed.org/warclight/</guid>
-      <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data that is indexed via the UK Web Archive&amp;rsquo;s webarchive-discovery project.
+      <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data that is indexed via the UK Web Archive&amp;rsquo;s webarchive-discovery project. This project grew out of the WALK Project.
 You can visit our demo site here, or check out the code on GitHub along with documentation to get you started on your own Warclight application.</description>
     </item>
     
