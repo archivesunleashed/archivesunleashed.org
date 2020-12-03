@@ -20,9 +20,10 @@ There are many ways you can participate in the Archives Unleashed Project.
 
 The Archives Unleashed Project is pleased to offer a quarterly newsletter to highlight the most up-to-date project news. Interested in hearing more about updates to the Toolkit and Cloud, news, announcements, and upcoming events? You can sign up by clicking [here](http://eepurl.com/dfpU7j) or filling out the form below.
 
-Previous issues are accessible below.
+All issues are accessible below:
 
-* [August 2020](/images/AUTNews-Aug2020.pdf) (current issue)
+* [November 2020](/images/AUTNews-Nov2020.pdf) (current issue)
+* [August 2020](/images/AUTNews-Aug2020.pdf) 
 * [April 2020](/images/AUTNews-Apr2020.pdf)
 * [January 2020](/images/AUTNews-Jan2020.pdf)
 * [August 2019](/images/AUTNews-Aug2019.pdf)
