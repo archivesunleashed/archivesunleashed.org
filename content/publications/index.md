@@ -16,6 +16,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Journal Articles
 
+* Nick Ruest, Samantha Fritz, Ryan Deschamps, Jimmy Lin, and Ian Milligan. "From archive to analysis: accessing web archives at scale through a cloud-based interface." _International Journal of Digital Humanities_, 2021. [[link](https://doi.org/10.1007/s42803-020-00029-6)]
 * Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Building community at distance: a datathon during COVID-19." _Digital Library Perspectives_, 2020. [[link](https://doi.org/10.1108/DLP-04-2020-0024)]
 * Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warcbase : Scalable Analytics Infrastructure for Exploring Web Archives.” _ACM Journal of Computing and Cultural Heritage_, Vol. 10, Issue 4, July 2017. [[link](https://dl.acm.org/citation.cfm?id=3097570)]
 * Ian Milligan, Nick Ruest, and Anna St.Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to Document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
