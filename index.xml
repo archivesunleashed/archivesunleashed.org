@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome to the Archives Unleashed Project on The Archives Unleashed Project</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Welcome to the Archives Unleashed Project on The Archives Unleashed Project</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate>
-    
-	<atom:link href="https://archivesunleashed.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 08 Mar 2016 21:07:13 +0100</lastBuildDate><atom:link href="https://archivesunleashed.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About the Archives Unleashed Project</title>
       <link>https://archivesunleashed.org/about-project/</link>
@@ -101,7 +97,7 @@ You can visit our demo site here, or check out the code on GitHub along with doc
       <guid>https://archivesunleashed.org/new-york/</guid>
       <description>Event Moved Online
 Due to the rapidly-evolving COVID-19 pandemic situation, we have decided to hold our March 26-27 Archives Unleashed event as an online-only event. Our thanks again to our attendees for their patience and help as we navigate this shift.
- About The Archives Unleashed Team partnered with Columbia University Libraries to host the fourth Archives Unleashed datathon. This event brought together archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.</description>
+ About The Archives Unleashed Team partnered with Columbia University Librariesto host the fourth Archives Unleashed datathon. This event brought together archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.</description>
     </item>
     
     <item>
@@ -163,7 +159,7 @@ Finding Your Terminal While the Archives Unleashed Cloud is easy to use in a web
       
       <guid>https://archivesunleashed.org/toronto/</guid>
       <description>About The World Wide Web has a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
-Web archives often contain hundreds of billions of web pages, ranging from individual homepages and social media posts, to institutional websites.</description>
+Web archives often contain hundreds of billions of web pages, ranging from individual homepages and social media posts, to institutional websites. These archives offer tremendous potential for social scientists and humanists, and the questions research may pose stretch across a multitude of fields.</description>
     </item>
     
   </channel>
