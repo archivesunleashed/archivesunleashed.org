@@ -67,7 +67,4 @@ Submissions will be evaluated on the following criteria:
 * Jefferson Bailey (Internet Archive) 
 * Nick Ruest (York University)
 * Jimmy Lin (University of Waterloo)
-
-
-
-
+* Samantha Fritz (Archives Unleashed)
