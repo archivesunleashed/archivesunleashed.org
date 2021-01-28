@@ -5,6 +5,8 @@ type: index
 weight: 0
 ---
 
+[![logo](/images/AUCo-banner.png)](/cohorts)
+
 ![logo](/images/announuce-banner1.png)
 
 ![logo](/images/AU+AI-Announcement.png)
