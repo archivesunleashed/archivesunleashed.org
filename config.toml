@@ -78,6 +78,11 @@ googleAnalytics = "UA-2879197-28"
 	weight = 18
 
 [[menu.main]]
+	name   = "Cohorts"
+	url    = "cohorts/"
+	weight = 25
+
+[[menu.main]]
 	name   = "Get Involved"
 	url    = "get-involved/"
 	weight = 30
@@ -86,7 +91,6 @@ googleAnalytics = "UA-2879197-28"
 	name   = "Events"
 	url    = "events/"
 	weight = 40
-
 
 [[menu.main]]
 	name   = "Publications"
