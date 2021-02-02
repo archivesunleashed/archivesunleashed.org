@@ -23,7 +23,7 @@ We are looking to select up to **five cohorts** in the July 2021 to June 2022 pe
 * **Computational support** including storage and computational; and
 * **Funding** of $11,500 CAD in to support project work.
 
-It is expected that all teams will **prepare a journal-length article submission** as part of this project, which will be developed throughout the term and workshopped at the closing May 2022 event at the Internet Archive.
+It is expected that all teams will **prepare a journal-length article submission** as part of this project, which will be developed throughout the term and workshopped at the closing event at the Internet Archive.
 
 ## The Cohorts
 
@@ -50,7 +50,7 @@ Prepare you submission package using the **Cohort application**, to address the 
 * CV for each named applicant (max 2 pages each); and
 * Project proposal:
 	* **Project Summary**: describe the research problem you aim to approach with web archives (max. 500 words);
-	* **Dataset**: identify the web archive collection you plan to use to explore your project(max. 250 words); and
+	* **Dataset**: identify the web archive collection you plan to use to explore your project (max. 250 words); and
 	* **Timeline**: provide an brief overview of how you will conduct the project (max. 250 words).
 
 All completed applications should be submitted to [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca) by **11:59PM Eastern on 31 March 2021**. 
