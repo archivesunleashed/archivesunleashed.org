@@ -9,7 +9,6 @@ weight: 0
 
 ---
 
-
 ![AU Project Header](/images/home-AUproject-header.png)
 
 ## The Project
@@ -17,7 +16,7 @@ weight: 0
 The Archives Unleashed project aims to make petabytes of historical internet content accessible to scholars and others interested in researching the recent past. Our team develops web archive search and data analysis tools to enable scholars, librarians and archivists to access, share, and investigate recent history since the early days of the World Wide Web.
 
 
-Supported by a new grant by [The Andrew W. Mellon Foundation](https://mellon.org/), Archives Unleashed is partnering with our colleagues at the [Internet Archive](https://archive.org). We will be integrating the Cloud with [Archive-It service](https://archive-it.org) to ensure the project’s long-term sustainability, as well as enhance usability and accessibility of web archives.
+Supported by [The Andrew W. Mellon Foundation](https://mellon.org/), Archives Unleashed is partnering with our colleagues at the [Internet Archive](https://archive.org). We will be integrating the Cloud with the [Archive-It service](https://archive-it.org) to ensure the project’s long-term sustainability, as well as enhance usability and accessibility of web archives.
 
 [Read more about the next stage of the project here](https://uwaterloo.ca/arts/news/archives-unleashed-project-scales-archive-it-better).
 

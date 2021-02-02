@@ -10,24 +10,24 @@ weight: 40
 
 Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for historians, political scientists, sociologists, linguistics, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries.
 
-The Archives Unleashed project is pleased to announuce the launch of the **Cohort Program**, which will facilitate research engagement with web archives. Cohorts will engage in a year-long collaboration, while receiving mentorship and support from the Archives Unleashed Team.
+The Archives Unleashed project is pleased to announce  the launch of the **Cohort Program**, which will facilitate research engagement with web archives. Cohorts will engage in a year-long collaboration, while receiving mentorship and support from the Archives Unleashed Team.
 
 ## Program Details
 
-We are looking to select **five cohorts** in the July 2021 to June 2022 period who will receive the following support:
+We are looking to select up to **five cohorts** in the July 2021 to June 2022 period who will receive the following support:
 
 * **Participate** in cohort events which will provide an introduction to web archives and an opportunity to workshop draft work in a supportive environment.
-	* Opening event: virtual [July 2021]
-	* Closing event: Internet Archive, San Francisco, California, United States [May 2022]
-* **Bi-weekly mentorship** and support meetings with the Archives Unleashed team;
+	* Opening event: virtual, due to COVID-19 [July 2021]
+	* Closing event: Internet Archive, San Francisco, California, United States [Tentatively May 2022]
+* **Bi-monthly mentorship** and support meetings with the Archives Unleashed team;
 * **Computational support** including storage and computational; and
-* **Funding** of $11,500 CAD in to support project work and travel to the closing event.
+* **Funding** of $11,500 CAD in to support project work.
 
 It is expected that all teams will **prepare a journal-length article submission** as part of this project, which will be developed throughout the term and workshopped at the closing May 2022 event at the Internet Archive.
 
 ## The Cohorts
 
-**The Cohorts**: can be disciplinary or interdisciplinary and should include no more than five individuals. Graduate students, postdoctoral fellows, and those in precarious or sessional positions are welcome to apply; however, an administrative lead must be in place at an institution eligible to administer and receive grant funds. This would regularly be a full-time faculty member.
+**The Cohorts** can be disciplinary or interdisciplinary and should include no more than five individuals. Graduate students, postdoctoral fellows, and those in precarious or sessional positions are welcome to apply; however, an administrative lead must be in place at an institution eligible to administer and receive grant funds. This would regularly be a full-time faculty member.
 
 The University of Waterloo regards diversity as an integral part of academic excellence and is committed to accessibility for persons with disabilities. As such, we encourage applications from women, First Nations, Metis and Inuit peoples, persons with disabilities, members of diverse gender identities, and others who may contribute to the further diversification of ideas.
 
@@ -49,9 +49,9 @@ Prepare you submission package using the **Cohort application**, to address the 
 * Identify administrative lead (needs to be eligible to administer and receive grant funds);
 * CV for each named applicant (max 2 pages each); and
 * Project proposal:
-	* **Project Summary**: describe the research problem you aim to approach with web archives;
-	* **Dataset**: identify the web archive collection you plan to use to explore your project; and
-	* **Timeline**: provide an brief overview of how you will conduct the project.
+	* **Project Summary**: describe the research problem you aim to approach with web archives (max. 500 words);
+	* **Dataset**: identify the web archive collection you plan to use to explore your project(max. 250 words); and
+	* **Timeline**: provide an brief overview of how you will conduct the project (max. 250 words).
 
 All completed applications should be submitted to [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca) by **11:59PM Eastern on 31 March 2021**. 
 
