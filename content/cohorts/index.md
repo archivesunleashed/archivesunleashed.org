@@ -31,7 +31,7 @@ It is expected that all teams will **prepare a journal-length article submission
 
 The University of Waterloo regards diversity as an integral part of academic excellence and is committed to accessibility for persons with disabilities. As such, we encourage applications from women, First Nations, Metis and Inuit peoples, persons with disabilities, members of diverse gender identities, and others who may contribute to the further diversification of ideas.
 
-**The Data**: With our recently announce integration with Archive-It, data available for use will primarily be institution web archive collections in Archive-it (https://archive-it.org). Additional datasets from the overall Wayback Machine and Internet Archive may also be available. We are happy to work with applicants to address any questions; please connect with [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca).
+**The Data**: With our recently announce integration with Archive-It, data available for use will primarily be institution web archive collections in Archive-It (https://archive-it.org). Additional datasets from the overall Wayback Machine and Internet Archive may also be available. We are happy to work with applicants to address any questions; please connect with [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca).
 
 ## Submissions
 
@@ -64,12 +64,11 @@ Submissions will be evaluated on the following criteria:
 
 ## Project Inspiration
 
-Need some ideas to inspire your Cohort project? We've listed a few recent scholarly works and projects to showcase the variety of ways web archives can be explored, used, and visualized.
+Need some ideas to inspire your Cohort proposal? We've listed a few recent projects to showcase the variety of ways web archives can be explored, used, and visualized.
 
-* [Assessing Local Journalism: News Deserts, Journalism Divides, and the Determinants of the Robustness of Local News](https://dewitt.sanford.duke.edu/wp-content/uploads/2018/08/Assessing-Local-Journalism_100-Communities.pdf) by Philip M. Napoli, Matthew Weber, Katie McCollough & Qun Wang
-* [The invention and dissemination of the spacer gif: implications for the future of access and use of web archives](https://doi.org/10.1007/s42803-019-00006-8) by Trevor Owens & Grace Thomas
-* [GeoCities and the spacer.gif](https://news.archivesunleashed.org/geocities-and-the-spacer-gif-6a0f70e7ad5d) by Nick Ruest
-* [The Queer Eternal September: LGBTQ Identity on the Early Internet and Web](https://uwspace.uwaterloo.ca/handle/10012/16336) by Sarah McTavish
+* [Assessing Local Journalism: News Deserts, Journalism Divides, and the Determinants of the Robustness of Local News](https://dewitt.sanford.duke.edu/wp-content/uploads/2018/08/Assessing-Local-Journalism_100-Communities.pdf) by Philip M. Napoli, Matthew Weber, Katie McCollough & Qun Wang. 
+* [The invention and dissemination of the spacer gif: implications for the future of access and use of web archives](https://doi.org/10.1007/s42803-019-00006-8) by Trevor Owens & Grace Thomas. Building of this research, Nick Ruest explored a GeoCities dataset using the Archives Unleashed Toolkit in his piece, [GeoCities and the spacer.gif](https://news.archivesunleashed.org/geocities-and-the-spacer-gif-6a0f70e7ad5d)
+* [The Queer Eternal September: LGBTQ Identity on the Early Internet and Web](https://uwspace.uwaterloo.ca/handle/10012/16336) by Sarah McTavish.
 
 * Selected Archives Unleashed Datathon Projects:
 	* [#teamwildfyre: UBC BC Wildfires](/images/vancouver-wildfyre.pdf) by Janice Bancer, Gethin Rees, Rebecca Dowson, Umar Quasim,Megan Meredith-Lobay, & Evan Thornberry
