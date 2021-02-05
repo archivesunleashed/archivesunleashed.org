@@ -67,7 +67,7 @@ Submissions will be evaluated on the following criteria:
 Need some ideas to inspire your Cohort proposal? We've listed a few recent projects to showcase the variety of ways web archives can be explored, used, and visualized.
 
 * [Assessing Local Journalism: News Deserts, Journalism Divides, and the Determinants of the Robustness of Local News](https://dewitt.sanford.duke.edu/wp-content/uploads/2018/08/Assessing-Local-Journalism_100-Communities.pdf) by Philip M. Napoli, Matthew Weber, Katie McCollough & Qun Wang. 
-* [The invention and dissemination of the spacer gif: implications for the future of access and use of web archives](https://doi.org/10.1007/s42803-019-00006-8) by Trevor Owens & Grace Thomas. Building on this research, Nick Ruest explored a GeoCities dataset using the Archives Unleashed Toolkit in his piece, [GeoCities and the spacer.gif](https://news.archivesunleashed.org/geocities-and-the-spacer-gif-6a0f70e7ad5d)
+* [The invention and dissemination of the spacer gif: implications for the future of access and use of web archives](https://doi.org/10.1007/s42803-019-00006-8) by Trevor Owens & Grace Thomas. Building on this research, Nick Ruest explored a GeoCities dataset using the Archives Unleashed Toolkit in [GeoCities and the spacer.gif](https://news.archivesunleashed.org/geocities-and-the-spacer-gif-6a0f70e7ad5d)
 * [The Queer Eternal September: LGBTQ Identity on the Early Internet and Web](https://uwspace.uwaterloo.ca/handle/10012/16336) by Sarah McTavish.
 
 * Selected Archives Unleashed Datathon Projects:
