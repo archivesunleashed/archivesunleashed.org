@@ -4,7 +4,7 @@ title: Archives Unleashed Cohorts
 weight: 40
 ---
 
-![logo](/images/AUCo-banner.png)
+![Cohort Banner](/images/AUCo-banner.png)
 
 ## About
 
@@ -76,10 +76,12 @@ Need some ideas to inspire your Cohort proposal? We've listed a few recent proje
 	* [Non-textual content in the DC Punk web archive](/images/Washington-Group-DCPunkMediaUnleashed.pdf) by Grace Thomas, James Jacobs Laura Wrubel, & Oliver Kiechle
 	* [Websites of the Former Soviet Union & Eastern Europe](/images/Washington-Group-Kompromat.pdf) by Ed Summers, Gregory Wiedeman, Helena Byrne, & Shawn Walker
 	
-## Organizers
+## Organizers & Sponsors
 
 * Ian Milligan (University of Waterloo) 
 * Jefferson Bailey (Internet Archive) 
 * Nick Ruest (York University)
 * Jimmy Lin (University of Waterloo)
 * Samantha Fritz (University of Waterloo)
+
+![Cohort Sponsors](/images/logo-AUII-cohort-sponsors.png)
