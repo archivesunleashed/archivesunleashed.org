@@ -21,7 +21,7 @@ We are looking to select up to **five cohorts** in the July 2021 to June 2022 pe
 	* Closing event: Internet Archive, San Francisco, California, United States [Tentatively May 2022]
 * **Bi-monthly mentorship** and support meetings with the Archives Unleashed team;
 * **Access to the Archive-It Research Cloud** to generate custom datasets; and
-* **Funding** of $11,500 CAD in to support project work.
+* **Funding** of $11,500 CAD to support project work.
 
 It is expected that all teams will **prepare a journal-length article submission** as part of this project, which will be developed throughout the term and workshopped at the closing event at the Internet Archive.
 
@@ -31,7 +31,7 @@ It is expected that all teams will **prepare a journal-length article submission
 
 The University of Waterloo regards diversity as an integral part of academic excellence and is committed to accessibility for persons with disabilities. As such, we encourage applications from women, First Nations, Metis and Inuit peoples, persons with disabilities, members of diverse gender identities, and others who may contribute to the further diversification of ideas.
 
-**The Data**: With our recently announce integration with Archive-It, data available for use will primarily be institution web archive collections in Archive-It (https://archive-it.org). Additional datasets from the overall Wayback Machine and Internet Archive may also be available. We are happy to work with applicants to address any questions; please connect with [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca).
+**The Data**: With our recently announced integration with Archive-It, data available for use will primarily be institution web archive collections in Archive-It (https://archive-it.org). Additional datasets from the overall Wayback Machine and Internet Archive may also be available. We are happy to work with applicants to address any questions; please connect with [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca).
 
 ## Submissions
 
@@ -53,7 +53,7 @@ Prepare you submission package using the **Cohort application**, to address the 
 	* **Dataset**: identify the web archive collection you plan to use to explore your project (max. 250 words); and
 	* **Timeline**: provide an brief overview of how you will conduct the project (max. 250 words).
 
-All completed applications should be submitted to [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca) by **11:59PM Eastern on 31 March 2021**. 
+All completed applications should be submitted to [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca) by **11:59 PM Eastern on 31 March 2021**. 
 
 ---
 Submissions will be evaluated on the following criteria:
