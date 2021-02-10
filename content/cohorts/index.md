@@ -21,7 +21,7 @@ We are looking to select up to **five cohorts** in the July 2021 to June 2022 pe
 	* Closing event: Internet Archive, San Francisco, California, United States [Tentatively May 2022]
 * **Bi-monthly mentorship** and support meetings with the Archives Unleashed team;
 * **Access to the Archive-It Research Cloud** to generate custom datasets; and
-* **Funding** of $11,500 CAD to support project work. Additional support will be provided for travel to the Internet Archives event.
+* **Funding** of $11,500 CAD to support project work. Additional support will be provided for travel to the Internet Archive event.
 
 It is expected that all teams will **prepare a journal-length article submission** as part of this project, which will be developed throughout the term and workshopped at the closing event at the Internet Archive.
 
@@ -47,7 +47,7 @@ Prepare you submission package using the [**Cohort application**](/images/AU-coh
 
 * Project name and list of all applicants;
 * Identifies an administrative lead (needs to be eligible to administer and receive grant funds);
-* CV for each named applicant (max 2 pages each) and can be attached to the email or appended to the applicaiton PDF; and
+* CV for each named applicant (max 2 pages each) and can be attached to the email or appended to the application PDF; and
 * Project proposal:
 	* **Project Summary**: describe the research problem you aim to approach with web archives (max. 500 words);
 	* **Dataset**: identify the web archive collection you plan to use to explore your project (max. 250 words); and
