@@ -43,7 +43,7 @@ The University of Waterloo regards diversity as an integral part of academic exc
 * Projects End: 30 June 2022
 ---
 
-Prepare you submission package using the [**Cohort application**](/images/AU-cohort-application.pdf), which addresses the following areas:
+Prepare your submission package using the [**Cohort application**](/images/AU-cohort-application.pdf), which addresses the following areas:
 
 * Project name and list of all applicants;
 * Identifies an administrative lead (needs to be eligible to administer and receive grant funds);
@@ -54,6 +54,7 @@ Prepare you submission package using the [**Cohort application**](/images/AU-coh
 	* **Timeline**: provide an brief overview of how you will conduct the project (max. 250 words).
 
 All completed applications should be submitted to [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca) by **11:59 PM Eastern on 31 March 2021**.
+
 ---
 Submissions will be evaluated on the following criteria:
 * demonstration of a feasible project that will make an impact on the scholar’s field of study;
