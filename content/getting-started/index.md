@@ -20,6 +20,8 @@ The Archives Unleashed team has developed web archive search and data analysis t
 
 ## Tools in Action: The Cloud
 
+{{< warning title="Closing the Cloud" >}}The Cloud will be shutting down on 30 June 2021 and migrating to Archive-It. Learn more about the transition [here](https://cloud.archivesunleashed.org/archiveit){{< /warning >}}
+
 [Check out the full page here](/cloud).
 
 As noted above, the Archives Unleashed Cloud is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. **If you have an Archive-It account, you can use it for free at [https://cloud.archivesunleashed.org
