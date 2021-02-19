@@ -3,7 +3,7 @@ title: Archives Unleashed Datathon Cheat Sheet
 date: 2019-01-01T11:51:41-04:00
 ---
 
-This guide is meant to be a quick reference guide for attendees at the Archives Unleashed [datathons](/events). These are commonly-asked questions and options that attendees have used, and may be updated during events.
+This guide is meant to be a quick reference guide for attendees at the Archives Unleashed [datathons](/events). These are some commonly-asked questions and options that attendees have used.
 
 Screenshots are from Mac, as we don't have a Windows machine on our project team. Our apologies.
 
@@ -25,7 +25,7 @@ The trick is connecting to them.
 
 To do so, you need two things:
 
-* a file known as a private key so that you can connect to the machine securely (at our hackathons this is generally known as `archives-hackathon.key`)
+* a file known as a private key so that you can connect to the machine securely (at our hackathons, this is generally known as `archives-hackathon.key`)
 * an IP address that lets your computer know _where_ the machine you are joining is.
 
 We will give you the key at the datathon. We will also assign each team a virtual machine known by its IP. When you receive the key, we recommend saving it to your desktop for convenience during the event.
@@ -38,7 +38,7 @@ The first thing you need to do with your key is change the ownership. You need t
 chmod 600 ~/desktop/archives-hackathon.key
 ```
 
-It might look a bit like this. No error mesage means that it worked!
+It might look a bit like this. No error message means that it worked!
 
 ![Download](/images/chmod.png)
 
@@ -60,7 +60,7 @@ Are you sure you want to continue connecting (yes/no)? yes
 
 Type yes.
 
-In the future, logging in will now just look like this.
+In the future, logging in will now look like this.
 
 ![Download](/images/login.png)
 
@@ -82,7 +82,7 @@ Data will be located in `/mnt/data` in a series of subdirectories. For example, 
 
 A few other things to keep in mind:
 
-- Each collection's directory will have a `warcs` directory containing all of it's ARCs/WARCs
+- Each collection's directory will have a `warcs` directory containing all of its ARCs/WARCs
 - Each collection's directory will have a `derivatives` directory containing the scholarly derivatives created on <https://cloud.archivesunleashed.org>.
 - More info about those files can be found here: <https://cloud.archivesunleashed.org/derivatives>.
 
