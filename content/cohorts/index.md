@@ -75,6 +75,22 @@ Need some ideas to inspire your Cohort proposal? We've listed a few recent proje
 	* [Contemporary Composers Web Archive](/images/NY-project-composers.pdf) by Nicole Greenhouse, Giulia Occhini, & Pamela Graham
 	* [Non-textual content in the DC Punk web archive](/images/Washington-Group-DCPunkMediaUnleashed.pdf) by Grace Thomas, James Jacobs Laura Wrubel, & Oliver Kiechle
 	* [Websites of the Former Soviet Union & Eastern Europe](/images/Washington-Group-Kompromat.pdf) by Ed Summers, Gregory Wiedeman, Helena Byrne, & Shawn Walker
+
+## FAQ
+
+We've provided help with the most common questions about the Cohort application. Still have questions? Feel free to reach out to our team on [Slack](http://slack.archivesunleashed.org/) or connect with [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca).
+
+### Cohorts
+
+**Q**. _I've never been to an Archives Unleashed Datathon or collaborated with the project before, can I still apply?_
+
+**A**. Absolutely! The Cohort program is a completed different setting for engaging in web archives research, so applicants don't have to have attended any of our events. The make-up of your cohort is very flexible; co-applicants can be disciplinary/inter-disciplinary, multi-institutional, and at various career stages. Just remember that there needs to someone on the grant who can administer funds.
+
+### Datasets
+
+**Q**. _What kind of collections should be used for project proposals?_
+
+**A**. We recommend that applicants prioritize using existing curated web archive collections stewarded by institutional partners in the [Archive-It ecosystem](https://archive-it.org/explore). Although specialized collections created via data extractions from the overall Wayback Machine web archive may be possible in some cases, it will be dependent on the availability of resources based on the grant funding.
 	
 ## Organizers & Sponsors
 
