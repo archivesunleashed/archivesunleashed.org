@@ -76,7 +76,7 @@ Need some ideas to inspire your Cohort proposal? We've listed a few recent proje
 	* [Non-textual content in the DC Punk web archive](/images/Washington-Group-DCPunkMediaUnleashed.pdf) by Grace Thomas, James Jacobs Laura Wrubel, & Oliver Kiechle
 	* [Websites of the Former Soviet Union & Eastern Europe](/images/Washington-Group-Kompromat.pdf) by Ed Summers, Gregory Wiedeman, Helena Byrne, & Shawn Walker
 
-## FAQ
+## FAQs
 
 We've provided help with the most common questions about the Cohort application. Still have questions? Feel free to reach out to our team on [Slack](http://slack.archivesunleashed.org/) or connect with [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca).
 
@@ -84,14 +84,14 @@ We've provided help with the most common questions about the Cohort application.
 
 **Q**. _I've never been to an Archives Unleashed Datathon or collaborated with the project before, can I still apply?_
 
-**A**. Absolutely! The Cohort program is a completed different setting for engaging in web archives research, so applicants don't have to have attended any of our events. The make-up of your cohort is very flexible; co-applicants can be disciplinary/inter-disciplinary, multi-institutional, and at various career stages. Just remember that there needs to someone on the grant who can administer funds.
+**A**. Absolutely! The Cohort program is a completely different setting for engaging in web archives research, so applicants don't have to have attended any of our events. We are very flexible on the makeup of your cohort; co-applicants can be disciplinary/inter-disciplinary, multi-institutional, and at various career stages. Just remember that there needs to someone on the grant who can administer funds.
 
 ### Datasets
 
 **Q**. _What kind of collections should be used for project proposals?_
 
-**A**. We recommend that applicants prioritize using existing curated web archive collections stewarded by institutional partners in the [Archive-It ecosystem](https://archive-it.org/explore). Although specialized collections created via data extractions from the overall Wayback Machine web archive may be possible in some cases, it will be dependent on the availability of resources based on the grant funding.
-	
+**A**. We recommend that applicants prioritize using existing curated web archive collections stewarded by [Archive-It Partners](https://archive-it.org/explore). We may be able to extract data from the broader Wayback Machine, but this will be dependent on both the scope of what's to be extracted (keep it very circumscribed and limited as possible) as well as resources. In some cases, if data requests are big, we may be able to support this but might need to reallocate some of the grant funding to support engineering time.
+
 ## Organizers & Sponsors
 
 * Ian Milligan (University of Waterloo) 
