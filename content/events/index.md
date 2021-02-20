@@ -4,40 +4,44 @@ title: Events
 weight: 40
 ---
 
-## Upcoming Events
+## Archives Unleashed Events
 ![Material Screenshot](/images/washington-hackathon.png)
 
-The Archives Unleashed team hosted our final datathon in the spring of 2020. Feel free to explore past event pages to learn more about the datathon set up and checkout group projects.
+Cognizant of funded projects that run into sustainability issues following a successful launch, we regard regional datathons staged under the Archives Unleashed banner as vital to ensuring broad community buy-in and continued involvement, while leveraging an open-source ecosystem.
 
-|        Date       |         Location         |        Hosts             |
-|:-----------------:|:------------------------:|:------------------------:|
-| 26-27 April 2018 | Toronto, ON              | [University of Toronto Libraries](https://onesearch.library.utoronto.ca/about) |
-| 1-2 November 2018| Vancouver, BC            | [Simon Fraser University Library](https://www.lib.sfu.ca) and [KEY](https://www.sfu.ca/big-data/) | 
-| 21-22 March 2019 | Washington, DC           | [George Washington University Libraries](https://library.gwu.edu) |
-| 26-27 March 2020 | New York City, NY (**In-Person Cancelled**)       | [Columbia University Libraries](https://library.columbia.edu) |
-| 14-15 May 2020   | Montreal, Quebec (**Cancelled**)         | [BAnQ](http://www.banq.qc.ca/accueil/index.html?language_id=1) and [IIPC](http://netpreserve.org) |
+Web archives often contain hundreds of billions of web pages, ranging from individual homepages and social media posts, to institutional websites. These archives offer tremendous potential for social scientists and humanists, and the questions research may pose stretch across a multitude of fields. Scholars broaching topics dating back to the mid-1990s will find their projects enhanced by web data. Moreover, scholars hoping to study the evolution of cultural and societal phenomena will find a treasure trove of data in web archives. In short, web archives offer the ability to reconstruct large-scale traces of the relatively recent past.
 
-## **Past Datathons**
 
-We have had the pleasure of hosting several datathons. The first four pre-dated our <a href="http://mellon.org">Mellon</a>-Funded Archives Unleashed project:
+## Upcoming Research Opportunities
 
-* **[Archives Unleashed 1.0](https://artsweb.uwaterloo.ca/archivesunleashed/)**, University of Toronto, March 2016.
-* **[Archives Unleashed 2.0](http://archivesunleashed.com/au2-0-library-of-congress/)**, Library of Congress, June 2016.
-* **[Archives Unleashed 3.0](http://archivesunleashed.com/au-3-cfp/)**, Internet Archive, February 2017.
-* **[Archives Unleashed 4.0](http://archivesunleashed.com/au4-0-british-invasion/)**, British Library, June 2017.
+To support and facilitate continued engagement with web archivesthe, Archives Unleashed is launching the **Cohort Program**. Research Cohorst will participate in a year-long collaboration while receiving mentorship and support from the Archives Unleashed Team. Cohorts will begin in July 2021 and July 2022.
 
-As part of this <a href="http://mellon.org">Mellon</a>-funded project, we have hosted three events:
+The Call for Proposals for the first round of cohorts is open until **31 March 2021**. 
 
-* **[Archives Unleashed Toronto](/toronto)**, University of Toronto, April 2018.
-* **[Archives Unleashed Vancouver](/vancouver)**, Simon Fraser University, November 2018.
-* **[Archives Unleashed Washington](/washington)**, George Washington University, March 2019.
-* **[MOVED ONLINE DUE TO COVID-19]** **[Archives Unleashed New York](/new-york)**, Columbia University, 26-27 March 2020.
+Visit the [Cohort Program](/cohorts) page for full details. 
 
-**Additional Datathons/Workshops**:
 
-* **[CANCELLED DUE TO COVID-19]** **[Archives Unleashed Montreal](http://netpreserve.org/ga2020/datathon/)**, Montreal, QB, 14-15 May 2020.
+## Past Datathons
 
-## About our Datathons
+Our **datathon model** brings together researchers, programmers, visualization experts, memory institutional professionals and others to collaboratively work with web collections and explore cutting-edge research tools through hands on experience.
 
-| ![Toronto Datathon](/images/IMG_2614.JPG) | One of our key priorities is sustainability: crucial to the project’s success is leveraging an open-source ecosystem. Cognizant of funded projects that run into sustainability issues following a successful launch, we regard regional datathons staged under the Archives Unleashed banner as vital to ensuring broad community buy-in and continued involvement. The datathon model brings together researchers, programmers, visualization experts, graphical designers, and others into one room in order to facilitate their intensive collaboration on a shared project. In our case, programmers, academics, memory institution professionals, and other librarians will gather to work on accessing web archives with our cloud interface. |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+The Archives Unleashed team has had the pleasure of hosting several datathons. Follow the past event pages to learn more about each datathon, including projects completed by attendees.
+
+As part of this [Andrew W. Mellon](http://mellon.org) funded project, we have hosted four events:
+
+|Date              |  Location                          |  Hosts                                                                                         |  Event Page                           |
+|------------------|------------------------------------|------------------------------------------------------------------------------------------------|---------------------------------------|
+| 26-27 April 2018 | Toronto, ON, Canada                |[University of Toronto Libraries](https://onesearch.library.utoronto.ca/about)                  |[Toronto Datathon Page](/toronto)      |
+| 1-2 November 2018| Vancouver, BC, Canda               |[Simon Fraser University Library](https://www.lib.sfu.ca) & [KEY](https://www.sfu.ca/big-data/) |[Vancouver Datathon Page](/vancouver)  |
+| 21-22 March 2019 | Washington, DC, USA                |[George Washington University Libraries](https://library.gwu.edu)                               |[Washington Datathon Page](/washington)|
+| 26-27 March 2020 | New York City, NY, USA (**ONLINE**)|[Columbia University Libraries](https://library.columbia.edu)                                   |[New York Datathon Page](/new-york)    |
+| 14-15 May 2020   | Montreal, QB, Canada               |[BAnQ](http://www.banq.qc.ca/accueil/index.html?language_id=1) & [IIPC](http://netpreserve.org)  |[CANCELLED DUE TO COVID-19]            |
+
+A series of events pre-dates our [Andrew W. Mellon](http://mellon.org) funded Archives Unleashed project:
+
+|Date          |  Location              |  Hosts                                                                       |  Event Page                                                                     |
+|--------------|------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| March 2016   | Toronto, ON, Canada    |[Robarts Library](https://onesearch.library.utoronto.ca/library-info/ROBARTS), [University of Toronto Libraries](https://onesearch.library.utoronto.ca)|[Archives Unleashed 1.0: Web Archive Hackathon ](https://web.archive.org/web/20160307220047/https://artsweb.uwaterloo.ca/archivesunleashed/)|
+| June 2016    | Washington, DC, USA    | Library of Congress                                                           |[Archives Unleashed 2.0: Library of Congress](http://archivesunleashed.com/au2-0-library-of-congress/)|
+| February 2017| San Francisco, CA, USA | [Internet Archive](https://archive.org)                                       |[Archives Unleashed 3.0: Internet Archive](http://archivesunleashed.com/au-3-cfp/)|
+| June 2017    | London, UK             | British Library                                                              |[Archives Unleashed 4.0: British Invasion!](http://archivesunleashed.com/au4-0-british-invasion/)   |
