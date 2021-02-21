@@ -86,6 +86,10 @@ We've provided help with the most common questions about the Cohort application.
 
 **A**. Absolutely! The Cohort program is a completely different setting for engaging in web archives research, so applicants don't have to have attended any of our events. We are very flexible on the makeup of your cohort; co-applicants can be disciplinary/inter-disciplinary, multi-institutional, and at various career stages. Just remember that there needs to someone on the grant who can administer funds.
 
+**Q**. _I'm not in Canada! Can I still apply?_
+
+**A**. Absolutely, you do not need to be at a Canadian institution to apply. If you have questions about your eligibility, pelase do check however.
+
 ### Datasets
 
 **Q**. _What kind of collections should be used for project proposals?_
