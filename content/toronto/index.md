@@ -84,7 +84,7 @@ The Archives Unleashed Toronto Datathon will take place at the University of Tor
 
 Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
 
-Please click the image below to check out the full [Toronto Datathon schedule](/images/toronto-schedule.pdf)!
+Please click the link to download the full [Toronto Datathon schedule](/images/toronto-schedule.pdf)!
 
 |               |                  |
 |:-------------:|:----------------:|
