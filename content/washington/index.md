@@ -104,6 +104,7 @@ Project Collaborators:
   * Roger Gillis, Dalhousie University
   * Rachel Trent, George Washington University
   * Jennifer Weintraub, Schlesinger Library, Radcliffe Institute, Harvard University
+***
 
 ## Venue
 
