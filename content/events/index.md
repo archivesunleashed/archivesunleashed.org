@@ -5,7 +5,7 @@ weight: 40
 ---
 
 ## Archives Unleashed Events
-![Material Screenshot](/images/washington-hackathon.png)
+![Material Screenshot](/images/hackathon1.png)
 
 Web archives often contain hundreds of billions of web pages, ranging from individual homepages and social media posts to institutional websites. These archives offer tremendous potential for social scientists and humanists, and the questions research may pose stretch across a multitude of fields. Scholars broaching topics dating back to the mid-1990s will find their projects enhanced by web data. Moreover, scholars hoping to study the evolution of cultural and societal phenomena will find a treasure trove of data in web archives. In short, web archives offer the ability to reconstruct large-scale traces of the relatively recent past.
 

@@ -6,7 +6,7 @@ aliases:
   - "washington"
 ---
 
-![Washington Skyline](/images/washington-skyline.png)
+![Washington Skyline](/images/datathon-washington-skyline.png)
 ## About
 
 The Archives Unleashed Team has partnered with **[George Washington University Libraries](https://library.gwu.edu)** to host the next Archives Unleashed datathon.
@@ -26,16 +26,16 @@ This event will bring together a small group of approximately 15-20 participants
 
 ## Sponsors
 
-![Vancouver Datathon Sponsors](/images/logo-washington-sponsors.png)
+![Washington Datathon Sponsors](/images/datathon-logo-washington-sponsors.png)
 
 
 ## Team Projects
 
 **Team: #metoo Group 1**
 
-![Team: #metoo Group 1 Presentation](/images/Washington-Pic-metoo1.png)
+![Team: #metoo Group 1 Presentation](/images/datathon-washington-metoo1.png)
 
-* [View Presentation](/images/Washington-Group-metoo-1.pdf)
+* [View Presentation](/images/datathon-washington-metoo1.pdf)
 
 Project Collaborators:
   * Angela Woodall, Columbia University
@@ -46,9 +46,9 @@ Project Collaborators:
 
 **Team: #metoo Group 2**
 
-![Team: #metoo Group 2 Presentation](/images/Washington-Pic-metoo2.png)
+![Team: #metoo Group 2 Presentation](/images/datathon-washington-metoo2.png)
 
-* [View Presentation](/images/Washington-Group-metoo-2.pdf)
+* [View Presentation](/images/datathon-washington-metoo2.pdf)
 
 Project Collaborators:
   * Yoo Young Lee, University of Ottawa
@@ -58,9 +58,9 @@ Project Collaborators:
 
 **Team: DC Punk Media Unleashed**
 
-![DC Punk Media Unleashed Presentation](/images/Washington-Pic-DCPunk.png)
+![DC Punk Media Unleashed Presentation](/images/datathon-washington-DCpunk.png)
 
-* [View Presentation](/images/Washington-Group-DCPunkMediaUnleashed.pdf)
+* [View Presentation](/images/datathon-washington-DCpunk.pdf)
 
 Project Collaborators:
   * Grace Thomas, Library of Congress
@@ -71,9 +71,9 @@ Project Collaborators:
 
 **Team: Kompromat**
 
-![Kompromat Presentation](/images/Washington-Pic-Kompromat.png)
+![Kompromat Presentation](/images/datathon-washington-kompromat.png)
 
-* [View Presentation](/images/Washington-Group-Kompromat.pdf)
+* [View Presentation](/images/datathon-washington-kompromat.pdf)
 
 Project Collaborators:
   * Ed Summers, University of Maryland
@@ -84,9 +84,9 @@ Project Collaborators:
 
  **Team: Psyarchives**
 
-![Psyarchives Presentation](/images/Washington-Pic-Psyarchives.png)
+![Psyarchives Presentation](/images/datathon-washington-psyarchives.png)
 
-* [View Presentation](/images/Washington-Group-Psyarchives.pdf)
+* [View Presentation](/images/datathon-washington-psyarchives.pdf)
 
 Project Collaborators:
   * Ryan Deschamps, University of Waterloo
@@ -95,9 +95,9 @@ Project Collaborators:
 
 **Team: Punkavists**
 
-![Punkavists Presentation](/images/Washington-Pic-Punkavists.png)
+![Punkavists Presentation](/images/datathon-washington-punkavists.png)
 
-* [View Presentation](/images/Washington-Group-Punkavists.pdf)
+* [View Presentation](/images/datathon-washington-punkavists.pdf)
 
 Project Collaborators:
   * Chase Dooley, Library of Congress
@@ -116,8 +116,8 @@ The datathon will be taking place at the [Gelman Library](https://library.gwu.ed
 
 We are looking forward to spending a couple of days with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. The majority of datathon time will be spent on team project work. A light breakfast and lunch will be provided on both days, and there will be plenty of coffee and tea throughout the event!
 
-Please click the link to download the full  [Washington Datathon schedule](/images/washington-schedule.pdf)!
+Please click the link to download the full  [Washington Datathon schedule](/images/datathon-washington-schedule.pdf)!
 
 |               |                  |
 |:-------------:|:----------------:|
-| ![/images/washington-schedule.pdf](/images/washington-day1.png) | ![/images/washington-schedule.pdf](/images/washington-day2.png)|
+| ![/images/washington-schedule.pdf](/images/datathon-washington-day1.png) | ![/images/washington-schedule.pdf](/images/datathon-washington-day2.png)|
