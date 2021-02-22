@@ -41,9 +41,9 @@ If you were not able to join us at the datathon, feel free to check out our reso
 
 **Team: Latin American and Caribbean Contemporary Art Web Archive**
 
-![Team: Latin American and Caribbean Contemporary Art Web Presentation](/images/NY-project-artwa300.png)
+![Team: Latin American and Caribbean Contemporary Art Web Presentation](/images/datathon-ny-artwa.png)
 
-* [View Presentation](/images/NY-project-artWA.pdf)
+* [View Presentation](/images/datathon-ny-artwa.pdf)
 
 Project Collaborators:
   * Samantha Abrams, Ivy Plus Libraries Confederation
@@ -54,9 +54,9 @@ Project Collaborators:
 
 **Team: Contemporary Composers Web Archives**
 
-![Team: Contemporary Composers Web Archives Presentation](/images/NY-project-composers325.png)
+![Team: Contemporary Composers Web Archives Presentation](/images/datathon-ny-composers.png)
 
-* [View Presentation](/images/NY-project-composers.pdf)
+* [View Presentation](/images/datathon-ny-composers.pdf)
 
 Project Collaborators:
   * Pamela Graham, Columbia University Libraries
@@ -66,9 +66,9 @@ Project Collaborators:
 
 **Team: Global Web Comics Web Archives**
 
-![Team: Global Web Comics Web Archives Presentation](/images/NY-project-webcomic300.png)
+![Team: Global Web Comics Web Archives Presentation](/images/datathon-ny-webcomic.png)
 
-* [View Presentation](/images/NY-project-webcomics.pdf)
+* [View Presentation](/images/datathon-ny-webcomic.pdf)
 
 Project Collaborators:
   * Kae Bara Kratcha, Columbia University Libraries
@@ -79,9 +79,9 @@ Project Collaborators:
 
 **Team: Stonewall**
 
-![Team: Stonewall Presentation](/images/NY-project-stonewall300.png)
+![Team: Stonewall Presentation](/images/datathon-ny-stonewall.png)
 
-* [View Presentation](/images/NY-project-stonewall.pdf)
+* [View Presentation](/images/datathon-ny-stonewall.pdf)
 
 Project Collaborators:
   * Sarah McTavish, University of Waterloo
@@ -95,7 +95,7 @@ Project Collaborators:
 Columbia University | Butler Library | [535 West 114th St., New York, NY 10027, USA](https://goo.gl/maps/rJ5brpCLasZJAW4t7)
 
 * The Butler Library is located at the south end of the Morningside campus. The only public entrance is available through the campus side. [General directions](https://library.columbia.edu/libraries/butler/directions.html) to the Butler Library are provided by Columbia University Libraries.
-* Participants will be working in [Room 203](/images/butler-floorplan.png)
+* Participants will be working in [Room 203](/images/datathon-ny-butler-floorplan.png)
 
 ## **Schedule**
 
