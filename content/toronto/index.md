@@ -33,7 +33,6 @@ Project Collaborators:
   * Graeme Campbell, Queen's University
   * Brandon Locke, Michigan State University
   * Katie Mackinnon, University of Toronto
-
 ***
 
 **Team: Make Tweets Great Again**
@@ -46,7 +45,6 @@ Project Collaborators:
   * Jacqueline Whyte Appleby, Scholars Portal/University of Toronto
   * Shawn Jones, Old Dominion University
   * Amanda Oliver, Western University Archives
-
 ***
 
 **Team: Pipeline**
@@ -60,7 +58,6 @@ Project Collaborators:
   * Creighton Barrett, Dalhousie University
   * Ben Goldman, Penn State University Libraries
   * Rebecca Dowson, Simon Fraser University
-
 ***
 
 **Team: Spamlinks**
@@ -75,6 +72,7 @@ Project Collaborators:
   * Russell White, Library and Archives Canada
   * Brian Griffin, Old Dominion University
   * Jayanthy Chengan, Scholars Portal/University of Toronto
+***
 
 ## Venue
 
