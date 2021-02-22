@@ -10,7 +10,7 @@ aliases:
 Due to the rapidly-evolving COVID-19 pandemic situation, the March 26-27 Archives Unleashed event was held as an online-only event.
 {{< /warning >}}
 
-![New York Skyline](/images/ny-skyline.png)
+![New York Skyline](/images/datathon-ny-skyline.png)
 
 ## **About**
 
@@ -21,7 +21,7 @@ The Archives Unleashed Team partnered with **[Columbia University Libraries](htt
 If you were not able to join us at the datathon, feel free to check out our resources available for use: 
 
 * [Video] [Archives Unleashed New York Datathon (Online)](https://youtu.be/Io6RvhqHfe4)
-* [PDF Slides] [Datathon Opening Presentation](/images/AU-NY-IntroSlides-reduced.pdf)
+* [PDF Slides] [Datathon Opening Presentation](/images/datathon-ny-introslides.pdf)
 
 ## **Organizers**
 
@@ -35,13 +35,13 @@ If you were not able to join us at the datathon, feel free to check out our reso
 
 ## **Sponsors**
 
-![New York Datathon Sponsors](/images/logo-ny-sponsors.png)
+![New York Datathon Sponsors](/images/datathon-logo-ny-sponsors.png)
 
 ## Team Projects
 
 **Team: Latin American and Caribbean Contemporary Art Web Archive**
 
-![Team: Latin American and Caribbean Contemporary Art Web Presentation](/images/NY-project-artWA.png)
+![Team: Latin American and Caribbean Contemporary Art Web Presentation](/images/NY-project-artwa300.png)
 
 * [View Presentation](/images/NY-project-artWA.pdf)
 
@@ -54,7 +54,7 @@ Project Collaborators:
 
 **Team: Contemporary Composers Web Archives**
 
-![Team: Contemporary Composers Web Archives Presentation](/images/NY-project-Composers.png)
+![Team: Contemporary Composers Web Archives Presentation](/images/NY-project-composers325.png)
 
 * [View Presentation](/images/NY-project-composers.pdf)
 
@@ -66,7 +66,7 @@ Project Collaborators:
 
 **Team: Global Web Comics Web Archives**
 
-![Team: Global Web Comics Web Archives Presentation](/images/NY-project-webcomic.png)
+![Team: Global Web Comics Web Archives Presentation](/images/NY-project-webcomic300.png)
 
 * [View Presentation](/images/NY-project-webcomics.pdf)
 
@@ -79,7 +79,7 @@ Project Collaborators:
 
 **Team: Stonewall**
 
-![Team: Stonewall Presentation](/images/NY-project-stonewall.png)
+![Team: Stonewall Presentation](/images/NY-project-stonewall300.png)
 
 * [View Presentation](/images/NY-project-stonewall.pdf)
 
@@ -101,8 +101,8 @@ Columbia University | Butler Library | [535 West 114th St., New York, NY 10027, 
 
 We are moving Archives Unleashed online and look forward to spending a couple of days with our participants. The event will kick off with some discussion around web archiving, our project tools, and set up of the Archives Unleashed Notebooks via Colab Notebooks. After a team formation activity, the majority of our time will be dedicated to group work. Presentations will be held Friday afternoon.
 
-Please click the link to download the full [New York Datathon schedule](/images/AUT-NY-Schedule.png)!
+Please click the link to view and download the full [New York Datathon schedule](/images/datathon-ny-schedule.pdf)!
 
-|               |
-|:-------------:|
-| ![/images/AUT-NY-Schedule.png](/images/AUT-NY-Schedule.png) | 
+|               |                  |
+|:-------------:|:----------------:|
+| ![/images/datathon-ny-schedule.pdf](/images/datathon-ny-schedule-day1.png) | ![/images/vancouver-schedule.pdf](/images/datathon-ny-schedule-day2.png)|

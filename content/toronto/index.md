@@ -2,7 +2,7 @@
 title: Toronto Datathon
 date: 2017-12-05T15:20:57-05:00
 ---
-![Toronto Skyline](/images/toronto-skyline.png)
+![Toronto Skyline](/images/datathon-toronto-skyline.png)
 ## About
 
 The Archives Unleashed Project is pleased to announce the first datathon will take place at the **University of Toronto Robarts Library, 26-27 April 2018.**
@@ -18,15 +18,15 @@ This event will bring together a small group of approximately 15 participants to
 * Samantha Fritz (University of Waterloo)
 
 ## Sponsors
-![Toronto Datathon Sponsors](/images/logo-toronto-sponsors.png)
+![Toronto Datathon Sponsors](/images/datathon-logo-toronto-sponsors.png)
 
 ## Team Projects
 
 **Team: BC Teachers' Labor Dispute**
 
-![BC Teachers Presentation](/images/BCLabor.png)
+![BC Teachers Presentation](/images/datathon-toronto-BCLabour.png)
 
-* [View Presentation](images/BCLaborPresentation.pdf)
+* [View Presentation](/images/datathon-toronto-BCLabour-presentation.pdf)
 
 Project Collaborators:
   * Nich Worby, University of Toronto Libraries
@@ -38,9 +38,9 @@ Project Collaborators:
 
 **Team: Make Tweets Great Again**
 
-![Make Tweets Great Again Presentation](/images/MTGA.png)
+![Make Tweets Great Again Presentation](/images/datathon-toronto-MTGA.png)
 
-* [View Presentation](/images/MTGAPresentation.pdf)
+* [View Presentation](/images/datathon-toronto-MTGA-presentation.pdf)
 
 Project Collaborators:
   * Jacqueline Whyte Appleby, Scholars Portal/University of Toronto
@@ -51,9 +51,9 @@ Project Collaborators:
 
 **Team: Pipeline**
 
-![PipelinePresentation](/images/Pipeline.png)
+![PipelinePresentation](/images/datathon-toronto-Pipeline.png)
 
-* [View Presentation](/images/PipelinePresentation.pdf)
+* [View Presentation](/images/datathon-toronto-Pipeline-presentation.pdf)
 
 Project Collaborators:
   * Corey Davis, University of Victoria/COPPUL
@@ -65,9 +65,9 @@ Project Collaborators:
 
 **Team: Spamlinks**
 
-![Spamlinks Presentation](/images/Spamlinks.png)
+![Spamlinks Presentation](/images/datathon-toronto-Spamlinks.png)
 
-* [View Presentation](/images/SpamlinksPresentation.pdf)
+* [View Presentation](/images/datathon-toronto-Spamlinks-presentation.pdf)
 
 Project Collaborators:
   * Justin Littman, George Washington University Libraries
@@ -84,8 +84,8 @@ The Archives Unleashed Toronto Datathon will take place at the University of Tor
 
 Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that, it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
 
-Please click the link to download the full [Toronto Datathon schedule](/images/toronto-schedule.pdf)!
+Please click the link to download the full [Toronto Datathon schedule](/images/datathon-toronto-schedule.pdf)!
 
 |               |                  |
 |:-------------:|:----------------:|
-| ![/images/toronto-schedule.pdf](/images/toronto-day1.png) | ![images/toronto-schedule.pdf](/images/toronto-day2.png)|
+| ![/images/datathon-toronto-schedule.pdf](/images/datathon-toronto-schedule-day1.png) | ![images/datathon-toronto-schedule.pdf](/images/datathon-toronto-schedule-day2.png)|
