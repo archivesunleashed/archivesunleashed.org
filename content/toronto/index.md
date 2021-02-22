@@ -26,7 +26,7 @@ This event will bring together a small group of approximately 15 participants to
 
 ![BC Teachers Presentation](/images/datathon-toronto-BCLabour.png)
 
-* [View Presentation](/images/datathon-toronto-BCLabour-presentation.pdf)
+* [View Presentation](/images/datathon-toronto-BCLabour.pdf)
 
 Project Collaborators:
   * Nich Worby, University of Toronto Libraries
@@ -39,7 +39,7 @@ Project Collaborators:
 
 ![Make Tweets Great Again Presentation](/images/datathon-toronto-MTGA.png)
 
-* [View Presentation](/images/datathon-toronto-MTGA-presentation.pdf)
+* [View Presentation](/images/datathon-toronto-MTGA.pdf)
 
 Project Collaborators:
   * Jacqueline Whyte Appleby, Scholars Portal/University of Toronto
@@ -49,9 +49,9 @@ Project Collaborators:
 
 **Team: Pipeline**
 
-![PipelinePresentation](/images/datathon-toronto-Pipeline.png)
+![PipelinePresentation](/images/datathon-toronto-pipeline.png)
 
-* [View Presentation](/images/datathon-toronto-Pipeline-presentation.pdf)
+* [View Presentation](/images/datathon-toronto-pipeline.pdf)
 
 Project Collaborators:
   * Corey Davis, University of Victoria/COPPUL
