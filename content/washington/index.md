@@ -89,8 +89,8 @@ Project Collaborators:
 * [View Presentation](/images/Washington-Group-Psyarchives.pdf)
 
 Project Collaborators:
-  * Ryan Deschamps, University of Waterloo</li>
-  * Mario Nakazawa, Berea College</li>
+  * Ryan Deschamps, University of Waterloo
+  * Mario Nakazawa, Berea College
 ***
 
 **Team: Punkavists**
@@ -114,7 +114,7 @@ The datathon will be taking place at the [Gelman Library](https://library.gwu.ed
 
 ## Schedule
 
-We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event!
+We are looking forward to spending a couple of days with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. The majority of datathon time will be spent on team project work. A light breakfast and lunch will be provided on both days, and there will be plenty of coffee and tea throughout the event!
 
 Please click the link to download the full  [Washington Datathon schedule](/images/washington-schedule.pdf)!
 

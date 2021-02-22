@@ -7,7 +7,7 @@ date: 2017-12-05T15:20:57-05:00
 
 The Archives Unleashed Project is pleased to announce the first datathon will take place at the **University of Toronto Robarts Library, 26-27 April 2018.**
 
-This event will bring together a small group of approximately 15 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale. For more information on AUT and the Cloud, please visit https://archivesunleashed.org/.
+This event will bring together a small group of approximately 15 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
 ## Organizers
 
@@ -82,7 +82,7 @@ The Archives Unleashed Toronto Datathon will take place at the University of Tor
 
 ## Schedule
 
-Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
+Have we got a schedule for you! We will be kicking off the event with some discussion around the project and set up of AUT. After that, it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
 
 Please click the link to download the full [Toronto Datathon schedule](/images/toronto-schedule.pdf)!
 

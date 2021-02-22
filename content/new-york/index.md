@@ -99,7 +99,7 @@ Columbia University | Butler Library | [535 West 114th St., New York, NY 10027, 
 
 ## **Schedule**
 
-We are moving Archives Unleashed online and look forward to spending a couple of days with with our participants. The event will kick off with some discussion around web archiving, our project tools, and set up of the Archives Unleashed Notebooks via Colab Notebooks. After a team formation activity, the majority of our time will be dedicated for group work. Presentations will be held Friday afternoon.
+We are moving Archives Unleashed online and look forward to spending a couple of days with our participants. The event will kick off with some discussion around web archiving, our project tools, and set up of the Archives Unleashed Notebooks via Colab Notebooks. After a team formation activity, the majority of our time will be dedicated to group work. Presentations will be held Friday afternoon.
 
 Please click the link to download the full [New York Datathon schedule](/images/AUT-NY-Schedule.png)!
 

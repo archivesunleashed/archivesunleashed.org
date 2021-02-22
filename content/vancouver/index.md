@@ -7,7 +7,7 @@ weight: 45
 ![Vancouver Skyline](/images/vancouver-skyline.png)
 ## About
 
-The Archives Unleashed Team has partnered with **[Simon Fraser University Library](https://www.lib.sfu.ca)**, and **[KEY](http://www.sfu.ca/key/)**, SFU’s Big Data initiative, to host the next Archives Unleashed datathon.
+The Archives Unleashed Team has partnered with **[Simon Fraser University Library](https://www.lib.sfu.ca)**, and **[KEY](http://www.sfu.ca/key/)** SFU’s Big Data initiative, to host the next Archives Unleashed datathon.
 
 This event brings together approximately 15-20 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
@@ -47,7 +47,7 @@ Project Collaborators:
 Project Collaborators:
   * Matt Huculak, University of Victoria
   * Luis Menese, Electronic Textual Cultures Lab, University of Victoria)
-  * Nauman Siddique,Old Dominion University
+  * Nauman Siddique, Old Dominion University
   * Emily Maemura, University of Toronto
   * Shahira Khair, University of Victoria
 
@@ -90,7 +90,7 @@ Project Collaborators:
 
 ## Schedule
 
-We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
+We will be kicking off the event with some discussion around the project and set up of AUT. After that, it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
 
 Please click the link to download the full  [Vancouver Datathon schedule](/images/vancouver-schedule.pdf)!
 
