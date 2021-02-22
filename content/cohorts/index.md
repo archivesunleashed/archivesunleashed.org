@@ -88,7 +88,7 @@ We've provided help with the most common questions about the Cohort application.
 
 **Q**. _I'm not in Canada! Can I still apply?_
 
-**A**. Absolutely, you do not need to be at a Canadian institution to apply. If you have questions about your eligibility, pelase do check however.
+**A**. Absolutely, you do not need to be at a Canadian institution to apply. If you have questions about your eligibility, please do feel free to ask us.
 
 ### Datasets
 
