@@ -92,7 +92,7 @@ Project Collaborators:
 
 We will be kicking off the event with some discussion around the project and set up of AUT. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days.
 
-Please click the image below to check out the full [Vancouver Datathon schedule](/images/vancouver-schedule.pdf)!
+Please click the link to download the full  [Vancouver Datathon schedule](/images/vancouver-schedule.pdf)!
 
 |               |                  |
 |:-------------:|:----------------:|
