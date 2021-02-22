@@ -62,9 +62,9 @@ Project Collaborators:
 
 **Team: Spamlinks**
 
-![Spamlinks Presentation](/images/datathon-toronto-Spamlinks.png)
+![Spamlinks Presentation](/images/datathon-toronto-spamlinks.png)
 
-* [View Presentation](/images/datathon-toronto-Spamlinks-presentation.pdf)
+* [View Presentation](/images/datathon-toronto-spamlinks.pdf)
 
 Project Collaborators:
   * Justin Littman, George Washington University Libraries
