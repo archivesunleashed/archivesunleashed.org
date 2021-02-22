@@ -7,83 +7,87 @@ aliases:
 ---
 
 ![Washington Skyline](/images/washington-skyline.png)
-## About
 
-The World Wide Web has had a profound impact on how we research and understand the past. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for researchers. Much of this information is captured within web archives.
+## **About**
 
-The project team invites archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to join us over the course of two days to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
+The Archives Unleashed Team partnered with <a href="https://library.columbia.edu">**Columbia University Libraries**</a> to host the fourth Archives Unleashed datathon. This event brought together archivists, researchers (from the humanities, social sciences, and beyond), librarians, computer scientists, and web archiving enthusiasts to collaboratively work with web collections and explore cutting-edge research tools through hands-on experience.
 
-The Archives Unleashed Team has partnered with <a href="https://library.gwu.edu">**George Washington University Libraries**</a> to host the next Archives Unleashed datathon.
+## Datathon Materials
 
-This event will bring together a small group of **approximately 15-20 participants** to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
+If you were not able to join us at the datathon, feel free to check out our resources available for use: 
+
+* [Video] [Archives Unleashed New York Datathon (Online)](https://youtu.be/Io6RvhqHfe4)
+
+* [PDF Slides] [Datathon Opening Presentation](/images/AU-NY-IntroSlides-reduced.pdf)
+
+## **Organizers**
+
+* Ian Milligan (University of Waterloo)
+* Pamela Graham (Columbia University)
+* Samantha Abrams (Ivy Plus Libraries Confederation)
+* Alexander Thurman (Columbia University)
+* Nick Ruest (York University) 
+* Jimmy Lin (University of Waterloo)
+* Samantha Fritz (University of Waterloo)
+
+## **Sponsors**
+
+![New York Datathon Sponsor Logos](/images/logo-ny-sponsors.png)
 
 ## Team Projects
 
-<table>
-  <tr>
-    <td><b>Team: #metoo Group 1</b>
-      <ul>
-        <li>Angela Woodall, Columbia University</li>
-        <li>Jane Kelly, Schlesinger Library, Radcliffe Institute, Harvard University</li>
-        <li>Michael Nashed, Bibliotheca Alexandria</li>
-        <li>Sarah McTavish, University of Waterloo</li>
-        <li><a href="/images/Washington-Group-metoo-1.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Washington-Pic-metoo1.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: #metoo Group 2</a></b>
-      <ul>
-        <li>Yoo Young Lee, University of Ottawa</li>
-        <li>Christie Moffatt, National Library of Medicine</li>
-        <li>Anna St.Onge, York University Libraries</li>
-        <li><a href="/images/Washington-Group-metoo-2.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Washington-Pic-metoo2.png"></td>
-  </tr>
-  <tr>
-    <td><b>Team: DC Punk Media Unleashed</b>
-      <ul>
-        <li>Grace Thomas, Library of Congress</li>
-        <li>James Jacobs, Stanford University</li>
-        <li>Laura Wrubel, George Washington University</li>
-        <li>Oliver Kiechle, Heinrich-Heine-University Duesseldorf</li>
-        <li><a href="/images/Washington-Group-DCPunkMediaUnleashed.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Washington-Pic-DCPunk.png"></td>
-  </tr>
- <tr>
-    <td><b>Team: Kompromat</b>
-      <ul>
-        <li>Ed Summers, University of Maryland</li>
-        <li>Gregory Wiedeman, University at Albany, SUNY</li>
-        <li>Helena Byrne, British Library</li>
-        <li>Shawn Walker, Arizona State University</li>
-        <li><a href="/images/Washington-Group-Kompromat.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Washington-Pic-Kompromat.png"></td>
- </tr>
- <tr>
-    <td><b>Team: Psyarchives</b>
-      <ul>
-        <li>Ryan Deschamps, University of Waterloo</li>
-        <li>Mario Nakazawa, Berea College</li>
-        <li><a href="/images/Washington-Group-Psyarchives.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Washington-Pic-Psyarchives.png"></td>
- </tr>
- <tr>
-    <td><b>Team: Punkavists</b>
-      <ul>
-        <li>Chase Dooley, Library of Congress</li>
-        <li>Roger Gillis, Dalhousie University</li>
-        <li>Rachel Trent, George Washington University</li>
-        <li>Jennifer Weintraub, Schlesinger Library, Radcliffe Institute, Harvard University</li>
-        <li><a href="/images/Washington-Group-Punkavists.pdf">View Presentation</a></li>
-      </ul>
-    <td><img src="/images/Washington-Pic-Punkavists.png"></td>
- </tr>
-</table>
+**Team: Latin American and Caribbean Contemporary Art Web Archive**
+
+![ArtWA Presentation](/images/NY-project-artwa300.png)
+
+* [View Presentation](/images/NY-project-artwa.pdf)
+
+Project Collaborators:
+  * Samantha Abrams, Ivy Plus Libraries Confederation
+  * Sumitra Duncan, Frick Art Reference Library/NYARC
+  * Mary Bakija, Pratt / NYARC
+  * Jim Kammerer, Montana State Library
+
+***
+
+**Team: Contemporary Composers Web Archives**
+
+![Web Composer Presentation](/images/NY-project-composers325.png)
+
+* [View Presentation](/images/NY-project-composers.pdf)
+
+Project Collaborators:
+  * Pamela Graham, Columbia University Libraries
+  * Giulia Occhini, University of Bristol/The Alan Turing Institute
+  * Nicole Greenhouse, NYU
+
+***
+
+**Team: Global Web Comics Web Archives**
+
+![Web Comics Presentation](/images/NY-project-webcomic300.png)
+
+* [View Presentation](/images/NY-project-webcomics.pdf)
+
+Project Collaborators:
+  * Kae Bara Kratcha, Columbia University Libraries
+  * Kritika Garg, Old Dominion University
+  * Wei Yin, Columbia University Libraries
+  * Francis Kayiwa, DocNow/Princeton University Library
+
+***
+
+**Team: Stonewall**
+
+![Stonewall Presentation](/images/NY-project-stonewall300.png)
+
+* [View Presentation](/images/NY-project-stonewall.pdf)
+
+Project Collaborators:
+  * Sarah McTavish, University of Waterloo
+  * Alex Thurman, Columbia University Libraries
+  * Dan Royles, Florida International University
+  * Brian M. Watson, Kinsey Institute Indiana University Bloomington
 
 ## Organizers
 
@@ -101,6 +105,7 @@ This event will bring together a small group of **approximately 15-20 participan
 |----------------------------------------------|--------------------------------------------|-----------------------------------------------------|
 | ![alt text](/images/mellon-logo-600x300.png) | ![alt text](/images/gwu-logo.jpg) | ![alt text](/images/waterloo-arts-logo-600x200.png) |
 | ![alt text](/images/compute_canada_logo.png) | ![alt text](/images/start_smart_logo.png)      | ![alt text](/images/yorku-logo.png)                  |
+
 ## Schedule
 
 We are looking forward to spending a couple of days with with our participants. We will be kicking off the event with some discussion around the project and set up of the Archives Unleashed Toolkit. After that it's full steam ahead with team project work. A light breakfast and lunch will be provided on both days, and there will be plently of coffee and tea throughout the event!
