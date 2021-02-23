@@ -10,7 +10,7 @@ weight: 40
 
 Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for historians, political scientists, sociologists, linguistics, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries.
 
-The Archives Unleashed project is pleased to announce  the launch of the **Cohort Program**, which will facilitate research engagement with web archives. Cohorts will engage in a year-long collaboration, while receiving mentorship and support from the Archives Unleashed Team.
+The Archives Unleashed project is pleased to announce the launch of the **Cohort Program**, which will facilitate research engagement with web archives. Cohorts will engage in a year-long collaboration while receiving mentorship and support from the Archives Unleashed Team.
 
 ## Program Details
 
@@ -51,7 +51,7 @@ Prepare your submission package using the [**Cohort application**](/images/AU-co
 * Project proposal:
 	* **Project Summary**: describe the research problem you aim to approach with web archives (max. 500 words);
 	* **Dataset**: identify the web archive collection you plan to use to explore your project (max. 250 words); and
-	* **Timeline**: provide an brief overview of how you will conduct the project (max. 250 words).
+	* **Timeline**: provide a brief overview of how you will conduct the project (max. 250 words).
 
 All completed applications should be submitted to [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca) by **11:59 PM Eastern on 31 March 2021**.
 
@@ -66,15 +66,15 @@ Submissions will be evaluated on the following criteria:
 
 Need some ideas to inspire your Cohort proposal? We've listed a few recent projects to showcase the variety of ways web archives can be explored, used, and visualized.
 
-* [Assessing Local Journalism: News Deserts, Journalism Divides, and the Determinants of the Robustness of Local News](https://dewitt.sanford.duke.edu/wp-content/uploads/2018/08/Assessing-Local-Journalism_100-Communities.pdf) by Philip M. Napoli, Matthew Weber, Katie McCollough & Qun Wang. 
+* [Assessing Local Journalism: News Deserts, Journalism Divides, and the Determinants of the Robustness of Local News](https://dewitt.sanford.duke.edu/assessing-news-media-infrastructure-report-released/) by Philip M. Napoli, Matthew Weber, Katie McCollough & Qun Wang. 
 * [The invention and dissemination of the spacer gif: implications for the future of access and use of web archives](https://doi.org/10.1007/s42803-019-00006-8) by Trevor Owens & Grace Thomas. Building on this research, Nick Ruest explored a GeoCities dataset using the Archives Unleashed Toolkit in [GeoCities and the spacer.gif](https://news.archivesunleashed.org/geocities-and-the-spacer-gif-6a0f70e7ad5d)
 * [The Queer Eternal September: LGBTQ Identity on the Early Internet and Web](https://uwspace.uwaterloo.ca/handle/10012/16336) by Sarah McTavish.
 
 * Selected Archives Unleashed Datathon Projects:
-	* [#teamwildfyre: UBC BC Wildfires](/images/vancouver-wildfyre.pdf) by Janice Bancer, Gethin Rees, Rebecca Dowson, Umar Quasim, Megan Meredith-Lobay, & Evan Thornberry
-	* [Contemporary Composers Web Archive](/images/NY-project-composers.pdf) by Nicole Greenhouse, Giulia Occhini, & Pamela Graham
-	* [Non-textual content in the DC Punk web archive](/images/Washington-Group-DCPunkMediaUnleashed.pdf) by Grace Thomas, James Jacobs Laura Wrubel, & Oliver Kiechle
-	* [Websites of the Former Soviet Union & Eastern Europe](/images/Washington-Group-Kompromat.pdf) by Ed Summers, Gregory Wiedeman, Helena Byrne, & Shawn Walker
+	* [#teamwildfyre: UBC BC Wildfires](/images/datathon-vancouver-wildfyer.pdf) by Janice Bancer, Gethin Rees, Rebecca Dowson, Umar Quasim, Megan Meredith-Lobay, & Evan Thornberry
+	* [Contemporary Composers Web Archive](/images/datathon-ny-composers.pdf) by Nicole Greenhouse, Giulia Occhini, & Pamela Graham
+	* [Non-textual content in the DC Punk web archive](/images/datathon-washington-DCpunk.pdf) by Grace Thomas, James Jacobs Laura Wrubel, & Oliver Kiechle
+	* [Websites of the Former Soviet Union & Eastern Europe](/images/datathon-washington-kompromat.pdf) by Ed Summers, Gregory Wiedeman, Helena Byrne, & Shawn Walker
 	
 ## Organizers & Sponsors
 

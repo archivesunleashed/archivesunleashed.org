@@ -7,7 +7,7 @@ weight: 45
 ![Vancouver Skyline](/images/datathon-vancouver-skyline.png)
 ## About
 
-The Archives Unleashed Team has partnered with **[Simon Fraser University Library](https://www.lib.sfu.ca)**, and **[KEY](http://www.sfu.ca/key/)** SFU’s Big Data initiative, to host the next Archives Unleashed datathon.
+The Archives Unleashed Team has partnered with **[Simon Fraser University Library](https://www.lib.sfu.ca)** and **[KEY](http://www.sfu.ca/key/)**, SFU’s Big Data initiative, to host the next Archives Unleashed datathon.
 
 This event brings together approximately 15-20 participants to experiment with the newest release of AUT (Archives Unleashed Toolkit) and the Archives Unleashed Cloud, and to kick-off collaboratively inspired research projects. Participants will have access to analytics software and specialists, and will be exposed to the process of working with web archive files at scale.
 
