@@ -8,7 +8,7 @@ weight: 20
 
 The Archives Unleashed Toolkit is an open-source platform for analyzing web archives built on [Apache Spark](http://spark.apache.org/), which provides powerful tools for analytics and data processing. 
 
-Check out the code on [GitHub](https://github.com/archivesunleashed/aut/) along with helpful [user documentation](https://aut.docs.archivesunleashed.org/) to get you started using the Archives Unleashed Toolkit. If you want hack on the Archives Unleashed Toolkit, check out our [Java and Scala API documentation](https://api.docs.archivesunleashed.io/).
+Check out the code on [GitHub](https://github.com/archivesunleashed/aut/) along with helpful [user documentation](https://aut.docs.archivesunleashed.org/) to get you started using the Archives Unleashed Toolkit. If you want to hack on the Archives Unleashed Toolkit, check out our [Java and Scala API documentation](https://api.docs.archivesunleashed.io/).
 
 The Archives Unleashed Toolkit can also be used in conjunction with [Spark Notebooks](http://spark-notebook.io/) and [Apache Zepplin](https://zeppelin.apache.org/).
 
@@ -16,7 +16,7 @@ If you want to learn more about [Apache Spark](https://spark.apache.org/), we hi
 
 ## Citing Archives Unleashed
 
-Your citations help to further the recognition of using open-source tools for scientific inquiry, assists in growing the web archiving community, and acknowledges the efforts of contributors to this project.
+Your citations help to further recognize using open-source tools for scientific inquiry, assist in growing the web archiving community, and acknowledge the efforts of contributors to this project.
 
 How to cite the Archives Unleashed Toolkit or Cloud in your research:
 

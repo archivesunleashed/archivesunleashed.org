@@ -39,7 +39,7 @@ If you are planning to participate in the hands-on components, to reduce load on
 * Please install **Anaconda Distribution for your platform**: <https://www.anaconda.com/distribution/>. If you are versed on the command line, try installing our Notebooks using the instructions under Local (Anaconda) here: <https://github.com/archivesunleashed/auk-notebooks>. If not, don’t worry! 
 * Finally, please download and install **Gephi for your platform**: <https://gephi.org>.
 
-While we will provide sample data as part of the workshop, you may want to try it out with your own data. If you have some small WARCs you can bring those, or alternatively you can crawl a few websites with <https://webrecorder.io> and export the WARC(s). 
+While we will provide sample data as part of the workshop, you may want to try it out with your own data. If you have some small WARCs you can bring those, or alternatively, you can crawl a few websites with <https://webrecorder.io> and export the WARC(s). 
 
 ## Questions?
 
