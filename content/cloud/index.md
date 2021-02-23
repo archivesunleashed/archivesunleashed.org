@@ -12,7 +12,7 @@ Imagine a world where you could access and analyze a web archives file in as few
 
 The Archives Unleashed Cloud is an open-source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users with a web-based front end to access the [Archives Unleashed Toolkit](/aut). It has been primarily developed by our project co-investigator and developer, [Nick Ruest](http://ruebot.net/).
 
-You can use the Cloud (for **free**) at <http://cloud.archivesunleashed.org>.
+You can use the Cloud (for **free**) at [http://cloud.archivesunleashed.org](http://cloud.archivesunleashed.org).
 
 {{< warning title="Closing the Cloud" >}}The Cloud will be shutting down on 30 June 2021 and migrating to Archive-It. Learn more about the transition [here](https://cloud.archivesunleashed.org/archiveit){{< /warning >}}
 
@@ -35,7 +35,7 @@ Let's take a tour of how the Cloud works. Below you will find a video tour of th
 
 [![](http://img.youtube.com/vi/BHP51tUhBFs/0.jpg)](http://www.youtube.com/watch?v=BHP51tUhBFs "Archives Unleashed Cloud Tour")
 
-Once a user signs up to [cloud.archivesunleashed.org](http://cloud.archivesunleashed.org/), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
+Once a user signs up to [http://cloud.archivesunleashed.org](http://cloud.archivesunleashed.org), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
 
 The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in the Cloud yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!
 
@@ -75,7 +75,7 @@ A few cautionary notes on "scale up" and "scale down" are in order. With website
 
 > A **logarithm** is a mathematical expression used to deal with non-normal distributed data (like networks). It is created by giving a base number an exponent, which is then multiplied by itself, to create factor increments, rather than equal amount increments, between data points. This is important as it will allow for data points to be more evenly distributed with minimal influence on data accuracy and integrity.
 
-You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that `ontario.ca` has a link to the `atlantic.ctvnews.ca` domain.
+You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that `huffingtonpost.com` has a link to the `engadget.com` domain.
 
 ![Full graph](/images/AUK-graph-zoomin.png)
 
