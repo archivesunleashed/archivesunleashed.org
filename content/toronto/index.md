@@ -49,7 +49,7 @@ Project Collaborators:
 
 **Team: Pipeline**
 
-![PipelinePresentation](/images/datathon-toronto-pipeline.png)
+![Pipeline Presentation](/images/datathon-toronto-pipeline1.png)
 
 * [View Presentation](/images/datathon-toronto-pipeline.pdf)
 
@@ -62,7 +62,7 @@ Project Collaborators:
 
 **Team: Spamlinks**
 
-![Spamlinks Presentation](/images/datathon-toronto-spamlinks.png)
+![Spamlinks Presentation](/images/datathon-toronto-spamlinks1.png)
 
 * [View Presentation](/images/datathon-toronto-spamlinks.pdf)
 
