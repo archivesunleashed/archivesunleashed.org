@@ -64,7 +64,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Invited Talks and Lectures
 
-* Samantha Fritz, "Web Archives with the Archives Unleashed Project"_Canadian Web Archiving Coalition Web Archives Webinar Series_,January 2021, Online. [[Slides](https://docs.google.com/presentation/d/1DxzFIGN-vmOFXMJK7mHjVQ8EI8JvNSKwuZVTHyNT9I0/edit?usp=sharing)] [[Video Recording](https://youtu.be/yNqgMW5WaKI)]
+* Samantha Fritz, "Web Archives with the Archives Unleashed Project,"_Canadian Web Archiving Coalition Web Archives Webinar Series_,January 2021, Online. [[Slides](https://docs.google.com/presentation/d/1DxzFIGN-vmOFXMJK7mHjVQ8EI8JvNSKwuZVTHyNT9I0/edit?usp=sharing)] [[Video Recording](https://youtu.be/yNqgMW5WaKI)]
 * Ian Milligan, "History in the Age of Abundance: Skills, Tools, and Methods for the 21st-Century Historian," _Invited Lecture at York University Department of History Historian’s Craft Series_, January 2020, Toronto, Ontario, Canada.
 * Ian Milligan, "Working with Cultural Heritage at Scale: Developing Tools and Platforms to Enable Historians to Explore History in the Age of Abundance." _ACL Special Interest Group on Language Technologies for Socio-Economic Science and Humanities_, June 2019, Minneapolis, Minnesota, USA.
 * Nick Ruest, "Hot Tips To Boost Your Interdisciplinary Web Archive Collaboration!" _Lewis & Ruth Sherman Centre for Digital Scholarship Speaker Series_, April 2018, Hamilton, Ontario, Canada.

@@ -12,8 +12,8 @@ The **Archives Unleashed Notebooks** are a prototype method for working with der
 
 You can play with a few live demos:
 
-* An example of using Python's [pandas](https://pandas.pydata.org/) library to explore web archive derivatives [[GitHub](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pandas_example.ipynb)] [[Google Colab](https://colab.research.google.com/github/archivesunleashed/notebooks/blob/master/parquet_pandas_example.ipynb)]
-* An example of text analysis in action on a web archive [[GitHub](https://github.com/archivesunleashed/notebooks/blob/master/parquet_text_analyis.ipynb)] [[Google Colab](https://colab.research.google.com/github/archivesunleashed/notebooks/blob/master/parquet_text_analyis.ipynb)]
-* An example of using PySpark in the Cloud [[GitHub](https://github.com/archivesunleashed/notebooks/blob/master/parquet_pyspark_example.ipynb)] [[Google Colab](https://colab.research.google.com/github/archivesunleashed/notebooks/blob/master/parquet_pyspark_example.ipynb)]
+* An example of using Python's [pandas](https://pandas.pydata.org/) library to explore web archive derivatives [[GitHub](https://github.com/archivesunleashed/notebooks/blob/main/Parquet%20Examples/parquet_pandas_example.ipynb)] [[Google Colab](https://colab.research.google.com/github/archivesunleashed/notebooks/blob/colab-tweak/Parquet%20Examples/parquet_pandas_example.ipynb)]
+* An example of text analysis in action on a web archive [[GitHub](https://github.com/archivesunleashed/notebooks/blob/main/Parquet%20Examples/parquet_text_analyis.ipynb)] [[Google Colab](https://colab.research.google.com/github/archivesunleashed/notebooks/blob/colab-tweak/Parquet%20Examples/parquet_text_analyis.ipynb)]
+* An example of using PySpark in the Cloud [[GitHub](https://github.com/archivesunleashed/notebooks/blob/main/Parquet%20Examples/parquet_pyspark_example.ipynb)] [[Google Colab](https://colab.research.google.com/github/archivesunleashed/notebooks/blob/colab-tweak/Parquet%20Examples/parquet_pyspark_example.ipynb)]
 
 You can read more about the thinking behind the notebooks in our Medium post, "[Cloud-hosted web archive data: The winding path to web archive collections as data](https://news.archivesunleashed.org/cloud-hosted-web-archive-data-the-winding-path-to-web-archive-collections-as-data-a2b3428701b7)."
