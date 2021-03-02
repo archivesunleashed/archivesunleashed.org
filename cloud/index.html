@@ -420,10 +420,14 @@
       <p><img src="https://archivesunleashed.org/images/portal.png" alt="Cloud portal"></p>
 <h2 id="introduction">Introduction</h2>
 <p>Imagine a world where you could access and analyze a web archives file in as few as three clicks, with no coding necessary. Oh wait, there&rsquo;s a portal for that: the Archives Unleashed Cloud.</p>
-<p>The Archives Unleashed Cloud is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users a web-based front end to access the <a href="https://archivesunleashed.org/aut">Archives Unleashed Toolkit</a>. It has been primarily developed by our project co-investigator and developer, <a href="http://ruebot.net/">Nick Ruest</a>.</p>
-<p>You can use the Cloud (for <strong>free</strong>) at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a></p>
+<p>The Archives Unleashed Cloud is an open-source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users with a web-based front end to access the <a href="https://archivesunleashed.org/aut">Archives Unleashed Toolkit</a>. It has been primarily developed by our project co-investigator and developer, <a href="http://ruebot.net/">Nick Ruest</a>.</p>
+<p>You can use the Cloud (for <strong>free</strong>) at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Closing the Cloud</p>
+<p>The Cloud will be shutting down on 30 June 2021 and migrating to Archive-It. Learn more about the transition <a href="https://cloud.archivesunleashed.org/archiveit">here</a></p>
+</div>
 <h2 id="functionalities">Functionalities</h2>
-<p>The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in turn supports the increased accessibility of working with web archives.</p>
+<p>The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which supports the increased accessibility of working with web archives.</p>
 <p>Core features of the Archives Unleashed Cloud include:</p>
 <ul>
 <li>Syncing <a href="https://archive-it.org">Archive-It</a> collections;</li>
@@ -433,10 +437,9 @@
 </ul>
 <p>In addition, our <a href="http://cloud.archivesunleashed.org/documentation">documentation</a> offers guidance on how to get the Cloud up and running, as well as how to use some of its features.</p>
 <h2 id="a-guided-tour-of-the-archives-unleashed-cloud">A Guided Tour of the Archives Unleashed Cloud</h2>
-<p>Let&rsquo;s take a tour of how the Cloud works. Below you will find a video tour of the Archives Unleashed Cloud, followed by a brief overview of what you can expect when working with the platform.
-<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>Once a user signs up to <a href="http://cloud.archivesunleashed.org/">cloud.archivesunleashed.org</a>, they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It&rsquo;s <a href="https://github.com/WASAPI-Community/data-transfer-apis">WASAPI</a> endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis.</p>
+<p>Let&rsquo;s take a tour of how the Cloud works. Below you will find a video tour of the Archives Unleashed Cloud, followed by a brief overview of what you can expect when working with the platform.</p>
+<p><a href="http://www.youtube.com/watch?v=BHP51tUhBFs" title="Archives Unleashed Cloud Tour"><img src="http://img.youtube.com/vi/BHP51tUhBFs/0.jpg" alt=""></a></p>
+<p>Once a user signs up to <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a>, they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It&rsquo;s <a href="https://github.com/WASAPI-Community/data-transfer-apis">WASAPI</a> endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis.</p>
 <p>The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in the Cloud yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!</p>
 <p><img src="https://archivesunleashed.org/images/cloud-collections.png" alt="Cloud collections"></p>
 <p>From the main collections screen, users can select a specific collection to download, which will trigger a number of background jobs. The first job uses data gathered from the WASAPI endpoint to download and verify each ARC/WARC file to our Archives Unleashed Cloud instance. Once the entire collection is downloaded, an automatic email is generated to notify the user that the collection has been downloaded, and analysis will begin.</p>
@@ -453,7 +456,7 @@
 <p><img src="https://archivesunleashed.org/images/cloud-interface1.png" alt="Cloud collections">
 <img src="https://archivesunleashed.org/images/cloud-interface2.png" alt="Cloud collections continued"></p>
 <p>In addition, we use <a href="https://github.com/archivesunleashed/graphpass">GraphPass</a> to help to create a simple network visualization powered by <a href="http://sigmajs.org/">Sigma js</a> on the collection page. Sigma is a JavaScript library that assists in drawing and displaying graphs.</p>
-<p>GraphPass produces visualization-related data in the network files such as color, position and size based on common social network algorithms. In the networks each node (dot) represents a domain (i.e. all of the URLs within a domain such as &ldquo;yorku.ca&rdquo; or &ldquo;newyorktimes.com&rdquo;) and each edge (line) represents a link from one node to another.</p>
+<p>GraphPass produces visualization-related data in the network files such as colour, position and size based on common social network algorithms. In the networks, each node (dot) represents a domain (i.e. all of the URLs within a domain such as &ldquo;yorku.ca&rdquo; or &ldquo;newyorktimes.com&rdquo;) and each edge (line) represents a link from one node to another.</p>
 <p>Users can explore and interact with the network using the helper buttons in the top left corner of the network window.</p>
 <ul>
 <li>Full Screen - opens up the network to full screen for easier interaction</li>
@@ -466,12 +469,12 @@
 <blockquote>
 <p>A <strong>logarithm</strong> is a mathematical expression used to deal with non-normal distributed data (like networks). It is created by giving a base number an exponent, which is then multiplied by itself, to create factor increments, rather than equal amount increments, between data points. This is important as it will allow for data points to be more evenly distributed with minimal influence on data accuracy and integrity.</p>
 </blockquote>
-<p>You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that <code>townyarmouth.ca</code> has a link to the <code>atlantic.ctvnews.ca</code> domain.</p>
+<p>You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that <code>huffingtonpost.com</code> has a link to the <code>engadget.com</code> domain.</p>
 <p><img src="https://archivesunleashed.org/images/AUK-graph-zoomin.png" alt="Full graph"></p>
 <p>Future development will focus on filtering further down on a collection, and integrating the new <a href="https://spark.apache.org/docs/latest/sql-programming-guide.html">DataFrame</a> functionality we&rsquo;re adding to AUT via a <a href="https://en.wikipedia.org/wiki/JDBC_driver">JDBC</a> connector.</p>
 <h2 id="can-i-try-it-out">Can I try it out?</h2>
 <p>Currently, anyone with an Archive-It subscription can take the Cloud for a spin. Please just come over to <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a> and give it a try.</p>
-<p>The Archives Unleashed Cloud is an open source project, you can view the codebase <a href="http://github.com/archivesunleashed/auk">here</a>. Although it is tied closely to the canonical instance running at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, <a href="https://archivesunleashed.org/get-involved/">let us know and we can collaborate</a> and figure out how to make it happen.</p>
+<p>The Archives Unleashed Cloud is an open-source project; you can view the codebase <a href="http://github.com/archivesunleashed/auk">here</a>. Although it is tied closely to the canonical instance running at <a href="http://cloud.archivesunleashed.org">http://cloud.archivesunleashed.org</a>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, <a href="https://archivesunleashed.org/get-involved/">let us know and we can collaborate</a> and figure out how to make it happen.</p>
 <h2 id="citing-archives-unleashed">Citing Archives Unleashed</h2>
 <p>Your citations help to further the recognition of using open-source tools for scientific inquiry, assists in growing the web archiving community, and acknowledges the efforts of contributors to this project.</p>
 <p>How to cite the Archives Unleashed Toolkit or Cloud in your research:</p>
