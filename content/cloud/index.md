@@ -10,13 +10,15 @@ weight: 20
 
 Imagine a world where you could access and analyze a web archives file in as few as three clicks, with no coding necessary. Oh wait, there's a portal for that: the Archives Unleashed Cloud.
 
-The Archives Unleashed Cloud is an open source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users a web-based front end to access the [Archives Unleashed Toolkit](/aut). It has been primarily developed by our project co-investigator and developer, [Nick Ruest](http://ruebot.net/).
+The Archives Unleashed Cloud is an open-source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users with a web-based front end to access the [Archives Unleashed Toolkit](/aut). It has been primarily developed by our project co-investigator and developer, [Nick Ruest](http://ruebot.net/).
 
-You can use the Cloud (for **free**) at <http://cloud.archivesunleashed.org>
+You can use the Cloud (for **free**) at [http://cloud.archivesunleashed.org](http://cloud.archivesunleashed.org).
+
+{{< warning title="Closing the Cloud" >}}The Cloud will be shutting down on 30 June 2021 and migrating to Archive-It. Learn more about the transition [here](https://cloud.archivesunleashed.org/archiveit){{< /warning >}}
 
 ## Functionalities
 
-The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which in turn supports the increased accessibility of working with web archives.
+The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which supports the increased accessibility of working with web archives.
 
 Core features of the Archives Unleashed Cloud include:
 
@@ -30,11 +32,10 @@ In addition, our [documentation](http://cloud.archivesunleashed.org/documentatio
 ## A Guided Tour of the Archives Unleashed Cloud
 
 Let's take a tour of how the Cloud works. Below you will find a video tour of the Archives Unleashed Cloud, followed by a brief overview of what you can expect when working with the platform.
-<br/><br/>
 
-<iframe width="900" height="300" src="https://www.youtube.com/embed/BHP51tUhBFs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![](http://img.youtube.com/vi/BHP51tUhBFs/0.jpg)](http://www.youtube.com/watch?v=BHP51tUhBFs "Archives Unleashed Cloud Tour")
 
-Once a user signs up to [cloud.archivesunleashed.org](http://cloud.archivesunleashed.org/), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
+Once a user signs up to [http://cloud.archivesunleashed.org](http://cloud.archivesunleashed.org), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
 
 The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in the Cloud yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!
 
@@ -59,7 +60,7 @@ Here is a completed collection page:
 
 In addition, we use [GraphPass](https://github.com/archivesunleashed/graphpass) to help to create a simple network visualization powered by [Sigma js](http://sigmajs.org/) on the collection page. Sigma is a JavaScript library that assists in drawing and displaying graphs. 
 
-GraphPass produces visualization-related data in the network files such as color, position and size based on common social network algorithms. In the networks each node (dot) represents a domain (i.e. all of the URLs within a domain such as "yorku.ca" or "newyorktimes.com") and each edge (line) represents a link from one node to another.
+GraphPass produces visualization-related data in the network files such as colour, position and size based on common social network algorithms. In the networks, each node (dot) represents a domain (i.e. all of the URLs within a domain such as "yorku.ca" or "newyorktimes.com") and each edge (line) represents a link from one node to another.
 
 Users can explore and interact with the network using the helper buttons in the top left corner of the network window. 
 
@@ -74,7 +75,7 @@ A few cautionary notes on "scale up" and "scale down" are in order. With website
 
 > A **logarithm** is a mathematical expression used to deal with non-normal distributed data (like networks). It is created by giving a base number an exponent, which is then multiplied by itself, to create factor increments, rather than equal amount increments, between data points. This is important as it will allow for data points to be more evenly distributed with minimal influence on data accuracy and integrity.
 
-You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that `townyarmouth.ca` has a link to the `atlantic.ctvnews.ca` domain.
+You can further interact with the hyperlink diagram by hovering over any node to highlight its immediate connections to other nodes. The arrow on each line indicates the direction of connection, for instance, in the image below, we see an arrow connecting two nodes and reveals that `huffingtonpost.com` has a link to the `engadget.com` domain.
 
 ![Full graph](/images/AUK-graph-zoomin.png)
 
@@ -84,7 +85,7 @@ Future development will focus on filtering further down on a collection, and int
 
 Currently, anyone with an Archive-It subscription can take the Cloud for a spin. Please just come over to <http://cloud.archivesunleashed.org> and give it a try.
 
-The Archives Unleashed Cloud is an open source project, you can view the codebase [here](http://github.com/archivesunleashed/auk). Although it is tied closely to the canonical instance running at <http://cloud.archivesunleashed.org>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, [let us know and we can collaborate](https://archivesunleashed.org/get-involved/) and figure out how to make it happen.
+The Archives Unleashed Cloud is an open-source project; you can view the codebase [here](http://github.com/archivesunleashed/auk). Although it is tied closely to the canonical instance running at <http://cloud.archivesunleashed.org>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, [let us know and we can collaborate](https://archivesunleashed.org/get-involved/) and figure out how to make it happen.
 
 ## Citing Archives Unleashed
 
