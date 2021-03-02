@@ -75,6 +75,27 @@ Need some ideas to inspire your Cohort proposal? We've listed a few recent proje
 	* [Contemporary Composers Web Archive](/images/datathon-ny-composers.pdf) by Nicole Greenhouse, Giulia Occhini, & Pamela Graham
 	* [Non-textual content in the DC Punk web archive](/images/datathon-washington-DCpunk.pdf) by Grace Thomas, James Jacobs Laura Wrubel, & Oliver Kiechle
 	* [Websites of the Former Soviet Union & Eastern Europe](/images/datathon-washington-kompromat.pdf) by Ed Summers, Gregory Wiedeman, Helena Byrne, & Shawn Walker
+
+## FAQs
+
+We've provided help with the most common questions about the Cohort application. Still have questions? Feel free to reach out to our team on [Slack](http://slack.archivesunleashed.org/) or connect with [Samantha Fritz](mailto:samantha.fritz@uwaterloo.ca).
+
+### Cohorts
+
+**Q**. _I've never been to an Archives Unleashed Datathon or collaborated with the project before, can I still apply?_
+
+**A**. Absolutely! The Cohort program is a completely different setting for engaging in web archives research, so applicants don't have to have attended any of our events. We are very flexible on the makeup of your cohort; co-applicants can be disciplinary/inter-disciplinary, multi-institutional, and at various career stages. Just remember that there needs to someone on the grant who can administer funds.
+
+**Q**. _I'm not in Canada! Can I still apply?_
+
+**A**. Absolutely, you do not need to be at a Canadian institution to apply. If you have questions about your eligibility, please do feel free to ask us.
+
+### Datasets
+
+**Q**. _What kind of collections should be used for project proposals?_
+
+**A**. We recommend that applicants prioritize using existing curated web archive collections stewarded by [Archive-It Partners](https://archive-it.org/explore). We may be able to extract data from the broader Wayback Machine, but this will be dependent on both the scope of what's to be extracted (keep it very circumscribed and limited as possible) as well as resources. In some cases, if data requests are big, we may be able to support this but might need to reallocate some of the grant funding to support engineering time.
+
 	
 ## Organizers & Sponsors
 
