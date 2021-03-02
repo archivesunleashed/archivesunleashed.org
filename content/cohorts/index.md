@@ -71,6 +71,7 @@ Need some ideas to inspire your Cohort proposal? We've listed a few recent proje
 * [The Queer Eternal September: LGBTQ Identity on the Early Internet and Web](https://uwspace.uwaterloo.ca/handle/10012/16336) by Sarah McTavish.
 
 * Selected Archives Unleashed Datathon Projects:
+
 	* [#teamwildfyre: UBC BC Wildfires](/images/datathon-vancouver-wildfyer.pdf) by Janice Bancer, Gethin Rees, Rebecca Dowson, Umar Quasim, Megan Meredith-Lobay, & Evan Thornberry
 	* [Contemporary Composers Web Archive](/images/datathon-ny-composers.pdf) by Nicole Greenhouse, Giulia Occhini, & Pamela Graham
 	* [Non-textual content in the DC Punk web archive](/images/datathon-washington-DCpunk.pdf) by Grace Thomas, James Jacobs Laura Wrubel, & Oliver Kiechle
@@ -96,7 +97,6 @@ We've provided help with the most common questions about the Cohort application.
 
 **A**. We recommend that applicants prioritize using existing curated web archive collections stewarded by [Archive-It Partners](https://archive-it.org/explore). We may be able to extract data from the broader Wayback Machine, but this will be dependent on both the scope of what's to be extracted (keep it very circumscribed and limited as possible) as well as resources. In some cases, if data requests are big, we may be able to support this but might need to reallocate some of the grant funding to support engineering time.
 
-	
 ## Organizers & Sponsors
 
 * Ian Milligan (University of Waterloo) 
