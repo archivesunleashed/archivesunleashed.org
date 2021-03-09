@@ -85,7 +85,7 @@ We've provided help with the most common questions about the Cohort application.
 
 **Q**. _What is a cohort?_
 
-**A**. Essentially, a cohort is your project team (up to 5 members). The idea is that each team (cohort) will work on their project throughout the year, and then at various points, connect with other cohorts to share what they are working on, project progress, and the results of their work. Each cohorts will also meet with the Archives Unleashed team  every two weeks or so as an opportunity to check-in, share resources, and discuss progress and any challenges. 
+**A**. Essentially, a cohort is your project team (up to 5 members). The idea is that each team (cohort) will work on their project throughout the year, and then at various points, connect with other cohorts to share what they are working on, project progress, and the results of their work. Each cohort will also meet with the Archives Unleashed team every two weeks or so as an opportunity to check-in, share resources, and discuss progress and any challenges. 
 
 **Q**. _I've never been to an Archives Unleashed Datathon or collaborated with the project before, can I still apply?_
 
