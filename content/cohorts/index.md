@@ -83,6 +83,10 @@ We've provided help with the most common questions about the Cohort application.
 
 ### Cohorts
 
+**Q**. _What is a cohort?_
+
+**A**. Essentially, a cohort is your project team (up to 5 members). The idea is that each team (cohort) will work on their project throughout the year, and then at various points, connect with other cohorts to share what they are working on, project progress, and the results of their work.
+
 **Q**. _I've never been to an Archives Unleashed Datathon or collaborated with the project before, can I still apply?_
 
 **A**. Absolutely! The Cohort program is a completely different setting for engaging in web archives research, so applicants don't have to have attended any of our events. We are very flexible on the makeup of your cohort; co-applicants can be disciplinary/inter-disciplinary, multi-institutional, and at various career stages. Just remember that there needs to someone on the grant who can administer funds.
@@ -96,6 +100,17 @@ We've provided help with the most common questions about the Cohort application.
 **Q**. _What kind of collections should be used for project proposals?_
 
 **A**. We recommend that applicants prioritize using existing curated web archive collections stewarded by [Archive-It Partners](https://archive-it.org/explore). We may be able to extract data from the broader Wayback Machine, but this will be dependent on both the scope of what's to be extracted (keep it very circumscribed and limited as possible) as well as resources. In some cases, if data requests are big, we may be able to support this but might need to reallocate some of the grant funding to support engineering time.
+
+**Q**. _Is my team limited to data in Archive-it that has been crawled by our home institution(s)_?
+
+**A**. You are welcome to use Archive-It data from your home institution but are **not** limited to it. We ask that you prioritize existing collections stewarded by [Archive-It Partners](https://archive-it.org/explore). If you have any questions about whether a collection is feasible or appropriate, please don’t hesitate to connect with our team.
+
+**Q**. _Can I use other data sources?_
+
+**A**. Absolutely! While the focus should be on web archives, we welcome the use of other data sources to help support project work. We recognize that blending various data sources will ultimately mean a richer research project.
+
+
+### Funding
 
 ## Organizers & Sponsors
 
