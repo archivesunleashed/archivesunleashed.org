@@ -95,9 +95,6 @@ We've provided help with the most common questions about the Cohort application.
 
 **A**. Absolutely, you do not need to be at a Canadian institution to apply. If you have questions about your eligibility, please do feel free to ask us.
 
-**Q**. _Do you fund overhead?_
-
-**A**. Unfortunately, we cannot. As this is a project supported by the Andrew W. Mellon Foundation's Public Knowledge program, we are bound by their guidelines which [include](https://mellon.org/programs/public-knowledge/): "the Public Knowledge program does not fund indirect costs or overhead, fundraising events, building projects or capital costs, endowment management fees, student tuition, or K–12 initiatives."
 
 ### Datasets
 
@@ -115,6 +112,11 @@ We've provided help with the most common questions about the Cohort application.
 
 
 ### Funding
+
+**Q**. _Do you fund overhead?_
+
+**A**. Unfortunately, we cannot. As this is a project supported by the Andrew W. Mellon Foundation's Public Knowledge program, we are bound by their guidelines which [include](https://mellon.org/programs/public-knowledge/): "the Public Knowledge program does not fund indirect costs or overhead, fundraising events, building projects or capital costs, endowment management fees, student tuition, or K–12 initiatives."
+
 
 ## Organizers & Sponsors
 
