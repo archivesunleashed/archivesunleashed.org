@@ -18,7 +18,7 @@ Submissions are now closed, but will reopen in March 2022 for a second round.
 
 ## The Cohorts
 
-Will will be introducing teams shortly! 
+We will be introducing teams shortly! 
 
 
 ## Organizers & Sponsors
