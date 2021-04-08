@@ -5,10 +5,6 @@ type: index
 weight: 0
 ---
 
-[![logo](/images/AU-cohort-button.png)](/cohorts) 
-
----
-
 ![AU Project Header](/images/home-AUproject-header.png)
 
 ## The Project
