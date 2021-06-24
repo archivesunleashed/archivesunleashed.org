@@ -4,30 +4,29 @@ title: The Archives Unleashed Cloud
 weight: 20
 ---
 
+{{< warning title="The Archives Unleashed Cloud is Closed" >}}The Cloud shut down on 30 June 2021, and will be replaced by a similar service hosted by Archive-It. Learn more about the transition [here](https://news.archivesunleashed.org/archives-unleashed-and-archive-it-to-support-web-archival-research-at-scale-30e81a41f1d3?source=collection_home---------3----------------------------).{{< /warning >}}
+
 ![Cloud portal](/images/portal.png)
 
 ## Introduction
 
-Imagine a world where you could access and analyze a web archives file in as few as three clicks, with no coding necessary. Oh wait, there's a portal for that: the Archives Unleashed Cloud.
+The Archives Unleashed Cloud was an open-source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supported the priorities of accessibility and usability of web archives by providing users with a web-based front end to access the [Archives Unleashed Toolkit](/aut). It was primarily developed by our project co-investigator and developer, [Nick Ruest](http://ruebot.net/).
 
-The Archives Unleashed Cloud is an open-source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users with a web-based front end to access the [Archives Unleashed Toolkit](/aut). It has been primarily developed by our project co-investigator and developer, [Nick Ruest](http://ruebot.net/).
-
-You can use the Cloud (for **free**) at [http://cloud.archivesunleashed.org](http://cloud.archivesunleashed.org).
-
-{{< warning title="Closing the Cloud" >}}The Cloud will be shutting down on 30 June 2021 and migrating to Archive-It. Learn more about the transition [here](https://cloud.archivesunleashed.org/archiveit){{< /warning >}}
+Lessons learned from the project are informing our new integrated service with Archive-It.
 
 ## Functionalities
 
-The Cloud has a clean and easy-to-use modern interface. The best part is that you do not need to know how to code, which supports the increased accessibility of working with web archives.
+The Cloud had a clean and easy-to-use modern interface. The best part is that you did not need to know how to code, supporting the increased accessibility of working with web archives.
 
-Core features of the Archives Unleashed Cloud include:
+Core features of the Archives Unleashed Cloud included:
 
 * Syncing [Archive-It](https://archive-it.org) collections;
 * Ingesting Archive-It collections via WASAPI to the Cloud;
 * Creating a network graph, domain distribution list, full text, and full text by domain derivatives, and making each available for download;
 * Providing in-browser diagrams to highlight a collection's crawl frequency, interactive network graph (to see major nodes and connections within your collection), and domains graph. 
 
-In addition, our [documentation](http://cloud.archivesunleashed.org/documentation) offers guidance on how to get the Cloud up and running, as well as how to use some of its features. 
+{{< warning title="Following Content is Archived" >}}The following content refers to the now closed Archives Unleashed Cloud. We are keeping it here as a record of the project.{{< /warning >}}
+
 
 ## A Guided Tour of the Archives Unleashed Cloud
 
