@@ -24,7 +24,7 @@ The project grew out of a series of datathons held at the University of Toronto,
       
       <guid>https://archivesunleashed.org/getting-started/</guid>
       <description>Overview The Archives Unleashed team has developed web archive search and data analysis tools, including the Toolkit, Cloud, Jupyter Notebook, and Warclight. All of our tools are open-source and free to use.
-   Tool Skill What it Does What You Need Ideal For      Beginner The Archives Unleashed Cloud is a web-based platform for working with Archive-It collections. Drawing on your Archive-It credentials, you can sync your collections, run basic analyses, and generate a standardized set of research derivatives.</description>
+   Tool Skill What it Does What You Need Ideal For      Beginner The Archives Unleashed Cloud is now closed. It was a web-based platform for working with Archive-It collections. &amp;ndash; &amp;ndash;    Beginner/ Intermediate The Archives Unleashed Notebooks are Jupyter Notebooks that can help you work with the output of the Archives Unleashed Toolkit.</description>
     </item>
     
     <item>
@@ -33,8 +33,9 @@ The project grew out of a series of datathons held at the University of Toronto,
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
       
       <guid>https://archivesunleashed.org/cloud/</guid>
-      <description>Introduction Imagine a world where you could access and analyze a web archives file in as few as three clicks, with no coding necessary. Oh wait, there&amp;rsquo;s a portal for that: the Archives Unleashed Cloud.
-The Archives Unleashed Cloud is an open-source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supports the priorities of accessibility and usability of web archives by providing users with a web-based front end to access the Archives Unleashed Toolkit.</description>
+      <description>The Archives Unleashed Cloud is Closed
+The Cloud shut down on 30 June 2021, and will be replaced by a similar service hosted by Archive-It. Learn more about the transition here.
+ Introduction The Archives Unleashed Cloud was an open-source cloud-based analysis tool that helps researchers and scholars conduct web archive analysis. It supported the priorities of accessibility and usability of web archives by providing users with a web-based front end to access the Archives Unleashed Toolkit.</description>
     </item>
     
     <item>
