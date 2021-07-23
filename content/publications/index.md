@@ -6,12 +6,26 @@ weight: 48
 
 The Archives Unleashed project has a body of published research.
 
+## Contents
+
+* [Archives Unleashed Project Materials](#archives-unleashed-project-materials)
+* [Journal Articles](#journal-articles)
+* [Book](#book)
+* [Peer-Reviewed Conference Publications](#peer-reviewed-conference-publications)
+* [Peer-Reviewed Posters and Demonstrations](#peer-reviewed-posters-and-demonstrations)
+* [Conference Presentations](#conference-presentations)
+* [Datasets](#datasets)
+
+
 ## Archives Unleashed Project Materials
 
 * Archives Unleashed. 2020. "Archives Unleashed Community Report (2017–2020)." [[PDF](/images/au-community-report.pdf)]
 * Archives Unleashed. 2020. "Reflecting on Collaborations and Community at Archives Unleashed Datathons." [[Post](https://news.archivesunleashed.org/reflecting-on-collaborations-and-community-at-archives-unleashed-datathons-d2d4538db462)]  [[PDF](/images/au-datathon-report.pdf)]
 * Archives Unleashed. "AU NY Datathon (Online)." Online video clip. _YouTube_, 26-27 March 2020. https://youtu.be/Io6RvhqHfe4 
 * Ian Milligan, Nick Ruest, Jimmy Lin, and Samantha Fritz. "Archives Unleashed New York Datathon: Introduction." _Archives Unleashed NY Datathon_, March 2020, Online. [[Datathon Slides](/images/AU-NY-IntroSlides-reduced.pdf")]
+
+[Back to top](#contents)
+
 
 
 ## Journal Articles
@@ -23,9 +37,13 @@ The Archives Unleashed project has a body of published research.
 * Ian Milligan, Nick Ruest, and Anna St.Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to Document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
 * Ian Milligan. "Lost in the Infinite Archive : The Promise and Pitfalls of Web Archives." _International Journal of Humanities and Arts Computing_, Vol. 10, No. 1-2 (2016): 87—94. [[link](https://www.euppublishing.com/doi/full/10.3366/ijhac.2016.0161)] [[preprint](https://uwspace.uwaterloo.ca/handle/10012/10322)]
 
+[Back to top](#contents)
+
 ## Book
 
 * Ian Milligan, _History in the Age of Abundance? How the Web is Transforming Historical Research_. Montreal & Kingston: McGill-Queen’s University Press, 2019. [[amazon.ca](https://www.amazon.ca/History-Age-Abundance-Transforming-Historical/dp/0773556974)] [[amazon.com](https://www.amazon.com/History-Age-Abundance-Transforming-Historical-dp-0773556974/dp/0773556974/ref=mt_paperback?_encoding=UTF8&me=&qid=)] [[google books](https://books.google.ca/books/about/History_in_the_Age_of_Abundance.html?id=lR3MvQEACAAJ&redir_esc=y)] [[publisher](https://www.mqup.ca/history-in-the-age-of-abundance--products-9780773556973.php?page_id=46&)]
+
+[Back to top](#contents)
 
 ## Peer-Reviewed Conference Publications
 
@@ -37,6 +55,8 @@ The Archives Unleashed project has a body of published research.
 * Andrew Jackson, Jimmy Lin, Ian Milligan, and Nick Ruest. "Desiderata for Exploratory Search Interfaces to Web Archives in Support of Scholarly Activities." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 16 (2016): 103—106. [[link](https://dl.acm.org/citation.cfm?id=2910912)] [[preprint](http://hdl.handle.net/10315/31236)]
 * Jimmy Lin. "Scaling Down Distributed Infrastructure on Wimpy Machines for Personal Web Archiving." Proceedings of the 24th International World Wide Web Conference Companion (WWW 2015), pages 1351-1355, May 2015, Florence, Italy. [[link](https://dl.acm.org/citation.cfm?id=2740908.2741695)]
 
+[Back to top](#contents)
+
 ## Peer-Reviewed Posters and Demonstrations
 
 * Tobi Adewoye, Xiao Han, Nick Ruest, Ian Milligan, Samantha Fritz, and Jimmy Lin. "Content-Based Exploration of Archival Images Using Neural Networks". In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL ’20)_. Association for Computing Machinery, New York, NY, USA, 489–490 (2020). [[link](https://doi.org/10.1145/3383583.3398577)] [[preprint](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/37504/image-search.pdf?sequence=1&isAllowed=y)] [[poster demo](/images/jcdl-2020-poster.pdf)] [[video summary](https://youtu.be/TQdZbasiI2I)]
@@ -44,12 +64,19 @@ The Archives Unleashed project has a body of published research.
 * Hsiu-Wei Yang, Linqing Liu, Ian Milligan, Nick Ruest, and Jimmy Lin. "Scalable Content-Based Analysis of Images in Web Archives with TensorFlow and the Archives Unleashed Toolkit." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36161)]
 * Nick Ruest, Ian Milligan, and Jimmy Lin. "Warclight: A Rails Engine for Web Archive Discovery." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36159)]
 
+[Back to top](#contents)
+
 ## Conference Presentations
+
+* Samantha Fritz, “Web Archives as Big Data: Building Tools and Community to Support Access and Use.” IFLA WLIC, August 2021, Online. [[Slides](https://docs.google.com/presentation/d/1Ng6o5Ov-LurGX8w9xK0oO2hGjDYRkfLV/edit?rtpof=true)]
+* Samantha Fritz, “Accessible Web Archives: Rethinking and Designing Usable Infrastructure for Sustainable Research Platforms.” WAC, June 2021, Online. [[Slides](https://docs.google.com/presentation/d/1JVAQU5R_jirGg3RI61xoEpDCzYaWCZSRju8R_vBP6oo/edit#slide=id.gd954b6c59c_0_8)]
+* Samantha Fritz, Ian Milligan, Nick Ruest, “Building Community through Archives Unleashed Datahons.” WAC, June 2021, Online.[[Slides](https://docs.google.com/presentation/d/131Q0DYIyWTdIFG1ysfcEGTI86RnCEBWdd-LasT5Vx50/edit#slide=id.g7b44a3fdcc_2_0)]
+* Ian Milligan, Helge Holzmann, “Integrating Archives Unleashed with the Internet Archives.” International Internet Preservation Consortium/RESAW Conference, June 2021, Online. [[Slides](https://docs.google.com/presentation/d/1f1w2oCRJ94XfoZ89sYV6wcU1mVuICv8-k7_DnrC8u0U/edit)]
 * Samantha Fritz and Sarah McTavish. "Analyzing Web Archives with the Archives Unleashed Project.” _Continuing Education to Advance Web Archiving (CEDWARC)_, October, 2019, Washington, DC. [[Overview](https://docs.google.com/presentation/d/1InV_NbsWFC2hRH_xkJZsZeozmXHQ_DJenA7wjj8RdBw/edit?usp=sharing)] [[Workshop Slides](https://docs.google.com/presentation/d/1IfS6TaWveClL6J9vVO0KAhqqqRE92Zq4pNQZniGIp_w/edit?usp=sharing)]
 * Samantha Fritz. "Web Archives: A Doorway to Access and Usability.” _Access Conference_, September 2019, Edmonton, Alberta. [[Slides](https://docs.google.com/presentation/d/1CSKn2ExAdRrQ-NJNlVdjsJOpSr369haGNu2nDbwf3aY/edit?usp=sharing)]
-* Nick Ruest and Ian Milligan. "Lowering the Barrier to Access: The Archives Unleashed Cloud Project." _The Web That Was: Archives, Traces, Reflections_, June 2019, Amsterdam, Netherlands. [[slides](http://hdl.handle.net/10315/36237)]
-* Nick Ruest and Ian Milligan. "See a Little Warclight : Building an Open-Source Web Archive Portal with Project Blacklight." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[slides](http://hdl.handle.net/10315/36232)]
-* Nick Ruest and Ian Milligan. "Project Sustainability and Research Platforms : The Archives Unleashed Cloud Project." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[slides](http://hdl.handle.net/10315/36233)]
+* Nick Ruest and Ian Milligan. "Lowering the Barrier to Access: The Archives Unleashed Cloud Project." _The Web That Was: Archives, Traces, Reflections_, June 2019, Amsterdam, Netherlands. [[Slides](http://hdl.handle.net/10315/36237)]
+* Nick Ruest and Ian Milligan. "See a Little Warclight : Building an Open-Source Web Archive Portal with Project Blacklight." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[Slides](http://hdl.handle.net/10315/36232)]
+* Nick Ruest and Ian Milligan. "Project Sustainability and Research Platforms : The Archives Unleashed Cloud Project." _International Internet Preservation Consortium Web Archiving Conference_, June 2019, Zagreb, Croatia. [[Slides](http://hdl.handle.net/10315/36233)]
 * Nick Ruest, "Oh, I Get by with a Little Help from my Friends : Interdisciplinary Web Archive Collaboration." _The Fields Institute Workshop on Quantitative Analysis and the Digital Turn in Historical Studies_, February 2019, Toronto, Ontario, Canada.
 * Ian Milligan, "Opening up WARCs: The Archives Unleashed Toolkit and Cloud Projects." _International Internet Preservation Consortium Annual Meeting_, November 2018, Wellington, New Zealand.
 * Nick Ruest, "Make it WALK." _Archives Association of Ontario 2018_, May 2018, Waterloo, Ontario, Canada.
@@ -63,6 +90,8 @@ The Archives Unleashed project has a body of published research.
 * Ian Milligan and Nick Ruest, "Engaging the Public with Web Archives: Providing Access to 10 Years of Political History with WebArchives.ca." _Canadian Society of Digital Humanities/Société canadienne des humanités numériques Conference_, May 2016, Calgary, Alberta, Canada.
 * Ian Milligan and Nick Ruest, "Hands on with Warcbase." _International Internet Preservation Consortium Conference_, April 2016, Reykjavik, Iceland.
 
+[Back to top](#contents)
+
 ## Invited Talks and Lectures
 
 * Samantha Fritz, "Web Archives with the Archives Unleashed Project,"_Canadian Web Archiving Coalition Web Archives Webinar Series_,January 2021, Online. [[Slides](https://docs.google.com/presentation/d/1DxzFIGN-vmOFXMJK7mHjVQ8EI8JvNSKwuZVTHyNT9I0/edit?usp=sharing)] [[Video Recording](https://youtu.be/yNqgMW5WaKI)]
@@ -74,6 +103,8 @@ The Archives Unleashed project has a body of published research.
 * Ian Milligan and Nick Ruest, "Twitter and Web Archive Analysis at Scale." _Data Love-In 2018_, February 2018, Vancouver, British Columbia, Canada.
 * Ian Milligan and Nick Ruest, "Capturing the Web Today for Tomorrow : Innovations in Capturing and Analyzing Social Media and Websites for the New Scholarly Record." _University Librarian’s Speaker Series on Emergent Research in Digital Scholarship_, March 2017, Toronto, Ontario, Canada.
 * Ian Milligan and Nick Ruest, "Walking the WALK : Facilitating Interdisciplinary Web Archive Collaboration." _University of Alberta_, June 2016, Edmonton, Alberta, Canada.
+
+[Back to top](#contents)
 
 ## Datasets
 
@@ -113,3 +144,5 @@ The Archives Unleashed project has a body of published research.
 *  Ian Milligan, Nick Ruest, and Ryan Deschamps, "Network Data for the Web Archives for Longitudinal Knowledge (WALK) Project", 2016, https://hdl.handle.net/10864/12040
 *  Ian Milligan, Nick Ruest, Jimmy Lin, "Derivative data for the Canadian Political Parties and Interest Groups collection", 2015, https://hdl.handle.net/10864/11301
 *  Nick Ruest, and Library and Archives Canada, "#elxn42 tweets (42nd Canadian Federal Election)", 2015, https://hdl.handle.net/10864/11311
+
+[Back to top](#contents)
