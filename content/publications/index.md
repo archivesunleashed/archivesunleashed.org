@@ -68,7 +68,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Conference Presentations
 
-* Samantha Fritz, “Web Archives as Big Data: building Tools and Community to Support Access and Use.” IFLA WLIC, August 2021, Online. [[Slides](https://docs.google.com/presentation/d/1Ng6o5Ov-LurGX8w9xK0oO2hGjDYRkfLV/edit?rtpof=true)]
+* Samantha Fritz, “Web Archives as Big Data: Building Tools and Community to Support Access and Use.” IFLA WLIC, August 2021, Online. [[Slides](https://docs.google.com/presentation/d/1Ng6o5Ov-LurGX8w9xK0oO2hGjDYRkfLV/edit?rtpof=true)]
 * Samantha Fritz, “Accessible Web Archives: Rethinking and Designing Usable Infrastructure for Sustainable Research Platforms.” WAC, June 2021, Online. [[Slides](https://docs.google.com/presentation/d/1JVAQU5R_jirGg3RI61xoEpDCzYaWCZSRju8R_vBP6oo/edit#slide=id.gd954b6c59c_0_8)]
 * Samantha Fritz, Ian Milligan, Nick Ruest, “Building Community through Archives Unleashed Datahons.” WAC, June 2021, Online.[[Slides](https://docs.google.com/presentation/d/131Q0DYIyWTdIFG1ysfcEGTI86RnCEBWdd-LasT5Vx50/edit#slide=id.g7b44a3fdcc_2_0)]
 * Ian Milligan, Helge Holzmann, “Integrating Archives Unleashed with the Internet Archives.” International Internet Preservation Consortium/RESAW Conference, June 2021, Online. [[Slides](https://docs.google.com/presentation/d/1f1w2oCRJ94XfoZ89sYV6wcU1mVuICv8-k7_DnrC8u0U/edit)]
