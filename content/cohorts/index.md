@@ -66,7 +66,7 @@ This project aims to reconstruct a history of online commenting by examining the
 
 Using web archives collected by Brock University, this project will examine how organizations in the Niagara region have responded to government COVID-19 mandates. Analysis will focus on investigating three types of entities: local government, non-profit organizations, and major private entities. Findings from this research aim to inform future crisis communication organizational planning, specifically at the local and municipal level. The project will also create several open computational notebooks to support teaching, learning, and research.
 
-Visit the Project Site: https://brockdsl.github.io/archives_unleashed/
+Visit their project site: https://brockdsl.github.io/archives_unleashed/
 
 ---
 
