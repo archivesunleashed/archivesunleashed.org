@@ -22,7 +22,8 @@ Interested in hearing more about updates to the Toolkit and Cloud, news, announc
 
 All issues are accessible below:
 
-* [June 2021](/images/AUTNews-June2021.pdf) (current issue)
+* [September 2021](/images/AUTNews-Sept2021.pdf) (current issue)
+* [June 2021](/images/AUTNews-June2021.pdf)
 * [January 2021](/images/AUTNews-Jan2021.pdf) 
 * [November 2020](/images/AUTNews-Nov2020.pdf)
 * [August 2020](/images/AUTNews-Aug2020.pdf) 
