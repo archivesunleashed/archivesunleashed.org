@@ -43,6 +43,6 @@ While we will provide sample data as part of the workshop, you may want to try i
 
 ## Questions?
 
-If you have any questions, please contact [Nick Ruest](mailto:nick@archivesunleashed.org) or [Ian Milligan](mailto:i2milligan@uwaterloo.ca).
+If you have any questions, please contact [Nick Ruest](mailto:ruestn@yorku.ca) or [Ian Milligan](mailto:i2milligan@uwaterloo.ca).
 
 ![AUK Notebook screenshot](/images/gephi.png)
