@@ -19,13 +19,13 @@ The Archives Unleashed project has a body of published research.
 
 ## Archives Unleashed Project Materials
 
+* Archives Unleashed. 2021. “Analyzing Web Archives with the Archives Unleashed Project.” November 2021. [[Video Tutorial](https://youtu.be/76jlgyS-GWA)] [[Slides (PDF)](/images/Publication-ToolkitWorkshopPresentation-2021.pdf )]
 * Archives Unleashed. 2020. "Archives Unleashed Community Report (2017–2020)." [[PDF](/images/au-community-report.pdf)]
 * Archives Unleashed. 2020. "Reflecting on Collaborations and Community at Archives Unleashed Datathons." [[Post](https://news.archivesunleashed.org/reflecting-on-collaborations-and-community-at-archives-unleashed-datathons-d2d4538db462)]  [[PDF](/images/au-datathon-report.pdf)]
 * Archives Unleashed. "AU NY Datathon (Online)." Online video clip. _YouTube_, 26-27 March 2020. https://youtu.be/Io6RvhqHfe4 
-* Ian Milligan, Nick Ruest, Jimmy Lin, and Samantha Fritz. "Archives Unleashed New York Datathon: Introduction." _Archives Unleashed NY Datathon_, March 2020, Online. [[Datathon Slides](/images/AU-NY-IntroSlides-reduced.pdf")]
+* Ian Milligan, Nick Ruest, Jimmy Lin, and Samantha Fritz. "Archives Unleashed New York Datathon: Introduction." _Archives Unleashed NY Datathon_, March 2020, Online. [[Datathon Slides](/images/datathon-ny-introslides.pdf)]
 
 [Back to top](#contents)
-
 
 
 ## Journal Articles
