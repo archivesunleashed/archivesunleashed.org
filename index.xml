@@ -28,6 +28,16 @@ The project grew out of a series of datathons held at the University of Toronto,
     </item>
     
     <item>
+      <title>Archive Research Compute Hub (ARCH)</title>
+      <link>https://archivesunleashed.org/arch/</link>
+      <pubDate>Wed, 01 Dec 2021 19:56:50 +0100</pubDate>
+      
+      <guid>https://archivesunleashed.org/arch/</guid>
+      <description>Introduction The Archive Research Compute Hub, or ARCH, is our new interface for web archive analysis that we are creating with the Internet Archive.
+ARCH unlocks the research potential of web archival collections with its ability to generate over a dozen datasets (including domain frequency statistics, hyperlink network graphs, and extracted full-text). Users are able to select their Archive-It collections for exploration and prompt dataset creation with the push of a button.</description>
+    </item>
+    
+    <item>
       <title>The Archives Unleashed Cloud</title>
       <link>https://archivesunleashed.org/cloud/</link>
       <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
