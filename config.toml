@@ -63,6 +63,11 @@ googleAnalytics = "UA-2879197-28"
 	weight = 15
 
 [[menu.main]]
+	name   = "ARCH"
+	url    = "arch/"
+	weight = 13
+
+[[menu.main]]
 	name   = "Archives Unleashed Cloud"
 	url    = "cloud/"
 	weight = 16
