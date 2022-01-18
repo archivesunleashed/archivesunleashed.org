@@ -1,6 +1,6 @@
 ---
 date: 2021-01-27T20:10:46+01:00
-title: Archives Unleashed Cohorts
+title: Archives Unleashed Cohorts (2021-2022)
 weight: 40
 ---
 
@@ -14,7 +14,7 @@ The Archives Unleashed project is pleased to announce the launch of the **Cohort
 
 We thank you for your interest in our Cohort program!
 
-Submissions are now closed, but will reopen in March 2022 for a second round.
+Submissions are now closed, but will reopen in February 2022 for a second round.
 
 ## The Cohorts
 
