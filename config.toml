@@ -83,9 +83,15 @@ googleAnalytics = "UA-2879197-28"
 	weight = 18
 
 [[menu.main]]
-	name   = "Cohorts"
-	url    = "cohorts/"
+	name   = "Cohorts (2021-2022)"
+	url    = "cohorts2021-2022/"
 	weight = 25
+
+[[menu.main]]
+	name   = "Cohorts (2022-2023)"
+	url    = "cohorts2022-2023/"
+	weight = 25
+
 
 [[menu.main]]
 	name   = "Get Involved"
