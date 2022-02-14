@@ -6,15 +6,9 @@ weight: 40
 
 ## About
 
-Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for historians, political scientists, sociologists, linguistics, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries.
-
 The Archives Unleashed project is pleased to announce the launch of the **Cohort Program**, which will facilitate research engagement with web archives. Cohorts will engage in a year-long collaboration while receiving mentorship and support from the Archives Unleashed Team.
 
-## Program Details
-
-We thank you for your interest in our Cohort program!
-
-Submissions are now closed, but will reopen in February 2022 for a second round.
+Highlights from the cohort projects are featured in our recent blog post: [**Research Applications with Web Archives: Collaboration Among Archives Unleashed Cohorts**](https://news.archivesunleashed.org/research-applications-with-web-archives-collaboration-among-archives-unleashed-cohorts-7c533cdff5d9)
 
 ## The Cohorts
 
