@@ -63,7 +63,7 @@ Need some ideas to inspire your Cohort proposal? We’ve listed a few recent pro
 
 * Project name and list of all applicants;
 * Identify an administrative lead (needs to be eligible to administer and receive grant funds);
-* CV for each named applicant (max 2 pages each) combined into a sing PDF document and uploaded with your submission; and
+* CV for each named applicant (max 2 pages each) combined into a single PDF document and uploaded with your submission; and
 * Project proposal, which will include the following sections
 	* Project Summary: describe the research problem you aim to approach with web archives (max. 500 words);
 	* Dataset: identify the web archive collection you plan to use to explore your project (max. 250 words); and
@@ -96,37 +96,30 @@ We’ve provided help with the most common questions about the Cohort applicatio
 
 **Cohorts**
 
-**Q.** What is a cohort?
+Q. What is a cohort?
+A. Essentially, a cohort is your project team (up to 5 members). The idea is that each team (cohort) will work on their project throughout the year, and then at various points, connect with other cohorts to share what they are working on, project progress, and the results of their work. Each cohort will also meet with the Archives Unleashed team every two weeks or so as an opportunity to check-in, share resources, and discuss progress and any challenges.
 
-**A.** Essentially, a cohort is your project team (up to 5 members). The idea is that each team (cohort) will work on their project throughout the year, and then at various points, connect with other cohorts to share what they are working on, project progress, and the results of their work. Each cohort will also meet with the Archives Unleashed team every two weeks or so as an opportunity to check-in, share resources, and discuss progress and any challenges.
+Q. I’ve never been to an Archives Unleashed Datathon or collaborated with the project before, can I still apply?
+A. Absolutely! The Cohort program is a completely different setting for engaging in web archives research, so applicants don’t have to have attended any of our events. We are very flexible on the makeup of your cohort; co-applicants can be disciplinary/interdisciplinary, multi-institutional, and at various career stages. Just remember that there needs to be someone on the grant who can administer funds.
 
-**Q.** I’ve never been to an Archives Unleashed Datathon or collaborated with the project before, can I still apply?
-
-**A.** Absolutely! The Cohort program is a completely different setting for engaging in web archives research, so applicants don’t have to have attended any of our events. We are very flexible on the makeup of your cohort; co-applicants can be disciplinary/interdisciplinary, multi-institutional, and at various career stages. Just remember that there needs to be someone on the grant who can administer funds.
-
-**Q.** I’m not in Canada! Can I still apply?
-
-**A.** Absolutely, you do not need to be at a Canadian institution to apply. If you have questions about your eligibility, please don't hesitate to connect with us.
+Q. I’m not in Canada! Can I still apply?
+A. Absolutely, you do not need to be at a Canadian institution to apply. If you have questions about your eligibility, please don't hesitate to connect with us.
 
 **Datasets**
 
-**Q.** What kind of collections should be used for project proposals?
+Q. What kind of collections should be used for project proposals?
+A. We recommend that applicants prioritize using existing curated web archive collections stewarded by [Archive-It Partners](https://archive-it.org/explore). We may be able to extract data from the broader Wayback Machine, but this will depend on both the scope of what’s to be extracted (keep it very circumscribed and limited as possible) and resources. In some cases, if data requests are big, we may be able to support this but might need to reallocate some of the grant funding to support engineering time.
 
-**A.** We recommend that applicants prioritize using existing curated web archive collections stewarded by [Archive-It Partners](https://archive-it.org/explore). We may be able to extract data from the broader Wayback Machine, but this will depend on both the scope of what’s to be extracted (keep it very circumscribed and limited as possible) and resources. In some cases, if data requests are big, we may be able to support this but might need to reallocate some of the grant funding to support engineering time.
+Q. Is my team limited to data in Archive-it that has been crawled by our home institution(s)?
+A. You are welcome to use Archive-It data from your home institution but are not limited to it. We ask that you prioritize existing collections stewarded by [Archive-It Partners](https://archive-it.org/explore). If you have any questions about whether a collection is feasible or appropriate, please don’t hesitate to connect with our team.
 
-**Q.** Is my team limited to data in Archive-it that has been crawled by our home institution(s)?
-
-**A.** You are welcome to use Archive-It data from your home institution but are not limited to it. We ask that you prioritize existing collections stewarded by [Archive-It Partners](https://archive-it.org/explore). If you have any questions about whether a collection is feasible or appropriate, please don’t hesitate to connect with our team.
-
-**Q.** Can I use other data sources?
-
-**A.** Yes! While the focus should be on web archives, we welcome the use of other data sources to help support project work. We recognize that blending various data sources will ultimately mean a richer research project.
+Q. Can I use other data sources?
+A. Yes! While the focus should be on web archives, we welcome the use of other data sources to help support project work. We recognize that blending various data sources will ultimately mean a richer research project.
 
 **Funding**
 
-**Q.** Do you fund overhead?
-
-**A.** Unfortunately, we cannot. As this is a project supported by the Andrew W. Mellon Foundation’s Public Knowledge program, we are bound by their guidelines which identify: “the Public Knowledge program does not fund indirect costs or overhead, fundraising events, building projects or capital costs, endowment management fees, student tuition, or K–12 initiatives.”
+Q. Do you fund overhead?
+A. Unfortunately, we cannot. As this is a project supported by the Andrew W. Mellon Foundation’s Public Knowledge program, we are bound by their guidelines which identify: “the Public Knowledge program does not fund indirect costs or overhead, fundraising events, building projects or capital costs, endowment management fees, student tuition, or K–12 initiatives.”
 
 ## **Organizers & Sponsors**
 

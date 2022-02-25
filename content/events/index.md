@@ -17,9 +17,9 @@ Datathons provided an opportunity to build a sustainable community around Archiv
 
 The Archives Unleashed is launching the **Cohort Program** to support and facilitate continued engagement with web archives. Research Cohorst will participate in a year-long collaboration while receiving mentorship and support from the Archives Unleashed Team. Cohorts will begin in July 2021 and July 2022.
 
-The Call for Proposals for the first round of cohorts is open until **31 March 2021**. 
+The Call for Proposals for the second round of cohorts is open until **31 March 2022**. 
 
-Visit the [Cohort Program](/cohorts) page for full details. 
+Visit the [Cohort Program](/cohorts2022-2023) page for full details. 
 
 ## Past Datathons
 

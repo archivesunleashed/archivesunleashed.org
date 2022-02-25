@@ -17,7 +17,7 @@ Starting in June 2020, the project entered a [second phase](https://uwaterloo.ca
 Over three years, the team will be engaged in two priorities:
 
 1. We will integrate the Archives Unleashed Cloud with the Internet Archive's Archive-It Service.
-2. To facilitate researcher engagement with web archives, we will launch the [Archives Unleashed Cohorts](/cohorts) program. 
+2. To facilitate researcher engagement with web archives, we will launch the [Archives Unleashed Cohorts](/cohorts2022-2023) program. 
 
 ## Citing Archives Unleashed 
 
