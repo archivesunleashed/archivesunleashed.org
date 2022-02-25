@@ -63,7 +63,7 @@ Need some ideas to inspire your Cohort proposal? We’ve listed a few recent pro
 
 * Project name and list of all applicants;
 * Identify an administrative lead (needs to be eligible to administer and receive grant funds);
-* CV for each named applicant (max 2 pages each) combined into a sing PDF document and uploaded with your submission; and
+* CV for each named applicant (max 2 pages each) combined into a single PDF document and uploaded with your submission; and
 * Project proposal, which will include the following sections
 	* Project Summary: describe the research problem you aim to approach with web archives (max. 500 words);
 	* Dataset: identify the web archive collection you plan to use to explore your project (max. 250 words); and
