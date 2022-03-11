@@ -1,6 +1,6 @@
 ---
 date: 2021-12-01T19:56:50+01:00
-title: Archive Research Compute Hub (ARCH)
+title: Archives Research Compute Hub (ARCH)
 weight: 20
 ---
 
@@ -8,7 +8,7 @@ weight: 20
 
 ## Introduction
 
-The Archive Research Compute Hub, or ARCH, is our new interface for web archive analysis that we are creating with the Internet Archive. 
+The Archives Research Compute Hub, or ARCH, is our new interface for web archive analysis that we are creating with the Internet Archive. 
 
 ARCH unlocks the research potential of web archival collections with its ability to generate over a dozen datasets (including domain frequency statistics, hyperlink network graphs, and extracted full-text). Users are able to select their Archive-It collections for exploration and prompt dataset creation with the push of a button. Additionally, ARCH boasts several in-browser visualizations for exploring collection content and potential data outputs.
 

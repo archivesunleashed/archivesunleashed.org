@@ -12,8 +12,8 @@ Big Data, in the form of born-digital historical sources, is reshaping the human
 
 Following the successful launch of the inaugural cohort (2021-2022), the Archives Unleashed project is pleased to announce we will be hosting a second round of cohorts from 2022-2023.
 
-![AU Cohort 2 PostCard](/images/AU-C2-CFP-Postcard.png)
-Please feel free to download and share our [CFP Postcard](/images/AU-C2-CFP-Postcard.png)!
+![AU Cohort 2 PostCard](/images/AU-C2-CFP-Postcard2.png)
+Please feel free to download and share our [CFP Postcard](/images/AU-C2-CFP-Postcard2.png)!
 
 ## **Program Details**
 
@@ -22,7 +22,7 @@ We are looking to select up to **five research teams** to participate in the coh
 * Researchers will have the opportunity to participate in cohort events planned throughout the year, including opening and concluding program events and informal virtual gatherings to encourage cross-team connections and peer support;
 * One or two team members will be invited to join an opening event in Vancouver, British Columbia, Canada (2-3 June 2022; tentatively planned as in-person) and a closing event (May/June 2023; tentatively planned as in-person);
 * Bi-monthly mentorship and support meetings with the Archives Unleashed team;
-* Access to ARCH (Archive Research Compute Hub) to generate custom datasets; and
+* Access to ARCH (Archives Research Compute Hub) to generate custom datasets; and
 * Funding of $11,500 CAD to support project work. Additional support will be provided for travel to the closing event.
 
 It is expected that all teams will prepare a journal-length article submission as part of this project, which will be developed throughout the term and workshopped at the closing event at the Internet Archive.
