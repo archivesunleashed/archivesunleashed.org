@@ -30,9 +30,9 @@ The Archives Unleashed project has a body of published research.
 
 ## Journal Articles
 
-* Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Fostering Community Engagement through Datathon Events: The Archives Unleashed Experience". _Digital Humanities Quarterly_, Vol. 15, No. 1, 20201. [[link](http://digitalhumanities.org/dhq/vol/15/1/000536/000536.html)] 
+* Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Fostering Community Engagement through Datathon Events: The Archives Unleashed Experience." _Digital Humanities Quarterly_, Vol. 15, No. 1, 20201. [[link](http://digitalhumanities.org/dhq/vol/15/1/000536/000536.html)] 
 * Nick Ruest, Samantha Fritz, Ryan Deschamps, Jimmy Lin, and Ian Milligan. "From archive to analysis: accessing web archives at scale through a cloud-based interface." _International Journal of Digital Humanities_, 2021. [[link](https://doi.org/10.1007/s42803-020-00029-6)]
-* Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Building community at distance: a datathon during COVID-19." _Digital Library Perspectives_, 2020. [[link](https://doi.org/10.1108/DLP-04-2020-0024)]
+* Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Building community at a distance: a datathon during COVID-19." _Digital Library Perspectives_, 2020. [[link](https://doi.org/10.1108/DLP-04-2020-0024)]
 * Jimmy Lin, Ian Milligan, Jeremy Wiebe, and Alice Zhou. “Warcbase : Scalable Analytics Infrastructure for Exploring Web Archives.” _ACM Journal of Computing and Cultural Heritage_, Vol. 10, Issue 4, July 2017. [[link](https://dl.acm.org/citation.cfm?id=3097570)]
 * Ian Milligan, Nick Ruest, and Anna St.Onge. "The Great WARC Adventure : Using SIPS, AIPS and DIPS to Document SLAAPs." _Digital Studies/Le champ numérique_, Vol. 6, 2016. [[link](https://www.digitalstudies.org/articles/10.16995/dscn.18/)]
 * Ian Milligan. "Lost in the Infinite Archive : The Promise and Pitfalls of Web Archives." _International Journal of Humanities and Arts Computing_, Vol. 10, No. 1-2 (2016): 87—94. [[link](https://www.euppublishing.com/doi/full/10.3366/ijhac.2016.0161)] [[preprint](https://uwspace.uwaterloo.ca/handle/10012/10322)]
@@ -47,7 +47,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Peer-Reviewed Conference Publications
 
-* Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. "The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives". In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL ’20)_. Association for Computing Machinery, New York, NY, USA, 157–166 (2020) [[link](https://doi.org/10.1145/3383583.3398513)] [[preprint](https://arxiv.org/abs/2001.05399)] [[presentation](https://youtu.be/TaVE1cU_EmQ)]
+* Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. "The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives." In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL ’20)_. Association for Computing Machinery, New York, NY, USA, 157–166 (2020) [[link](https://doi.org/10.1145/3383583.3398513)] [[preprint](https://arxiv.org/abs/2001.05399)] [[presentation](https://youtu.be/TaVE1cU_EmQ)]
 * Jimmy Lin, Ian Milligan, Douglas Oard, Nick Ruest, and Katie Shilton. "We Could, but Should We? Ethical Considerations for Providing Access to GeoCities and Other Historical Digital Collections." _Proceedings of the Fifth ACM SIGIR Conference on Human Information Interaction and Retrieval (CHIIR 2020)_. [[preprint](https://cs.uwaterloo.ca/~jimmylin/publications/Lin_etal_CHIIR2020.pdf)]
 * Ryan Deschamps, Samantha Fritz, Jimmy Lin, Ian Milligan, and Nick Ruest. "The Cost of a WARC : Analyzing Web Archives in the Cloud." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[link](https://ieeexplore.ieee.org/document/8791179)] [[preprint](http://hdl.handle.net/10315/36158)]
 * Ian Milligan, Nathalie Casemajor, Samantha Fritz, Jimmy Lin, Nick Ruest, Matthew S. Weber, and Nicholas Worby. "Building Community and Tools for Analyzing Web Archives through Datathons." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[link](https://ieeexplore.ieee.org/document/8791131)] [[preprint](http://hdl.handle.net/10315/36180)]
@@ -59,7 +59,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Peer-Reviewed Posters and Demonstrations
 
-* Tobi Adewoye, Xiao Han, Nick Ruest, Ian Milligan, Samantha Fritz, and Jimmy Lin. "Content-Based Exploration of Archival Images Using Neural Networks". In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL ’20)_. Association for Computing Machinery, New York, NY, USA, 489–490 (2020). [[link](https://doi.org/10.1145/3383583.3398577)] [[preprint](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/37504/image-search.pdf?sequence=1&isAllowed=y)] [[poster demo](/images/jcdl-2020-poster.pdf)] [[video summary](https://youtu.be/TQdZbasiI2I)]
+* Tobi Adewoye, Xiao Han, Nick Ruest, Ian Milligan, Samantha Fritz, and Jimmy Lin. "Content-Based Exploration of Archival Images Using Neural Networks." In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL ’20)_. Association for Computing Machinery, New York, NY, USA, 489–490 (2020). [[link](https://doi.org/10.1145/3383583.3398577)] [[preprint](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/37504/image-search.pdf?sequence=1&isAllowed=y)] [[poster demo](/images/jcdl-2020-poster.pdf)] [[video summary](https://youtu.be/TQdZbasiI2I)]
 * Ryan Deschamps, Nick Ruest, Jimmy Lin, Samantha Fritz, and Ian Milligan. "The Archives Unleashed Notebook: Madlibs for Jumpstarting Scholarly Exploration of Web Archives." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36160)]
 * Hsiu-Wei Yang, Linqing Liu, Ian Milligan, Nick Ruest, and Jimmy Lin. "Scalable Content-Based Analysis of Images in Web Archives with TensorFlow and the Archives Unleashed Toolkit." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36161)]
 * Nick Ruest, Ian Milligan, and Jimmy Lin. "Warclight: A Rails Engine for Web Archive Discovery." _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries_, Vol. 19 (2019). [[preprint](http://hdl.handle.net/10315/36159)]
@@ -94,7 +94,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Invited Talks and Lectures
 
-* Samantha Fritz, "Web Archives with the Archives Unleashed Project,"_Canadian Web Archiving Coalition Web Archives Webinar Series_,January 2021, Online. [[Slides](https://docs.google.com/presentation/d/1DxzFIGN-vmOFXMJK7mHjVQ8EI8JvNSKwuZVTHyNT9I0/edit?usp=sharing)] [[Video Recording](https://youtu.be/yNqgMW5WaKI)]
+* Samantha Fritz, "Web Archives with the Archives Unleashed Project,"_Canadian Web Archiving Coalition Web Archives Webinar Series_, January 2021, Online. [[Slides](https://docs.google.com/presentation/d/1DxzFIGN-vmOFXMJK7mHjVQ8EI8JvNSKwuZVTHyNT9I0/edit?usp=sharing)] [[Video Recording](https://youtu.be/yNqgMW5WaKI)]
 * Ian Milligan, "History in the Age of Abundance: Skills, Tools, and Methods for the 21st-Century Historian," _Invited Lecture at York University Department of History Historian’s Craft Series_, January 2020, Toronto, Ontario, Canada.
 * Ian Milligan, "Working with Cultural Heritage at Scale: Developing Tools and Platforms to Enable Historians to Explore History in the Age of Abundance." _ACL Special Interest Group on Language Technologies for Socio-Economic Science and Humanities_, June 2019, Minneapolis, Minnesota, USA.
 * Nick Ruest, "Hot Tips To Boost Your Interdisciplinary Web Archive Collaboration!" _Lewis & Ruth Sherman Centre for Digital Scholarship Speaker Series_, April 2018, Hamilton, Ontario, Canada.
@@ -108,43 +108,43 @@ The Archives Unleashed project has a body of published research.
 
 ## Datasets
 
-* Nick Ruest. "GeoCities Web Archive Collection Derivatives", 2021, https://archive.org/details/geocities-webarchive-collection-derivatives
-* Helge Holzmann. “Friendster Datasets”, 2021, https://archive.org/details/friendsterdatasets
-* Helge Holzmann. “Early Web Datasets”, 2021, https://archive.org/details/earlywebdatasets
-* Nick Ruest, Jocelyn Wilk, Alex Thurman. "University Archives web archive collection derivatives", 2020, https://doi.org/10.5683/SP2/FONRZU
-* Nick Ruest, Matthew C. Baker, and Alex Thurman. "Burke Library New York City Religions web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3701455
-* Nick Ruest. "Rare Book and Manuscript Library web archive collection derivatives" 2020, http://doi.org/10.5281/zenodo.3701593
-* Nick Ruest, and Samantha Abrams. "Contemporary Composers Web Archive (CCWA) web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3692559
-* Nick Ruest, Carole Gagné, and Dave Mitchell. "Harvest Quebec Government Websites from December 2006 web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3688354
-* Nick Ruest, Carole Gagné, and Dave Mitchell. "Quebec International Relation and Economy web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3688334
-* Nick Ruest, Carole Gagné, and Dave Mitchell. "Sites of the Quebec Ministry of Immigration from 2012 to 2018 web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3687264
-* Nick Ruest, Carole Gagné, and Dave Mitchell. "Ministry of Environment of Québec (2011-2014) web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3605525
-* Nick Ruest, Carole Gagné, and Dave Mitchell. "Coalition Avenir Québec (CAQ) web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3687262
-* Nick Ruest, Carole Gagné, and Dave Mitchell. "Quebec Ministry of Agriculture, Fisheries and Food from 2012-2018 web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3687256
-* Nick Ruest, Christine Sala, and Samantha Abrams. "Collaborative Architecture, Urbanism, and Sustainability Web Archive (CAUSEWAY) collection derivatives", 2020, http://doi.org/10.5281/zenodo.3674173
-* Nick Ruest, Christine Sala, and Alex Thurman. "Avery Library Historic Preservation and Urban Planning web archive collection derivatives", 2020, https://doi.org/10.5683/SP2/Z68EVJ,
-* Nick Ruest, Amanda Bielskas, Brittany Wofford, Jane Quigley, Emily Wild, and Samantha Abrams. "Geologic Field Trip Guidebooks Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3666295
-* Nick Ruest, and Alex Thurman. "Resistance web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3660457
-* Nick Ruest. "Freely Accessible eJournals web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633671
-* Nick Ruest, Andrew S. Dolkart, and Alex Thurman. "Stonewall 50 Commemoration web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3631347
+* Nick Ruest. "GeoCities Web Archive Collection Derivatives," 2021, https://archive.org/details/geocities-webarchive-collection-derivatives
+* Helge Holzmann. “Friendster Datasets,” 2021, https://archive.org/details/friendsterdatasets
+* Helge Holzmann. “Early Web Datasets,” 2021, https://archive.org/details/earlywebdatasets
+* Nick Ruest, Jocelyn Wilk, Alex Thurman. "University Archives web archive collection derivatives," 2020, https://doi.org/10.5683/SP2/FONRZU
+* Nick Ruest, Matthew C. Baker, and Alex Thurman. "Burke Library New York City Religions web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3701455
+* Nick Ruest. "Rare Book and Manuscript Library web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3701593
+* Nick Ruest, and Samantha Abrams. "Contemporary Composers Web Archive (CCWA) web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3692559
+* Nick Ruest, Carole Gagné, and Dave Mitchell. "Harvest Quebec Government Websites from December 2006 web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3688354
+* Nick Ruest, Carole Gagné, and Dave Mitchell. "Quebec International Relation and Economy web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3688334
+* Nick Ruest, Carole Gagné, and Dave Mitchell. "Sites of the Quebec Ministry of Immigration from 2012 to 2018 web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3687264
+* Nick Ruest, Carole Gagné, and Dave Mitchell. "Ministry of Environment of Québec (2011-2014) web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3605525
+* Nick Ruest, Carole Gagné, and Dave Mitchell. "Coalition Avenir Québec (CAQ) web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3687262
+* Nick Ruest, Carole Gagné, and Dave Mitchell. "Quebec Ministry of Agriculture, Fisheries and Food from 2012-2018 web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3687256
+* Nick Ruest, Christine Sala, and Samantha Abrams. "Collaborative Architecture, Urbanism, and Sustainability Web Archive (CAUSEWAY) collection derivatives," 2020, http://doi.org/10.5281/zenodo.3674173
+* Nick Ruest, Christine Sala, and Alex Thurman. "Avery Library Historic Preservation and Urban Planning web archive collection derivatives," 2020, https://doi.org/10.5683/SP2/Z68EVJ,
+* Nick Ruest, Amanda Bielskas, Brittany Wofford, Jane Quigley, Emily Wild, and Samantha Abrams. "Geologic Field Trip Guidebooks Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3666295
+* Nick Ruest, and Alex Thurman. "Resistance web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3660457
+* Nick Ruest. "Freely Accessible eJournals web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633671
+* Nick Ruest, Andrew S. Dolkart, and Alex Thurman. "Stonewall 50 Commemoration web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3631347
 * Nick Ruest. "General web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633290
-* Nick Ruest, Luo Zhou, Joshua Seufert, and Samantha Abrams. "Independent Documentary Filmmakers from China, Hong Kong, and Taiwan Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3632912
-* Nick Ruest, Thomas Keenan, Robert Davis, Anna Arays, Erik Zitser, Alla Roylance, Bogdan Horbal, Samantha Abrams. "Eastern Europe and Former Soviet Union Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633031
-* Nick Ruest, Lauris Olson, and Samantha Abrams. "Popline and K4Health Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633022
-* Nick Ruest, Christine Sala, and Samantha Abrams. "Latin American and Caribbean Contemporary Art Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633118
-* Nick Ruest. "Extreme Right Movements in Europe web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633161
-* Nick Ruest, Yoshie Yanagihara, Tetsuyuki Shida, Haruko Nakamura, and Samantha Abrams. "Queer Japan Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633284
-* Nick Ruest, Karen Green, Sarah Wenzel, and Samantha Abrams. "Global Webcomics Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633737
-* Nick Ruest, Talía Guzman-González, Sócrates Silva, Jill Baron, and Samantha Abrams. "Brazilian Presidential Transition (2018) Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3659692
-* Nick Ruest, Kristina Williams, JKeely Wilczek, Jeremy Darrington, Ryan Denniston, and Samantha Abrams. "State Elections Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3635634
-* Nick Ruest. "Web Archive of Independent News Sites on Turkish Affairs derivatives", 2020, http://doi.org/10.5281/zenodo.3633234
-* Nick Ruest, Anna Rakityanskaya, Thomas Keenan, Robert Davis, Anna Arays, and Samantha Abrams. "Literary Authors from Europe and Eurasia Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3632728
-* Nick Ruest, Chengzhi Wang, Xiao-He Ma, and Samantha Abrams. "#MeToo and the Women's Rights Movement in China Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633681
-* Nick Ruest, James Adams, Marcella Barnhart, Bobray Bordelon, Gwyneth Crowley, Joann Donatiello, and Samantha Abrams. "National Statistical Offices and Central Banks Web Archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3633683
-* Nick Ruest, Carole Gagné, and Dave Mitchell. "Ministry of Environment of Québec (2011-2014) web archive collection derivatives", 2020, http://doi.org/10.5281/zenodo.3605525
-*  Nick Ruest, Ian Milligan, Jimmy Lin, Ryan Deschamps, and Samantha Fritz, "Derivative Data for Web Archives for Longitudinal Knowledge (WALK)", 2018, https://dx.doi.org/10.20383/101.036
-*  Ian Milligan, Nick Ruest, and Ryan Deschamps, "Network Data for the Web Archives for Longitudinal Knowledge (WALK) Project", 2016, https://hdl.handle.net/10864/12040
-*  Ian Milligan, Nick Ruest, Jimmy Lin, "Derivative data for the Canadian Political Parties and Interest Groups collection", 2015, https://hdl.handle.net/10864/11301
-*  Nick Ruest, and Library and Archives Canada, "#elxn42 tweets (42nd Canadian Federal Election)", 2015, https://hdl.handle.net/10864/11311
+* Nick Ruest, Luo Zhou, Joshua Seufert, and Samantha Abrams. "Independent Documentary Filmmakers from China, Hong Kong, and Taiwan Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3632912
+* Nick Ruest, Thomas Keenan, Robert Davis, Anna Arays, Erik Zitser, Alla Roylance, Bogdan Horbal, Samantha Abrams. "Eastern Europe and Former Soviet Union Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633031
+* Nick Ruest, Lauris Olson, and Samantha Abrams. "Popline and K4Health Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633022
+* Nick Ruest, Christine Sala, and Samantha Abrams. "Latin American and Caribbean Contemporary Art Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633118
+* Nick Ruest. "Extreme Right Movements in Europe web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633161
+* Nick Ruest, Yoshie Yanagihara, Tetsuyuki Shida, Haruko Nakamura, and Samantha Abrams. "Queer Japan Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633284
+* Nick Ruest, Karen Green, Sarah Wenzel, and Samantha Abrams. "Global Webcomics Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633737
+* Nick Ruest, Talía Guzman-González, Sócrates Silva, Jill Baron, and Samantha Abrams. "Brazilian Presidential Transition (2018) Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3659692
+* Nick Ruest, Kristina Williams, JKeely Wilczek, Jeremy Darrington, Ryan Denniston, and Samantha Abrams. "State Elections Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3635634
+* Nick Ruest. "Web Archive of Independent News Sites on Turkish Affairs derivatives," 2020, http://doi.org/10.5281/zenodo.3633234
+* Nick Ruest, Anna Rakityanskaya, Thomas Keenan, Robert Davis, Anna Arays, and Samantha Abrams. "Literary Authors from Europe and Eurasia Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3632728
+* Nick Ruest, Chengzhi Wang, Xiao-He Ma, and Samantha Abrams. "#MeToo and the Women's Rights Movement in China Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633681
+* Nick Ruest, James Adams, Marcella Barnhart, Bobray Bordelon, Gwyneth Crowley, Joann Donatiello, and Samantha Abrams. "National Statistical Offices and Central Banks Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633683
+* Nick Ruest, Carole Gagné, and Dave Mitchell. "Ministry of Environment of Québec (2011-2014) web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3605525
+*  Nick Ruest, Ian Milligan, Jimmy Lin, Ryan Deschamps, and Samantha Fritz, "Derivative Data for Web Archives for Longitudinal Knowledge (WALK)," 2018, https://dx.doi.org/10.20383/101.036
+*  Ian Milligan, Nick Ruest, and Ryan Deschamps, "Network Data for the Web Archives for Longitudinal Knowledge (WALK) Project," 2016, https://hdl.handle.net/10864/12040
+*  Ian Milligan, Nick Ruest, Jimmy Lin, "Derivative data for the Canadian Political Parties and Interest Groups collection," 2015, https://hdl.handle.net/10864/11301
+*  Nick Ruest, and Library and Archives Canada, "#elxn42 tweets (42nd Canadian Federal Election)," 2015, https://hdl.handle.net/10864/11311
 
 [Back to top](#contents)
