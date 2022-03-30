@@ -12,8 +12,10 @@ Big Data, in the form of born-digital historical sources, is reshaping the human
 
 Following the successful launch of the inaugural cohort (2021-2022), the Archives Unleashed project is pleased to announce we will be hosting a second round of cohorts from 2022-2023.
 
-![AU Cohort 2 PostCard](/images/AU-C2-CFP-Postcard2.png)
-Please feel free to download and share our [CFP Postcard](/images/AU-C2-CFP-Postcard2.png)!
+{{< warning title="Application Deadline Extension" >}}We will be accepting applications until 11:59pm Eastern Time on Tuesday, February 5th, 2022.{{< /warning >}}
+
+![AU Cohort 2 PostCard](/images/AU-C2-CFP-Postcard3.png)
+Please feel free to download and share our [CFP Postcard](/images/AU-C2-CFP-Postcard3.png)!
 
 ## **Program Details**
 
@@ -69,14 +71,14 @@ Need some ideas to inspire your Cohort proposal? We’ve listed a few recent pro
 	* Dataset: identify the web archive collection you plan to use to explore your project (max. 250 words); and
 	* Timeline: provide a brief overview of how you will conduct the project (max. 250 words).
 
-All applications should be submitted by **11:59 PM EST on 31 March 2022.**
+All applications should be submitted by ~~11:59 PM EST on 31 March 2022.~~**11:59PM EST on 5 April 2022.**
 
 
 ### Important Dates
 
 |                  |               |
 |------------------|---------------|
-| Applications Due | 31 March 2022 |
+| Applications Due | **5 April 2022** |
 | Notifications    | 15 April 2022 |
 | Projects Begin   | 1 July 2022   |
 | Projects End     | 30 June 2023  |
