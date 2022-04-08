@@ -6,7 +6,6 @@ weight: 0
 ---
 
 ![]()
-[![AU Cohort 2 Open](/images/AU-cohort2-banner.png)](/cohorts2022-2023)
 
 ![AU Project Header](/images/home-AUproject-header.png)
 
