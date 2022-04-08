@@ -4,14 +4,43 @@ title: Archives Unleashed Cohorts (2022-2023)
 weight: 40
 ---
 
-![AU Cohort 2 Banner](/images/AU-cohort2-banner.png)
-
 ## **About**
 
 Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for historians, political scientists, sociologists, linguistics, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries.
 
-Following the successful launch of the inaugural cohort (2021-2022), the Archives Unleashed project is pleased to announce we will be hosting a second round of cohorts from 2022-2023.
+Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts2021-2022), the Archives Unleashed project is pleased to announce we will be hosting a second round of cohorts from 2022-2023.
 
+### Important Dates
+
+|                  |               |
+|------------------|---------------|
+| ~~Applications Due~~ | ~~**5 April 2022**~~ |
+| Notifications    | 15 April 2022 |
+| Cohort Event   | 2-3 June 2022   |
+| Projects Begin   | 1 July 2022   |
+| Projects End     | 30 June 2023  |
+
+## **The Cohorts**
+
+We will introduce you to our next round of cohort research groups and projects shortly! 
+
+
+
+## Organizers & Sponsors
+
+* Ian Milligan (University of Waterloo) 
+* Jefferson Bailey (Internet Archive) 
+* Nick Ruest (York University)
+* Jimmy Lin (University of Waterloo)
+* Samantha Fritz (University of Waterloo)
+
+![Cohort Sponsors](/images/logo-AUII-cohort-sponsors.png)
+
+
+
+
+
+<!--
 {{< warning title="Application Deadline Extension" >}}We will be accepting applications until 11:59pm Eastern Time on Tuesday, April 5th, 2022.{{< /warning >}}
 
 ![AU Cohort 2 PostCard](/images/AU-C2-CFP-Postcard3.png)
