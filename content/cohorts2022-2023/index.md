@@ -6,35 +6,74 @@ weight: 40
 
 ## **About**
 
-Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exciting new opportunities for historians, political scientists, sociologists, linguistics, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries.
+Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information htat is generated and, crucially, preserved every day in electronic form, presents exiting new opportunities for historians, political scientists, sociologists, linguists, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries. 
 
-Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts2021-2022), the Archives Unleashed project is pleased to announce we will be hosting a second round of cohorts from 2022-2023.
-
-### Important Dates
-
-|                  |               |
-|------------------|---------------|
-| ~~Applications Due~~ | ~~**5 April 2022**~~ |
-| Notifications    | 15 April 2022 |
-| Cohort Event   | 2-3 June 2022   |
-| Projects Begin   | 1 July 2022   |
-| Projects End     | 30 June 2023  |
+Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts2021-2022), the Archives Unleashed programs is pleased to welcome our second round of cohorts from 2022-2023. The cohort program facilitates research engagement with web archives, and five research teams will engage in a year-long collaboration while receiving mentorship and support from the Archives Unleashed team.
 
 ## **The Cohorts**
 
-We will introduce you to our next round of cohort research groups and projects shortly! 
+**Latin American Women's Rights Movements: Tracing Online Presence through Language, Time and Space**
 
+* Sylvia Fernandez, University of Texas at San Antonio
+* Rosario Rogel-Salazar, Universidad Autónoma del Estado de México, Toluca
+* Verónica Benítez-Pérez, Universidad Autónoma del Estado de México, Toluca
+* Alan Colín-Arce, Universidad Autónoma del Estado de México, Toluca
+* Abraham García-Monroy, Universidad Autónoma del Estado de México, Toluca
 
+The lack of effective response to femicides and gender-based violence towards indigenous women and women of colour is not only legible across Mexico but comparatively in Latin America, the Caribbean, the United States, Canada, and other parts of the globe.
 
-## Organizers & Sponsors
+Throughout the years, women have formed collectives and organizations in public and digital spaces to fight against impunity and to demand justice and rights. This has led to the creation of many online sites, social media profiles, and digital activism. The examination of how these sites have shifted over time, is critical to understanding how the movements against femicides and gender-based violence created a digital identity publicly and in the online domain. 
 
-* Ian Milligan (University of Waterloo) 
-* Jefferson Bailey (Internet Archive) 
-* Nick Ruest (York University)
-* Jimmy Lin (University of Waterloo)
-* Samantha Fritz (University of Waterloo)
+In analyzing web archives related to human rights and feminist movements, the project will develop a historical analysis of the websites from women’s rights movements in Mexico and Latin America, particularly those focusing on eradicating femicides and gender violence. The team will also study how these movements relate to women’s rights movements globally, specifically around comparing language expression.
 
-![Cohort Sponsors](/images/logo-AUII-cohort-sponsors.png)
+---
+
+**Historicizing Aughts-Era Mormon Mommy Blogging Media Landscapes**
+
+* Emily Edwards, St. Francis College
+* Robin Hershkowitz, Bowling Green State University
+
+In the era of post-blogging, or microblogging, this project will explore early aughts Mormon mommy blogging culture, mediations of marriage, mothering, and feminine domesticity to historicize this period in relation to contemporary manifestations and trends of mommy influencing on social media platforms.
+   
+Feminist scholars have emphasized that practices of mommy blogging and social media influencing are forms of affective digital labor [(Mäkinen 2020)](https://journals.sagepub.com/doi/10.1177/1461444820941196), we also emphasize that these mediated practices of Mormon mommy blogging in the early aughts not only are forms of socially reproductive labor but are ideologically productive as well [(Jarrett 2015)](https://www.routledge.com/Feminism-Labour-and-Digital-Media-The-Digital-Housewife/Jarrett/p/book/9781138575660). This project will identify connections and transitions to new media ecologies and new iterations of racialized, gendered domestic ideologies that share historic genealogies to digital media practices and structures pioneered by Mormon mommy bloggers.
+
+---
+
+**Web Archiving and the Saskatchewan COVID Archive: Expanding Coverage to Capture Social Media, Medical Misinformation, and Radicalization**
+
+* Jim Clifford, University of Saskatchewan
+* Derek Cameron, University of Saskatchewan
+* Erika Dyck, University of Saskatchewan
+* Craig Harkema, University of Saskatchewan
+* Patrick Chasse, University of Saskatchewan
+* Tim Hutchinson, University of Saskatchewan
+
+The Saskatchewan COVID Archive project began in April 2020 to ensure the capture and preservation of sites that reflected the conversations around and experiences of the COVID-19 pandemic in Saskatchewan. Using this rich dataset, the project will examine how the pandemic response unexpectedly fostered social movements that challenged mainstream ideas about science, public health, and individual responsibility. 
+
+The research team will develop timelines and knowledge trees to give users the chance to see linked materials, and offers an opportunity to learn about the causal relationship between social media and this important shift in public health policy in Saskatchewan. 
+
+---
+
+**Querying Queer Web Archives**
+
+* Filipa Calado, The Graduate Center, CUNY
+* Corey Clawson, Rutgers University - Newark
+* Di Yoong, The Graduate Center, CUNY
+* Lisa Rhody, The Graduate Center, CUNY
+
+Studying web archives from a variety of angles that pertain to contemporary subfields and areas of interest in Queer Studies, this team will investigate how queerness interacts with, is informed by, and forms web spaces. In particular, the project will focus on how queerness has been theorized across various web communities, and what web materials and formats can teach us about the creation of queer community. In studying queer online spaces, project investigators will explore investments in concepts like utopia, play, radicalism, normativity, religion, and conversion, and how they affect queer identity and discourse formation over time.
+
+---
+
+**Using Web Archives for Mapping the Use of Cultural Practices in Postconflict Societies and During Reconciliation Processes** 
+
+* Ricardo Velasco Trujillo, University of Minnesota Twin Cities
+* Luis Gomez, The Australian Academy of Science
+
+Despite the growing interest in the role of cultural practices during reconciliation processes, in societies trying to confront the legacies of troubled pasts and widespread human rights violations, there is a broad gap in statistical knowledge and lack of reliable data regarding what type of cultural practices are used, and their correlation in the effectiveness of reconciliation processes across different geographical and cultural contexts. 
+
+Employing computational methods such as contextual search, data mining, and web scraping amongst others, this project aims at making an initial assessment and map out the use of cultural practices in different reconciliation processes and across several human rights organizations working actively in post-conflict societies. 
+
 
 
 

@@ -123,7 +123,7 @@ The Archives Unleashed project has a body of published research.
 * Nick Ruest, Carole Gagné, and Dave Mitchell. "Coalition Avenir Québec (CAQ) web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3687262
 * Nick Ruest, Carole Gagné, and Dave Mitchell. "Quebec Ministry of Agriculture, Fisheries and Food from 2012-2018 web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3687256
 * Nick Ruest, Christine Sala, and Samantha Abrams. "Collaborative Architecture, Urbanism, and Sustainability Web Archive (CAUSEWAY) collection derivatives," 2020, http://doi.org/10.5281/zenodo.3674173
-* Nick Ruest, Christine Sala, and Alex Thurman. "Avery Library Historic Preservation and Urban Planning web archive collection derivatives," 2020, https://doi.org/10.5683/SP2/Z68EVJ,
+* Nick Ruest, Christine Sala, and Alex Thurman. "Avery Library Historic Preservation and Urban Planning web archive collection derivatives," 2020, https://doi.org/10.5683/SP2/Z68EVJ
 * Nick Ruest, Amanda Bielskas, Brittany Wofford, Jane Quigley, Emily Wild, and Samantha Abrams. "Geologic Field Trip Guidebooks Web Archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3666295
 * Nick Ruest, and Alex Thurman. "Resistance web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3660457
 * Nick Ruest. "Freely Accessible eJournals web archive collection derivatives," 2020, http://doi.org/10.5281/zenodo.3633671
