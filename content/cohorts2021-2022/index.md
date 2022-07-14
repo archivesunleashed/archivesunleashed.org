@@ -72,13 +72,3 @@ Visit their project site: https://brockdsl.github.io/archives_unleashed/
 * Anna Muldoon, Arizona State University
 
 This project will examine and compare two case studies of health misinformation: HIV mis/disinformation circulating on Geocities in the mid-1990s to early 2000s with the role of official COVID-19 Dashboards in COVID mis/disinformation. This work contributes to our understanding of current and historical health misinformation as well as the connections between them, and will also garner insights into how historical narratives of health misinformation have been recycled and repurposed.
-
-## Organizers & Sponsors
-
-* Ian Milligan (University of Waterloo) 
-* Jefferson Bailey (Internet Archive) 
-* Nick Ruest (York University)
-* Jimmy Lin (University of Waterloo)
-* Samantha Fritz (University of Waterloo)
-
-![Cohort Sponsors](/images/logo-AUII-cohort-sponsors.png)
