@@ -4,13 +4,13 @@ title: Archives Unleashed Cohorts (2022-2023)
 weight: 40
 ---
 
-## **About**
+## About
 
-Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information htat is generated and, crucially, preserved every day in electronic form, presents exiting new opportunities for historians, political scientists, sociologists, linguists, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries. 
+Big Data, in the form of born-digital historical sources, is reshaping the humanities and social sciences. The sheer amount of cultural information that is generated and, crucially, preserved every day in electronic form, presents exiting new opportunities for historians, political scientists, sociologists, linguists, computer scientists, and other scholars. Much of this information is captured within web archives, created by organizations such as the Internet Archive and many other libraries. 
 
 Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts2021-2022), the Archives Unleashed programs is pleased to welcome our second round of cohorts from 2022-2023. The cohort program facilitates research engagement with web archives, and five research teams will engage in a year-long collaboration while receiving mentorship and support from the Archives Unleashed team.
 
-## **The Cohorts**
+## The Cohorts
 
 **Latin American Women's Rights Movements: Tracing Online Presence through Language, Time and Space**
 
