@@ -14,7 +14,7 @@ ARCH unlocks the research potential of web archival collections with its ability
 
 ![Cloud portal](/images/ARCH-2.png)
 
-We are currently entering the final round of our UX testing in January/February 2022. Along with sharing and verifying new implementations with testers, these final rounds will also serve as an opportunity to stress test ARCH with a wider audience before our public launch in the Spring of 2022.
+We have completed a series of UX testing throughout early 2022, and are working with the Internet Archive around next steps on a public launch. 
 
 As always, if you want to keep updated on the status of our project, there are many ways to [get involved](/get-involved).
 
