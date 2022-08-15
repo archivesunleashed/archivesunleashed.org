@@ -8,7 +8,7 @@ weight: 40
 
 The Archives Unleashed project is pleased to announce the launch of the **Cohort Program**, which will facilitate research engagement with web archives. Cohorts will engage in a year-long collaboration while receiving mentorship and support from the Archives Unleashed Team.
 
-Highlights from the cohort projects are featured in our recent blog post: [**Research Applications with Web Archives: Collaboration Among Archives Unleashed Cohorts**](https://news.archivesunleashed.org/research-applications-with-web-archives-collaboration-among-archives-unleashed-cohorts-7c533cdff5d9)
+Highlights from the cohort projects are featured in our Medium blog: [**Research Applications with Web Archives: Collaboration Among Archives Unleashed Cohorts**](https://news.archivesunleashed.org/research-applications-with-web-archives-collaboration-among-archives-unleashed-cohorts-7c533cdff5d9)
 
 ## The Cohorts
 

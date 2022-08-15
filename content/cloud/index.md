@@ -34,7 +34,7 @@ Let's take a tour of how the Cloud works. Below you will find a video tour of th
 
 [![](http://img.youtube.com/vi/BHP51tUhBFs/0.jpg)](http://www.youtube.com/watch?v=BHP51tUhBFs "Archives Unleashed Cloud Tour")
 
-Once a user signs up to [http://cloud.archivesunleashed.org](http://cloud.archivesunleashed.org), they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
+Once a user signs up to the Archives Unleashed Cloud, they enter their Archive-It credentials, which are salted and encrypted. Those credentials are then used to sync their Archive-It collections with the Cloud using Archive-It's [WASAPI](https://github.com/WASAPI-Community/data-transfer-apis) endpoint. This is done as a background job, and once it is complete, it emails the user to let them know that their Archive-It collections are synced and available for further analysis. 
 
 The main collections screen provides some basic information about each collection: title, if the collection has been analyzed in the Cloud yet, if it is publicly available (in Archive-It), the number of ARC/WARCs in the collection, and the size of the collection. You can see this below!
 
@@ -49,8 +49,6 @@ The analysis process then triggers an Apache Spark job and uses AUT to create a 
 * A CSV file that explains the distribution of domains within the web archive;
 * A CSV file that contains the text extracted from HTML documents within the web archive. You can find the crawl date, full URL, and the plain text of each page within the file;
 * A ZIP file that contains the plain text extracted from HTML documents within the web archive, arranged by each domain. Within this ZIP you will have a series of text files, each containing the full text of a top-ten domain.
-
-If you are curious about what you can do with these files, see the [Archives Unleashed Cloud Derivative Files learning guides](https://cloud.archivesunleashed.org/derivatives).
 
 Here is a completed collection page:
 
@@ -81,8 +79,6 @@ You can further interact with the hyperlink diagram by hovering over any node to
 Future development will focus on filtering further down on a collection, and integrating the new [DataFrame](https://spark.apache.org/docs/latest/sql-programming-guide.html) functionality we're adding to AUT via a [JDBC](https://en.wikipedia.org/wiki/JDBC_driver) connector.
 
 ## Can I try it out?
-
-Currently, anyone with an Archive-It subscription can take the Cloud for a spin. Please just come over to <http://cloud.archivesunleashed.org> and give it a try.
 
 The Archives Unleashed Cloud is an open-source project; you can view the codebase [here](http://github.com/archivesunleashed/auk). Although it is tied closely to the canonical instance running at <http://cloud.archivesunleashed.org>, it can also be run as a standalone project on your own server, desktop, or laptop! That said, our primary focus is on the canonical instance that we are hosting. However, if there is interest in generalizing aspects of the project, [let us know and we can collaborate](https://archivesunleashed.org/get-involved/) and figure out how to make it happen.
 
