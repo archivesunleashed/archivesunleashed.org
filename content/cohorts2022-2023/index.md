@@ -20,11 +20,7 @@ Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts20
 * Alan Colín-Arce, Universidad Autónoma del Estado de México, Toluca
 * Abraham García-Monroy, Universidad Autónoma del Estado de México, Toluca
 
-The lack of effective response to femicides and gender-based violence towards indigenous women and women of colour is not only legible across Mexico but comparatively in Latin America, the Caribbean, the United States, Canada, and other parts of the globe.
-
-Throughout the years, women have formed collectives and organizations in public and digital spaces to fight against impunity and to demand justice and rights. This has led to the creation of many online sites, social media profiles, and digital activism. The examination of how these sites have shifted over time, is critical to understanding how the movements against femicides and gender-based violence created a digital identity publicly and in the online domain. 
-
-In analyzing web archives related to human rights and feminist movements, the project will develop a historical analysis of the websites from women’s rights movements in Mexico and Latin America, particularly those focusing on eradicating femicides and gender violence. The team will also study how these movements relate to women’s rights movements globally, specifically around comparing language expression.
+In analyzing web archives related to human rights and feminist movements, the project will develop a historical analysis of the websites from women’s rights movements in Mexico and Latin America, particularly those focusing on eradicating femicides and gender violence. The team will also study how these movements relate to women’s rights movements globally, specifically by comparing language expression.
 
 ---
 
@@ -35,7 +31,7 @@ In analyzing web archives related to human rights and feminist movements, the pr
 
 In the era of post-blogging, or microblogging, this project will explore early aughts Mormon mommy blogging culture, mediations of marriage, mothering, and feminine domesticity to historicize this period in relation to contemporary manifestations and trends of mommy influencing on social media platforms.
    
-Feminist scholars have emphasized that practices of mommy blogging and social media influencing are forms of affective digital labor [(Mäkinen 2020)](https://journals.sagepub.com/doi/10.1177/1461444820941196), we also emphasize that these mediated practices of Mormon mommy blogging in the early aughts not only are forms of socially reproductive labor but are ideologically productive as well [(Jarrett 2015)](https://www.routledge.com/Feminism-Labour-and-Digital-Media-The-Digital-Housewife/Jarrett/p/book/9781138575660). This project will identify connections and transitions to new media ecologies and new iterations of racialized, gendered domestic ideologies that share historic genealogies to digital media practices and structures pioneered by Mormon mommy bloggers.
+This project will identify connections and transitions to new media ecologies and new iterations of racialized, gendered domestic ideologies that share historic genealogies to digital media practices and structures pioneered by Mormon mommy bloggers.
 
 ---
 
@@ -48,9 +44,7 @@ Feminist scholars have emphasized that practices of mommy blogging and social me
 * Patrick Chasse, University of Saskatchewan
 * Tim Hutchinson, University of Saskatchewan
 
-The Saskatchewan COVID Archive project began in April 2020 to ensure the capture and preservation of sites that reflected the conversations around and experiences of the COVID-19 pandemic in Saskatchewan. Using this rich dataset, the project will examine how the pandemic response unexpectedly fostered social movements that challenged mainstream ideas about science, public health, and individual responsibility. 
-
-The research team will develop timelines and knowledge trees to give users the chance to see linked materials, and offers an opportunity to learn about the causal relationship between social media and this important shift in public health policy in Saskatchewan. 
+Using web archives collected by the University of Saskatchewan, this project seeks to map and connect conversations and experiences of the COVID-19 pandemic with the province of Saskatchewan. The research team will develop timelines and knowledge trees to provide an opportunity to learn about the causal relationship between social media and this important shift in public health policy in Saskatchewan.
 
 ---
 
@@ -61,7 +55,7 @@ The research team will develop timelines and knowledge trees to give users the c
 * Di Yoong, The Graduate Center, CUNY
 * Lisa Rhody, The Graduate Center, CUNY
 
-Studying web archives from a variety of angles that pertain to contemporary subfields and areas of interest in Queer Studies, this team will investigate how queerness interacts with, is informed by, and forms web spaces. In particular, the project will focus on how queerness has been theorized across various web communities, and what web materials and formats can teach us about the creation of queer community. In studying queer online spaces, project investigators will explore investments in concepts like utopia, play, radicalism, normativity, religion, and conversion, and how they affect queer identity and discourse formation over time.
+In studying queer online spaces, project investigators will explore investments in concepts like utopia, play, radicalism, normativity, religion, and conversion and how they affect queer identity and discourse formation over time.
 
 ---
 
@@ -70,14 +64,7 @@ Studying web archives from a variety of angles that pertain to contemporary subf
 * Ricardo Velasco Trujillo, University of Minnesota Twin Cities
 * Luis Gomez, The Australian Academy of Science
 
-Despite the growing interest in the role of cultural practices during reconciliation processes, in societies trying to confront the legacies of troubled pasts and widespread human rights violations, there is a broad gap in statistical knowledge and lack of reliable data regarding what type of cultural practices are used, and their correlation in the effectiveness of reconciliation processes across different geographical and cultural contexts. 
-
 Employing computational methods such as contextual search, data mining, and web scraping amongst others, this project aims at making an initial assessment and map out the use of cultural practices in different reconciliation processes and across several human rights organizations working actively in post-conflict societies. 
-
-
-
-
-
 
 <!--
 {{< warning title="Application Deadline Extension" >}}We will be accepting applications until 11:59pm Eastern Time on Tuesday, April 5th, 2022.{{< /warning >}}
