@@ -10,7 +10,7 @@ Big Data, in the form of born-digital historical sources, is reshaping the human
 
 Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts2021-2022), the Archives Unleashed programs is pleased to welcome our second round of cohorts from 2022-2023. The cohort program facilitates research engagement with web archives, and five research teams will engage in a year-long collaboration while receiving mentorship and support from the Archives Unleashed team.
 
-Introduction to  2022-2023 cohort projects are featured in our Medium blog: [**Web Archives Research: Return of the Cohorts**](https://news.archivesunleashed.org/web-archives-research-return-of-the-cohorts-94ed1cd21a90)
+An introduction to the 2022-2023 cohort projects is featured in this blog post: [**Web Archives Research: Return of the Cohorts**](https://news.archivesunleashed.org/web-archives-research-return-of-the-cohorts-94ed1cd21a90).
 
 ## The Cohorts
 
