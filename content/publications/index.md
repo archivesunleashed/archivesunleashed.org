@@ -14,6 +14,7 @@ The Archives Unleashed project has a body of published research.
 * [Peer-Reviewed Conference Publications](#peer-reviewed-conference-publications)
 * [Peer-Reviewed Posters and Demonstrations](#peer-reviewed-posters-and-demonstrations)
 * [Conference Presentations](#conference-presentations)
+* [Invited Talks and Lectures](#invited-talks-and-lectures)
 * [Datasets](#datasets)
 
 
@@ -69,9 +70,11 @@ The Archives Unleashed project has a body of published research.
 
 ## Conference Presentations
 
-* Samantha Fritz, “Web Archives as Big Data: Building Tools and Community to Support Access and Use.” IFLA WLIC, August 2021, Online. [[Slides](https://docs.google.com/presentation/d/1Ng6o5Ov-LurGX8w9xK0oO2hGjDYRkfLV/edit?rtpof=true)]
-* Samantha Fritz, “Accessible Web Archives: Rethinking and Designing Usable Infrastructure for Sustainable Research Platforms.” WAC, June 2021, Online. [[Slides](https://docs.google.com/presentation/d/1JVAQU5R_jirGg3RI61xoEpDCzYaWCZSRju8R_vBP6oo/edit#slide=id.gd954b6c59c_0_8)]
-* Samantha Fritz, Ian Milligan, Nick Ruest, “Building Community through Archives Unleashed Datahons.” WAC, June 2021, Online.[[Slides](https://docs.google.com/presentation/d/131Q0DYIyWTdIFG1ysfcEGTI86RnCEBWdd-LasT5Vx50/edit#slide=id.g7b44a3fdcc_2_0)]
+* Helge Holzmann, **Nick Ruest**, Jefferson Bailey, Alex Dempsey, Samantha Fritz, Ian Milligan and Kody Willis, "Arch-It!." Web Archiving and Digital Libraries (WADL) Workshop, June 2022, Online. 
+* **Ian Milligan**, Jefferson Bailey, Nick Ruest, Helge Holzmann, Samantha Fritz, Kody Willis, "Build: The Archives Research Compute Hub from Idea to Platform." IIPC Web Archiving Conference, June 2022, Online. [[Slides](https://docs.google.com/presentation/d/15sptD0rsDOW7kdmm4r-gILLMHBiT2_FHc-Ngn8X9X8M/edit?usp=sharing)]
+* Samantha Fritz, “Web Archives as Big Data: Building Tools and Community to Support Access and Use.” IFLA WLIC, August 2021, Online. [[Intro Slides](https://docs.google.com/presentation/d/1Ng6o5Ov-LurGX8w9xK0oO2hGjDYRkfLV/edit?rtpof=true)]
+* Samantha Fritz, “Accessible Web Archives: Rethinking and Designing Usable Infrastructure for Sustainable Research Platforms.” IIPC Web Archiving Conference, June 2021, Online. [[Slides](https://docs.google.com/presentation/d/1JVAQU5R_jirGg3RI61xoEpDCzYaWCZSRju8R_vBP6oo/edit#slide=id.gd954b6c59c_0_8)]
+* **Samantha Fritz**, Ian Milligan, Nick Ruest, “Building Community through Archives Unleashed Datahons.” WAC, June 2021, Online.[[Slides](https://docs.google.com/presentation/d/131Q0DYIyWTdIFG1ysfcEGTI86RnCEBWdd-LasT5Vx50/edit#slide=id.g7b44a3fdcc_2_0)]
 * Ian Milligan, Helge Holzmann, “Integrating Archives Unleashed with the Internet Archives.” International Internet Preservation Consortium/RESAW Conference, June 2021, Online. [[Slides](https://docs.google.com/presentation/d/1f1w2oCRJ94XfoZ89sYV6wcU1mVuICv8-k7_DnrC8u0U/edit)]
 * Samantha Fritz and Sarah McTavish. "Analyzing Web Archives with the Archives Unleashed Project.” _Continuing Education to Advance Web Archiving (CEDWARC)_, October, 2019, Washington, DC. [[Overview](https://docs.google.com/presentation/d/1InV_NbsWFC2hRH_xkJZsZeozmXHQ_DJenA7wjj8RdBw/edit?usp=sharing)] [[Workshop Slides](https://docs.google.com/presentation/d/1IfS6TaWveClL6J9vVO0KAhqqqRE92Zq4pNQZniGIp_w/edit?usp=sharing)]
 * Samantha Fritz. "Web Archives: A Doorway to Access and Usability.” _Access Conference_, September 2019, Edmonton, Alberta. [[Slides](https://docs.google.com/presentation/d/1CSKn2ExAdRrQ-NJNlVdjsJOpSr369haGNu2nDbwf3aY/edit?usp=sharing)]
