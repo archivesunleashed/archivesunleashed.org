@@ -22,8 +22,9 @@ As always, if you want to keep updated on the status of our project, there are m
 
 Your citations help to further the recognition of using open-source tools for scientific inquiry, assists in growing the web archiving community, and acknowledges the efforts of contributors to this project.
 
-How to cite the Archives Unleashed Toolkit or Cloud in your research:
+How to cite the Archives Unleashed Project, Toolkit or ARCH in your research:
 
 |    |   |
 |----|---|
 |![Citation Icon](/images/au-citation-icon.png)| Nick Ruest, Jimmy Lin, Ian Milligan, and Samantha Fritz. 2020. The Archives Unleashed Project: Technology, Process, and Community to Improve Scholarly Access to Web Archives. In _Proceedings of the ACM/IEEE Joint Conference on Digital Libraries in 2020 (JCDL '20)_. Association for Computing Machinery, New York, NY, USA, 157–166. DOI: https://doi.org/10.1145/3383583.3398513 |
+|![Citation Icon](/images/au-citation-icon.png)| Helge Holzmann, Nick Ruest, Jefferson Bailey, Alex Dempsey, Samantha Fritz, Peggy Lee, and Ian Milligan. 2022. ABCDEF: the 6 key features behind scalable, multi-tenant web archive processing with ARCH: archive, big data, concurrent, distributed, efficient, flexible. In _Proceedings of the 22nd ACM/IEEE Joint Conference on Digital Libraries (JCDL ‘22)_. Association for Computing Machinery, New York, NY, USA, 1–11 DOI: https://doi.org/10.1145/3529372.3530916 | 
