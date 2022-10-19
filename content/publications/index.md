@@ -31,6 +31,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Journal Articles
 
+* Nick Ruest, Samantha Fritz, and Ian Milligan. "Creating order from the mess: web archive derivative datasets and notebooks." _Archives and Records_, 2022. [[link](https://doi.org/10.1080/23257962.2022.2100336)]
 * Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Fostering Community Engagement through Datathon Events: The Archives Unleashed Experience." _Digital Humanities Quarterly_, Vol. 15, No. 1, 2021. [[link](http://digitalhumanities.org/dhq/vol/15/1/000536/000536.html)] 
 * Nick Ruest, Samantha Fritz, Ryan Deschamps, Jimmy Lin, and Ian Milligan. "From archive to analysis: accessing web archives at scale through a cloud-based interface." _International Journal of Digital Humanities_, 2021. [[link](https://doi.org/10.1007/s42803-020-00029-6)]
 * Samantha Fritz, Ian Milligan, Nick Ruest, and Jimmy Lin. "Building community at a distance: a datathon during COVID-19." _Digital Library Perspectives_, 2020. [[link](https://doi.org/10.1108/DLP-04-2020-0024)]
