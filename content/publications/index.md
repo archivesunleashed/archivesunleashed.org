@@ -71,7 +71,7 @@ The Archives Unleashed project has a body of published research.
 
 ## Conference Presentations
 
-* Nick Ruest and Jefferson Bailey. "Supporting Computational Research on Large Digital Collections." Coalition for Networked Information (CNI), December 2022, Washington, DC. [Slides](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/40580/CNI-Fall-2022-jb-nr-im.pdf?sequence=1&isAllowed=y)
+* Nick Ruest and Jefferson Bailey, "Supporting Computational Research on Large Digital Collections." Coalition for Networked Information (CNI), December 2022, Washington, DC. [Slides](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/40580/CNI-Fall-2022-jb-nr-im.pdf?sequence=1&isAllowed=y)
 * Helge Holzmann, **Nick Ruest**, Jefferson Bailey, Alex Dempsey, Samantha Fritz, Ian Milligan and Kody Willis, "Arch-It!." Web Archiving and Digital Libraries (WADL) Workshop, June 2022, Online. 
 * **Ian Milligan**, Jefferson Bailey, Nick Ruest, Helge Holzmann, Samantha Fritz, Kody Willis, "Build: The Archives Research Compute Hub from Idea to Platform." IIPC Web Archiving Conference, June 2022, Online. [[Slides](https://docs.google.com/presentation/d/15sptD0rsDOW7kdmm4r-gILLMHBiT2_FHc-Ngn8X9X8M/edit?usp=sharing)]
 * Samantha Fritz, “Web Archives as Big Data: Building Tools and Community to Support Access and Use.” IFLA WLIC, August 2021, Online. [[Intro Slides](https://docs.google.com/presentation/d/1Ng6o5Ov-LurGX8w9xK0oO2hGjDYRkfLV/edit?rtpof=true)]
