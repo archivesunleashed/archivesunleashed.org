@@ -21,6 +21,7 @@ An introduction to the 2022-2023 cohort projects is featured in this blog post: 
 * Verónica Benítez-Pérez, Universidad Autónoma del Estado de México, Toluca
 * Alan Colín-Arce, Universidad Autónoma del Estado de México, Toluca
 * Abraham García-Monroy, Universidad Autónoma del Estado de México, Toluca
+* Hejin Shin,  University of Texas at San Antonio
 
 In analyzing web archives related to human rights and feminist movements, the project will develop a historical analysis of the websites from women’s rights movements in Mexico and Latin America, particularly those focusing on eradicating femicides and gender violence. The team will also study how these movements relate to women’s rights movements globally, specifically by comparing language expression.
 
@@ -30,6 +31,7 @@ In analyzing web archives related to human rights and feminist movements, the pr
 
 * Emily Edwards, St. Francis College
 * Robin Hershkowitz, Bowling Green State University
+* Lauren Andrikanich, St. Francis College
 
 In the era of post-blogging, or microblogging, this project will explore early aughts Mormon mommy blogging culture, mediations of marriage, mothering, and feminine domesticity to historicize this period in relation to contemporary manifestations and trends of mommy influencing on social media platforms.
    
@@ -45,6 +47,7 @@ This project will identify connections and transitions to new media ecologies an
 * Craig Harkema, University of Saskatchewan
 * Patrick Chasse, University of Saskatchewan
 * Tim Hutchinson, University of Saskatchewan
+* Ahmad Rahman, University of Saskatchewan
 
 Using web archives collected by the University of Saskatchewan, this project seeks to map and connect conversations and experiences of the COVID-19 pandemic with the province of Saskatchewan. The research team will develop timelines and knowledge trees to provide an opportunity to learn about the causal relationship between social media and this important shift in public health policy in Saskatchewan.
 
