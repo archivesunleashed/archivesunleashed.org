@@ -77,8 +77,9 @@ You can play with a few live demos:
       <pubDate>Tue, 14 Nov 2017 09:21:11 -0500</pubDate>
       
       <guid>https://archivesunleashed.org/warclight/</guid>
-      <description>Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats. It allows faceted full-text search, record view, and other advanced discovery options. Warclight is designed to work with web archive data indexed via the UK Web Archive&amp;rsquo;s webarchive-discovery project. This project grew out of the WALK Project.
-You can visit our demo site. For those interested in starting their own Warclight application, the code is available through GitHub, along with extensive documentation.</description>
+      <description>Warclight is no longer under active development
+Warclight is no longer under active development. If you&amp;rsquo;re interested in web archive collections and Apache Solr, check out SolrWayback. It uses the same underlying library as Warclight to index web archives into Solr, and offers many more features than Warclight.
+ Warclight is a Project Blacklight based Rails engine that supports the discovery of web archives held in the WARC and ARC formats.</description>
     </item>
     
     <item>
