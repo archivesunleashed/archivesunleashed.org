@@ -4,19 +4,39 @@ title: Archives Research Compute Hub (ARCH)
 weight: 20
 ---
 
-![Cloud portal](/images/ARCH-1.png)
+![Cloud portal](/images/1.ARCH-dashboard.png)
 
 ## Introduction
 
-The Archives Research Compute Hub, or ARCH, is our new interface for web archive analysis that we are creating with the Internet Archive. 
+ARCH (Archives Research Compute Hub) is a research and education service that helps users easily build, access, analyze, publish, and preserve web archive datasets at scale.
 
-ARCH unlocks the research potential of web archival collections with its ability to generate over a dozen datasets (including domain frequency statistics, hyperlink network graphs, and extracted full-text). Users are able to select their Archive-It collections for exploration and prompt dataset creation with the push of a button. Additionally, ARCH boasts several in-browser visualizations for exploring collection content and potential data outputs.
+ARCH was made possible by a highly integrated collaboration between the Archives Unleashed Project and the Internet Archive’s Archiving and Data Services team and generous support from the [Andrew W. Mellon Foundation](https://www.mellon.org/). The partnership underscores a shared commitment to fostering innovative research and enhancing the usability and accessibility of web archives at scale. As this collaboration concludes in June 2023, stewardship of the ARCH platform and services will be undertaken by the (Archive-It Services, Internet Archive). 
 
-![Cloud portal](/images/ARCH-2.png)
+## Features
 
-We have completed a series of UX testing throughout early 2022, and are working with the Internet Archive around next steps on a public launch. 
+* Intuitive, interactive, user-friendly stand-alone browser-based app
+* Generating over a dozen research dataset types (e.g., full text, images, hyperlink network graphs, PDFs, audio files etc.) from web archive collections into widely compatible CSV files
+* Build custom collections with filtering capabilities
+* Download generated datasets directly in-browser or via API
+* Research-ready datasets compatible with computational environments and tools (e.g. Jupyter Notebooks, Gephi, Voyant)
+* Direct connection between datasets and Google Colab Notebook to conduct initial exploratory analysis
+* Review content collection through in-browser visualizations and data previews
+* Publish datasets in line with best practices in reproducible research to the Internet Archive. All datasets will be preserved in perpetuity.
+* Browse extensive documentation to support your use of ARCH, guidance on paring datasets with computational tools, and sharing research examples and use case
 
-As always, if you want to keep updated on the status of our project, there are many ways to [get involved](/get-involved).
+## Getting Started
+
+To begin your journey with ARCH, please reach out [using this form](https://www.jotform.com/form/230926002655148).
+
+Learn more:
+
+* ARCH Information Page: https://webservices.archive.org/pages/arch
+* ARCH User Documentation: https://support.archive-it.org/hc/en-us/articles/360061122492-Introduction-to-the-Archive-It-Research-Services-Cloud
+
+ARCH is also open-source and available at https://github.com/internetarchive/arch.
+
+![Archives Unleashed plus Archive-It Logo](/images/AU+AI.png)
+![Mellon Logo](/images/Mellon_Foundation_logo_2022.svg.png)
 
 ## Citing Archives Unleashed
 
