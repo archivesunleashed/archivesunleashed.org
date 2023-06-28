@@ -12,6 +12,10 @@ Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts20
 
 An introduction to the 2022-2023 cohort projects is featured in this blog post: [**Web Archives Research: Return of the Cohorts**](https://news.archivesunleashed.org/web-archives-research-return-of-the-cohorts-94ed1cd21a90).
 
+**The AU Cohort Project Summaries**, provides a final overview of research projects, including the web archive collections analyzed, a description of tools and methods, research insights, scholarship outputs, and a short reflection on the team's research process.
+
+View Cohort Projects: [https://bit.ly/AUCohortProjects](https://bit.ly/AUCohortProjects)
+
 ## The Cohorts
 
 **Latin American Women's Rights Movements: Tracing Online Presence through Language, Time and Space**
@@ -25,6 +29,15 @@ An introduction to the 2022-2023 cohort projects is featured in this blog post: 
 
 In analyzing web archives related to human rights and feminist movements, the project will develop a historical analysis of the websites from women’s rights movements in Mexico and Latin America, particularly those focusing on eradicating femicides and gender violence. The team will also study how these movements relate to women’s rights movements globally, specifically by comparing language expression.
 
+**Scholarly Outputs + Achievements**
+
+* Built Web Archive Collection, as part of Huellas Incómodas Project:  https://idrhku.org/huellasincomodas/webarchive
+* Spanish Wikipedia entry for web archiving https://es.wikipedia.org/wiki/Archivado_web 
+* DH Workshop hosted at the Autonomous University of the State of Mexico, 2023, organized with a grant from the Science Council of the State of Mexico https://idrhku.org/huellasincomodas/investigaciondigital 
+* Two conference presentations
+* (Forthcoming Article) Rosario Rogel-Salazar, Abraham García, Alan Colin-Arce, Verónica Benítez-Pérez. Preserving the memory of Latin American feminist movements on digital and web counterarchives
+* Received additional $100,000 MXN grant from the Science Council of the State of Mexico under the program Research Funding for Women Scientists.
+
 ---
 
 **Historicizing Aughts-Era Mormon Mommy Blogging Media Landscapes**
@@ -36,6 +49,12 @@ In analyzing web archives related to human rights and feminist movements, the pr
 In the era of post-blogging, or microblogging, this project will explore early aughts Mormon mommy blogging culture, mediations of marriage, mothering, and feminine domesticity to historicize this period in relation to contemporary manifestations and trends of mommy influencing on social media platforms.
    
 This project will identify connections and transitions to new media ecologies and new iterations of racialized, gendered domestic ideologies that share historic genealogies to digital media practices and structures pioneered by Mormon mommy bloggers.
+
+**Scholarly Outputs + Achievements**
+
+* Abstract accepted, "Digital Pioneers: Mormon Mommy Bloggers and Digital Domestics,” for a special issue of Internet Histories on “Gender and the Internet/Web History” forthcoming 2025
+* Zine “Sliding Data: Feminist Methodological Pathways” accepted for publication in DIY Methods Low-Carbon Research Methods Initiative forthcoming 2023
+* Submission as part of a panel on “Digital scholarship and the web: Exploring new sources and emerging research methods” for the Digital Library Federation Forum Conference 2023
 
 ---
 
@@ -51,6 +70,12 @@ This project will identify connections and transitions to new media ecologies an
 
 Using web archives collected by the University of Saskatchewan, this project seeks to map and connect conversations and experiences of the COVID-19 pandemic with the province of Saskatchewan. The research team will develop timelines and knowledge trees to provide an opportunity to learn about the causal relationship between social media and this important shift in public health policy in Saskatchewan.
 
+**Scholarly Outputs + Achievements**
+
+* Nazeem Muhajarine et al., “Capturing and Documenting the Wider Health Impacts of the COVID-19 Pandemic Through the Remember Rebuild Saskatchewan Initiative: Protocol for a Mixed Methods Interdisciplinary Project,” JMIR Research Protocols 12, no. 1 (June 6, 2023): e46643, https://doi.org/10.2196/46643.
+* Derek Cameron, "Archiving Twitter During the Upheaval'" ActiveHistory.ca, https://activehistory.ca/2022/11/archiving-twitter-during-the-upheaval/ 
+
+
 ---
 
 **Querying Queer Web Archives**
@@ -62,6 +87,10 @@ Using web archives collected by the University of Saskatchewan, this project see
 
 In studying queer online spaces, project investigators will explore investments in concepts like utopia, play, radicalism, normativity, religion, and conversion and how they affect queer identity and discourse formation over time.
 
+**Scholarly Outputs + Achievements**
+
+* Yoong, D., Calado, F., & Clawson, C., (2023, May 3). Querying Queer Web Archives [Conference presentation]. IIPC WAC 2023, Hilversum, The Netherlands. 
+
 ---
 
 **Using Web Archives for Mapping the Use of Cultural Practices in Postconflict Societies and During Reconciliation Processes** 
@@ -70,6 +99,12 @@ In studying queer online spaces, project investigators will explore investments 
 * Luis Gomez, The Australian Academy of Science
 
 Employing computational methods such as contextual search, data mining, and web scraping amongst others, this project aims at making an initial assessment and map out the use of cultural practices in different reconciliation processes and across several human rights organizations working actively in post-conflict societies. 
+
+**Scholarly Outputs + Achievements**
+
+* Digital publication in Cultural Ecologies of Memory (CEM) Platform:
+http://www.culturalecologies.com/case/DataMining
+
 
 <!--
 {{< warning title="Application Deadline Extension" >}}We will be accepting applications until 11:59pm Eastern Time on Tuesday, April 5th, 2022.{{< /warning >}}
