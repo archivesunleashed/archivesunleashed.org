@@ -12,9 +12,7 @@ Following the successful launch of the [inaugural cohort (2021-2022)](/cohorts20
 
 An introduction to the 2022-2023 cohort projects is featured in this blog post: [**Web Archives Research: Return of the Cohorts**](https://news.archivesunleashed.org/web-archives-research-return-of-the-cohorts-94ed1cd21a90).
 
-**The AU Cohort Project Summaries**, provides a final overview of research projects, including the web archive collections analyzed, a description of tools and methods, research insights, scholarship outputs, and a short reflection on the team's research process.
-
-View Cohort Projects: [https://bit.ly/AUCohortProjects](https://bit.ly/AUCohortProjects)
+**[The AU Cohort Project Summaries Report](/images/AUCohortProjects.pdf)**, provides a final overview of research projects, including the web archive collections analyzed, a description of tools and methods, research insights, scholarship outputs, and a short reflection on the team's research process.
 
 ## The Cohorts
 

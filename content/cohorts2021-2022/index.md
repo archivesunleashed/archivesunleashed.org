@@ -10,7 +10,7 @@ The Archives Unleashed project is pleased to announce the launch of the **Cohort
 
 Highlights from the cohort projects are featured in our Medium blog: [**Research Applications with Web Archives: Collaboration Among Archives Unleashed Cohorts**](https://news.archivesunleashed.org/research-applications-with-web-archives-collaboration-among-archives-unleashed-cohorts-7c533cdff5d9)
 
-**The AU Cohort Project Summaries**, provides a final overview of research projects, including the web archive collections analyzed, a description of tools and methods, research insights, scholarship outputs, and a short reflection on the team's research process.
+**[The AU Cohort Project Summaries Report](/images/AUCohortProjects.pdf)**, provides a final overview of research projects, including the web archive collections analyzed, a description of tools and methods, research insights, scholarship outputs, and a short reflection on the team's research process.
 
 View Cohort Projects: [https://bit.ly/AUCohortProjects](https://bit.ly/AUCohortProjects)
 

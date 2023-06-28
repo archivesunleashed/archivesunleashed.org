@@ -184,7 +184,7 @@ While using our service, we may ask you to provide us with certain personally id
 
 | Archives Unleashed Service | Information Required | Required | Collected by AU | Explanation |
 |----------------------------|--------------------------------|----------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Archives Unleashed Cloud](https://cloud.archivesunleashed.org/) | GitHub/Twitter Credentials | Yes | Yes | Your Github/Twitter username and password are used to authenticate. We do not have access to any information, except your username. |
+| Archives Unleashed Cloud | GitHub/Twitter Credentials | Yes | Yes | Your Github/Twitter username and password are used to authenticate. We do not have access to any information, except your username. As of 30 June 2021, the Cloud is no longer available.|
 |  | Email | Yes | Yes | We need a point of contact to connect with you. |
 |  | Name | Yes | Yes | We like to know who our users are. |
 |  | Institution | Yes | Yes | We like to know a bit about our users: where they're from, what sort of user they are, so we can best focus and refine our services. |
@@ -202,8 +202,8 @@ We may also collect information on how our services are accessed and used. In so
 
 | Archives Unleashed Service | Usage Data Collected |
 |----------------------------|----------------------|
-| [Archives Unleashed Cloud](https://cloud.archivesunleashed.org/) |  Apache Spark logs showing timestamps to produce derivative files; name and size of your Archive-It collections; username and institution. |
-this | [Archives Unleashed Toolkit](https://archivesunleashed.org/) | Not Applicable; application is run locally |
+| Archives Unleashed Cloud |  Apache Spark logs showing timestamps to produce derivative files; name and size of your Archive-It collections; username and institution. As of 30 June 2021, the Cloud is no longer available. |
+| [Archives Unleashed Toolkit](https://archivesunleashed.org/) | Not Applicable; application is run locally |
 | [Newsletter](https://archivesunleashed.org/get-involved/#newsletter-subscription) |  General stats that help us understand how people are interacting with our newsletters: number of subscribers, number of opt-outs, audience growth, Open/click rates, campaign performance, email clients used, locations (general, not specific). |
 | [Slack](http://slack.archivesunleashed.org/) |  Statistical reports are provided to Slack administrators to understand our total number of users, and when users become inactive. |
 | [GitHub](https://github.com/archivesunleashed/) | Our public repositories provide insights into the repositories maintained by the Archives Unleashed Project to understand the work being done and who our contributors are. |
