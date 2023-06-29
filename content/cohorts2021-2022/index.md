@@ -10,7 +10,7 @@ The Archives Unleashed project is pleased to announce the launch of the **Cohort
 
 Highlights from the cohort projects are featured in our Medium blog: [**Research Applications with Web Archives: Collaboration Among Archives Unleashed Cohorts**](https://news.archivesunleashed.org/research-applications-with-web-archives-collaboration-among-archives-unleashed-cohorts-7c533cdff5d9)
 
-**[The AU Cohort Project Summaries Report](/images/AUCohortProjects.pdf)**, provides a final overview of research projects, including the web archive collections analyzed, a description of tools and methods, research insights, scholarship outputs, and a short reflection on the team's research process.
+**[The Archives Unleashed Cohort Project Summaries Report](/images/AUCohortProjects.pdf)**, provides a final overview of research projects, including the web archive collections analyzed, a description of tools and methods, research insights, scholarship outputs, and a short reflection on the team's research process.
 
 ## The Cohorts
 
@@ -93,7 +93,7 @@ Using web archives collected by Brock University, this project will examine how 
 **Scholarly Outputs + Achievements**
 
 * Visit their project site and blog: https://brockdsl.github.io/archives_unleashed/
-* Journal article currently under peer review with the Canadian Journal of Communication. 
+* Paper under review with the Canadian Journal of Communication. 
 * Paper presented at International Association for Media and Communication Research 2023 conference. 
 * Press Coverage: “[Brock examining Niagara’s crisis communications during COVID-19](https://www.stcatharinesstandard.ca/news/niagara-region/2021/11/12/brock-examining-niagaras-covid-19-crisis-communicated.html)”, St. Catharines Standard
 
