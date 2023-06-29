@@ -22,6 +22,7 @@ As a project dedicated to open source and open access, a reminder that you are s
 * **AU Publications List**: https://archivesunleashed.org/publications/ 
 * **Zotero**: https://www.zotero.org/groups/2500681/archives_unleashed_project, please feel free to add to this space
 * **Datasets**: available via [Zenodo](https://zenodo.org/communities/wahr/?page=1&size=20) + [Borealis](https://borealisdata.ca/dataverse/wahr) through the Web Archives for Historical Research Group
+* **YouTube Channel**: https://www.youtube.com/@archivesunleashed 
 
 
 **Community**
