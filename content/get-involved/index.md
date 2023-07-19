@@ -36,8 +36,8 @@ As a project dedicated to open source and open access, a reminder that you are s
 
 All issues of the Archives Unleashed Newsletter are accessible below:
 
-* **Issue 15**: Spring, 2023 - final issue coming soon
-* **Issue 14**: [Fall 2022](/images/AUTNews-Dec2022.pdf) (current issue)
+* **Issue 15**: [Spring, 2023](/images/AUTNews-Jul2023.pdf) (Final Issue)
+* **Issue 14**: [Fall 2022](/images/AUTNews-Dec2022.pdf)
 * **Issue 13**: [Fall 2021](/images/AUTNews-Nov2021.pdf)
 * **Issue 12**: [Summer 2021](/images/AUTNews-Sept2021.pdf)
 * **Issue 11**: [Spring 2021](/images/AUTNews-June2021.pdf)
